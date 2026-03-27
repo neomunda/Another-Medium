@@ -1,0 +1,22 @@
+{
+ "type": "cookscollection:baking",
+  "ingredients": [
+          {
+              "item": "nomansland:pine_nuts"
+          },
+          {
+              "item": "minecraft:sweet_berries"
+          },
+          {
+              "item": "minecraft:egg"
+          },
+          {
+              "item": "minecraft:wheat"
+          }
+        ],
+      "result": {
+          "id": "nomansland:sweet_tart",
+          "count": 2
+        },
+     "cookingtime": 200
+  }

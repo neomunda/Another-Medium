@@ -1,0 +1,17 @@
+[
+  {
+    "action": "remove_recipe",
+    "id": [
+      "minecraft:leather",
+      "minecraft:minecraft.chest",
+      "minecraft:bread",
+      "farmersdelight:bread_from_smelting",
+      "farmersdelight:bread_from_smoking",
+      "minecraft:pumpkin_pie",
+      "minecraft:rabbit_stew_from_brown_mushroom",
+      "minecraft:rabbit_stew_from_red_mushroom",
+      "minecraft:beetroot_soup",
+      "minecraft:mushroom_stew"
+    ]
+  }
+]

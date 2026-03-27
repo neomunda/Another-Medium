@@ -1,0 +1,7 @@
+[
+  {
+    "action": "remove_from_tag",
+    "tag": "minecraft:needs_stone_tool",
+    "id": "minecraft:copper_ore"
+  }
+]

@@ -1,5 +1,4 @@
 8fa17df26d3650416bc124be7a264bc1566a3b26 *mods/BetterF3-11.0.3-NeoForge-1.21.1.jar
-a5a79d267950e272c4f4e4bffc520e7c7fe78eeb *mods/brazil_legends-1.7.0-neoforge-1.21.1.jar
 c3e5733ba4503b102589a026000fd5ce0212f6f2 *mods/cloth-config-15.0.140-neoforge.jar
 e977d86eec39d49295df4e2c4265d6710ae065e8 *mods/configured-neoforge-1.21.1-2.6.3.jar
 874fac90a314f80c28e1564abc7070ca4bc3890a *mods/connectiblechains-neoforge-1.21.1-1.2.5.jar

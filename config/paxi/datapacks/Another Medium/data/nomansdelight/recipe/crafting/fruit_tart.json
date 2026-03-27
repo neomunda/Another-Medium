@@ -1,0 +1,22 @@
+{
+ "type": "cookscollection:baking",
+  "ingredients": [
+          {
+              "item": "nomansland:pear"
+          },
+          {
+              "item": "minecraft:apple"
+          },
+          {
+              "item": "minecraft:egg"
+          },
+          {
+              "item": "minecraft:wheat"
+          }
+        ],
+      "result": {
+          "id": "nomansdelight:fruit_tart",
+          "count": 2
+        },
+     "cookingtime": 200
+  }

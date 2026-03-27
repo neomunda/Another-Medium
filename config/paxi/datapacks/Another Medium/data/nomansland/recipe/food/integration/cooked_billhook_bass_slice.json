@@ -1,0 +1,19 @@
+{
+  "type": "cookscollection:baking",
+  "ingredients": [
+    {
+      "item": "nomansdelight:billhook_bass_slice"
+    },
+    {
+      "item": "nomansdelight:billhook_bass_slice"
+    },
+    {
+      "item": "nomansdelight:billhook_bass_slice"
+    }
+  ],
+  "result": {
+    "id": "nomansdelight:cooked_billhook_bass_slice",
+    "count": 3
+  },
+  "cookingtime": 200
+}

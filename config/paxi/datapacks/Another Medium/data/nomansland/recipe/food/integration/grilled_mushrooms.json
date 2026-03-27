@@ -1,0 +1,19 @@
+{
+  "type": "cookscollection:baking",
+  "ingredients": [
+    {
+      "tag": "nomansland:edible_mushrooms"
+    },
+    {
+      "tag": "nomansland:edible_mushrooms"
+    },
+    {
+      "tag": "nomansland:edible_mushrooms"
+    }
+  ],
+  "result": {
+    "id": "nomansland:grilled_mushrooms",
+    "count": 3
+  },
+  "cookingtime": 200
+}

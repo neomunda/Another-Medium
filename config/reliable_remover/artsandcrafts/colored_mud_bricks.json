@@ -1,0 +1,8 @@
+{
+  "action": "remove",
+    "mod": [
+    "arts_and_crafts"
+    ],
+  "pattern": "/.*_mud_bricks/"
+}
+

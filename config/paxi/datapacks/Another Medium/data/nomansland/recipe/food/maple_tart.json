@@ -1,0 +1,19 @@
+{
+ "type": "cookscollection:baking",
+  "ingredients": [
+          {
+              "item": "nomansland:maple_syrup_bottle"
+          },
+          {
+              "item": "minecraft:egg"
+          },
+          {
+              "item": "minecraft:wheat"
+          }
+        ],
+      "result": {
+          "id": "nomansland:maple_tart",
+          "count": 2
+        },
+     "cookingtime": 200
+  }

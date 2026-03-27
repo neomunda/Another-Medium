@@ -1,0 +1,19 @@
+{
+  "type": "cookscollection:baking",
+  "ingredients": [
+    {
+      "item": "nomansdelight:horse_cuts"
+    },
+    {
+      "item": "nomansdelight:horse_cuts"
+    },
+    {
+      "item": "nomansdelight:horse_cuts"
+    }
+  ],
+  "result": {
+    "id": "nomansdelight:cooked_horse_cuts",
+    "count": 3
+  },
+  "cookingtime": 200
+}

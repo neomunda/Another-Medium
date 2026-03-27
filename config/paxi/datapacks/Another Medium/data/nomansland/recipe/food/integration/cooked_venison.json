@@ -1,0 +1,19 @@
+{
+  "type": "cookscollection:baking",
+  "ingredients": [
+    {
+      "item": "nomansland:raw_venison"
+    },
+    {
+      "item": "nomansland:raw_venison"
+    },
+    {
+      "item": "nomansland:raw_venison"
+    }
+  ],
+  "result": {
+    "id": "nomansland:cooked_venison",
+    "count": 3
+  },
+  "cookingtime": 200
+}

@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "nomansland:pear"
+        },
+        {
+            "item": "nomansland:walnuts"
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:wheat"
+        }
+    ],
+    "result": {
+        "id": "nomansland:pear_cobbler",
+        "count": 1
+    }
+}

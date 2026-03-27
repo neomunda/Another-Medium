@@ -1,0 +1,19 @@
+{
+  "type": "cookscollection:baking",
+  "ingredients": [
+    {
+      "item": "nomansland:billhook_bass"
+    },
+    {
+      "item": "nomansland:billhook_bass"
+    },
+    {
+      "item": "nomansland:billhook_bass"
+    }
+  ],
+  "result": {
+    "id": "nomansland:cooked_billhook_bass",
+    "count": 3
+  },
+  "cookingtime": 200
+}
