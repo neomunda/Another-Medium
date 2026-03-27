@@ -1,0 +1,53 @@
+[display]
+	# Shows the total number of loaded mods in the screen title.
+	show_mod_count = true
+	# Displays technical mod IDs instead of human-readable names.
+	show_mod_ids = false
+	# Hides the Realms button on the title screen.
+	hide_realms_button = true
+
+[entries]
+	# Shows the version number next to each mod name.
+	entry_show_version = true
+	# Shows the author names next to each mod name.
+	entry_show_authors = false
+	# Hides the configuration buttons.
+	hide_config_buttons = false
+
+[tooltips]
+	# Includes author information in the mod tooltip.
+	tooltip_show_authors = true
+	# Includes the mod description in the mod tooltip.
+	tooltip_show_description = true
+	# Includes license information in the mod tooltip.
+	tooltip_show_license = true
+
+[filtering]
+	# Only shows mods that have a configuration screen.
+	configs_only = false
+	# List of mod IDs to hide from the mod list.
+	# Format: modid
+	hidden_mods = []
+
+[categories]
+	# Category assigned to mods without a predefined category.
+	# This category always appears at the bottom of the list.
+	default_category = "uncategorized"
+	# Places the libraries category at the bottom, below the default category.
+	libraries_at_bottom = true
+	# Custom category assignments that override built-in defaults.
+	# Format: modid;category
+	category_overrides = []
+
+[icons]
+	# Uses a shared icon for all mods in each category instead of individual mod icons.
+	use_category_icons = false
+	# Texture mappings for category icons.
+	# Format: category;namespace:path/to/texture.png
+	category_icons = ["library;minecraft:textures/item/book.png", "technology;minecraft:textures/item/copper_ingot.png", "magic;minecraft:textures/item/blaze_powder.png", "agriculture;minecraft:textures/item/wheat.png", "worldgen;minecraft:textures/block/oak_sapling.png", "mobs;minecraft:textures/item/egg.png", "equipment;minecraft:textures/item/iron_sword.png", "storage;minecraft:textures/item/chest_minecart.png", "building;minecraft:textures/item/brick.png", "utility;minecraft:textures/item/redstone.png", "system;minecraft:textures/item/feather.png", "functional;minecraft:textures/item/compass_28.png", "uncategorized;minecraft:textures/item/paper.png"]
+	# Fallback texture for mods without an icon. Used when category icons are disabled.
+	default_mod_icon = "minecraft:textures/misc/unknown_server.png"
+
+[debug]
+	# Logs all uncategorized mods to the console during startup.
+	print_uncategorized = false

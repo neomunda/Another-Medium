@@ -1,0 +1,50 @@
+[General]
+	# Override default keybinds. When Reset is pressed, keys reset to these values instead of vanilla defaults.
+	# Format: key;input
+	# Example: key.jump;key.keyboard.space
+	# Use key.keyboard.unknown to set no default.
+	# Use Print Keys to discover key names.
+	key_overrides = []
+	# Trigger multiple keys with a single button press.
+	# Format: trigger_key;linked_key,another_linked_key
+	# Example: key.jump;key.sneak,key.sprint
+	# Linked keys are automatically hidden.
+	# Use Print Keys to discover key names.
+	key_combinations = []
+	# Move specific keys into custom or existing categories.
+	# Format: key;category
+	# Example: key.jump;key.categories.inventory
+	# Custom categories should be translated via a resource pack.
+	# Use Print Categories to discover category names.
+	key_categories = []
+	# Define the display order of categories in the Key Binds screen.
+	# Format: category;index
+	# Example: key.categories.inventory;1
+	# Lower indices appear higher in the list.
+	# Use Print Categories to discover category names.
+	category_order = []
+	# Keys to remove from the Key Binds screen.
+	# Format: key
+	# Example: key.jump
+	# Use Print Keys to discover key names.
+	hidden_keys = []
+	# Disable hidden keys by setting them to key.keyboard.unknown.
+	# This prevents hidden keys from conflicting with visible bindings.
+	unbind_hidden_keys = true
+	# Disable the red highlighting on keybinds that share the same key.
+	# Useful when you intentionally want multiple actions bound to one key.
+	disable_conflicts = true
+	# Additional spacing (in pixels) between entries in the Key Binds screen.
+	# Default: 0
+	# Range: 0 ~ 20
+	entry_spacing = 0
+
+[Debug]
+	# Log Tidy Binds actions (e.g., Moving key X to category Y) to the console.
+	log_actions = true
+	# Display hidden keys in a special Hidden Keys category instead of removing them.
+	display_hidden_keys = false
+	# Print all available key names (e.g., key.attack) to the console.
+	print_keys = false
+	# Print all available category names (e.g., key.categories.inventory) to the console.
+	print_categories = false

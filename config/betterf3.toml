@@ -1,0 +1,27 @@
+general = {disable_mod = false, hide_bossbar = true, shadow_text = false, auto_start = false, animationSpeed = 1.25, always_show_ping = false, hide_debug_crosshair = false, background_color = 1867534416, space_modules = false, always_show_profiler = false, animations = true, fontScale = 0.98, hide_sidebar = true, always_show_tps = false}
+[[modules_right]]
+	name = "system"
+	name_color = 16777215
+	value_color = 13619151
+	lines = {opengl_version = true, allocation_rate = true, display = true, java_version = true, gpu_driver = true, memory_usage = true, allocated_memory = true, cpu = true, gpu_utilization = true, time = false, gpu = true}
+	enabled = false
+[[modules_right]]
+	name = "target"
+	name_color = 43775
+	value_color = 16777045
+	lines = {id_fluid = true, fluid_tags = true, block_states = true, targeted_block = true, block_tags = true, id_block = true, nothing = true, nothing2 = true, targeted_fluid = true, targeted_entity = true, fluid_states = true}
+	enabled = true
+
+[[modules_left]]
+	name = "minecraft"
+	name_color = 16777215
+	value_color = 16777215
+	lines = {minecraft = true}
+	enabled = true
+[[modules_left]]
+	color_high = 13619151
+	color_med = 13619151
+	name = "fps"
+	lines = {fps = true}
+	enabled = true
+	color_low = 13619151
