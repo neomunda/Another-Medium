@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "abundant_atmosphere:moss_clump",
+    "block_in": "minecraft:mud_bricks",
+    "post": [
+        "place abundant_atmosphere:mossy_mud_bricks",
+        "run \"particle block{block_state:'minecraft:azalea_leaves'} ~ ~ ~ 0 0 0 1 25 force\"",
+        "run \"playsound block.moss.place master @s ~ ~ ~ 1 1\""
+    ]
+}

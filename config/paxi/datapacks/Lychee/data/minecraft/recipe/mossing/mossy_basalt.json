@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "abundant_atmosphere:moss_clump",
+    "block_in": "minecraft:basalt",
+    "post": [
+        "place abundant_atmosphere:mossy_basalt",
+        "run \"particle block{block_state:'minecraft:moss_block'} ~ ~ ~ 0 0 0 1 25 force\"",
+        "run \"playsound block.moss.place master @s ~ ~ ~ 1 1\""
+    ]
+}

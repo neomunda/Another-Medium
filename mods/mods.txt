@@ -1,4 +1,6 @@
+9bfecc29046f88d9a6fa793685a36c9e490d1ce1 *mods/abundant_atmosphere-1.21.1-2.0.0-beta-neoforge.jar
 8fa17df26d3650416bc124be7a264bc1566a3b26 *mods/BetterF3-11.0.3-NeoForge-1.21.1.jar
+e04f50b55f1a917956a038c10066118264e4e170 *mods/biolith-neoforge-3.0.10.jar
 c3e5733ba4503b102589a026000fd5ce0212f6f2 *mods/cloth-config-15.0.140-neoforge.jar
 e977d86eec39d49295df4e2c4265d6710ae065e8 *mods/configured-neoforge-1.21.1-2.6.3.jar
 d35cddd8145a68029305b119af571ebf36e9cda5 *mods/dynamiccrosshair-9.11+1.21.1-neoforge.jar
