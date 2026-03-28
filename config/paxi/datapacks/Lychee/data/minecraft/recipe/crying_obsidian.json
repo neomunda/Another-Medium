@@ -1,0 +1,13 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "minecraft:ghast_tear",
+    "block_in": "minecraft:obsidian",
+    "post": [
+        "place minecraft:crying_obsidian",
+        "run \"playsound minecraft:entity.ghast.hurt master @s ~ ~ ~ 0.2 1.2\"",
+        "run \"particle block{block_state:'minecraft:crying_obsidian'} ~ ~ ~ 0 0 0 1 50 force\""
+    ]
+}
+
+
+

@@ -1,0 +1,9 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "minecraft:torch",
+    "block_in": "minecraft:carved_pumpkin",
+    "post": [
+        "place minecraft:jack_o_lantern",
+        "run \"playsound item.flintandsteel.use master @p ~ ~ ~ 1 0.2\"" 
+    ]
+}

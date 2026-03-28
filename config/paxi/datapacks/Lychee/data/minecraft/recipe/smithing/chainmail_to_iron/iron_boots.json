@@ -1,0 +1,14 @@
+{
+	"type": "lychee:anvil_crafting",
+	"item_in": [
+		"chainmail_boots",
+		"iron_ingot"
+	],
+	"item_out": "iron_boots",
+	"level_cost": 1,
+	"material_cost": 4,
+	"post": "prevent_default",
+	"preserve_attributes": true,
+	"preserve_enchantments": true,
+	"preserve_durability": true
+}

@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "minecraft:mud",
+    "block_in": "minecraft:mangrove_roots",
+    "post": [
+        "place minecraft:muddy_mangrove_roots",
+        "run \"particle block{block_state:'minecraft:mud'} ~ ~ ~ 0 0 0 1 35 force\"",
+        "run \"playsound block.mud.place master @p ~ ~ ~ 1.0 0.2\""
+    ]
+}

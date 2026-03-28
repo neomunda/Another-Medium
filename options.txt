@@ -123,16 +123,13 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.immersiveoverlays.toggle:key.keyboard.unknown
 key_key.immersiveoverlays.settings:key.keyboard.unknown
-key_aperture_innovations.portal_gun.reset:key.keyboard.r
-key_key.fieldguide.open:key.keyboard.b
-key_key.fieldguide.scan:key.keyboard.unknown
 key_key.kubejs.kubedex:key.keyboard.k
 key_key.modernfix.config:key.keyboard.unknown
 key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.raised.options:key.keyboard.grave.accent
 key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.09507042253521127
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

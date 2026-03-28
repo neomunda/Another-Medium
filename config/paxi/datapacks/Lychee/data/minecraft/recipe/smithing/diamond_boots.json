@@ -1,0 +1,14 @@
+{
+	"type": "lychee:anvil_crafting",
+	"item_in": [
+		"copper_boots",
+		"diamond"
+	],
+	"item_out": "iron_boots",
+	"level_cost": 1,
+	"material_cost": 4,
+	"post": "prevent_default",
+	"preserve_attributes": true,
+	"preserve_enchantments": true,
+	"preserve_durability": true
+}

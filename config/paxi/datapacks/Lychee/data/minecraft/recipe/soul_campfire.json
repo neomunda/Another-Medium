@@ -1,0 +1,10 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "#minecraft:soul_fire_base_blocks",
+    "block_in": "minecraft:campfire",
+    "post": [
+        "place minecraft:soul_campfire",
+        "run \"playsound item.firecharge.use master @p\"",
+        "run \"particle soul_fire_flame ^ ^ ^ 0 0.1 0 0.2 10 force\""
+    ]
+}

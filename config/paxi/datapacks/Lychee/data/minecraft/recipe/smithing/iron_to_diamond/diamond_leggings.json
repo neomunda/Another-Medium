@@ -1,0 +1,14 @@
+{
+	"type": "lychee:anvil_crafting",
+	"item_in": [
+		"iron_leggings",
+		"diamond"
+	],
+	"item_out": "diamond_leggings",
+	"level_cost": 1,
+	"material_cost": 7,
+	"post": "prevent_default",
+	"preserve_attributes": true,
+	"preserve_enchantments": true,
+	"preserve_durability": true
+}

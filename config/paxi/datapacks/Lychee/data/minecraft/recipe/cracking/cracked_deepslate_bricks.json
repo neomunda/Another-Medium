@@ -1,0 +1,11 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "#minecraft:pickaxes",
+    "block_in": "minecraft:deepslate_bricks",
+    "post": [
+        "place minecraft:cracked_deepslate_bricks",
+        "run \"particle block{block_state:'minecraft:deepslate_bricks'} ~ ~ ~ 0 0 0 1 35 force\"",
+        "run \"playsound block.nether_bricks.hit master @s ~ ~ ~ 1 1\"",
+        "damage_item"
+    ]
+}

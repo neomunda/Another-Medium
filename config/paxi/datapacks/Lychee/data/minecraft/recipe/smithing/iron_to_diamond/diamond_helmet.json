@@ -1,0 +1,14 @@
+{
+	"type": "lychee:anvil_crafting",
+	"item_in": [
+		"iron_helmet",
+		"diamond"
+	],
+	"item_out": "diamond_helmet",
+	"level_cost": 1,
+	"material_cost": 5,
+	"post": "prevent_default",
+	"preserve_attributes": true,
+	"preserve_enchantments": true,
+	"preserve_durability": true
+}

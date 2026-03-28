@@ -1,0 +1,11 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "create:rose_quartz",
+    "block_in": "minecraft:grindstone",
+    "post": [
+        "run \"give @s create:polished_rose_quartz\"",
+        "run \"playsound block.grindstone.use master @p\"",
+        "run \"particle crit ~ ~ ~ 0 0.1 0 5 0 force\"",
+        "drop 2xp"
+    ]
+}

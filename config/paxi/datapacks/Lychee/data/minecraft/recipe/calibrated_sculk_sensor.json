@@ -1,0 +1,8 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "minecraft:amethyst_shard",
+    "block_in": "minecraft:sculk_sensor",
+    "post": [
+        "place minecraft:calibrated_sculk_sensor"
+    ]
+}
