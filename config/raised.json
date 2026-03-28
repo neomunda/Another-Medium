@@ -186,6 +186,28 @@
         "y": "DOWN"
       },
       "sync": "minecraft:toasts"
+    },
+    "overgeared:anvil_minigame": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "overgeared:anvil_minigame"
+    },
+    "overgeared:popup": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "overgeared:popup"
     }
   },
   "resource": {

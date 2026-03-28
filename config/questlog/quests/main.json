@@ -1,0 +1,15 @@
+{
+  "triggers": [],
+  "objectives": [],
+  "rewards": [],
+  "display": {
+    "title": "Getting Ahead",
+    "description": "hello",
+    "icon": {
+      "item": "minecraft:flint"
+    },
+    "notification": {
+      "popup": true
+    }
+  }
+}

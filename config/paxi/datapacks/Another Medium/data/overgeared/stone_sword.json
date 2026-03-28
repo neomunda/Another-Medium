@@ -3,10 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "overgeared:stone_pickaxe_head"
-    },
-    {
-      "item": "minecraft:string"
+      "item": "overgeared:stone_sword_blade"
     },
     {
       "item": "minecraft:stick"
@@ -14,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:wooden_pickaxe"
+    "id": "minecraft:stone_sword"
   }
 }

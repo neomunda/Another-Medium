@@ -1,18 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
+  "ingredients": [
+    {
+      "item": "overgeared:stone_axe_head"
     },
-    "X": {
-      "item": "minecraft:flint"
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:stick"
     }
-  },
-  "pattern": [
-    "XX ",
-    "X# ",
-    " # "
   ],
   "result": {
     "count": 1,

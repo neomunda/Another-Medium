@@ -1,6 +1,9 @@
 {
   "action": "remove",
   "items": [
+    "minecraft:blast_furnace",
+    "minecraft:smoker",
+    "minecraft:fletching_table",
     "minecraft:rabbit_hide",
     "minecraft:suspicious_stew"
   ]
