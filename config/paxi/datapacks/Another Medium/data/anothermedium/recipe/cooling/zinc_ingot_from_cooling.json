@@ -1,0 +1,9 @@
+{
+  "type": "overgeared:cooling",
+  "input": {
+    "item": "kubejs:heated_zinc_ingot"
+  },
+  "output": {
+    "id": "create:zinc_ingot"
+  }
+}

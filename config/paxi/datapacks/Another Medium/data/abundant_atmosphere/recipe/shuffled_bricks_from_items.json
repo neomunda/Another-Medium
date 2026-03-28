@@ -1,0 +1,15 @@
+{
+  "type": "alloyed:forging_shaped",
+  "key": {
+    "A": {"item": "minecraft:brick"},
+    "B": {"item": "minecraft:nether_brick"}
+  },
+  "pattern": [
+    "AB ",
+    "BA ",
+    "   "
+  ],
+  "result": {
+    "id": "abundant_atmosphere:shuffled_bricks"
+  }
+}

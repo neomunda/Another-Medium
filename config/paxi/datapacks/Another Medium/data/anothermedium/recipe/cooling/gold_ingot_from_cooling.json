@@ -1,0 +1,9 @@
+{
+  "type": "overgeared:cooling",
+  "input": {
+    "item": "kubejs:heated_gold_ingot"
+  },
+  "output": {
+    "id": "minecraft:gold_ingot"
+  }
+}

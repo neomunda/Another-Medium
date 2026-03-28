@@ -2,7 +2,7 @@
 	#Toggle for the mod's custom tooltips
 	enableModTooltips = false
 	#Toggle the need to crouch to initiate/cancel the mining minigame for forging + weapon polishing
-	requireCrouchForForgingGrinding = true
+	requireCrouchForForgingGrinding = false
 
 ["Anvil Conversion"]
 	#Allow shift-right-clicking stone to convert into Stone Smithing Anvil
@@ -62,7 +62,7 @@
 	# Range: 0 ~ 1000
 	maxAnvilDistance = 100
 	#Toggle for if the result item has player's name
-	enableAuthorTooltips = true
+	enableAuthorTooltips = false
 	#Lowest score required to get perfect quality
 	# Default: 0.9
 	# Range: 0.0 ~ 1.0
@@ -80,7 +80,7 @@
 	#Zone starting size for default forging (in % chance)
 	# Default: 20
 	# Range: 0 ~ 100
-	zoneStartingSize = 10
+	zoneStartingSize = 5
 	#Zone shrink factor for default forging
 	# Default: 0.9
 	# Range: 0.0 ~ 1.0
@@ -92,7 +92,7 @@
 	#Arrow speed for default forging
 	# Default: 2.0
 	# Range: -5.0 ~ 5.0
-	arrowSpeed = 2.0
+	arrowSpeed = 5.0
 	#Arrow speed increase per hit for default forging
 	# Default: 0.6
 	# Range: -5.0 ~ 5.0

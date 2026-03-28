@@ -22,7 +22,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:2
+renderDistance:3
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
@@ -128,6 +128,10 @@ key_key.kubejs.kubedex:key.keyboard.k
 key_key.immersiveoverlays.toggle:key.keyboard.unknown
 key_key.immersiveoverlays.settings:key.keyboard.unknown
 key_key.travelertoolbelt.open_toolbelt:key.keyboard.r
+key_key.ponder.ponder:key.keyboard.w
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_key.raised.options:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:0.4056291390728477

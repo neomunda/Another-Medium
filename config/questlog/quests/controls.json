@@ -1,0 +1,28 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:walk_one_cm",
+      "required_amount": 9
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:walk_one_cm",
+      "required_amount": 10
+    }
+  ],
+  "rewards": [],
+  "title": "Tips and Controls",
+  "description": "§lORIGINS§r\n\nPlease be sure to read the abilities of the Origins available carefully!\nTheir strengths and weaknesses can impact your experience dramatically!\nYou can go over these descriptions at any time by pressing §l[O]§r.\n\n§lCONTROLS§r\n\nAdditionally, press §l[Left CTRL]§r to Combat Roll, and §l[G]§r to activate your Origin Ability.\nHolding §l[SHIFT]§r against a wall will make you Wall Grip, enabling you to Wall Jump.\n\n§lRECIPES§r\n\nRead the hidden descriptions on items by holding §l[SHIFT]§r whilst hovering your mouse over them, and examine the Favourite Recipes list below your inventory to guide you through the pack.\n\nUse the EMI search bar below that to find recipes you're uncertain on.\n\n§lSHADERS§r\n\nPress §l[K]§r to disable shaders at any time, and §l[L]§r to edit them.\n\nIf you're playing exclusively with shaders on and your PC can handle it, please consider installing Distant Horizons to make the most out of the terrain generation.\n\nDo you understand!?",
+  "icon": {
+    "item": "minecraft:waxed_oxidized_cut_copper"
+  },
+  "background_texture": "questlog:textures/gui/quest_page_default.png",
+  "toast_on_complete": false,
+  "toast_on_unlock": false,
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 410
+}

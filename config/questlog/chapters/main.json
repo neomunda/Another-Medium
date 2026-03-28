@@ -1,6 +1,6 @@
 {
   "icon": {
-    "item": "minecraft:flint"
+    "item": "minecraft:knowledge_book"
   },
   "default_chapter": true,
   "hidden": false

@@ -1,0 +1,15 @@
+{
+  "type": "overgeared:casting",
+  "cookingtime": 100,
+  "experience": 0.3,
+  "input": {
+    "material": {
+      "gold": 27
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "overgeared:golden_pickaxe_head"
+  },
+  "tool_type": "pickaxe"
+}

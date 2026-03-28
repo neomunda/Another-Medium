@@ -1,0 +1,15 @@
+{
+  "type": "overgeared:casting",
+  "cookingtime": 110,
+  "experience": 0.4,
+  "input": {
+    "material": {
+      "gold": 18
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "overgeared:golden_sword_blade"
+  },
+  "tool_type": "sword"
+}

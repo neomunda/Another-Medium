@@ -1,0 +1,23 @@
+{
+  "requirements": [    
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "You Can Fly!",
+  "description": "As an Owlytrian, mastery over the use of your Wings will be essential. Pressing G allows you to shoot up into the air, pressing Left CTRL whilst flying lets you perform a mid-air boost, and Sneaking with Left Shift will let you stop flying mid-air.\n\nRather than flying and boosting in a straight line, you can actually gain height easier by flying downwards, then boosting as you tilt your direction upwards in a smooth arc.\n\nAdditionally, you can also conserve durability on your Wings for clean landings by Sneaking just before your wings run out of durability, allowing you to reopen them at the last moment and avoid fall damage!\n\nOwlytrians super-jumps are incredibly useful for dealing with Illhawks, who'll attempt to escape your effective range by flying away into the air. Use your super-jump to chase them down for a follow-up attack!",
+  "icon": {
+    "item": "minecraft:elytra"
+  },
+  "overlay": "questlog:textures/gui/quest_page_wings.png",
+  "overlay_width": 1024,
+  "overlay_height": 512,
+  "overlay_x_offset": -375,
+  "overlay_y_offset": -174
+}

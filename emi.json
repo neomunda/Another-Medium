@@ -1,19 +1,153 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:minecraft:spruce_pressure_plate"
+    }
+  ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "alloyed:steel_ingot",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "minecraft:bricks",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "minecraft:nether_bricks",
+      "amount": 32
+    },
+    {
+      "type": "item",
+      "id": "alloyed:bronze_ingot",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "minecraft:netherite_ingot",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "abundant_atmosphere:blacksalt_tiles",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "abundant_atmosphere:shuffled_bricks",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "abundant_atmosphere:shuffled_brick_wall",
+      "amount": 64
+    },
+    "item:alloyed:forge",
+    "item:minecraft:acacia_door",
+    "item:overgeared:copper_smithing_hammer",
+    "item:overgeared:iron_plate",
+    "item:overgeared:nether_alloy_furnace",
+    "item:overgeared:crude_steel",
+    "item:alloyed:steel_helmet",
+    "item:overgeared:iron_shovel_head",
+    "item:overgeared:golden_sword_blade",
+    {
+      "type": "item",
+      "id": "minecraft:raw_gold",
+      "amount": 64
+    },
+    "item:overgeared:golden_axe_head",
+    "item:overgeared:golden_pickaxe_head",
+    "item:overgeared:copper_shovel_head",
+    "item:overgeared:copper_plate",
+    "item:overgeared:steel_plate",
+    "item:overgeared:iron_axe_head",
+    "item:minecraft:stone",
+    "item:minecraft:water_bucket",
+    "item:create:encased_fan",
+    "item:overgeared:heated_netherite_alloy",
+    {
+      "type": "item",
+      "id": "minecraft:gold_ingot",
+      "amount": 64
+    },
+    "item:minecraft:birch_fence_gate",
+    "item:create:brass_hand",
+    {
+      "type": "item",
+      "id": "create:deployer",
+      "amount": 64
+    },
+    "item:create:portable_storage_interface",
+    {
+      "type": "item",
+      "id": "create:elevator_pulley",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "create:rope_pulley",
+      "amount": 64
+    },
+    "item:create:cart_assembler",
+    {
+      "type": "item",
+      "id": "create:windmill_bearing",
+      "amount": 64
+    },
+    "item:create:gantry_carriage",
+    "item:create:mechanical_piston",
+    "item:create:whisk",
+    {
+      "type": "item",
+      "id": "create:mechanical_mixer",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "create:stressometer",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "create:speedometer",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "create:chute",
+      "amount": 64
+    },
+    "item:create:weighted_ejector",
+    {
+      "type": "item",
+      "id": "create:basin",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "create:millstone",
+      "amount": 64
+    },
+    "item:create:copper_diving_boots",
+    "item:create:copper_diving_helmet",
+    "item:minecraft:netherite_leggings",
+    "item:minecraft:diamond_helmet",
+    "item:minecraft:chainmail_boots",
+    "item:minecraft:golden_boots",
     "item:minecraft:golden_leggings",
     "item:overgeared:heated_iron_ingot",
     "item:minecraft:iron_ingot",
-    "item:alloyed:steel_ingot",
     "item:overgeared:heated_steel_ingot",
-    "item:alloyed:steel_sheet",
     {
       "type": "item",
       "id": "minecraft:coal",
       "amount": 2
     },
     "item:overgeared:copper_hammer_head",
-    "item:overgeared:copper_smithing_hammer",
     "item:minecraft:anvil",
     "item:overgeared:iron_pickaxe_head",
     "item:overgeared:clay_tool_cast{\"minecraft:max_stack_size\":64}",
@@ -31,11 +165,8 @@
     },
     "item:minecraft:stripped_spruce_wood",
     "item:overgeared:nether_tool_cast",
-    "item:alloyed:forge",
-    "item:alloyed:steel_ladder",
     "item:minecraft:emerald",
     "item:minecraft:spruce_stairs",
-    "item:overgeared:heated_netherite_alloy",
     "item:overgeared:netherite_alloy",
     "item:overgeared:heated_silver_ingot",
     "item:overgeared:steel_ingot",
@@ -51,7 +182,6 @@
     },
     "item:minecraft:fletching_table",
     "item:minecraft:oak_fence",
-    "item:overgeared:crude_steel",
     "item:overgeared:steel_tong",
     "item:minecraft:brown_banner",
     "item:minecraft:brown_candle",
@@ -81,6 +211,7 @@
     "item:overgeared:heated_copper_ingot"
   ],
   "craft_history": [
+    "abundant_atmosphere:shuffled_bricks_from_blocks",
     "minecraft:iron_pickaxe",
     "overgeared:wooden_tongs"
   ],
