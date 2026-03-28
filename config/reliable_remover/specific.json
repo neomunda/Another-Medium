@@ -1,0 +1,7 @@
+{
+  "action": "remove",
+  "items": [
+"travelertoolbelt:belt", "travelertoolbelt:copper_belt", "travelertoolbelt:gold_belt", "travelertoolbelt:diamond_belt", "travelertoolbelt:netherite_belt"
+  ]
+}
+

@@ -1,3 +1,7 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded server example script)')
+ServerEvents.tags('block', event => {
+  event.remove('minecraft:incorrect_for_wooden_tool', '/^minecraft:.*copper.*/')
+  event.remove('minecraft:needs_stone_tool', '/^minecraft:.*copper.*/')
+  event.remove('minecraft:incorrect_for_gold_tool', '/^minecraft:.*copper.*/')
 
+  event.add('minecraft:needs_iron_tool', '/^*deepslate.*/')
+})

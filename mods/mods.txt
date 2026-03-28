@@ -25,5 +25,6 @@ f3f96ccffcd67181943327a796083cba73302987 *mods/reliable_replacer-neoforge-1.21.1
 0ead4d47c48afc4525efd9bf7c949eb7d1e15f0e *mods/screenshot-to-clipboard-neoforge-1.0.10.jar
 7473bb42753902c639294821af13e9cd9ee735da *mods/sodium-extra-neoforge-0.6.0+mc1.21.1.jar
 38af70fa4dc4b2aaac636e92fdba3bedd5a025e1 *mods/sodium-neoforge-0.6.13+mc1.21.1.jar
+e3123efa9eaf4b8622d3841c08d90eef5aa9d041 *mods/travelertoolbelt-neoforge-1.21.1-1.0.1.jar
 fe270c9f6e0a8142cf316944087f5109cef08bbb *mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar
 e1c394779fb9e038e4f7a1b4558d0432607d263b *mods/YungsApi-1.21.1-NeoForge-5.1.6.jar
