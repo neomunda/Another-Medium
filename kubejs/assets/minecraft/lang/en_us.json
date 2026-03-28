@@ -1,0 +1,41 @@
+{
+  "death.attack.badRespawnPoint.message": "%1$s was de-anchored from reality",
+  "deathScreen.score": "                                                                                                                                                                                                                                                                                             ",
+  "deathScreen.title": "You Died!",
+  
+  "selectWorld.mapFeatures.info": "",
+  "selectWorld.enterSeed": "World Seed",
+  "selectWorld.seedInfo": "",
+  "selectWorld.mapFeatures": "Structures",
+  "selectWorld.bonusItems": "Starter Chest",
+
+  "attribute.name.generic.armor_toughness": "Toughness",
+  
+  "screenshot.success": "Saved screenshot as %s and copied to clipboard",
+  
+  "effect.minecraft.mining_fatigue": "Fatigue",
+  "effect.minecraft.dolphins_grace": "Grace",
+  "effect.minecraft.wither": "Withering",
+  "effect.minecraft.fire_resistance": "Fire-Proof",
+
+  "block.minecraft.sculk_vein": "Blotch of Sculk",
+  "block.minecraft.sculk": "Sculk",
+  "block.minecraft.piston": "Redstone Piston",
+  "block.minecraft.sticky_piston": "Sticky Redstone Piston",
+  "block.minecraft.melon": "Watermelon",
+  "block.minecraft.attached_melon_stem": "Attached Watermelon Stem",
+  "block.minecraft.melon_stem": "Watermelon Stem",
+  "block.minecraft.dried_kelp_block": "Bundle of Dried Kelp",
+  "block.minecraft.dripstone_block": "Dripstone",
+  "block.minecraft.bell": "Golden Bell",
+  "block.minecraft.snow": "Pile of Snow",
+  "block.minecraft.snow_block": "Snow",
+  "block.minecraft.clay": "Clay",
+  "block.minecraft.moss_block": "Moss",
+  "item.minecraft.melon_seeds": "Watermelon Seeds",
+  "item.minecraft.melon_slice": "Watermelon Slice",
+  "item.minecraft.glistering_melon_slice": "Golden Watermelon Slice",
+  "item.minecraft.clay_ball": "Lump of Clay",
+  "item.minecraft.glass_bottle": "Bottle",
+  "item.minecraft.lead": "Leash"
+}

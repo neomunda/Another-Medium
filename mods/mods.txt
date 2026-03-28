@@ -22,6 +22,7 @@ b03d05495be28d8cef7a34872941bb8d703d60e6 *mods/reeses-sodium-options-neoforge-1.
 dd4a4fc9b8dd89d3c614174426c92bbfa0f55854 *mods/reliable_remover-neoforge-1.21.1-1.7.5.jar
 f3f96ccffcd67181943327a796083cba73302987 *mods/reliable_replacer-neoforge-1.21.1-1.3.0.jar
 480235a9f7749f68ce6fec3b9c3cac3428b92a4a *mods/rhino-2101.2.7-build.81.jar
+0ead4d47c48afc4525efd9bf7c949eb7d1e15f0e *mods/screenshot-to-clipboard-neoforge-1.0.10.jar
 7473bb42753902c639294821af13e9cd9ee735da *mods/sodium-extra-neoforge-0.6.0+mc1.21.1.jar
 38af70fa4dc4b2aaac636e92fdba3bedd5a025e1 *mods/sodium-neoforge-0.6.13+mc1.21.1.jar
 fe270c9f6e0a8142cf316944087f5109cef08bbb *mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar
