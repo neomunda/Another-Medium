@@ -1,0 +1,20 @@
+{
+  "type": "overgeared:forging",
+  "hammering": 3,
+  "has_quality": false,
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:copper_sheet"
+  },
+  "show_notification": false,
+  "tier": "stone"
+}

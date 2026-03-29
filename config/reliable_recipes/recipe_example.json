@@ -1,0 +1,22 @@
+[
+  {
+    "action": "remove_recipe",
+    "id": "alloyed:forging/steel_ingot"
+  },
+  {
+    "action": "replace_input",
+    "target": "overgeared:iron_plate",
+    "replacement": "create:iron_sheet",
+    "mod": ["minecraft", "overgeared"]
+  },
+  {
+    "action": "remove_recipe",
+    "type": "overgeared:casting"
+  },
+  {
+    "action": "remove_recipe",
+    "type": "overgeared:cast_blasting"
+  }
+]
+
+

@@ -6,7 +6,7 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.0
+fov:-0.05
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -17,12 +17,12 @@ gamma:0.0
 graphicsMode:1
 guiScale:0
 maxFps:260
-mipmapLevels:4
+mipmapLevels:0
 narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:3
+renderDistance:5
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
@@ -48,8 +48,8 @@ mouseSensitivity:0.5492957746478874
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","file/You-Take-the-Moon-and-You-Take-the-Sun.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","file/Farcr\u0027s Re-Crafted V2.25","file/You-Take-the-Moon-and-You-Take-the-Sun.zip","mod_resources","NML x Autumnity DP.zip","rhburgjbnjgt.zip","weeping land.zip","file/Steal a Brainrot","file/Peeves - 1.19.3","file/Manuscript.zip"]
+incompatibleResourcePacks:["NML x Autumnity DP.zip","rhburgjbnjgt.zip","file/Peeves - 1.19.3","file/Manuscript.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -62,7 +62,7 @@ advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
-chatHeightFocused:0.13028169014084506
+chatHeightFocused:0.38028169014084506
 chatDelay:0.0
 chatHeightUnfocused:0.1267605633802817
 chatScale:1.0
@@ -121,12 +121,13 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.yo_hooks.jump:key.keyboard.space
+key_key.yo_hooks.climb:key.keyboard.z
+key_key.yo_hooks.climb_down:key.keyboard.x
+key_key.yo_hooks.prevent_use:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
-key_key.questlog.open:key.keyboard.grave.accent
 key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.kubejs.kubedex:key.keyboard.k
-key_key.immersiveoverlays.toggle:key.keyboard.unknown
-key_key.immersiveoverlays.settings:key.keyboard.unknown
 key_key.travelertoolbelt.open_toolbelt:key.keyboard.r
 key_key.ponder.ponder:key.keyboard.w
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
@@ -134,7 +135,7 @@ key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_key.raised.options:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-soundCategory_master:0.4056291390728477
+soundCategory_master:0.2367549668874172
 soundCategory_music:0.09507042253521127
 soundCategory_record:1.0
 soundCategory_weather:1.0

@@ -1,0 +1,14 @@
+{
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "minecraft:bricks"},
+    {"item": "minecraft:bricks"},
+    {"item": "minecraft:nether_bricks"},
+    {"item": "minecraft:nether_bricks"}
+  ],
+  "result":
+    {
+      "count": 4,
+      "id": "abundant_atmosphere:shuffled_bricks"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 4,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_leggings"
+  },
+  "show_notification": false,
+  "tier": "stone"
+}

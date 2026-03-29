@@ -1,0 +1,14 @@
+{
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "minecraft:polished_blackstone"},
+    {"item": "minecraft:polished_blackstone"},
+    {"item": "minecraft:polished_basalt"},
+    {"item": "minecraft:polished_basalt"}
+  ],
+  "result":
+    {
+      "count": 4,
+      "id": "abundant_atmosphere:blacksalt_tiles"
+    }
+}

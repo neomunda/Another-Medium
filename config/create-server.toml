@@ -68,7 +68,7 @@
 	#Maximum length in blocks of mechanical belts.
 	# Default: 20
 	# Range: > 5
-	maxBeltLength = 20
+	maxBeltLength = 25
 	#.
 	#Maximum length in blocks of chain conveyor connections.
 	# Default: 32
@@ -194,7 +194,7 @@
 		#.
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableSpawners = "NO_PICKUP"
+		movableSpawners = "UNMOVABLE"
 		#.
 		#Configure how Budding Amethyst can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
@@ -332,13 +332,13 @@
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
-				steam_engine = 1024.0
+				steam_engine = 1256.0
 				water_wheel = 32.0
 				copper_valve_handle = 8.0
 				hand_crank = 8.0
 				creative_motor = 16384.0
 				large_water_wheel = 128.0
-				windmill_bearing = 512.0
+				windmill_bearing = 768.0
 
 #.
 #Create's liquid manipulation tools

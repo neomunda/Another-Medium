@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snow_block",
+          "conditions": []
+        }
+      ],
+      "rolls": 1,
+      "functions": [],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#minecraft:shovels"
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/snow_block"
+}

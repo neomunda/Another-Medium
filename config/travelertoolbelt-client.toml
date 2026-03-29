@@ -7,7 +7,7 @@
 	#Overlay opacity
 	# Default: 0.75
 	# Range: 0.0 ~ 1.0
-	opacity = 0.75
+	opacity = 0.5
 	#Overlay X offset (positive value moves right, negative moves left)
 	# Default: 0
 	# Range: > -2147483648

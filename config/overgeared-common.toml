@@ -6,7 +6,7 @@
 
 ["Anvil Conversion"]
 	#Allow shift-right-clicking stone to convert into Stone Smithing Anvil
-	enableStoneToAnvil = true
+	enableStoneToAnvil = false
 	#Allow shift-right-clicking vanilla anvil to convert into Smithing Anvil
 	enableAnvilToSmithing = true
 	#Requires blueprint to obtain higher quality items
@@ -66,29 +66,29 @@
 	#Lowest score required to get perfect quality
 	# Default: 0.9
 	# Range: 0.0 ~ 1.0
-	perfectQualityScore = 0.9
+	perfectQualityScore = 0.8958333333333334
 	#Lowest score required to get expert quality
 	# Default: 0.6
 	# Range: 0.0 ~ 1.0
-	expertQualityScore = 0.6
+	expertQualityScore = 0.7013888888888888
 	#Lowest score required to get well quality
 	# Default: 0.3
 	# Range: 0.0 ~ 1.0
-	wellQualityScore = 0.3
+	wellQualityScore = 0.5
 
 ["Default (No Blueprint)"]
 	#Zone starting size for default forging (in % chance)
 	# Default: 20
 	# Range: 0 ~ 100
-	zoneStartingSize = 5
+	zoneStartingSize = 15
 	#Zone shrink factor for default forging
 	# Default: 0.9
 	# Range: 0.0 ~ 1.0
-	zoneShrinkFactor = 0.9
+	zoneShrinkFactor = 0.5
 	#Minimum perfect zone size for default forging
 	# Default: 8
 	# Range: 0 ~ 100
-	minPerfectZone = 8
+	minPerfectZone = 4
 	#Arrow speed for default forging
 	# Default: 2.0
 	# Range: -5.0 ~ 5.0
@@ -96,7 +96,7 @@
 	#Arrow speed increase per hit for default forging
 	# Default: 0.6
 	# Range: -5.0 ~ 5.0
-	arrowSpeedIncrease = 0.6
+	arrowSpeedIncrease = 0.9027777777777777
 	#Maximum arrow speed for default forging
 	# Default: 8.0
 	# Range: 0.0 ~ 10.0
@@ -106,7 +106,7 @@
 	#Zone starting size for POOR forging
 	# Default: 30
 	# Range: 0 ~ 100
-	zoneStartingSize = 30
+	zoneStartingSize = 5
 	#Zone shrink factor for POOR forging
 	# Default: 0.9
 	# Range: 0.0 ~ 1.0
@@ -132,7 +132,7 @@
 	#Zone starting size for WELL forging
 	# Default: 20
 	# Range: 0 ~ 100
-	zoneStartingSize = 20
+	zoneStartingSize = 3
 	#Zone shrink factor for WELL forging
 	# Default: 0.8
 	# Range: 0.0 ~ 1.0
@@ -158,7 +158,7 @@
 	#Zone starting size for EXPERT forging
 	# Default: 18
 	# Range: 0 ~ 100
-	zoneStartingSize = 18
+	zoneStartingSize = 3
 	#Zone shrink factor for EXPERT forging
 	# Default: 0.8
 	# Range: 0.0 ~ 1.0
@@ -184,7 +184,7 @@
 	#Zone starting size for PERFECT forging
 	# Default: 15
 	# Range: 0 ~ 100
-	zoneStartingSize = 15
+	zoneStartingSize = 3
 	#Zone shrink factor for PERFECT forging
 	# Default: 0.8
 	# Range: 0.0 ~ 1.0

@@ -1,0 +1,46 @@
+#Only Affect Block Light
+only_affect_block_light = false
+#Ignore Moon Phase
+ignore_moon_phase = false
+#Gradual Moon Phase Darkness. Old default behavior was false and is a much more harsh change in darkness between moon phases
+gradual_moon_phase_darkness = true
+#Should the Overworld have True Darkness
+dark_overworld = true
+#Should the default for worlds be True Darkness
+dark_default = true
+#Should the nether have True Darkness
+dark_nether = false
+#Nether Fog Darkness
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+dark_nether_fog = 0.5
+#Should the end have True Darkness
+dark_end = false
+#Nether Fog Darkness
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+dark_end_fog = 0.0
+#Should skyless dimensions have True Darkness
+dark_skyless = true
+#Should the Darkness Biome behavior be inverted? Aka should biomes in the json be the only dark ones instead of the only bright ones?
+invert_biome_darkness = false
+#Should the Darkness Biome behavior be inverted? Aka should biomes in the json be the only dark ones instead of the only bright ones?
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+increase_overworld_brightness = 0.0
+#Should the Darkness Biome behavior be inverted? Aka should biomes in the json be the only dark ones instead of the only bright ones?
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+increase_nether_brightness = 0.0
+#Should the Darkness Biome behavior be inverted? Aka should biomes in the json be the only dark ones instead of the only bright ones?
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+increase_end_brightness = 0.0
+#Should the Darkness Biome behavior be inverted? Aka should biomes in the json be the only dark ones instead of the only bright ones?
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+increase_skyless_brightness = 0.0
+#Should the Darkness Biome behavior be inverted? Aka should biomes in the json be the only dark ones instead of the only bright ones?
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+increase_default_brightness = 0.0

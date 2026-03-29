@@ -1,0 +1,20 @@
+{
+  "type": "overgeared:forging",
+  "category": "TOOL_HEADS",
+  "hammering": 3,
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "overgeared:copper_sword_blade"
+  },
+  "show_notification": false,
+  "tier": "stone"
+}

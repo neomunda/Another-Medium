@@ -32,6 +32,12 @@
   "block.minecraft.snow_block": "Snow",
   "block.minecraft.clay": "Clay",
   "block.minecraft.moss_block": "Moss",
+
+  "item.minecraft.wooden_sword": "Flint Sword",
+  "item.minecraft.wooden_axe": "Flint Axe",
+  "item.minecraft.wooden_pickaxe": "Flint Pickaxe",
+  "item.minecraft.wooden_shovel": "Flint Shovel",
+  "item.minecraft.wooden_hoe": "Flint Hoe",
   "item.minecraft.melon_seeds": "Watermelon Seeds",
   "item.minecraft.melon_slice": "Watermelon Slice",
   "item.minecraft.glistering_melon_slice": "Golden Watermelon Slice",

@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 5,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "alloyed:steel_sheet"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "alloyed:steel_chestplate"
+  },
+  "show_notification": false,
+  "tier": "stone"
+}
