@@ -1,0 +1,18 @@
+{
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "minecraft:netherite_scrap"},
+    {"item": "minecraft:netherite_scrap"},
+    {"item": "minecraft:netherite_scrap"},
+    {"tag": "c:ingots/iron"},
+    {"tag": "c:ingots/iron"},
+    {"tag": "c:ingots/iron"},
+    {"tag": "c:ingots/nickel"},
+    {"tag": "c:ingots/nickel"},
+    {"tag": "c:ingots/nickel"}
+  ],
+  "result":
+    {
+      "id": "curiosities:invar_ingot"
+    }
+}

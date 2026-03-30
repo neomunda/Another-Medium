@@ -2,12 +2,12 @@
 3b21122e851834caccc7547b1a767442fbba204f *mods/alloyed-3.0.3+1.21.1-neoforge.jar
 8fa17df26d3650416bc124be7a264bc1566a3b26 *mods/BetterF3-11.0.3-NeoForge-1.21.1.jar
 e04f50b55f1a917956a038c10066118264e4e170 *mods/biolith-neoforge-3.0.10.jar
+9f9549cecaee3f4cb03d9c829b148a110a0efb54 *mods/blueprint-1.21.1-8.0.8.jar
 c3e5733ba4503b102589a026000fd5ce0212f6f2 *mods/cloth-config-15.0.140-neoforge.jar
 e977d86eec39d49295df4e2c4265d6710ae065e8 *mods/configured-neoforge-1.21.1-2.6.3.jar
 bf08bf8980c080f42d6f644f4f44a725cf7c3be9 *mods/create-1.21.1-6.0.9.jar
+4801b8eba031a1ffb2206f6e9fb5de451b214e91 *mods/curiosities-0.1.0.jar
 ebd256c7f4f688446079e7ee8769a3af88ccf03b *mods/darkness-1.2.1.jar
-3729995ca74006ed14ebe780d82a5193c2abf54b *mods/delightmap-1.1.1+1.20.5-1.21.1-neoforge.jar
-d35cddd8145a68029305b119af571ebf36e9cda5 *mods/dynamiccrosshair-9.11+1.21.1-neoforge.jar
 cbbd038194cd63249db185c53b1d50a1767f80a3 *mods/emi-1.1.22+1.21.1+neoforge.jar
 3ed524d21dfc679e8f1b9de148c26d49eaf89475 *mods/entityculling-neoforge-1.10.0-mc1.21.1.jar
 9563692efb708b6b568df27a01ec52f6311928ef *mods/ferritecore-7.0.3-neoforge.jar
@@ -31,5 +31,4 @@ f3f96ccffcd67181943327a796083cba73302987 *mods/reliable_replacer-neoforge-1.21.1
 38af70fa4dc4b2aaac636e92fdba3bedd5a025e1 *mods/sodium-neoforge-0.6.13+mc1.21.1.jar
 e3123efa9eaf4b8622d3841c08d90eef5aa9d041 *mods/travelertoolbelt-neoforge-1.21.1-1.0.1.jar
 fe270c9f6e0a8142cf316944087f5109cef08bbb *mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar
-22c3c4ef7c2d7a110cfc686f4fae0232743f634c *mods/yo_hooks-neoforge-4.0.1.jar
 e1c394779fb9e038e4f7a1b4558d0432607d263b *mods/YungsApi-1.21.1-NeoForge-5.1.6.jar

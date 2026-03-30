@@ -5,7 +5,8 @@
   "has_quality": false,
   "needs_minigame": false,
   "pattern": [
-    "#"
+    "##",
+    "##"
   ],
   "key": {
     "#": {
@@ -13,6 +14,7 @@
     }
   },
   "result": {
+    "count": 2,
     "id": "alloyed:steel_sheet"
   },
   "show_notification": true

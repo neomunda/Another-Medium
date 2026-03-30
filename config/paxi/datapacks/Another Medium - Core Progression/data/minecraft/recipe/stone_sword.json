@@ -1,18 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
+  "ingredients": [
+    {
+      "item": "overgeared:copper_sword_blade"
     },
-    "X": {
-      "item": "minecraft:copper_ingot"
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:stick"
     }
-  },
-  "pattern": [
-    " X ",
-    " X ",
-    " # "
   ],
   "result": {
     "count": 1,

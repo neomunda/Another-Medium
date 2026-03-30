@@ -4,11 +4,11 @@
     {"item": "minecraft:iron_ingot"},
     {"item": "minecraft:iron_ingot"},
     {"item": "minecraft:iron_ingot"},
-    {"tag": "minecraft:coals"},
+    {"item": "create:cinder_flour"},
     {"item": "minecraft:fire_charge"}
   ],
   "result": {
       "count": 3,
-      "id": "overgeared:heated_steel_ingot"
+      "id": "alloyed:steel_ingot"
   }
 }

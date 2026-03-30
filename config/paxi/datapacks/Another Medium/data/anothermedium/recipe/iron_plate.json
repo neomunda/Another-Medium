@@ -9,10 +9,11 @@
   },
   "need_quenching": false,
   "pattern": [
-    "#"
+    "##",
+    "##"
   ],
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "create:golden_sheet"
   },
   "show_notification": false,

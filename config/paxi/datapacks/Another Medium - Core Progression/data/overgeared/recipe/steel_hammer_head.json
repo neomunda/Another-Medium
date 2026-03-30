@@ -1,14 +1,14 @@
 {
   "type": "overgeared:forging",
   "category": "TOOL_HEADS",
-  "hammering": 3,
+  "hammering": 4,
   "has_polishing": false,
   "key": {
     "#": {
-      "item": "minecraft:copper_block"
+      "item": "minecraft:iron_block"
     },
     "C": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:iron_ingot"
     } 
   },
   "pattern": [
@@ -16,7 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "overgeared:copper_hammer_head"
+    "id": "overgeared:steel_hammer_head"
   },
   "show_notification": false,
   "tier": "stone"

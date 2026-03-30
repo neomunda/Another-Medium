@@ -25,3 +25,9 @@ general = {disable_mod = false, hide_bossbar = true, shadow_text = false, auto_s
 	lines = {fps = true}
 	enabled = true
 	color_low = 13619151
+[[modules_left]]
+	name = "location"
+	name_color = 43520
+	value_color = 5636095
+	lines = {light = false, biome = true, rotation = false, facing = false, slime_chunk = false, local_difficulty = false, day_ticks = false, days_played = false, dimension = false, highest_block = false, highest_block_server = false, light_server = false}
+	enabled = true

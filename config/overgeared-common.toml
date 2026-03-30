@@ -18,7 +18,7 @@
 	# Range: > 0
 	max_uses = 64
 	#Enable Stone Smithing Anvil turns into cobblestone after falling
-	enableAnvilToStone = true
+	enableAnvilToStone = false
 
 ["Heated Items"]
 	#How many ticks before a heated item cools off in inventory (default: 1200 = 60s)
@@ -240,7 +240,7 @@
 	#Items or tags that will NOT receive base durability multiplier
 	base_durability_blacklist = ["minecraft:flint_and_steel", "overgeared:fired_tool_cast"]
 	#Can the grindstone be used for restoring durability or not
-	grindingToggle = true
+	grindingToggle = false
 	#Items or tags that cannot be repaired or affected by grinding. Prefix with '#' to use a tag, e.g. '#c:ingots/iron'
 	grindingBlacklist = ["minecraft:elytra", "overgeared:wooden_tongs", "overgeared:fired_tool_cast"]
 	#How much the item durability reduce per grindstone use
@@ -322,7 +322,7 @@
 
 ["Loot Quality"]
 	#Toggle for loot quality
-	enableLootQuality = true
+	enableLootQuality = false
 	#Weight for Poor quality for loot-tools/weapons. Set to 0 to disable.
 	# Default: 50
 	# Range: > 0
@@ -357,6 +357,6 @@
 	#
 	#Example: ["sword", 18] = 2 ingots
 	#
-	castingToolTypes = [["sword", 18], ["pickaxe", 27], ["axe", 27], ["shovel", 9], ["hoe", 18], ["hammer", 18]]
+	castingToolTypes = [["sword", 18], ["pickaxe", 27], ["axe", 27], ["shovel", 9], ["hoe", 18], ["hammer", 99]]
 	#Material Source Items: [item_id or item_tag, material_id, material_value]
 	materialSetting = [["minecraft:iron_nugget", "iron", 1], ["minecraft:iron_ingot", "iron", 9], ["minecraft:iron_block", "iron", 81], ["minecraft:gold_nugget", "gold", 1], ["minecraft:gold_ingot", "gold", 9], ["minecraft:gold_block", "gold", 81], ["minecraft:copper_ingot", "copper", 9], ["#c:nuggets/copper", "copper", 1], ["minecraft:copper_block", "copper", 81], ["#c:ingots/steel", "steel", 9], ["#c:nuggets/steel", "steel", 1], ["#c:storage_blocks/steel", "steel", 81], ["#c:ingots/silver", "silver", 9], ["#c:nuggets/silver", "silver", 1], ["#c:storage_blocks/silver", "silver", 81]]

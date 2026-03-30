@@ -1,5 +1,10 @@
+[
 {
-  "swapper": {
-    "examplemod:input_block": "examplemod:output_block"
-  }
+  "inputs": ["minecraft:diamond_ore"],
+  "output": "minecraft:stone"
+},
+{
+  "inputs": ["minecraft:deepslate_diamond_ore"],
+  "output": "minecraft:deepslate"
 }
+]

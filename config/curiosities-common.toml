@@ -1,0 +1,11 @@
+	[generation.structures]
+		#If Chains and Lanterns in Bastion Remnants are replaced by Big Chains and Heavy Lanterns
+		"Invar Decor in Bastions" = false
+
+	[items.armor]
+		#The exponential fall speed increase the Heavy Boots normally apply
+		"Heavy Boots normal fall speed" = 0.05
+		#The exponential fall speed increase the Heavy Boots apply while crouching
+		"Heavy Boots crouching fall speed" = 0.1
+		#The maximum downwards velocity before the Heavy Boots stop increasing fall speed
+		"Heavy Boots maximum fall speed" = 5.0
