@@ -24,7 +24,7 @@
 	#How many ticks before a heated item cools off in inventory (default: 1200 = 60s)
 	# Default: 1200
 	# Range: > 1
-	heatedItemCooldownTicks = 1200
+	heatedItemCooldownTicks = 1
 	#Block entity types that should NOT be checked for item cooling.
 	#Use the full registry name, e.g. 'minecraft:furnace', 'minecraft:blast_furnace'.
 	#Useful for excluding containers you don't want affected by cooling.
@@ -271,7 +271,7 @@
 	#List of hidden tool types for blueprints. These exist but do NOT appear in the Drafting Table.
 	hiddenToolTypes = []
 	#Only increase blueprint's use if you get Expert or above in minigame.
-	expertAboveIncreaseBlueprintToggle = true
+	expertAboveIncreaseBlueprintToggle = false
 	#Uses required to reach the next quality after Master
 	# Default: 0
 	# Range: > 0

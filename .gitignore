@@ -12,10 +12,24 @@ crash-reports/
 mods/*.jar
 !mods/mods.txt
 /mods/.index/
+cache/
+texturepacks/
+shaderpacks/
+server-resource-packs/
+schematics/
+downloads/
+defaultconfigs/
+datapacks/
+coremods/
+data/
 
 *.db
 *.env
 
 command_history.txt
+usercache.json
+usernamecache.json
+icon.png
+emi.json
 
 *.disabled

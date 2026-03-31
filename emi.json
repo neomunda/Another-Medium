@@ -1,6 +1,34 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:curiosities:aluminum_pickaxe",
+    "item:curiosities:aluminum_shovel",
+    "item:minecraft:golden_hoe",
+    "item:minecraft:golden_axe",
+    "item:minecraft:golden_shovel",
+    "item:minecraft:iron_shovel",
+    "item:minecraft:iron_hoe",
+    "item:minecraft:iron_pickaxe",
+    "item:minecraft:iron_axe",
+    "item:overgeared:nether_tool_cast",
+    "item:overgeared:copper_hoe_head",
+    "item:overgeared:copper_shovel_head",
+    "item:overgeared:copper_axe_head",
+    "item:overgeared:copper_pickaxe_head",
+    "item:overgeared:copper_sword_blade",
+    "item:overgeared:stone_hoe_head",
+    "item:overgeared:steel_hammer_head",
+    "item:overgeared:copper_hammer_head{\"overgeared:polished\":0b}",
+    "item:minecraft:lava_bucket",
+    "item:overgeared:heated_steel_ingot",
+    "item:overgeared:heated_silver_ingot",
+    "item:overgeared:iron_shovel_head",
+    "item:overgeared:steel_shovel_head",
+    "item:overgeared:steel_axe_head",
+    "item:overgeared:steel_sword_blade",
+    "item:overgeared:steel_pickaxe_head",
+    "item:overgeared:heated_iron_ingot",
+    "item:overgeared:heated_copper_ingot",
     {
       "type": "item",
       "id": "minecraft:chain",
@@ -16,7 +44,6 @@
     "item:curiosities:invar_ingot",
     "item:overgeared:clay_tool_cast{\"minecraft:max_stack_size\":64,\"overgeared:cast_data\":{amount:18,input:[{count:2,id:\"minecraft:copper_ingot\"}],materials:{copper:18},max_amount:18,tool_type:\"hammer\"}}",
     "item:overgeared:iron_sword_blade",
-    "item:overgeared:iron_shovel_head",
     {
       "type": "item",
       "id": "create:iron_sheet",
@@ -36,19 +63,13 @@
       "id": "minecraft:copper_ingot",
       "amount": 64
     },
-    "item:overgeared:heated_copper_ingot",
-    "item:overgeared:heated_silver_ingot",
     {
       "type": "item",
       "id": "minecraft:raw_iron",
       "amount": 62
     },
-    "item:overgeared:heated_iron_ingot",
     "item:overgeared:smithing_hammer",
     "item:overgeared:copper_smithing_hammer",
-    "item:overgeared:copper_hammer_head",
-    "item:overgeared:heated_steel_ingot",
-    "item:overgeared:steel_hammer_head",
     "item:alloyed:steel_ingot",
     "item:alloyed:forge",
     {
@@ -66,11 +87,9 @@
       "id": "minecraft:furnace",
       "amount": 64
     },
-    "item:overgeared:copper_pickaxe_head",
     "item:overgeared:iron_pickaxe_head",
     "item:overgeared:golden_pickaxe_head",
     "item:overgeared:golden_sword_blade",
-    "item:overgeared:copper_axe_head",
     {
       "type": "item",
       "id": "alloyed:waxed_cut_bronze",
@@ -87,9 +106,7 @@
       "amount": 15
     },
     "item:minecraft:iron_chestplate",
-    "item:overgeared:copper_sword_blade",
     "item:overgeared:iron_axe_head",
-    "item:overgeared:nether_tool_cast",
     "item:minecraft:gold_ingot",
     "item:overgeared:golden_hoe_head",
     "item:overgeared:golden_shovel_head",
@@ -106,7 +123,6 @@
     "item:minecraft:shears",
     "item:overgeared:iron_tongs",
     "item:overgeared:iron_tong",
-    "item:minecraft:iron_pickaxe",
     "item:minecraft:grindstone",
     {
       "type": "item",
@@ -154,10 +170,8 @@
       "id": "abundant_atmosphere:shuffled_bricks",
       "amount": 64
     },
-    "item:overgeared:steel_sword_blade",
     "item:alloyed:steel_fishing_rod",
     "item:alloyed:steel_sword",
-    "item:overgeared:steel_pickaxe_head",
     "item:minecraft:leather_chestplate",
     "item:alloyed:steel_chestplate",
     "item:minecraft:netherite_chestplate",
@@ -176,7 +190,6 @@
     "item:minecraft:torch",
     "item:minecraft:cauldron",
     "item:overgeared:steel_plate",
-    "item:overgeared:steel_axe_head",
     {
       "type": "item",
       "id": "minecraft:netherite_ingot",
@@ -215,7 +228,6 @@
       "id": "minecraft:raw_gold",
       "amount": 64
     },
-    "item:overgeared:copper_shovel_head",
     "item:minecraft:water_bucket",
     "item:create:encased_fan",
     "item:overgeared:heated_netherite_alloy",
