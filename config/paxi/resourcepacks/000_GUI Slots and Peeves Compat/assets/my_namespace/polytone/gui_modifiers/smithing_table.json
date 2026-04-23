@@ -1,0 +1,21 @@
+{
+  "target_type": "menu_class",
+  "target": "net.minecraft.world.inventory.SmithingMenu",
+  "slot_modifiers": [
+    {
+      "slots": "0->3",
+      "x_offset": 0,
+      "y_offset": -3
+    },
+    {
+      "slots": 3,
+      "x_offset": -8,
+      "y_offset": 0
+    },
+    {
+      "slots": "4->39",
+      "x_offset": 0,
+      "y_offset": 3
+    }
+  ]
+}

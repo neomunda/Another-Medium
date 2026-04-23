@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "overgeared:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
     {
       "item": "overgeared:copper_axe_head"
     },
     {
-      "item": "minecraft:string"
+      "tag": "anothermedium:sticky_materials"
     },
     {
       "item": "minecraft:stick"
@@ -14,6 +14,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:copper_axe"
+    "id": "minecraft:stone_axe"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "target_type": "menu_class",
+  "target": "net.minecraft.world.inventory.HopperMenu",
+  "slot_modifiers": [
+    {
+      "slots": "0->4",
+      "x_offset": -2,
+      "y_offset": -14
+    },
+    {
+      "slots": "5->40",
+      "x_offset": -2,
+      "y_offset": -12
+    }
+  ]
+}

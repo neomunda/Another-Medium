@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "pack_format": 16,
+        "supported_formats": {"min_inclusive": 1, "max_inclusive": 99},
+        "description": "A new way to play Minecraft\nBy SadSquire"
+    }
+}

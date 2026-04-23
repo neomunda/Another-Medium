@@ -1,0 +1,818 @@
+
+{
+  "music.dragon": {
+   "replace": true,
+     "subtitle": "§d§o§lIt Dreamt of FREEDOM",
+     "sounds": [
+       {
+         "name": "music/game/end/never_lands",
+         "stream": true
+       }
+     ]
+   },
+  "music.end": {
+   "replace": true,
+     "subtitle": "It Dreamt",
+     "sounds": [
+       {
+         "name": "music/game/end/face_it",
+         "stream": true
+       }
+     ]
+   },
+    "music.credits": {
+   "replace": true,
+     "sounds": [
+       {
+         "name": "music/game/end/yggdrasil",
+         "stream": true
+       }
+     ]
+   },
+   "music.game": {
+   "replace": true,
+     "subtitle": "§eIt Dreamt of Adventure!",
+     "sounds": [
+       {
+         "name": "music/game/argon",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/cold_feet",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/hiils",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/leftovers",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/legacy",
+         "stream": true,
+         "volume": 1
+       },
+     {
+         "name": "music/game/lilith",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/long_way_down",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/machine_translation",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/make_believe",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/netherlands",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/over_underacheiver",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/pocketbook",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/remembories",
+         "stream": true,
+         "volume": 1
+       },
+     {
+         "name": "music/game/roomtone",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/seven",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/silent_alchemy",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/subwoofer_vista",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/suspended_in_air",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+     {
+         "name": "music/game/viridian_kingdom",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+       },
+       {
+           "name": "music/addendum/cradle",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/cube_squared",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/fish_mouse",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+         "name": "music/addendum/stray_voxel",
+         "stream": true,
+         "volume": 1,
+     "weight": 2
+     },
+       {
+           "name": "music/addendum/haydur_park",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/it_dreamt_again",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/lavalamp",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/no_promises",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/rainbow",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/rehearsal",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/renee",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/toybox",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       },
+       {
+           "name": "music/addendum/neuro_pudding",
+           "stream": true,
+           "volume": 1,
+       "weight": 2
+       }
+     ]
+   },
+   "music.menu": {
+   "replace": true,
+     "sounds": [
+       {
+         "name": "music/menu/limitless",
+         "stream": true
+       },
+       {
+         "name": "music/menu/neverlands",
+         "stream": true
+       },
+       {
+         "name": "music/menu/omission",
+         "stream": true
+       },
+       {
+         "name": "music/menu/origami_hairball",
+         "stream": true
+       }
+     ]
+   },
+   "music.nether.basalt_deltas": {
+   "replace": true,
+     "subtitle": "§7It Dreamt of Overload.",
+     "sounds": [
+       {
+         "name": "music/game/nether/eryth",
+         "stream": true,
+         "weight": 7
+       },
+       {
+         "name": "music/game/nether/limited",
+         "stream": true
+       },
+       {
+         "name": "music/game/nether/vertex_angel",
+         "stream": true
+       },       {
+        "name": "music/addendum/plastic_lungs",
+        "stream": true
+      },
+      {
+       "name": "music/addendum/widows_willow",
+       "stream": true
+     }
+     ]
+   },
+   "music.nether.crimson_forest": {
+     "replace": true,
+     "subtitle": "§cIt Dreamt of Impatience",
+     "sounds": [
+       {
+         "name": "music/game/nether/what_remains",
+         "stream": true,
+         "weight": 7
+       },
+       {
+         "name": "music/game/nether/eryth",
+         "stream": true
+       },
+       {
+         "name": "music/game/nether/vertex_angel",
+         "stream": true
+       },
+       {
+        "name": "music/addendum/plastic_lungs",
+        "stream": true
+      },
+      {
+       "name": "music/addendum/widows_willow",
+       "stream": true
+     },
+       {
+         "name": "music/game/nether/limited",
+         "stream": true
+       }
+     ]
+   },
+   "music.nether.nether_wastes": {
+   "replace": true,
+     "subtitle": "§4It Dreamt of Stagnation",
+     "sounds": [
+       {
+         "name": "music/game/nether/judas_rots",
+         "stream": true,
+         "weight": 7
+       },
+       {
+         "name": "music/game/nether/eryth",
+         "stream": true
+       },
+       {
+         "name": "music/game/nether/vertex_angel",
+         "stream": true
+       },
+       {
+        "name": "music/addendum/plastic_lungs",
+        "stream": true
+      },
+      {
+       "name": "music/addendum/widows_willow",
+       "stream": true
+     },
+       {
+         "name": "music/game/nether/limited",
+         "stream": true
+       }
+     ]
+   },
+   "music.nether.soul_sand_valley": {
+     "replace": true,
+     "subtitle": "§3It Dreamt of...skeletons...",
+     "sounds": [
+       {
+         "name": "music/game/nether/internal_eternal",
+         "stream": true,
+         "weight": 7
+       },
+       {
+         "name": "music/game/nether/eryth",
+         "stream": true
+       },
+       {
+         "name": "music/game/nether/vertex_angel",
+         "stream": true
+       },
+       {
+         "name": "music/addendum/plastic_lungs",
+         "stream": true
+       },
+       {
+        "name": "music/addendum/widows_willow",
+        "stream": true
+      },
+       {
+         "name": "music/game/nether/limited",
+         "stream": true
+       }
+     ]
+   },
+   "music.nether.warped_forest": {
+     "replace": true,
+     "subtitle": "§6It Dreamt of Desperation",
+     "sounds": [
+       {
+         "name": "music/game/nether/nether_lands",
+         "stream": true,
+         "weight": 6
+       }
+   ]
+   },
+   "music.overworld.badlands": {
+     "replace": true,
+     "subtitle": "§eIt Dreamt of Radiance",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       },
+       {
+        "name": "music/addendum/mirage",
+        "stream": true,
+        "weight": 30
+    }
+     ]
+   },
+   "music.overworld.bamboo_jungle": {
+     "replace": true,
+     "subtitle": "§aIt Dreamt of Growth",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.overworld.cherry_grove": {
+     "replace": true,
+     "subtitle": "§dIt Dreamt of Divinity",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.overworld.deep_dark": {
+     "replace": true,
+     "subtitle": "§2It Dreamt of Silence",
+     "sounds": [
+       {
+         "name": "music/game/bathophobia",
+         "stream": true
+       }
+     ]
+   },
+   "music.overworld.desert": {
+     "replace": true,
+     "subtitle": "§cIt Dreamt of Discovery",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       },
+       {
+        "name": "music/addendum/mirage",
+        "stream": true,
+        "weight": 30
+    }
+     ]
+   },
+   "music.overworld.dripstone_caves": {
+     "replace": true,
+     "subtitle": "§7It Dreamt of Sharpness",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       },
+       {
+         "name": "music/game/metastasis",
+         "stream": true,
+         "volume": 1,
+     "weight": 30
+       }
+     ]
+   },
+   "music.overworld.flower_forest": {
+     "replace": true,
+     "subtitle": "§dIt Dreamt of Peace",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.overworld.forest": {
+     "replace": true,
+     "subtitle": "§6It Dreamt of Hope",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.overworld.frozen_peaks": {
+     "replace": true,
+     "subtitle": "§bIt Dreamt of New Beginnings",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       },
+       {
+        "name": "music/addendum/stand_tall",
+        "stream": true,
+        "weight": 30
+    }
+     ]
+   },
+   "music.overworld.grove": {
+     "replace": true,
+     "subtitle": "§bIt Dreamt of Resilience",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       },
+       {
+        "name": "music/addendum/stand_tall",
+        "stream": true,
+        "weight": 30
+    }
+     ]
+   },
+   "music.overworld.jagged_peaks": {
+     "replace": true,
+     "subtitle": "§bIt Dreamt of Innovation",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       },
+       {
+        "name": "music/addendum/stand_tall",
+        "stream": true,
+        "weight": 30
+    }
+     ]
+   },
+   "music.overworld.jungle": {
+     "replace": true,
+     "subtitle": "§aIt Dreamt of Growth",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.overworld.lush_caves": {
+     "replace": true,
+     "subtitle": "§aIt dreamt of Wonder",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       },
+       {
+         "name": "music/game/metastasis",
+         "stream": true,
+         "volume": 1,
+     "weight": 30
+       }
+     ]
+   },
+   "music.overworld.meadow": {
+     "replace": true,
+     "subtitle": "§eIt Dreamt of Change",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.overworld.old_growth_taiga": {
+     "replace": true,
+     "subtitle": "§9It Dreamt of Potential",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.overworld.snowy_slopes": {
+     "replace": true,
+     "subtitle": "§bIt Dreamt of Adaptation",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       },
+       {
+        "name": "music/addendum/stand_tall",
+        "stream": true,
+        "weight": 30
+    }
+     ]
+   },
+   "music.overworld.sparse_jungle": {
+     "replace": true,
+     "subtitle": "§aIt Dreamt of Growth",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.overworld.stony_peaks": {
+     "replace": true,
+     "subtitle": "§bIt Dreamt of Miracles",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.overworld.swamp": {
+     "replace": true,
+     "subtitle": "§2It Dreamt of Serenity",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       }
+     ]
+   },
+   "music.under_water": {
+     "replace": true,
+     "subtitle": "§9It Dreamt of Reflection",
+     "sounds": [
+       {
+         "name": "music/game/water/akoyene",
+         "stream": true,
+         "volume": 1
+       },
+       {
+         "name": "music/game/water/oyogu",
+         "stream": true,
+         "volume": 1
+       }
+     ]
+   },  
+     "music.creative": {
+   "replace":true,
+   "subtitle": "§3§oIt Dreamt of Inspiration!",
+     "sounds": [
+       {
+         "name": "music.game",
+         "type": "event"
+       },
+       {
+         "name": "music/game/creative/polyphony",
+         "stream": true,
+     "weight": 10
+       },
+       {
+         "name": "records/hey",
+         "stream": true,
+     "weight": 2
+       },
+       {
+         "name": "records/stalled",
+         "stream": true,
+     "weight": 2
+       },
+       {
+         "name": "records/busy_signal",
+         "stream": true,
+     "weight": 2
+       },
+       {
+         "name": "records/cascade",
+         "stream": true,
+     "weight": 2
+       },
+       {
+         "name": "records/lucky_break",
+         "stream": true,
+     "weight": 2
+       },
+       {
+         "name": "records/sunset_mini_mart",
+         "stream": true,
+     "weight": 2
+       }
+     ]
+   },
+
+   
+   "music_disc.11": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/hypoglycemia",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.13": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/gloob",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.5": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/takeyourswing",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.blocks": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/lucky_break",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.cat": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/bymyside",
+           "stream": true
+       }
+       ]
+     },
+     "music_disc.chirp": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/sunset_mini_mart",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.far": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/cascade",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.mall": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/hey",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.mellohi": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/12",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.otherside": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/lunar",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.pigstep": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/three_to_one",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.stal": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/stalled",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.strad": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/busy_signal",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.wait": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/wait1",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.ward": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/bitmap_calico",
+           "stream": true
+         }
+       ]
+     },
+     "music_disc.relic": {
+     "replace":true,
+       "sounds": [
+         {
+           "name": "records/analog_lullaby",
+           "stream": true
+         }
+       ]
+     }
+   }

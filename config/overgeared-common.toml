@@ -24,7 +24,7 @@
 	#How many ticks before a heated item cools off in inventory (default: 1200 = 60s)
 	# Default: 1200
 	# Range: > 1
-	heatedItemCooldownTicks = 1
+	heatedItemCooldownTicks = 1200
 	#Block entity types that should NOT be checked for item cooling.
 	#Use the full registry name, e.g. 'minecraft:furnace', 'minecraft:blast_furnace'.
 	#Useful for excluding containers you don't want affected by cooling.
@@ -360,3 +360,20 @@
 	castingToolTypes = [["sword", 18], ["pickaxe", 27], ["axe", 27], ["shovel", 9], ["hoe", 18], ["hammer", 99]]
 	#Material Source Items: [item_id or item_tag, material_id, material_value]
 	materialSetting = [["minecraft:iron_nugget", "iron", 1], ["minecraft:iron_ingot", "iron", 9], ["minecraft:iron_block", "iron", 81], ["minecraft:gold_nugget", "gold", 1], ["minecraft:gold_ingot", "gold", 9], ["minecraft:gold_block", "gold", 81], ["minecraft:copper_ingot", "copper", 9], ["#c:nuggets/copper", "copper", 1], ["minecraft:copper_block", "copper", 81], ["#c:ingots/steel", "steel", 9], ["#c:nuggets/steel", "steel", 1], ["#c:storage_blocks/steel", "steel", 81], ["#c:ingots/silver", "silver", 9], ["#c:nuggets/silver", "silver", 1], ["#c:storage_blocks/silver", "silver", 81]]
+
+["Mining Speed Bonuses"]
+	# Default: 1.5
+	# Range: -5.0 ~ 5.0
+	masterMiningSpeedBonus = 1.5
+	# Default: 1.3
+	# Range: -5.0 ~ 5.0
+	perfectMiningSpeedBonus = 1.3
+	# Default: 1.15
+	# Range: -5.0 ~ 5.0
+	expertMiningSpeedBonus = 1.15
+	# Default: 1.0
+	# Range: -5.0 ~ 5.0
+	wellMiningSpeedBonus = 1.0
+	# Default: 0.7
+	# Range: 0.0 ~ 5.0
+	poorMiningSpeedBonus = 0.7

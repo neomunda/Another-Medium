@@ -1,0 +1,16 @@
+{
+  "target_type": "menu_class",
+  "target": "net.minecraft.world.inventory.CraftingMenu",
+  "slot_modifiers": [
+    {
+      "slots": "0->9",
+      "x_offset": -2,
+      "y_offset": -11
+    },    
+    {
+      "slots": "10->45",
+      "x_offset": -2,
+      "y_offset": -10
+    }
+  ]
+}

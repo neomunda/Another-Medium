@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/pale_moss_block", "weight":100 },
+      { "model": "block/flowering_pale_moss_block", "weight":3  }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "supplementaries:block/candle_holders/ceiling_3_south",
+  "textures": {
+    "candle": "minecraft:block/candle"
+  }
+}

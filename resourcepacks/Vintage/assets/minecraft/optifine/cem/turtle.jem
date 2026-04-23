@@ -1,0 +1,194 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -5, 10],
+			"animations": [
+				{
+					"body2_rotation.rx": 0
+				},
+				{
+					"leg5.ry": "-sin(time*0.05)*0.3",
+					"leg6.ry": "sin(time*0.05)*0.3",
+					"leg7.rx": "-sin(time*0.05)*0.3",
+					"leg8.rx": "sin(time*0.05)*0.3",
+					"head2.rx": "torad(head_pitch)*1",
+					"head2.ry": "torad(head_yaw)*1"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -13, 10],
+			"submodels": [
+				{
+					"id": "body_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 13, -10],
+					"rotate": [-90, 0, 0],
+					"submodels": [
+						{
+							"id": "turtle",
+							"invertAxis": "xy",
+							"translate": [0, -11, -13],
+							"rotate": [90, 0, 0],
+							"texture": "textures/entity/turtle_optifine.png",
+							"textureSize": [64, 64],
+							"submodels": [
+								{
+									"id": "head2",
+									"invertAxis": "xy",
+									"translate": [0, 2, -7],
+									"boxes": [
+										{"coordinates": [-2, -1, -4, 4, 3, 4], "textureOffset": [32, 0]}
+									]
+								},
+								{
+									"id": "leg5",
+									"invertAxis": "xy",
+									"translate": [-5, 3, -4],
+									"boxes": [
+										{"coordinates": [-7, -1, -2, 7, 1, 3], "textureOffset": [20, 30]}
+									]
+								},
+								{
+									"id": "leg6",
+									"invertAxis": "xy",
+									"translate": [5, 3, -4],
+									"boxes": [
+										{
+											"coordinates": [0, -1, -2, 7, 1, 3],
+											"uvNorth": [30, 33, 23, 34],
+											"uvEast": [33, 33, 30, 34],
+											"uvSouth": [40, 33, 33, 34],
+											"uvWest": [23, 33, 20, 34],
+											"uvUp": [23, 33, 30, 30],
+											"uvDown": [30, 30, 37, 33]
+										}
+									]
+								},
+								{
+									"id": "leg7",
+									"invertAxis": "xy",
+									"translate": [-3.5, 2.5, 4.5],
+									"submodels": [
+										{
+											"id": "bone",
+											"invertAxis": "xy",
+											"translate": [0, 0, 0],
+											"rotate": [0, 90, 0],
+											"boxes": [
+												{"coordinates": [-7.5, -0.5, -1.5, 7, 1, 3], "textureOffset": [20, 30]}
+											]
+										}
+									]
+								},
+								{
+									"id": "body4",
+									"invertAxis": "xy",
+									"translate": [0, 13, -10],
+									"submodels": [
+										{
+											"id": "body2_rotation2",
+											"invertAxis": "xy",
+											"translate": [0, 0, 0],
+											"rotate": [-90, 0, 0]
+										}
+									]
+								},
+								{
+									"id": "body_rotation2",
+									"invertAxis": "xy",
+									"translate": [0, 13, -10],
+									"rotate": [-90, 0, 0],
+									"boxes": [
+										{"coordinates": [-6, -15, -11, 12, 12, 4], "textureOffset": [0, 0]},
+										{"coordinates": [-5, -15, -13, 10, 12, 2], "textureOffset": [0, 16]}
+									]
+								},
+								{
+									"id": "leg8",
+									"invertAxis": "xy",
+									"translate": [3.5, 2.5, 4.5],
+									"submodels": [
+										{
+											"id": "bone2",
+											"invertAxis": "xy",
+											"translate": [0, 0, 0],
+											"rotate": [0, -90, 0],
+											"boxes": [
+												{
+													"coordinates": [0.5, -0.5, -1.5, 7, 1, 3],
+													"uvNorth": [30, 33, 23, 34],
+													"uvEast": [33, 33, 30, 34],
+													"uvSouth": [40, 33, 33, 34],
+													"uvWest": [23, 33, 20, 34],
+													"uvUp": [23, 33, 30, 30],
+													"uvDown": [30, 30, 37, 33]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"body_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "body2",
+			"id": "body2",
+			"invertAxis": "xy",
+			"translate": [0, -13, 10],
+			"submodels": [
+				{
+					"id": "body2_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 13, -10],
+					"rotate": [-90, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"body2_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-3.5, -2, -11]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [3.5, -2, -11]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-5, -3, 4]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [5, -3, 4]
+		}
+	]
+}

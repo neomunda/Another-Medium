@@ -1,4 +1,5 @@
 {
   "action": "remove",
-  "pattern": "/.*calcite.*/"
+  "pattern": "/.*calcite.*/",
+  "mod": ["abundant_atmosphere"]
 }

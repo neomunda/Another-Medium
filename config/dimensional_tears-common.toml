@@ -1,0 +1,35 @@
+[capabilities]
+	flint_and_steel_portal_lighting = false
+	dimensional_tears_drinking = true
+	end_ocean_bucketable = false
+
+[sounds]
+	portal_creation_sound = true
+	portal_destruction_sound = true
+
+[obtaining]
+	dimensional_tears_from_crying_obsidian = true
+	dimensional_tears_from_respawn_anchor = true
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	portal_destruction_crying_obsidian_chance = 0.25
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	lava_interaction_crying_obsidian_chance = 0.1
+	piglins_give_crying_obsidian = true
+
+[fluids]
+	dimensional_tears_ocean = false
+	dimensional_tears_source_conversion = false
+	# Default: 10
+	# Range: 5 ~ 200
+	fluid_flowing_tick_rate = 10
+
+[teleportation]
+	# Default: 10
+	# Range: 1 ~ 300
+	rifting_delay_seconds = 5
+	fully_submerged_instant_teleport = true
+	# Default: 4
+	# Range: 0 ~ 32
+	spawn_bypass_instant_teleportation_range = 4

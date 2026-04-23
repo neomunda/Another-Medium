@@ -1,0 +1,10 @@
+{
+  "variants": {
+    { "model": "minecraft:block/cactus_age_15", "weight": 20 },
+    { "model": "minecraft:block/cactus_age_15_2", "weight": 20 },
+    { "model": "minecraft:block/cactus_age_15_3", "weight": 20 },
+    { "model": "minecraft:block/cactus_age_15_4", "weight": 20 },
+    { "model": "minecraft:block/cactus_age_15_5", "weight": 20 }
+    ]
+  }
+}

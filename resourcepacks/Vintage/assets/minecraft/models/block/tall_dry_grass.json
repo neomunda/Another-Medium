@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/tall_dry_grass_top",
+		"cross": "block/tall_dry_grass"
+	},
+	"elements": [
+		{
+			"from": [8, 0, -6.2],
+			"to": [8, 32, 22.2],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 15, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 0, -6.2],
+			"to": [8, 32, 22.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 15, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0}
+			}
+		}
+	]
+}

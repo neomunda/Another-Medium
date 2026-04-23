@@ -1,0 +1,237 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"texture": "textures/entity/hoglin/hog.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -21, 8.5],
+			"submodels": [
+				{
+					"id": "head_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 21, -8.5],
+					"rotate": [-50, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"leg1.rx": "sin(limb_swing*1)*limb_speed*2",
+					"leg2.rx": "-sin(limb_swing*1)*limb_speed*2",
+					"leg3.rx": "-sin(limb_swing*1)*limb_speed*2",
+					"leg4.rx": "sin(limb_swing*1)*limb_speed*2",
+					"hog_head_rotate.rx": "torad(head_pitch)*1",
+					"hog_head_rotate.ry": "torad(head_yaw)*1"
+				}
+			]
+		},
+		{
+			"part": "left_ear",
+			"id": "left_ear",
+			"invertAxis": "xy",
+			"translate": [6, -23, 11.5],
+			"submodels": [
+				{
+					"id": "left_ear_rotation",
+					"invertAxis": "xy",
+					"translate": [0.5, 21.25, -8.5],
+					"rotate": [-50, 0, 0],
+					"submodels": [
+						{
+							"id": "left_ear_rotation2",
+							"invertAxis": "xy",
+							"translate": [-6.5, 1.75, -3],
+							"rotate": [0, 0, 45]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"left_ear_rotation.rx": 0,
+					"left_ear_rotation2.rz": 0
+				}
+			]
+		},
+		{
+			"part": "right_ear",
+			"id": "right_ear",
+			"invertAxis": "xy",
+			"translate": [-6, -23, 11.5],
+			"submodels": [
+				{
+					"id": "right_ear_rotation",
+					"invertAxis": "xy",
+					"translate": [-0.5, 21.25, -8.5],
+					"rotate": [-50, 0, 0],
+					"submodels": [
+						{
+							"id": "right_ear_rotation2",
+							"invertAxis": "xy",
+							"translate": [6.5, 1.75, -3],
+							"rotate": [0, 0, -45]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"right_ear_rotation.rx": 0,
+					"right_ear_rotation2.rz": 0
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -17, -4.5],
+			"submodels": [
+				{
+					"id": "hog",
+					"invertAxis": "xy",
+					"translate": [0, 31, -2.5],
+					"boxes": [
+						{"coordinates": [-1, -16, -11, 2, 8, 18], "textureOffset": [0, 41]}
+					],
+					"submodels": [
+						{
+							"id": "leg1",
+							"invertAxis": "xy",
+							"translate": [-4, -23.5, -4],
+							"boxes": [
+								{"coordinates": [-2, -7.5, -2, 4, 7, 4], "textureOffset": [53, 29]}
+							]
+						},
+						{
+							"id": "leg2",
+							"invertAxis": "xy",
+							"translate": [4, -23.5, -4],
+							"boxes": [
+								{"coordinates": [-2, -7.5, -2, 4, 7, 4], "textureOffset": [53, 29]}
+							]
+						},
+						{
+							"id": "leg3",
+							"invertAxis": "xy",
+							"translate": [-4, -23.5, 10.5],
+							"boxes": [
+								{"coordinates": [-2, -7.5, -2.5, 4, 7, 5], "textureOffset": [52, 28]}
+							]
+						},
+						{
+							"id": "leg4",
+							"invertAxis": "xy",
+							"translate": [4, -23.5, 10.5],
+							"boxes": [
+								{"coordinates": [-2, -7.5, -2.5, 4, 7, 5], "textureOffset": [52, 28]}
+							]
+						},
+						{
+							"id": "hog_head_rotate",
+							"invertAxis": "xy",
+							"translate": [0, -17, -8],
+							"submodels": [
+								{
+									"id": "hog_head",
+									"invertAxis": "xy",
+									"translate": [0, 0, 2],
+									"rotate": [-90, 0, 0],
+									"boxes": [
+										{
+											"coordinates": [-7, -1, -4, 14, 13, 14],
+											"uvNorth": [8, 8, 16, 16],
+											"uvEast": [0, 8, 8, 16],
+											"uvSouth": [24, 8, 32, 16],
+											"uvWest": [16, 8, 24, 16],
+											"uvUp": [16, 8, 8, 0],
+											"uvDown": [24, 0, 16, 8],
+											"sizeAdd": 0.5
+										},
+										{
+											"coordinates": [-7, -1, -4, 14, 13, 14],
+											"uvNorth": [80, 9, 88, 17],
+											"uvEast": [72, 9, 80, 17],
+											"uvSouth": [96, 9, 104, 17],
+											"uvWest": [88, 9, 96, 17],
+											"uvUp": [88, 9, 80, 1],
+											"uvDown": [96, 1, 88, 9]
+										},
+										{
+											"coordinates": [-4, 9, -4.5, 8, 8, 6],
+											"uvNorth": [39, 3, 43, 8],
+											"uvEast": [36, 3, 39, 8],
+											"uvSouth": [46, 3, 50, 8],
+											"uvWest": [43, 3, 46, 8],
+											"uvUp": [43, 3, 39, 0],
+											"uvDown": [47, 0, 43, 3]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "hog_body",
+							"invertAxis": "xy",
+							"translate": [0, -18, 0.5],
+							"boxes": [
+								{"coordinates": [-6, -6, 3.5, 12, 11, 8], "textureOffset": [40, 9]},
+								{"coordinates": [-7, -6, -8.5, 14, 13, 12], "textureOffset": [0, 16]}
+							]
+						},
+						{
+							"id": "bone2",
+							"invertAxis": "xy",
+							"translate": [0, -33, 0.5],
+							"submodels": [
+								{
+									"id": "bone4",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0]
+								},
+								{
+									"id": "bone3",
+									"invertAxis": "xy",
+									"translate": [0, 15.875, -6.125],
+									"rotate": [-90, 0, 0]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "mane",
+			"id": "mane",
+			"invertAxis": "xy",
+			"translate": [0, -31, 2.5]
+		},
+		{
+			"part": "front_left_leg",
+			"id": "front_left_leg",
+			"invertAxis": "xy",
+			"translate": [4, -14, 4.75]
+		},
+		{
+			"part": "front_right_leg",
+			"id": "front_right_leg",
+			"invertAxis": "xy",
+			"translate": [-4, -14, 4.5]
+		},
+		{
+			"part": "back_left_leg",
+			"id": "back_left_leg",
+			"invertAxis": "xy",
+			"translate": [4.5, -11, -14]
+		},
+		{
+			"part": "back_right_leg",
+			"id": "back_right_leg",
+			"invertAxis": "xy",
+			"translate": [-4.5, -11, -14]
+		}
+	]
+}

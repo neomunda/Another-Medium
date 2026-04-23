@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/bamboo_leaves",
+		"particle": "block/bamboo_leaves"
+	},
+	"elements": [
+		{
+			"from": [9, 0, -6],
+			"to": [9, 32, 22],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [9, 24, 9], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-6, 0, 7],
+			"to": [22, 32, 7],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [9, 24, 7], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#2"}
+			}
+		}
+	]
+}

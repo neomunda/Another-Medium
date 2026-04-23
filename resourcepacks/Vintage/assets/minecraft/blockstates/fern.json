@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+       { "model": "block/fern" },
+       { "model": "block/mid_fern" },
+       { "model": "block/tall_fern" }
+    ]
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "overgeared:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
     {
       "item": "overgeared:copper_shovel_head"
     },
     {
-      "item": "minecraft:string"
+      "tag": "anothermedium:sticky_materials"
     },
     {
       "item": "minecraft:stick"

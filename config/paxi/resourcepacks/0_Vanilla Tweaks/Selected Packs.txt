@@ -1,0 +1,7 @@
+Vanilla Tweaks Resource Pack
+Version: 1.21
+Packs:
+	ConsolePanoramaTU70
+	BlackstoneBG
+	PingColorIndicator
+	OldExplosionSounds

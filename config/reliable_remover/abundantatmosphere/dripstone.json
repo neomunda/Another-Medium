@@ -1,5 +1,6 @@
 {
   "action": "remove",
-  "pattern": "/.*dripstone.*/"
+  "pattern": "/.*dripstone.*/",
+  "mod": ["abundant_atmosphere"]
 }
 

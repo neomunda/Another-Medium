@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "layer0": "kubejs:item/electrum_lance_gui"
+  },
+  "base": {
+    "parent": "kubejs:item/electrum_lance_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "kubejs:item/electrum_lance_gui"
+    },
+    "fixed": {
+      "parent": "kubejs:item/electrum_lance_gui"
+    }
+  }
+}

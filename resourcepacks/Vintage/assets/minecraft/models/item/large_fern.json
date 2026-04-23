@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/large_fern_top",
+        "layer1": "item/large_fern_top"
+    }
+}

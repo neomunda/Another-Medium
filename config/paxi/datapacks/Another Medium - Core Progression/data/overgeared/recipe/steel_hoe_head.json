@@ -1,13 +1,10 @@
 {
   "type": "overgeared:forging",
-  "blueprint": [
-    "hoe"
-  ],
   "category": "TOOL_HEADS",
   "hammering": 4,
   "key": {
     "#": {
-      "item": "alloyed:steel_ingot"
+      "item": "overgeared:heated_steel_ingot"
     }
   },
   "pattern": [

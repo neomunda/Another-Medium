@@ -4,7 +4,7 @@
   "hammering": 3,
   "key": {
     "#": {
-      "item": "minecraft:gold_ingot"
+      "item": "kubejs:heated_gold_ingot"
     }
   },
   "pattern": [

@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/cactus_flower"
+      },
+      {
+        "model": "minecraft:block/cactus_flower_red",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/cactus_flower_blue",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/cactus_flower_orange",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/cactus_flower_green",
+        "y": 180
+
+      }
+    ]
+  }
+}

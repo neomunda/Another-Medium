@@ -1,0 +1,6 @@
+{
+  "parent": "supplementaries:block/candle_holders/wall_4",
+  "textures": {
+    "candle": "minecraft:block/black_candle"
+  }
+}

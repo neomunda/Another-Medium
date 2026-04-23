@@ -1,0 +1,118 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+
+[bow]
+enablePerfectShot = true
+perfectShotAdditionalDamage = 2
+perfectShotTimeframe = 0.2
+enableBackstep = true
+backstepTimeframe = 5
+improvedMultishot = true
+maxMultishotLevel = 3
+additionalArrowsPerLevel = 1
+playerDrawingSounds = true
+mobDrawingSounds = true
+acceptMultishot = true
+bowNetheriteVariant = false
+
+[crossbow]
+improvedPiercing = true
+percentArmorIgnoredPerLevel = 15
+stopPiercingOnArmoredEntity = true
+fixedArrowDamage = true
+fixedArrowDamageAmount = 10
+modifyFireworkDamage = true
+baseFireworkDamage = 12
+damagePerFireworkStar = 3
+modifyLoadSpeed = true
+loadTime = 2.0
+rejectMultishot = false
+acceptPower = true
+acceptInfinity = true
+crossbowNetheriteVariant = false
+
+[sword]
+enableCriticalCounter = true
+criticalCounterTimeframe = 10
+disableVanillaCrits = true
+improvedSweepingEdge = true
+sweepingEdgeAdditionalDamagePerMob = 1.0
+maxMobAmountUsedForDamageIncrease = 10
+rejectKnockback = true
+
+[axe]
+cripplingThrow = true
+cripplingThrowBleedingDuration = 120
+cripplingThrowBaseBleedingDPS = 1.0
+cripplingThrowBleedingDPSIncreasePerLevel = 0.5
+cripplingThrowBaseSlownessAmplifier = 1
+cripplingThrowSlownessAmplifierIncreasePerLevel = 1
+maxTimeStuckInTarget = 240
+requireLoyaltyForRecall = false
+enableCriticalCounter = true
+disableVanillaCrits = false
+acceptKnockback = true
+acceptLooting = true
+
+[shield]
+enableBash = true
+bashShieldCooldown = 8
+bashBaseDamage = 0.0
+bashDamagePerLevel = 2.0
+bashBaseRange = 1.5
+bashRangePerLevel = 0.5
+bashBaseKnockback = 0.75
+bashKnockbackPerLevel = 0.75
+enableParry = true
+parryTimeframe = 5
+shieldNetheriteVariant = false
+
+[armor]
+armorRebalance = true
+armorMultiplier = 1.5
+helmetArmorPercent = 20
+chestplateArmorPercent = 35
+leggingsArmorPercent = 30
+bootsArmorPercent = 15
+bodyArmorPercent = 80
+totalArmorOverrides = [
+    [ "minecraft:turtle_scute", 24 ],
+    [ "minecraft:diamond", 32 ],
+    [ "minecraft:netherite", 40 ],
+    [ "minecraft:chainmail", 24 ],
+    [ "minecraft:iron", 24 ],
+    [ "minecraft:copper", 16 ],
+    [ "minecraft:gold", 16 ],
+    [ "minecraft:leather", 8 ],
+    [ "minecraft:armadillo_scute", 40 ]
+]
+enchantmentBasedToughness = true
+toughnessPerEnchantment = [
+    [ "protection", 0.3 ],
+    [ "magic_protection", 0.8 ],
+    [ "fire_protection", 0.1 ],
+    [ "projectile_protection", 0.3 ],
+    [ "blast_protection", 0.8 ]
+]
+defenseBasedKnockbackResist = true
+
+[protection]
+meleeProtection = true
+elementalProtection = true
+magicProtection = true
+normalizeEnchantmentCosts = true
+allowMultipleProtectionEnchantments = false
+maxProtectionEnchantments = 2
+
+[tweaks]
+improvedSneaking = true
+detectionRangeReduction = 80
+infinityFix = true
+infinimending = false
+craftTippedArrowsWithRegularPotions = true
+hideDisabledItemsFromRecipeViewers = true
+
+[bugFixes]
+dragonBreathDamageTypeFix = true
+enderDragonVelocityFix = true
+powerDamageFix = true

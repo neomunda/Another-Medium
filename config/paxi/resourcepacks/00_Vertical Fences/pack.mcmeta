@@ -1,0 +1,13 @@
+{
+   "pack": {
+      "pack_format": 55,
+	  "name": "VerticalFences",
+	  "supported_formats": {
+			"min_inclusive": 55,
+			"max_inclusive": 32767
+	  },
+      "min_format": 55,
+      "max_format": 32767,
+      "description": "Vertical Fences by Bobisnotaperson"
+   }
+}

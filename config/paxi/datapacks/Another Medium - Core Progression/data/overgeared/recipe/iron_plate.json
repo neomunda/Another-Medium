@@ -9,13 +9,10 @@
   },
   "need_quenching": false,
   "pattern": [
-    "##",
-    "##"
+    "#"
   ],
   "result": {
-    "count": 4,
     "id": "create:iron_sheet"
   },
-  "show_notification": false,
-  "tier": "stone"
+  "show_notification": false
 }

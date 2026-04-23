@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/short_grass",
+        "layer1": "item/short_grass"
+    }
+}

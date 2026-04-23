@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/diamond_ore", "weight":100 },
+      { "model": "block/diamond_ore_alt", "weight":50 }
+    ]
+  }
+}

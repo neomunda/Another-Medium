@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/blaze_rod"
+	},
+	"display": {
+		"head": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, -4.25, -11.5]
+		}
+	}
+}

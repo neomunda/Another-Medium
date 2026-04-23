@@ -1,0 +1,779 @@
+{
+  "skyRotationOptions": {
+    "liveMode": false,
+    "latitude": -30,
+    "longitude": 0,
+    "globeModeLatitude": false,
+    "globeModeLongitude": false,
+    "globe": {
+      "meridianX": 0.0,
+      "equatorZ": 0.0,
+      "circumference": 65536.0
+    },
+    "axialTilt": 23
+  },
+  "planetTimeOptions": {
+    "liveMode": false,
+    "useWorldSeed": true,
+    "yearLength": 365.25636,
+    "seasonOffset": 0,
+    "monthLength": 29.53059,
+    "moonPhaseOffset": 180,
+    "seedLimit": 18.04,
+    "seedOffset": 50.0
+  },
+  "sunAppearance": {
+    "magnitude": 4.83,
+    "color": "#ffe992"
+  },
+  "enableEclipses": true,
+  "enableSunspots": true,
+  "enableMoonlight": true,
+  "diameterScale": 15,
+  "enablePlanets": true,
+  "enableAsteroids": true,
+  "observerPlanet": "Earth",
+  "bigPlanets": true,
+  "planets": [
+    {
+      "name": "Mercury",
+      "orbit": {
+        "perihelionRadius": 0.308,
+        "aphelionRadius": 0.467,
+        "siderealPeriod": 0.240846,
+        "inclination": 7.005,
+        "advanced": {
+          "longAscending": 48.331,
+          "longPeriapsis": 77.456,
+          "longMean": 252.251
+        }
+      },
+      "appearance": {
+        "modelID": "Terrestrial",
+        "diameter": 4880.0,
+        "color": 7628633,
+        "rings": false
+      },
+      "moons": []
+    },
+    {
+      "name": "Venus",
+      "orbit": {
+        "perihelionRadius": 0.718,
+        "aphelionRadius": 0.728,
+        "siderealPeriod": 0.615198,
+        "inclination": 3.394,
+        "advanced": {
+          "longAscending": 76.68,
+          "longPeriapsis": 131.564,
+          "longMean": 181.679
+        }
+      },
+      "appearance": {
+        "modelID": "Smooth",
+        "diameter": 12104.0,
+        "color": 14211281,
+        "rings": false
+      },
+      "moons": []
+    },
+    {
+      "name": "Earth",
+      "orbit": {
+        "perihelionRadius": 0.9833,
+        "aphelionRadius": 1.0167,
+        "siderealPeriod": 1.0,
+        "inclination": 0.0,
+        "advanced": {
+          "longAscending": 0.0,
+          "longPeriapsis": 102.93768,
+          "longMean": 100.46435
+        }
+      },
+      "appearance": {
+        "modelID": "Terrestrial",
+        "diameter": 12742.0,
+        "color": 3119103,
+        "rings": false
+      },
+      "moons": [
+        {
+          "name": "Moon",
+          "orbit": {
+            "perigeeRadius": 350000.0,
+            "apogeeRadius": 418000.0,
+            "synodicPeriod": 29.530589,
+            "inclination": 10.32,
+            "advanced": {
+              "longAscending": 125.04452,
+              "longPeriapsis": 83.35324,
+              "longMean": 218.31665,
+              "nodalPrecessionPeriod": 18.5996,
+              "apsidalPrecessionPeriod": 8.8504
+            }
+          },
+          "appearance": {
+            "modelID": "Moon",
+            "diameter": 3474.8,
+            "color": 6383218,
+            "rings": false
+          },
+          "specialID": "moon"
+        }
+      ],
+      "specialID": "earth"
+    },
+    {
+      "name": "Mars",
+      "orbit": {
+        "perihelionRadius": 1.381,
+        "aphelionRadius": 1.666,
+        "siderealPeriod": 1.88085,
+        "inclination": 1.85,
+        "advanced": {
+          "longAscending": 49.558,
+          "longPeriapsis": 336.06,
+          "longMean": 355.433
+        }
+      },
+      "appearance": {
+        "modelID": "Terrestrial",
+        "diameter": 6779.0,
+        "color": 11168298,
+        "rings": false
+      },
+      "moons": [
+        {
+          "name": "Phobos",
+          "orbit": {
+            "perigeeRadius": 9234.0,
+            "apogeeRadius": 9518.0,
+            "synodicPeriod": 0.31891,
+            "inclination": 1.1,
+            "advanced": {
+              "longAscending": 169.2,
+              "longPeriapsis": 25.5,
+              "longMean": 215.1,
+              "nodalPrecessionPeriod": 2.262,
+              "apsidalPrecessionPeriod": 1.132
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 22.16,
+            "color": 14279935,
+            "rings": false
+          }
+        },
+        {
+          "name": "Deimos",
+          "orbit": {
+            "perigeeRadius": 23500.0,
+            "apogeeRadius": 23500.0,
+            "synodicPeriod": 1.262361,
+            "inclination": 1.8,
+            "advanced": {
+              "longAscending": 54.4,
+              "longPeriapsis": 54.4,
+              "longMean": 259.4,
+              "nodalPrecessionPeriod": 54.537,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 12.54,
+            "color": 14279935,
+            "rings": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jupiter",
+      "orbit": {
+        "perihelionRadius": 4.95,
+        "aphelionRadius": 5.459,
+        "siderealPeriod": 11.862,
+        "inclination": 1.303,
+        "advanced": {
+          "longAscending": 100.464,
+          "longPeriapsis": 14.331,
+          "longMean": 34.352
+        }
+      },
+      "appearance": {
+        "modelID": "Banded",
+        "diameter": 139820.0,
+        "color": 14272135,
+        "rings": false
+      },
+      "moons": [
+        {
+          "name": "Io",
+          "orbit": {
+            "perigeeRadius": 420000.0,
+            "apogeeRadius": 423400.0,
+            "synodicPeriod": 1.769861,
+            "inclination": 0.0,
+            "advanced": {
+              "longAscending": 99.8,
+              "longPeriapsis": 84.1,
+              "longMean": 171.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 1.333
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 3642.0,
+            "color": 15724348,
+            "rings": false
+          }
+        },
+        {
+          "name": "Europa",
+          "orbit": {
+            "perigeeRadius": 664862.0,
+            "apogeeRadius": 676938.0,
+            "synodicPeriod": 3.554095,
+            "inclination": 0.5,
+            "advanced": {
+              "longAscending": 99.4,
+              "longPeriapsis": 89.0,
+              "longMean": 231.2,
+              "nodalPrecessionPeriod": 30.202,
+              "apsidalPrecessionPeriod": 1.394
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 3122.0,
+            "color": 12440827,
+            "rings": false
+          }
+        },
+        {
+          "name": "Ganymede",
+          "orbit": {
+            "perigeeRadius": 1070400.0,
+            "apogeeRadius": 1070400.0,
+            "synodicPeriod": 7.166389,
+            "inclination": 0.2,
+            "advanced": {
+              "longAscending": 100.0,
+              "longPeriapsis": 192.4,
+              "longMean": 30.5,
+              "nodalPrecessionPeriod": 137.812,
+              "apsidalPrecessionPeriod": 68.301
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 5268.0,
+            "color": 13019029,
+            "rings": false
+          }
+        },
+        {
+          "name": "Callisto",
+          "orbit": {
+            "perigeeRadius": 1882700.0,
+            "apogeeRadius": 1882700.0,
+            "synodicPeriod": 16.753563,
+            "inclination": 0.3,
+            "advanced": {
+              "longAscending": 100.1,
+              "longPeriapsis": 52.6,
+              "longMean": 342.0,
+              "nodalPrecessionPeriod": 577.264,
+              "apsidalPrecessionPeriod": 277.921
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 4821.0,
+            "color": 7833719,
+            "rings": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Saturn",
+      "orbit": {
+        "perihelionRadius": 9.048,
+        "aphelionRadius": 10.124,
+        "siderealPeriod": 29.448,
+        "inclination": 2.485,
+        "advanced": {
+          "longAscending": 113.666,
+          "longPeriapsis": 93.057,
+          "longMean": 50.077
+        }
+      },
+      "appearance": {
+        "modelID": "Banded",
+        "diameter": 116460.0,
+        "color": 11326596,
+        "rings": true
+      },
+      "moons": [
+        {
+          "name": "Mimas",
+          "orbit": {
+            "perigeeRadius": 181000.0,
+            "apogeeRadius": 189176.0,
+            "synodicPeriod": 0.94,
+            "inclination": 1.57,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 396.0,
+            "color": 16777215,
+            "rings": false
+          }
+        },
+        {
+          "name": "Enceladus",
+          "orbit": {
+            "perigeeRadius": 237948.0,
+            "apogeeRadius": 239157.0,
+            "synodicPeriod": 1.37,
+            "inclination": 0.02,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 504.0,
+            "color": 15791871,
+            "rings": false
+          }
+        },
+        {
+          "name": "Tethys",
+          "orbit": {
+            "perigeeRadius": 294619.0,
+            "apogeeRadius": 294675.0,
+            "synodicPeriod": 1.89,
+            "inclination": 1.09,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 1062.0,
+            "color": 16777215,
+            "rings": false
+          }
+        },
+        {
+          "name": "Dione",
+          "orbit": {
+            "perigeeRadius": 377396.0,
+            "apogeeRadius": 377515.0,
+            "synodicPeriod": 2.73,
+            "inclination": 0.02,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 1123.0,
+            "color": 10536959,
+            "rings": false
+          }
+        },
+        {
+          "name": "Rhea",
+          "orbit": {
+            "perigeeRadius": 527108.0,
+            "apogeeRadius": 527163.0,
+            "synodicPeriod": 4.52,
+            "inclination": 0.35,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 1527.0,
+            "color": 16777215,
+            "rings": false
+          }
+        },
+        {
+          "name": "Titan",
+          "orbit": {
+            "perigeeRadius": 1186680.0,
+            "apogeeRadius": 1222000.0,
+            "synodicPeriod": 15.95,
+            "inclination": 0.33,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Smooth",
+            "diameter": 5151.0,
+            "color": 10386265,
+            "rings": false
+          }
+        },
+        {
+          "name": "Hyperion",
+          "orbit": {
+            "perigeeRadius": 1462000.0,
+            "apogeeRadius": 1500000.0,
+            "synodicPeriod": 21.28,
+            "inclination": 0.43,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 270.0,
+            "color": 9671571,
+            "rings": false
+          }
+        },
+        {
+          "name": "Iapetus",
+          "orbit": {
+            "perigeeRadius": 3560820.0,
+            "apogeeRadius": 3561302.0,
+            "synodicPeriod": 79.32,
+            "inclination": 15.47,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 1471.0,
+            "color": 9671571,
+            "rings": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Uranus",
+      "orbit": {
+        "perihelionRadius": 18.376,
+        "aphelionRadius": 20.083,
+        "siderealPeriod": 84.02,
+        "inclination": 0.773,
+        "advanced": {
+          "longAscending": 74.006,
+          "longPeriapsis": 171.005,
+          "longMean": 313.243
+        }
+      },
+      "appearance": {
+        "modelID": "Smooth",
+        "diameter": 50724.0,
+        "color": 4182015,
+        "rings": true
+      },
+      "moons": [
+        {
+          "name": "Ariel",
+          "orbit": {
+            "perigeeRadius": 191020.0,
+            "apogeeRadius": 191240.0,
+            "synodicPeriod": 2.52,
+            "inclination": 0.26,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 1158.0,
+            "color": 10921638,
+            "rings": false
+          }
+        },
+        {
+          "name": "Umbriel",
+          "orbit": {
+            "perigeeRadius": 266000.0,
+            "apogeeRadius": 266300.0,
+            "synodicPeriod": 4.14,
+            "inclination": 0.36,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 1169.0,
+            "color": 7631988,
+            "rings": false
+          }
+        },
+        {
+          "name": "Titania",
+          "orbit": {
+            "perigeeRadius": 435840.0,
+            "apogeeRadius": 436170.0,
+            "synodicPeriod": 8.71,
+            "inclination": 0.08,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 1578.0,
+            "color": 9211020,
+            "rings": false
+          }
+        },
+        {
+          "name": "Oberon",
+          "orbit": {
+            "perigeeRadius": 582620.0,
+            "apogeeRadius": 584020.0,
+            "synodicPeriod": 13.46,
+            "inclination": 0.1,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 1523.0,
+            "color": 8553090,
+            "rings": false
+          }
+        },
+        {
+          "name": "Miranda",
+          "orbit": {
+            "perigeeRadius": 129390.0,
+            "apogeeRadius": 130090.0,
+            "synodicPeriod": 1.41,
+            "inclination": 4.22,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 471.0,
+            "color": 9934743,
+            "rings": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Neptune",
+      "orbit": {
+        "perihelionRadius": 29.811,
+        "aphelionRadius": 30.333,
+        "siderealPeriod": 164.8,
+        "inclination": 1.77,
+        "advanced": {
+          "longAscending": 131.783,
+          "longPeriapsis": 44.97,
+          "longMean": 304.853
+        }
+      },
+      "appearance": {
+        "modelID": "Smooth",
+        "diameter": 49244.0,
+        "color": 1998590,
+        "rings": false
+      },
+      "moons": [
+        {
+          "name": "Triton",
+          "orbit": {
+            "perigeeRadius": 354800.0,
+            "apogeeRadius": 354800.0,
+            "synodicPeriod": 5.88,
+            "inclination": 157.0,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 2706.0,
+            "color": 8439807,
+            "rings": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pluto",
+      "orbit": {
+        "perihelionRadius": 29.658,
+        "aphelionRadius": 39.482,
+        "siderealPeriod": 247.94,
+        "inclination": 17.16,
+        "advanced": {
+          "longAscending": 110.299,
+          "longPeriapsis": 224.133,
+          "longMean": 238.663
+        }
+      },
+      "appearance": {
+        "modelID": "Terrestrial",
+        "diameter": 2376.6,
+        "color": 14332337,
+        "rings": false
+      },
+      "moons": [
+        {
+          "name": "Charon",
+          "orbit": {
+            "perigeeRadius": 17536.0,
+            "apogeeRadius": 17536.0,
+            "synodicPeriod": 6.39,
+            "inclination": 0.0,
+            "advanced": {
+              "longAscending": 0.0,
+              "longPeriapsis": 0.0,
+              "longMean": 0.0,
+              "nodalPrecessionPeriod": 0.0,
+              "apsidalPrecessionPeriod": 0.0
+            }
+          },
+          "appearance": {
+            "modelID": "Terrestrial",
+            "diameter": 1212.0,
+            "color": 10395294,
+            "rings": false
+          }
+        }
+      ]
+    }
+  ],
+  "magnitudeLimit": 7,
+  "enableRealStars": true,
+  "enableVanillaStars": false,
+  "daytimeStars": false,
+  "starRenderingOptions": {
+    "starOpacity": 80,
+    "starSaturation": 80,
+    "baseRadius": 0.3,
+    "minimumRadius": 0.1,
+    "brightnessPower": 3.0
+  },
+  "enableDeepsky": true,
+  "deepskyBrightness": 20,
+  "skyboxColor": 10465231,
+  "enableCustomStars": true,
+  "customStars": [],
+  "enableComets": true,
+  "enableMeteors": true,
+  "totalMeteors": 100,
+  "sporadicMeteors": 6,
+  "spaceStart": 128,
+  "spaceScale": 64,
+  "lightingOptions": {
+    "ambientLight": 5,
+    "blockLightPower": 0.25,
+    "blockLightMultiplier": 1.2,
+    "surfacePressure": 1.0,
+    "skyLightPower": 0.35,
+    "skyLightMultiplier": 1.2,
+    "blockSkyLightMultiplier": 10,
+    "occultationPower": 2.0,
+    "curveMode": "VANILLA",
+    "starVisibilityLimit": 75,
+    "deepskyVisibilityLimit": 5,
+    "darkenFog": true,
+    "clampSkyBrightness": true
+  },
+  "showConstellations": false,
+  "showZodiac": false,
+  "enableConfigMenu": true,
+  "updateTime": 240,
+  "updateInterpolation": true,
+  "enableSpyglassZoom": true,
+  "enableSpyglassCulling": true,
+  "debugX": 0.0,
+  "debugY": 0.0,
+  "debugZ": 0.0,
+  "asteroidBonus": -3.0,
+  "cometBonus": 0.0,
+  "dimensionObservers": [
+    {
+      "dimension": "minecraft:the_nether",
+      "observer": "Moon"
+    }
+  ],
+  "vanillaSun": false,
+  "vanillaMoon": false,
+  "syncSeasonModConfig": true
+}

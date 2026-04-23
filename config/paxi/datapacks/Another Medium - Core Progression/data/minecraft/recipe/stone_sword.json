@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "overgeared:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
     {
       "item": "overgeared:copper_sword_blade"
     },
     {
-      "item": "minecraft:string"
+      "tag": "anothermedium:sticky_materials"
     },
     {
       "item": "minecraft:stick"

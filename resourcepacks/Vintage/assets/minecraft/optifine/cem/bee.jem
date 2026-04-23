@@ -1,0 +1,101 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "torso",
+			"id": "torso",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"boxes": [
+				{"coordinates": [-2.5, 4, -4, 5, 5, 5], "textureOffset": [35, 32], "sizeAdd": -0.5},
+				{"coordinates": [-2.5, 4, 0, 5, 5, 5], "textureOffset": [35, 42]},
+				{
+					"coordinates": [-1.5, 6, -6, 3, 3, 3],
+					"uvNorth": [56, 39, 59, 42],
+					"uvEast": [55, 44, 58, 47],
+					"uvSouth": [59, 35, 62, 38],
+					"uvWest": [61, 44, 64, 47],
+					"uvUp": [58, 44, 55, 41],
+					"uvDown": [61, 41, 58, 44],
+					"sizeAdd": -0.5
+				},
+				{"coordinates": [-2, 2, -2, 4, 3, 6], "textureOffset": [35, 55], "sizeAdd": -0.1}
+			]
+		},
+		{
+			"part": "left_antenna",
+			"id": "left_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5]
+		},
+		{
+			"part": "right_antenna",
+			"id": "right_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [1.5, -9, 3],
+			"boxes": [
+				{
+					"coordinates": [-6.5, 9, 0, 5, 0, 5],
+					"uvNorth": [54, 64, 59, 64],
+					"uvEast": [49, 64, 54, 64],
+					"uvSouth": [64, 64, 69, 64],
+					"uvWest": [59, 64, 64, 64],
+					"uvUp": [62, 64, 57, 59],
+					"uvDown": [64, 48, 59, 53]
+				}
+			]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-1.5, -9, 3],
+			"boxes": [
+				{
+					"coordinates": [1.5, 9, 0, 5, 0, 5],
+					"uvNorth": [54, 59, 59, 59],
+					"uvEast": [49, 59, 54, 59],
+					"uvSouth": [64, 59, 69, 59],
+					"uvWest": [59, 59, 64, 59],
+					"uvUp": [62, 59, 57, 54],
+					"uvDown": [64, 48, 59, 53]
+				}
+			]
+		},
+		{
+			"part": "front_legs",
+			"id": "front_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, 2]
+		},
+		{
+			"part": "middle_legs",
+			"id": "middle_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, 0]
+		},
+		{
+			"part": "back_legs",
+			"id": "back_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, -2]
+		},
+		{
+			"part": "stinger",
+			"id": "stinger",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"boxes": [
+				{"coordinates": [0, 6, 5, 0, 1, 2], "textureOffset": [46, 52]},
+				{"coordinates": [0, 6, 5, 0, 1, 2], "textureOffset": [52, 51]}
+			]
+		}
+	]
+}

@@ -1,6 +1,148 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:overgeared:iron_pickaxe_head{\"overgeared:forging_quality\":\"perfect\",\"overgeared:polished\":1b}",
+    {
+      "type": "item",
+      "id": "minecraft:stick",
+      "amount": 64
+    },
+    "item:minecraft:slime_ball",
+    "item:overgeared:steel_pickaxe_head{\"overgeared:forging_quality\":\"master\",\"overgeared:polished\":1b}",
+    "item:overgeared:copper_pickaxe_head",
+    "item:overgeared:heated_steel_ingot",
+    "item:overgeared:heated_silver_ingot",
+    "item:overgeared:heated_iron_ingot",
+    "item:overgeared:heated_copper_ingot",
+    "item:curiosities:raw_aluminum",
+    "item:curiosities:raw_aluminum_block",
+    "item:curiosities:redstone_diode",
+    "item:curiosities:aluminum_upgrade_smithing_template",
+    {
+      "type": "item",
+      "id": "minecraft:raw_iron",
+      "amount": 63
+    },
+    {
+      "type": "item",
+      "id": "minecraft:raw_gold",
+      "amount": 64
+    },
+    "item:curiosities:invar_block",
+    "item:curiosities:weight_1m",
+    {
+      "type": "item",
+      "id": "alloyed:forge",
+      "amount": 64
+    },
+    "item:alloyed:steel_ingot",
+    {
+      "type": "item",
+      "id": "curiosities:big_chain",
+      "amount": 64
+    },
+    "item:farmersdelight:rope",
+    "#item:connectiblechains:ropes",
+    "item:curiosities:tiki_torch",
+    {
+      "type": "item",
+      "id": "minecraft:chain",
+      "amount": 64
+    },
+    "item:alloyed:bronze_ingot",
+    {
+      "type": "item",
+      "id": "create:encased_chain_drive",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "create:adjustable_chain_gearshift",
+      "amount": 64
+    },
+    "item:create:andesite_casing",
+    {
+      "type": "item",
+      "id": "alloyed:steel_casing",
+      "amount": 64
+    },
+    "item:curiosities:weight_1s",
+    "item:curiosities:weight_5s",
+    "item:curiosities:weight_20s",
+    "item:minecraft:brick",
+    {
+      "type": "item",
+      "id": "minecraft:nether_brick",
+      "amount": 32
+    },
+    {
+      "type": "item",
+      "id": "curiosities:verdant_censer",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "curiosities:acrid_incense",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "curiosities:bland_incense",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "curiosities:bright_incense",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "curiosities:fresh_incense",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "curiosities:verdant_incense",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "curiosities:sweet_incense",
+      "amount": 64
+    },
+    "item:minecraft:wooden_hoe",
+    "item:minecraft:stone_shovel",
+    "item:minecraft:golden_sword",
+    "item:minecraft:iron_sword",
+    "item:minecraft:stone_sword",
+    "item:minecraft:birch_pressure_plate",
+    "item:minecraft:wooden_axe",
+    "item:minecraft:wooden_shovel",
+    "item:minecraft:stone_hoe",
+    "item:minecraft:stone_axe",
+    "item:minecraft:stone_pickaxe",
+    "item:minecraft:iron_pickaxe",
+    "item:minecraft:firework_star",
+    "item:minecraft:diamond",
+    "item:minecraft:iron_ingot",
+    "item:overgeared:copper_sword_blade{\"overgeared:polished\":0b}",
+    {
+      "type": "item",
+      "id": "minecraft:wheat",
+      "amount": 21
+    },
+    {
+      "type": "item",
+      "id": "minecraft:hay_block",
+      "amount": 19
+    },
+    "item:curiosities:nickel_ingot",
+    {
+      "type": "item",
+      "id": "curiosities:raw_nickel",
+      "amount": 4
+    },
+    "item:minecraft:grindstone",
     "item:curiosities:aluminum_pickaxe",
     "item:curiosities:aluminum_shovel",
     "item:minecraft:golden_hoe",
@@ -8,39 +150,20 @@
     "item:minecraft:golden_shovel",
     "item:minecraft:iron_shovel",
     "item:minecraft:iron_hoe",
-    "item:minecraft:iron_pickaxe",
     "item:minecraft:iron_axe",
     "item:overgeared:nether_tool_cast",
     "item:overgeared:copper_hoe_head",
     "item:overgeared:copper_shovel_head",
     "item:overgeared:copper_axe_head",
-    "item:overgeared:copper_pickaxe_head",
-    "item:overgeared:copper_sword_blade",
     "item:overgeared:stone_hoe_head",
     "item:overgeared:steel_hammer_head",
     "item:overgeared:copper_hammer_head{\"overgeared:polished\":0b}",
     "item:minecraft:lava_bucket",
-    "item:overgeared:heated_steel_ingot",
-    "item:overgeared:heated_silver_ingot",
     "item:overgeared:iron_shovel_head",
     "item:overgeared:steel_shovel_head",
     "item:overgeared:steel_axe_head",
     "item:overgeared:steel_sword_blade",
-    "item:overgeared:steel_pickaxe_head",
-    "item:overgeared:heated_iron_ingot",
-    "item:overgeared:heated_copper_ingot",
-    {
-      "type": "item",
-      "id": "minecraft:chain",
-      "amount": 64
-    },
     "item:curiosities:aluminum_leggings",
-    "item:curiosities:aluminum_upgrade_smithing_template",
-    "item:curiosities:raw_aluminum",
-    "item:curiosities:weight_20s",
-    "item:curiosities:weight_5s",
-    "item:curiosities:weight_1s",
-    "item:curiosities:invar_block",
     "item:curiosities:invar_ingot",
     "item:overgeared:clay_tool_cast{\"minecraft:max_stack_size\":64,\"overgeared:cast_data\":{amount:18,input:[{count:2,id:\"minecraft:copper_ingot\"}],materials:{copper:18},max_amount:18,tool_type:\"hammer\"}}",
     "item:overgeared:iron_sword_blade",
@@ -49,29 +172,14 @@
       "id": "create:iron_sheet",
       "amount": 64
     },
-    "item:minecraft:iron_ingot",
-    "item:minecraft:stone_axe",
-    "item:minecraft:stone_hoe",
-    "item:minecraft:stone_pickaxe",
-    "item:minecraft:stone_shovel",
-    "item:minecraft:wooden_shovel",
-    "item:minecraft:wooden_axe",
-    "item:minecraft:wooden_hoe",
     "item:minecraft:wooden_pickaxe",
     {
       "type": "item",
       "id": "minecraft:copper_ingot",
       "amount": 64
     },
-    {
-      "type": "item",
-      "id": "minecraft:raw_iron",
-      "amount": 62
-    },
     "item:overgeared:smithing_hammer",
     "item:overgeared:copper_smithing_hammer",
-    "item:alloyed:steel_ingot",
-    "item:alloyed:forge",
     {
       "type": "item",
       "id": "minecraft:fire_charge",
@@ -87,17 +195,8 @@
       "id": "minecraft:furnace",
       "amount": 64
     },
-    "item:overgeared:iron_pickaxe_head",
     "item:overgeared:golden_pickaxe_head",
     "item:overgeared:golden_sword_blade",
-    {
-      "type": "item",
-      "id": "alloyed:waxed_cut_bronze",
-      "amount": 64
-    },
-    "item:alloyed:bronze_ingot",
-    "item:abundant_atmosphere:squashberry_jam",
-    "item:alloyed:steel_sheet",
     "item:create:chute",
     "item:create:mechanical_press",
     {
@@ -123,7 +222,6 @@
     "item:minecraft:shears",
     "item:overgeared:iron_tongs",
     "item:overgeared:iron_tong",
-    "item:minecraft:grindstone",
     {
       "type": "item",
       "id": "overgeared:stone_anvil",
@@ -134,7 +232,6 @@
     "item:overgeared:casting_furnace",
     "item:overgeared:netherite_alloy",
     "item:overgeared:steel_tongs",
-    "item:minecraft:diamond",
     {
       "type": "item",
       "id": "minecraft:flint",
@@ -158,28 +255,11 @@
       "id": "minecraft:polished_blackstone",
       "amount": 32
     },
-    "item:minecraft:brick",
-    {
-      "type": "item",
-      "id": "minecraft:nether_brick",
-      "amount": 64
-    },
     "item:overgeared:stone_axe_head",
-    {
-      "type": "item",
-      "id": "abundant_atmosphere:shuffled_bricks",
-      "amount": 64
-    },
-    "item:alloyed:steel_fishing_rod",
-    "item:alloyed:steel_sword",
     "item:minecraft:leather_chestplate",
-    "item:alloyed:steel_chestplate",
     "item:minecraft:netherite_chestplate",
     "item:minecraft:golden_chestplate",
     "item:minecraft:chainmail_chestplate",
-    "item:alloyed:steel_leggings",
-    "item:alloyed:steel_helmet",
-    "item:alloyed:steel_boots",
     {
       "type": "item",
       "id": "minecraft:bricks",
@@ -210,24 +290,8 @@
       "id": "create:golden_sheet",
       "amount": 9
     },
-    "item:alloyed:steel_pickaxe",
-    {
-      "type": "item",
-      "id": "abundant_atmosphere:blacksalt_tiles",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "abundant_atmosphere:shuffled_brick_wall",
-      "amount": 64
-    },
     "item:minecraft:acacia_door",
     "item:overgeared:nether_alloy_furnace",
-    {
-      "type": "item",
-      "id": "minecraft:raw_gold",
-      "amount": 64
-    },
     "item:minecraft:water_bucket",
     "item:create:encased_fan",
     "item:overgeared:heated_netherite_alloy",
@@ -321,7 +385,6 @@
     "item:minecraft:lime_wool",
     "item:minecraft:red_terracotta",
     "item:overgeared:copper_chestplate",
-    "item:minecraft:stick",
     "item:overgeared:stone_sword_blade",
     "item:minecraft:compass",
     "item:overgeared:diamond_upgrade_smithing_template",
@@ -335,6 +398,13 @@
     "item:minecraft:birch_button"
   ],
   "craft_history": [
+    "minecraft:chiseled_stone_bricks",
+    "farmersdelight:cutting_board",
+    "minecraft:spruce_planks",
+    "minecraft:crafting_table",
+    "alloyed:forging/steel_knife",
+    "minecraft:wheat",
+    "minecraft:grindstone",
     "overgeared:copper_smithing_hammer",
     "minecraft:snow",
     "minecraft:iron_pickaxe",
@@ -342,15 +412,13 @@
     "minecraft:anvil",
     "minecraft:iron_block",
     "minecraft:stone_pickaxe",
-    "minecraft:crafting_table",
     "minecraft:oak_planks",
     "minecraft:wooden_hoe",
     "minecraft:wooden_shovel",
     "minecraft:wooden_sword",
     "minecraft:wooden_pickaxe",
     "minecraft:wooden_axe",
-    "create:crafting/kinetics/wrench",
-    "abundant_atmosphere:shuffled_bricks_from_blocks"
+    "create:crafting/kinetics/wrench"
   ],
   "recipe_defaults": {
     "added": [],

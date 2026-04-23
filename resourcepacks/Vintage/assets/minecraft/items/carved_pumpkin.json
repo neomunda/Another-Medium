@@ -1,0 +1,36 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "white pumpkin",
+          "model": {
+            "type": "minecraft:model",
+            "model": "block/white_pumpkin"
+          }
+        },
+        {
+          "when": "White Pumpkin",
+          "model": {
+            "type": "minecraft:model",
+            "model": "block/white_pumpkin"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/carved_pumpkin"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/carved_pumpkin"
+    }
+  }
+}

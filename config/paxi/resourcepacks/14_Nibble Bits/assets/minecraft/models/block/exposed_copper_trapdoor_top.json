@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_sided_trapdoor_top",
+  "textures": {
+    "texture": "minecraft:block/exposed_copper_trapdoor",
+    "side": "minecraft:block/exposed_copper_trapdoor_side"
+  }
+}

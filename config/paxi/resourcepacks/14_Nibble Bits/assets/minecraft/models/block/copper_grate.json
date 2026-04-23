@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_grate",
+  "textures": {
+    "grate": "minecraft:block/copper_grate"
+  }
+}

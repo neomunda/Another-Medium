@@ -1,0 +1,36 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "zombie miner",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/zombie_miner_spawn_egg"
+          }
+        },
+        {
+          "when": "Zombie Miner",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/zombie_miner_spawn_egg"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/zombie_spawn_egg"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/zombie_spawn_egg"
+    }
+  }
+}

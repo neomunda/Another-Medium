@@ -1,0 +1,6 @@
+{
+  "parent": "supplementaries:block/candle_holders/floor_2",
+  "textures": {
+    "candle": "minecraft:block/white_candle_lit"
+  }
+}

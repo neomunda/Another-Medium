@@ -1,0 +1,14 @@
+{
+  "advancements.husbandry.leash_all_frog_variants.description": "Get each Frog variant on a Leash",
+  "item.minecraft.lead": "Leash",
+  "item.minecraft.amethyst_shard": "Amethyst",
+  "item.minecraft.bone_meal": "Bone Powder",
+  "subtitles.item.bone_meal.use": "Bone Powder crinkles",
+  "item.minecraft.quartz": "Quartz",
+
+  "block.minecraft.cut_sandstone": "Sandstone Bricks",
+  "block.minecraft.smooth_sandstone": "Polished Sandstone",
+
+  "block.minecraft.cut_red_sandstone": "Red Sandstone Bricks",
+  "block.minecraft.smooth_red_sandstone": "Polished Red Sandstone"
+}

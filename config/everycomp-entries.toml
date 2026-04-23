@@ -1,0 +1,37 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.wood_type.caverns_and_chasms]
+			azalea = true
+
+		[types.wood_type.spawn]
+			rotten = true
+			date = true
+
+		[types.leaves_type.spawn]
+			date = true
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.create]
+			window = false
+			window_pane = false
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.curiosities]
+			fancied_planks = true
+
+		[entries.wood_type.woodworks]
+			bookshelf = true
+			chiseled_bookshelf = true
+			boards = true
+			chest = true
+			ladder = true
+			beehive = true
+			trapped_chest = true
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = true

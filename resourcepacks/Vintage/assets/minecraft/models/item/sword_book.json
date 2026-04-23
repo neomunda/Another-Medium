@@ -1,0 +1,67 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/sword_book",
+		"particle": "item/sword_book"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 6],
+			"to": [14, 15, 9],
+			"rotation": {"x": 0, "y": 0, "z": 0, "origin": [2, 0, 6]},
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 7.5, 9], "texture": "#0"},
+				"east": {"uv": [0, 1.5, 1.5, 9], "texture": "#0"},
+				"south": {"uv": [15, 1.5, 9, 9], "texture": "#0"},
+				"west": {"uv": [7.5, 1.5, 9, 9], "texture": "#0"},
+				"up": {"uv": [7.5, 0, 1.5, 1.5], "texture": "#0"},
+				"down": {"uv": [7.5, 0, 1.5, 1.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0.31, 89.53, 0.31],
+			"translation": [0.5, 3, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0.31, 89.53, 0.31],
+			"translation": [0.5, 3, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [100.82, 24.53, -130.39],
+			"translation": [0, 3, 0.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [100.82, 24.53, -130.39],
+			"translation": [0, 3, 0.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [60, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [121.5, -1.34, -130.8],
+			"translation": [0, -0.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 7.5, 0.5]
+		},
+		"fixed": {
+			"translation": [0, 1, 0],
+			"scale": [2.00195, 2.00195, 2.00195]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0],
+			"scale": [1.44727, 1.44727, 1.44727]
+		}
+	}
+}

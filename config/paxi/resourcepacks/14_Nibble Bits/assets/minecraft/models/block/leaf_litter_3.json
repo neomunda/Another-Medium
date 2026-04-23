@@ -1,0 +1,33 @@
+{
+	"credit": "Made by Sheddmer",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "minecraft:block/leaf_litter"
+	},
+	"elements": [
+		{
+			"from": [8, 0.25, 11],
+			"to": [16, 0.25, 16],
+			"faces": {
+				"up": {"uv": [8, 11, 16, 16], "texture": "#particle"},
+				"down": {"uv": [8, 16, 16, 11], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [11, 0.25, 10],
+			"to": [15, 0.25, 11],
+			"faces": {
+				"up": {"uv": [11, 10, 15, 11], "texture": "#particle"},
+				"down": {"uv": [11, 11, 15, 10], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [11, 0.25, 8],
+			"to": [14, 0.25, 10],
+			"faces": {
+				"up": {"uv": [11, 8, 14, 10], "texture": "#particle"},
+				"down": {"uv": [11, 10, 14, 8], "texture": "#particle"}
+			}
+		}
+	]
+}

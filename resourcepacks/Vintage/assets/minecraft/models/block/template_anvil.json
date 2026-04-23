@@ -1,0 +1,69 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "block/anvil",
+		"particle": "block/anvil"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 4, 14],
+			"faces": {
+				"north": {"uv": [1, 6, 7, 8], "texture": "#1"},
+				"east": {"uv": [1, 6, 7, 8], "texture": "#1"},
+				"south": {"uv": [1, 6, 7, 8], "texture": "#1"},
+				"west": {"uv": [1, 6, 7, 8], "texture": "#1"},
+				"up": {"uv": [6, 14, 0, 8], "texture": "#1"},
+				"down": {"uv": [14, 0, 8, 6], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 4, 3],
+			"to": [12, 5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 4, 0]},
+			"faces": {
+				"north": {"uv": [2, 5.5, 6, 6], "texture": "#1"},
+				"east": {"uv": [1.5, 5.5, 6.5, 6], "texture": "#1"},
+				"south": {"uv": [2.5, 5.5, 6.5, 6], "texture": "#1"},
+				"west": {"uv": [1.5, 5.5, 6.5, 6], "texture": "#1"},
+				"up": {"uv": [10, 13, 6, 8], "texture": "#1"},
+				"down": {"uv": [13, 19, 9, 24], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 5, 4],
+			"to": [10, 10, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 5, 0]},
+			"faces": {
+				"north": {"uv": [6, 3, 8, 5.5], "texture": "#1"},
+				"east": {"uv": [2, 3, 6, 5.5], "texture": "#1"},
+				"south": {"uv": [6, 3, 8, 5.5], "texture": "#1"},
+				"west": {"uv": [2, 3, 6, 5.5], "texture": "#1"},
+				"up": {"uv": [24, 23, 22, 19], "texture": "#1"},
+				"down": {"uv": [26, 19, 24, 23], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 10, 0],
+			"to": [13, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 11, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 3], "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 3], "texture": "#1"},
+				"south": {"uv": [0, 0, 5, 3], "texture": "#1"},
+				"west": {"uv": [0, 0, 8, 3], "texture": "#1"},
+				"up": {"uv": [13, 16, 3, 0], "texture": "#top"},
+				"down": {"uv": [15, 6, 10, 14], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}
