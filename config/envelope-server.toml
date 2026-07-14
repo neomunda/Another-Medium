@@ -1,0 +1,123 @@
+[pigeon]
+	#Pigeons can spawn naturally in '#envelope:allows_pigeon_spawns' biomes.
+	# Default: true
+	spawns_naturally = true
+	#Pigeons can spawn in the village (similar to Cats).
+	# Default: true
+	spawns_in_village = true
+	#Minimum time (in ticks) that Pigeon will be sitting in a Pigeonhole after entering.
+	# Default: 1200
+	# Range: > 1
+	min_ticks_inside_pigeonhole = 1200
+	#Minimum time (in ticks) that Pigeon will spend outside of a Pigeonhole.
+	# Default: 2400
+	# Range: > 100
+	min_ticks_outside_pigeonhole = 2400
+	#Time (in ticks) for which Pigeon will be tired after finishing a delivery.
+	# Default: 6000
+	# Range: > 0
+	ticks_tired_after_delivery = 6000
+	#Cat will hunt and kill pigeons.
+	#Default: true
+	hunted_by_cat = true
+	#Ocelot will hunt and kill pigeons.
+	#Default: true
+	hunted_by_ocelot = true
+	#Fox will hunt and kill pigeons.
+	#Default: true
+	hunted_by_fox = true
+	#Chance to evade damage while delivering. `#envelope:bypasses_pigeon_delivery_evasion` tag can be used to control which damage types will not be affected.
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	damage_evasion_chance_while_delivering = 0.0
+
+[pigeonhole]
+	#Chance of waste level increasing when pigeon exits the block.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	waste_level_increase_chance = 0.2
+	#Chance of waste level increasing when pigeon exits the block, if it was tired (finished a delivery before resting in a Pigeonhole).
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	waste_level_increase_chance_after_delivery = 1.0
+	#Waste from Pigeonhole can be scooped with dispenser that has a shovel (#envelope:waste_scoopable).
+	# Default: true.
+	dispenser_waste_scooping = true
+
+[mailbox]
+	#Levels of experience needed to set or change the address.
+	# Default: 3
+	# Range: 0 ~ 128
+	address_experience_levels_cost = 3
+
+[letter]
+	#Letter screen pauses singleplayer game.
+	# Default: false
+	pause = false
+
+[package]
+	#Holding Sneak while using the Package will unpack and destroy it immediately, instead of opening the menu.
+	#Default: true
+	sneak_quick_unpack = true
+	#Chance of a Package "recycling" back into Paper Box after opening.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	paper_box_return_chance = 0.5
+	#Chance of Payback Package "recycling" back into Payback Box after opening, allowing another try to pack the payment.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	payback_box_return_chance = 0.75
+
+[delivery]
+	#Default distance (in blocks) that will be used if distance between two addresses cannot be determined (recipient does not exist, for example).
+	# Default: 1500
+	# Range: > 1
+	default_distance = 1500
+	#Courier speed (in blocks per second) while in traveling (background) phases.
+	# Default: 20.0
+	# Range: 0.01 ~ 9999.0
+	courier_travel_speed = 20.0
+	#Distance (in blocks) after which travel duration stops increasing and stays at maximum value.
+	# Default: 5000
+	# Range: > 1
+	travel_duration_distance_cap = 5000
+	#Delivering pigeons will not spawn when 'doMobSpawning' rule is set to 'false'.
+	#Default: false (spawn anyway)
+	spawning_respects_domobspawning_rule = false
+
+[payback]
+	#'Short' payback request duration (in minutes).
+	# Default: 30
+	# Range: > 1
+	request_duration_short = 30
+	#'Medium' payback request duration (in minutes). Default.
+	# Default: 180
+	# Range: > 1
+	request_duration_medium = 180
+	#'Long' payback request duration (in minutes).
+	# Default: 4320
+	# Range: > 1
+	request_duration_long = 4320
+
+	[service_addresses.equine_assurance_bureau]
+		#A notice letter would be sent out to all players occasionally.
+		#Default: true
+		notice_sending_enabled = true
+		#Minimum time (in minutes) from the previous send after which another notice could be sent.
+		# Default: 120.0
+		# Range: 0.0 ~ 9999.0
+		notice_sending_base_interval_minutes = 120.0
+		#Additional time (in minutes) per the in-game day. More days played = less notices.
+		# Default: 1.0
+		# Range: 0.0 ~ 9999.0
+		notice_sending_additional_interval_per_day_minutes = 1.0
+		#Chance of notice letter being sent per tick, assuming that enough time has passed from previous send.
+		#Default: 0.0002 (about 4 minutes on average)
+		# Default: 2.0E-4
+		# Range: 0.0 ~ 1.0
+		notice_sending_chance_per_tick = 2.0E-4
+
+[debug]
+	#Enable debug features. Will affect performance negatively. Don't enable unless it's needed.
+	# Default: false.
+	debug_mode = false

@@ -1,0 +1,151 @@
+["HUD Layout"]
+	# The style of the HUD. BAR is horizontal, ICON is vertical.
+	#Allowed Values: BAR, ICON
+	hudStyle = "BAR"
+	# Horizontal offset from center (BAR mode)
+	# Default: 0
+	# Range: -1000 ~ 1000
+	barXOffset = 0
+	# Vertical offset from bottom (BAR mode)
+	# Default: 0
+	# Range: 0 ~ 1000
+	barYOffset = 0
+	# Horizontal offset from center (ICON mode)
+	# Default: 0
+	# Range: -1000 ~ 1000
+	iconXOffset = 0
+	# Vertical offset from bottom (ICON mode)
+	# Default: 0
+	# Range: -1000 ~ 1000
+	iconYOffset = 0
+	# Width of the bar in pixels
+	# Default: 180
+	# Range: 1 ~ 1000
+	barWidth = 180
+	# Height of the bar in pixels
+	# Default: 2
+	# Range: 1 ~ 100
+	barHeight = 2
+	# Whether to render text/emoji icons on the stamina bar penalty zones.
+	showIcons = true
+
+	["HUD Layout"."Auto Hud"]
+		# Enable hiding the stamina bar when full/not in use.
+		autoHudEnable = false
+		# Animation type. FADE, SLIDE, or BOTH.
+		#Allowed Values: FADE, SLIDE, BOTH
+		autoHudMode = "FADE"
+		# Direction the bar slides away to. UP, DOWN, LEFT, RIGHT.
+		#Allowed Values: UP, DOWN, LEFT, RIGHT
+		autoHudSlideDir = "DOWN"
+		# The mathematical curve used for the slide animation.
+		# LINEAR: Constant speed from start to finish.
+		# SMOOTHSTEP: Starts slow, speeds up in the middle, then ends slow.
+		# EASE_OUT_SINE: Starts fast and then slows down to a stop.
+		# EASE_OUT_EXPO: Starts extremely fast and then quickly slows down to a stop.
+		#Allowed Values: LINEAR, SMOOTHSTEP, EASE_OUT_SINE, EASE_OUT_EXPO
+		autoHudEasing = "EASE_OUT_SINE"
+		# Speed the bar fades in.
+		# Default: 0.08
+		# Range: 0.01 ~ 1.0
+		autoHudFadeInSpeed = 0.08
+		# Speed the bar fades out.
+		# Default: 0.05
+		# Range: 0.01 ~ 1.0
+		autoHudFadeOutSpeed = 0.05
+		# Speed the bar slides in.
+		# Default: 0.08
+		# Range: 0.01 ~ 1.0
+		autoHudSlideInSpeed = 0.08
+		# Speed the bar slides out.
+		# Default: 0.05
+		# Range: 0.01 ~ 1.0
+		autoHudSlideOutSpeed = 0.05
+		# How many pixels the bar moves when sliding out.
+		# Default: 45
+		# Range: 0 ~ 1000
+		autoHudSlideDistance = 45
+		# How long (in ticks) the bar stays visible after you stop using stamina (20 ticks = 1s).
+		# Default: 60
+		# Range: 0 ~ 1200
+		autoHudLingerTime = 60
+		# Show the bar if stamina drops below this percentage (0.35 = 35%)
+		# Default: 0.35
+		# Range: 0.0 ~ 1.0
+		autoHudThreshold = 0.35
+		# Force the bar to stay visible if you have penalties (hunger, poison, fatigue, weight).
+		autoHudShowOnPenalties = true
+
+	["HUD Layout".Tooltips]
+		enableTooltips = true
+		advancedTooltipsOnly = false
+		customTooltips = ["WEIGHT;BELOW_NAME;DARK_GRAY;WHITE", "ATTACK_COST;BELOW_NAME;DARK_GRAY;RED", "USE_COST;BELOW_NAME;DARK_GRAY;RED", "TICK_COST;BELOW_NAME;DARK_GRAY;RED", "BLOCK_COST;BELOW_NAME;DARK_GRAY;RED", "MISSED_ATTACK_COST;BELOW_NAME;DARK_GRAY;RED", "INSTANT_STAMINA;BELOW_NAME;DARK_GRAY;GREEN", "BONUS_STAMINA;BELOW_NAME;DARK_GRAY;GOLD", "REGEN_MODIFIER;BELOW_NAME;DARK_GRAY;AQUA", "CURES;BELOW_NAME;DARK_GRAY;LIGHT_PURPLE"]
+		labelWeight = "Weight: "
+		labelAttackCost = "Attack Stamina: "
+		labelUseCost = "Use Stamina: "
+		labelTickCost = "Stamina/Tick: "
+		labelBlockCost = "Block Stamina: "
+		labelMissCost = "Miss Stamina: "
+		labelInstant = "Restores: "
+		labelBonus = "Bonus Stamina: "
+		labelRegen = "Regen: "
+		labelCures = "Cures: "
+
+[Colors]
+	# Default: 2236962
+	# Range: 0 ~ 16777215
+	colorBackground = 2236962
+	# Default: 65280
+	# Range: 0 ~ 16777215
+	colorSafe = 65280
+	# Default: 16711680
+	# Range: 0 ~ 16777215
+	colorCritical = 16711680
+	# Default: 65450
+	# Range: 0 ~ 16777215
+	colorTireless = 65450
+	# Default: 16711680
+	# Range: 0 ~ 16777215
+	colorStripes = 16711680
+	# Color for Hunger penalty stripes
+	# Default: 16763904
+	# Range: 0 ~ 16777215
+	colorPenaltyHunger = 16763904
+	# Color for Food Poisoning penalty stripes
+	# Default: 11141375
+	# Range: 0 ~ 16777215
+	colorPenaltyPoison = 11141375
+	# Color for weight stripes
+	# Default: 5592405
+	# Range: 0 ~ 16777215
+	colorPenaltyWeight = 5592405
+
+["Bonus Stamina Bar"]
+	# Top gradient color for Bonus Stamina (RGB). Default: Gold
+	# Default: 16766720
+	# Range: 0 ~ 16777215
+	colorBonusTop = 16766720
+	# Bottom gradient color for Bonus Stamina (RGB). Default: Dark Orange
+	# Default: 16747520
+	# Range: 0 ~ 16777215
+	colorBonusBottom = 16747520
+	# Color of the highlight sheen (RGB). Default: White
+	# Default: 16777215
+	# Range: 0 ~ 16777215
+	colorBonusHighlight = 16777215
+	# Opacity of the highlight sheen (0-255). 0 = Invisible, 255 = Solid. Default: 128 (Semi-transparent)
+	# Default: 128
+	# Range: 0 ~ 255
+	bonusHighlightAlpha = 128
+
+["Encumbrance UI"]
+	#Enable the dynamic Weight/Encumbrance text on the inventory screen.
+	enableWeightHUD = true
+	#X position offset for the Weight HUD (0 is the center of the screen)
+	# Default: -51
+	# Range: -4000 ~ 4000
+	weightHudX = -51
+	#Y position offset for the Weight HUD (0 is the center of the screen)
+	# Default: -75
+	# Range: -4000 ~ 4000
+	weightHudY = -75

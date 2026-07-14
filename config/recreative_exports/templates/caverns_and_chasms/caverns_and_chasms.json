@@ -1,0 +1,12 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "caverns_and_chasms:caverns_and_chasms"
+    ],
+    "icon": "caverns_and_chasms:deeper_head",
+    "remove_items": [],
+    "add_items": [],
+    "order": []
+  }
+]

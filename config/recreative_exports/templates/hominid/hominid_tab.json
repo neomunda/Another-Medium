@@ -1,0 +1,24 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "hominid:hominid_tab"
+    ],
+    "icon": "hominid:gasoline_tank",
+    "remove_items": [],
+    "add_items": [
+      "hominid:mellified_spawn_egg",
+      "hominid:incendiary_spawn_egg",
+      "hominid:famished_spawn_egg",
+      "hominid:juggernaut_spawn_egg",
+      "hominid:bellman_spawn_egg",
+      "hominid:fossilized_spawn_egg",
+      "hominid:vampire_spawn_egg",
+      "hominid:famished_stomach",
+      "hominid:gasoline_tank",
+      "hominid:music_disc_hematoma",
+      "hominid:remains_armor_trim_smithing_template"
+    ],
+    "order": []
+  }
+]

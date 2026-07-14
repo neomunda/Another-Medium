@@ -69,3 +69,10 @@
 		#Prevents replacing/applying a Trim Template & Material over a previously trimmed item
 		#This is to prevent the player from wasting materials that could be returned at a Dismantling Table
 		"Prevent replacing trims" = false
+
+	[tweaks.trial_chambers]
+		#If Copper Blocks are replaced with Schist Pillars in Trial Chambers
+		#This prevents Trial Chambers from giving access to insane amounts of Copper Ingots and gives them a more gloomy vibe
+		"Trial Chambers repalette" = true
+		#If Trial Tokens should be given instead of miscellaneous loot from Trial Spawners
+		"Trial Tokens" = true

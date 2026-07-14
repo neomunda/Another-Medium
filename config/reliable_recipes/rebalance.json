@@ -1,0 +1,41 @@
+[
+  {
+    "action": "replace_input",
+    "target": "create:andesite_alloy",
+    "replacement": [
+      "alloyed:bronze_ingot"
+    ]
+  },
+
+{
+    "action": "replace_input",
+    "target": "create:andesite_casing",
+    "replacement": [
+      "alloyed:bronze_casing"
+    ]
+  },
+
+    {
+    "action": "replace_input",
+    "target": "create:brass_casing",
+    "replacement": [
+      "alloyed:steel_casing"
+    ]
+  },
+
+  {
+    "action": "replace_input",
+    "target": "create:brass_ingot",
+    "replacement": [
+      "alloyed:steel_ingot"
+    ]
+  },
+
+  {
+    "action": "replace_input",
+    "target": "create:brass_sheet",
+    "replacement": [
+      "alloyed:steel_sheet"
+    ]
+  }
+]

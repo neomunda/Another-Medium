@@ -1,0 +1,50 @@
+{
+  "music.menu": {
+    "sounds": [
+      {
+        "name": "anchor:music/overworld/donhacky",
+        "stream": true
+      }
+    ]
+  },
+  "music.game": {
+    "sounds": [
+      {
+        "name": "anchor:music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.creative": {
+    "sounds": [
+      {
+        "name": "anchor:music.creative",
+        "type": "event"
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "sounds": [
+      {
+        "name": "anchor:music.nether.nether_wastes",
+        "type": "event"
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "sounds": [
+      {
+        "name": "anchor:music.nether.soul_sand_valley",
+        "type": "event"
+      }
+    ]
+  },
+  "music.end": {
+    "sounds": [
+      {
+        "name": "anchor:music.end",
+        "type": "event"
+      }
+    ]
+  }
+}

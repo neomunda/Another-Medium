@@ -16,3 +16,5 @@
 	# Default: 0
 	# Range: > -2147483648
 	offsetY = 0
+	#If true, the tool belt GUI will open only while the player holds the keybind. Otherwise, a single press will toggle the GUI
+	holdToOpen = true

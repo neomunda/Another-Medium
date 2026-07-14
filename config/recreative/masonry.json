@@ -1,0 +1,13 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "minecraft:building_blocks"
+    ],
+    "icon": "minecraft:bricks",
+    "remove_items": [],
+    "add_items": [
+    ],
+    "order": []
+  }
+]

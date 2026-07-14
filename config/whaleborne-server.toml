@@ -1,0 +1,39 @@
+#Probability of a Hullback spawn attempt succeeding (0.0 to 1.0).
+#0.001 = 0.1% chance per spawn attempt. 0.0 disables natural spawning entirely.
+#The Hullback uses its own spawn category and does not compete with other ocean mobs.
+# Default: 0.005
+# Range: 0.0 ~ 1.0
+hullbackSpawnChance = 0.005
+#Maximum number of wild Hullbacks allowed in the nearby area.
+#Once this cap is reached, no more will spawn until existing ones despawn or are tamed.
+# Default: 1
+# Range: 0 ~ 10
+hullbackSpawnCap = 1
+#Base time in ticks before a wild hullback despawns.
+# Default: 24000
+# Range: 1 ~ 24000
+hullbackDespawnTimeTicks = 24000
+#Multiplier applied to the base despawn time. (1 = 1 Minecraft Day, 2 = 2 Minecraft Days...)
+# Default: 2
+# Range: 1 ~ 10
+hullbackDespawnTimeMultiplier = 2
+#Radius in blocks around the Hullback where the despawn timer pauses if a player is nearby.
+#Setting this to 0 disables the grace zone entirely.
+# Default: 16
+# Range: 0 ~ 256
+hullbackDespawnGraceRadius = 16
+#Target Y offset from sea level when a player is actively sailing at the helm.
+#Negative values submerge the whale. -4.55 aligns the deck nicely with the waterline.
+# Default: -4.55
+# Range: -20.0 ~ 0.0
+hullbackDepthSailing = -4.55
+#Target Y offset from sea level when the Hullback is tamed, anchored or stationary.
+#-5.0 provides a stable boarding height for players.
+# Default: -5.0
+# Range: -20.0 ~ 0.0
+hullbackDepthBoarding = -5.0
+#Target Y offset from sea level for wild/active Hullbacks.
+#-6.5 keeps wild whales slightly deeper.
+# Default: -6.5
+# Range: -20.0 ~ 0.0
+hullbackDepthWild = -6.5

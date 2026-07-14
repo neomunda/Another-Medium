@@ -1,0 +1,647 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "minecraft:ingredients"
+    ],
+    "icon": "minecraft:iron_ingot",
+    "remove_items": [],
+    "add_items": [
+      "minecraft:coal",
+      "minecraft:charcoal",
+      "minecraft:raw_iron",
+      "minecraft:raw_copper",
+      "minecraft:raw_gold",
+      "minecraft:emerald",
+      "minecraft:lapis_lazuli",
+      "minecraft:diamond",
+      "minecraft:ancient_debris",
+      "minecraft:quartz",
+      "minecraft:amethyst_shard",
+      "minecraft:iron_nugget",
+      "minecraft:gold_nugget",
+      "minecraft:iron_ingot",
+      "minecraft:copper_ingot",
+      "minecraft:gold_ingot",
+      "minecraft:netherite_scrap",
+      "minecraft:netherite_ingot",
+      "minecraft:stick",
+      "minecraft:flint",
+      "minecraft:wheat",
+      "minecraft:bone",
+      "minecraft:bone_meal",
+      "minecraft:string",
+      "minecraft:feather",
+      "minecraft:snowball",
+      "minecraft:egg",
+      "minecraft:leather",
+      "minecraft:rabbit_hide",
+      "minecraft:honeycomb",
+      "minecraft:ink_sac",
+      "minecraft:glow_ink_sac",
+      "minecraft:turtle_scute",
+      "minecraft:armadillo_scute",
+      "minecraft:slime_ball",
+      "minecraft:clay_ball",
+      "minecraft:prismarine_shard",
+      "minecraft:prismarine_crystals",
+      "minecraft:nautilus_shell",
+      "minecraft:heart_of_the_sea",
+      "minecraft:fire_charge",
+      "minecraft:blaze_rod",
+      "minecraft:breeze_rod",
+      "minecraft:heavy_core",
+      "minecraft:nether_star",
+      "minecraft:ender_pearl",
+      "minecraft:ender_eye",
+      "minecraft:shulker_shell",
+      "minecraft:popped_chorus_fruit",
+      "minecraft:echo_shard",
+      "minecraft:disc_fragment_5",
+      "minecraft:white_dye",
+      "minecraft:light_gray_dye",
+      "minecraft:gray_dye",
+      "minecraft:black_dye",
+      "minecraft:brown_dye",
+      "minecraft:red_dye",
+      "minecraft:orange_dye",
+      "minecraft:yellow_dye",
+      "minecraft:lime_dye",
+      "minecraft:green_dye",
+      "minecraft:cyan_dye",
+      "minecraft:light_blue_dye",
+      "minecraft:blue_dye",
+      "minecraft:purple_dye",
+      "minecraft:magenta_dye",
+      "minecraft:pink_dye",
+      "minecraft:bowl",
+      "minecraft:brick",
+      "minecraft:nether_brick",
+      "minecraft:paper",
+      "minecraft:book",
+      "minecraft:firework_star",
+      "minecraft:glass_bottle",
+      "minecraft:nether_wart",
+      "minecraft:redstone",
+      "minecraft:glowstone_dust",
+      "minecraft:gunpowder",
+      "minecraft:dragon_breath",
+      "minecraft:fermented_spider_eye",
+      "minecraft:blaze_powder",
+      "minecraft:sugar",
+      "minecraft:rabbit_foot",
+      "minecraft:glistering_melon_slice",
+      "minecraft:spider_eye",
+      "minecraft:pufferfish",
+      "minecraft:magma_cream",
+      "minecraft:golden_carrot",
+      "minecraft:ghast_tear",
+      "minecraft:turtle_helmet",
+      "minecraft:phantom_membrane",
+      "minecraft:flower_banner_pattern",
+      "minecraft:creeper_banner_pattern",
+      "minecraft:skull_banner_pattern",
+      "minecraft:mojang_banner_pattern",
+      "minecraft:globe_banner_pattern",
+      "minecraft:piglin_banner_pattern",
+      "minecraft:flow_banner_pattern",
+      "minecraft:guster_banner_pattern",
+      "minecraft:angler_pottery_sherd",
+      "minecraft:archer_pottery_sherd",
+      "minecraft:arms_up_pottery_sherd",
+      "minecraft:blade_pottery_sherd",
+      "minecraft:brewer_pottery_sherd",
+      "minecraft:burn_pottery_sherd",
+      "minecraft:danger_pottery_sherd",
+      "minecraft:flow_pottery_sherd",
+      "minecraft:explorer_pottery_sherd",
+      "minecraft:friend_pottery_sherd",
+      "minecraft:guster_pottery_sherd",
+      "minecraft:heart_pottery_sherd",
+      "minecraft:heartbreak_pottery_sherd",
+      "minecraft:howl_pottery_sherd",
+      "minecraft:miner_pottery_sherd",
+      "minecraft:mourner_pottery_sherd",
+      "minecraft:plenty_pottery_sherd",
+      "minecraft:prize_pottery_sherd",
+      "minecraft:scrape_pottery_sherd",
+      "minecraft:sheaf_pottery_sherd",
+      "minecraft:shelter_pottery_sherd",
+      "minecraft:skull_pottery_sherd",
+      "minecraft:snort_pottery_sherd",
+      "minecraft:netherite_upgrade_smithing_template",
+      "minecraft:sentry_armor_trim_smithing_template",
+      "minecraft:vex_armor_trim_smithing_template",
+      "minecraft:wild_armor_trim_smithing_template",
+      "minecraft:coast_armor_trim_smithing_template",
+      "minecraft:dune_armor_trim_smithing_template",
+      "minecraft:wayfinder_armor_trim_smithing_template",
+      "minecraft:raiser_armor_trim_smithing_template",
+      "minecraft:shaper_armor_trim_smithing_template",
+      "minecraft:host_armor_trim_smithing_template",
+      "minecraft:ward_armor_trim_smithing_template",
+      "minecraft:silence_armor_trim_smithing_template",
+      "minecraft:tide_armor_trim_smithing_template",
+      "minecraft:snout_armor_trim_smithing_template",
+      "minecraft:rib_armor_trim_smithing_template",
+      "minecraft:eye_armor_trim_smithing_template",
+      "minecraft:spire_armor_trim_smithing_template",
+      "minecraft:flow_armor_trim_smithing_template",
+      "minecraft:bolt_armor_trim_smithing_template",
+      "minecraft:experience_bottle",
+      "minecraft:trial_key",
+      "minecraft:ominous_trial_key",
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:aqua_affinity": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:bane_of_arthropods": 5
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:binding_curse": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:blast_protection": 4
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:breach": 4
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "create:capacity": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:channeling": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "caverns_and_chasms:conceal": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:density": 5
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:depth_strider": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:efficiency": 5
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "caverns_and_chasms:extending": 2
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:feather_falling": 4
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:fire_aspect": 2
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:fire_protection": 4
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:flame": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:fortune": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:frost_walker": 2
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:impaling": 5
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:infinity": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:knockback": 2
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:looting": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:loyalty": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:luck_of_the_sea": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:lure": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:mending": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:multishot": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "caverns_and_chasms:obscurity": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:piercing": 4
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "create:potato_recovery": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:power": 5
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:projectile_protection": 4
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:protection": 4
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:punch": 2
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:quick_charge": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:respiration": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:riptide": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:sharpness": 5
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:silk_touch": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "caverns_and_chasms:sky_set": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:smite": 5
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:soul_speed": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "supplementaries:stasis": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:sweeping_edge": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:swift_sneak": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:thorns": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:unbreaking": 3
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "minecraft:wind_burst": 3
+            }
+          }
+        }
+      }
+    ],
+    "order": []
+  }
+]

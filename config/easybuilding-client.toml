@@ -1,0 +1,4 @@
+#Show the Building Mode Enabled text
+showTextOverlay = false
+#Refill held block when running out
+refillHeldBlock = true

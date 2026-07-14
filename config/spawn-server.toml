@@ -2,7 +2,7 @@
 	#config.spawn.add_onto_tabs.tooltip
 	add_onto_tabs = true
 	#config.spawn.creative_tab.tooltip
-	creative_tab = true
+	creative_tab = false
 	#config.spawn.spawn_egg_tab.tooltip
 	spawn_egg_tab = false
 	#config.spawn.unbreakable_locked_chests.tooltip

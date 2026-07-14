@@ -1,0 +1,215 @@
+{
+  "music.game": {
+    "sounds": [
+      {
+        "name": "anchor:music/overworld/anais",
+        "volume": 0.3,
+        "stream": true
+      },
+      {
+        "name": "anchor:music/overworld/remote",
+        "volume": 0.3,
+        "stream": true
+      },
+      {
+        "name": "anchor:music/overworld/rodhim",
+        "volume": 0.3,
+        "stream": true
+      },
+      {
+        "name": "anchor:music/overworld/yellow_haze",
+        "volume": 0.3,
+        "stream": true
+      },
+      {
+        "name": "anchor:music/overworld/donhacky",
+        "volume": 0.3,
+        "stream": true
+      },
+      {
+        "name": "anchor:music/overworld/aweigh",
+        "volume": 0.3,
+        "stream": true
+      },
+      {
+        "name": "anchor:music/overworld/idle_hands",
+        "volume": 0.3,
+        "stream": true
+      }
+    ]
+  },
+  "music.creative": {
+    "sounds": [
+      {
+        "name": "anchor:music/creative/becrode",
+        "volume": 0.3,
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "sounds": [
+      {
+        "name": "anchor:music/nether/accumulon",
+        "volume": 0.4,
+        "stream": true,
+        "weight": 4
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "sounds": [
+      {
+        "name": "anchor:music/nether/quietus",
+        "volume": 0.5,
+        "stream": true,
+        "weight": 5
+      },
+      {
+        "name": "anchor:music/nether/eulogy",
+        "volume": 0.4,
+        "stream": true,
+        "weight": 5
+      },
+      {
+        "name": "anchor:music/nether/gan",
+        "volume": 0.3,
+        "stream": true
+      }
+    ]
+  },
+  "music.end": {
+    "sounds": [
+      {
+        "name": "anchor:music/end/coda",
+        "volume": 0.4,
+        "stream": true
+      },
+      {
+        "name": "anchor:music/end/the_voyager",
+        "volume": 0.4,
+        "stream": true
+      },
+      {
+        "name": "anchor:music/end/wires",
+        "volume": 0.3,
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.sky": {
+    "sounds": [
+      {
+        "name": "anchor:music/overworld/hello",
+        "volume": 0.3,
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.deep": {
+    "sounds": [
+      {
+        "name": "anchor:music/overworld/brave",
+        "volume": 0.3,
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.roof": {
+    "sounds": [
+      {
+        "name": "anchor:music/nether/nowhere",
+        "volume": 0.3,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.fox": {
+    "sounds": [
+      {
+        "name": "anchor:records/fox",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.hullabaloo": {
+    "sounds": [
+      {
+        "name": "anchor:records/hullabaloo",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.epilogue": {
+    "sounds": [
+      {
+        "name": "anchor:records/epilogue",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.kilobyte": {
+    "sounds": [
+      {
+        "name": "anchor:records/kilobyte",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.warp": {
+    "sounds": [
+      {
+        "name": "anchor:records/warp",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.capybara": {
+    "sounds": [
+      {
+        "name": "anchor:records/capybara",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.star": {
+    "sounds": [
+      {
+        "name": "anchor:records/star",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.fragment": {
+    "sounds": [
+      {
+        "name": "anchor:records/fragment",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.12": {
+    "sounds": [
+      {
+        "name": "anchor:records/12",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.sun": {
+    "sounds": [
+      {
+        "name": "anchor:records/sun",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.fractal": {
+    "sounds": [
+      {
+        "name": "anchor:records/fractal",
+        "stream": true
+      }
+    ]
+  }
+}

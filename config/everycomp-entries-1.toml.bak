@@ -1,0 +1,8 @@
+		[types.wood_type.caverns_and_chasms]
+			#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+			azalea = true
+
+		[entries.wood_type.create]
+			#Disables specific entries
+			window_pane = false
+			window = false

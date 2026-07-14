@@ -9,12 +9,12 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: false;
+	cheat-mode: creative;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
 	 */
-	help-level: normal;
+	help-level: none;
 
 	/**
 	 * Where EMI should pull stacks from to populate the index.
@@ -24,7 +24,7 @@
 	/**
 	 * Which sidebar should be searched using the search bar.
 	 */
-	search-sidebar: left;
+	search-sidebar: right;
 
 	/**
 	 * Whether normal search queries should include the tooltip.
@@ -46,12 +46,12 @@
 	/**
 	 * Which action should be performed when clicking the recipe book.
 	 */
-	recipe-book-action: toggle-craftables;
+	recipe-book-action: toggle-visibility;
 
 	/**
 	 * Where to display status effects in the inventory.
 	 */
-	effect-location: right-compressed;
+	effect-location: top;
 
 	/**
 	 * Whether to display a gray overlay when hovering over a stack.
@@ -82,13 +82,13 @@
 	 * Whether to use the batched render system. Batching is faster, but may have
 	 * incompatibilities with shaders or other mods.
 	 */
-	use-batched-renderer: true;
+	use-batched-renderer: false;
 
 	/**
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: true;
+	center-search-bar: false;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -108,7 +108,7 @@
 	/**
 	 * Whether the recipe tree button should be visible.
 	 */
-	recipe-tree-button-visibility: auto;
+	recipe-tree-button-visibility: hidden;
 
 	/**
 	 * The maximum height the recipe screen will grow to be if space is available in
@@ -146,7 +146,7 @@
 	/**
 	 * Whether recipes should have a button to show the recipe tree.
 	 */
-	recipe-tree-button: true;
+	recipe-tree-button: false;
 
 	/**
 	 * Whether recipes should have a button to fill the ingredients in a handler.
@@ -167,7 +167,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: craftables, index;
+	left-sidebar-pages: craftables, favorites;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -177,17 +177,17 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 8, 89;
+	left-sidebar-size: 10, 10;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
 	 */
-	left-sidebar-margins: 56, 6, 42, 6;
+	left-sidebar-margins: 65, 10, 55, 10;
 
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: center, center;
+	left-sidebar-align: right, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
@@ -202,7 +202,7 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: none;
+	right-sidebar-pages: index;
 
 	/**
 	 * The subpanels in the right sidebar
@@ -212,12 +212,12 @@
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 12, 100;
+	right-sidebar-size: 6, 80;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
 	 */
-	right-sidebar-margins: 2, 2, 2, 2;
+	right-sidebar-margins: 45, 15, 45, -5;
 
 	/**
 	 * Where to position the right sidebar
@@ -237,7 +237,7 @@
 	/**
 	 * The pages in the top sidebar
 	 */
-	top-sidebar-pages: none;
+	top-sidebar-pages: favorites;
 
 	/**
 	 * The subpanels in the top sidebar
@@ -247,7 +247,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the top sidebar to
 	 */
-	top-sidebar-size: 9, 9;
+	top-sidebar-size: 12, 4;
 
 	/**
 	 * How much space to maintain between the top sidebar and obstructions, in pixels
@@ -257,12 +257,12 @@
 	/**
 	 * Where to position the top sidebar
 	 */
-	top-sidebar-align: center, center;
+	top-sidebar-align: left, top;
 
 	/**
 	 * Whether to render the header buttons and page count for the top sidebar
 	 */
-	top-sidebar-header: visible;
+	top-sidebar-header: invisible;
 
 	/**
 	 * Which theme to use for the top sidebar

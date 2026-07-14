@@ -1,9 +1,9 @@
 #Only Affect Block Light
 only_affect_block_light = false
 #Ignore Moon Phase
-ignore_moon_phase = false
+ignore_moon_phase = true
 #Gradual Moon Phase Darkness. Old default behavior was false and is a much more harsh change in darkness between moon phases
-gradual_moon_phase_darkness = true
+gradual_moon_phase_darkness = false
 #Should the Overworld have True Darkness
 dark_overworld = true
 #Should the default for worlds be True Darkness

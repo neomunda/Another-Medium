@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-      { "model": "block/redstone_ore", "weight":100 },
-      { "model": "block/redstone_ore_alt", "weight":50 }
-    ]
-  }
-}

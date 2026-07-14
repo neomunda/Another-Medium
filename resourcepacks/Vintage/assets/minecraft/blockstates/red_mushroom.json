@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-       { "model": "block/red_mushroom" },
-       { "model": "block/taller_red_mushroom" }
-    ]
-  }
-}

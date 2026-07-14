@@ -1,0 +1,12 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "caverns_and_chasms:copper"
+    ],
+    "icon": "caverns_and_chasms:waxed_copper_ingot",
+    "remove_items": [],
+    "add_items": [],
+    "order": []
+  }
+]

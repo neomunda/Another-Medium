@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "estarlightp",
+      "uniqueId": "24f8eb98-b31d-4f0d-9922-25442443451d"
+    },
+    "time": 1783888995972,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/IysmN4PZFZ"
+    }
+  }
+]

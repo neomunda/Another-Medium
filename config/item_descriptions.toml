@@ -10,6 +10,9 @@ spawn_eggs_show_entity = true
 # When Item Descriptions are being displayed, also display the mod name.
 # default: false
 show_mod_name = false
+# Add Item Descriptions Info Recipes to Enchanted Books when using Reliable Recipe Viewer
+# default: false
+addToRecipeViewers = false
 
 [hint]
 	# When descriptions on an item are not visible, show a tooltip with the default text 'Show more' and the keybind.
@@ -100,6 +103,9 @@ show_mod_name = false
 	# Italicize Enchantment Descriptions
 	# default: false
 	italics = false
+	# Add Enchantment Descriptions Info Recipes to Enchanted Books when using Reliable Recipe Viewer
+	# default: true
+	addToRecipeViewers = true
 
 [effect_descriptions]
 	# Enable descriptions for Status Effects.
@@ -114,6 +120,9 @@ show_mod_name = false
 	# Replace Item Descriptions with Effect Descriptions when present.
 	# default: false
 	only_show_effect_descriptions = false
+	# Add Effect Descriptions Info Recipes to Potions when using Reliable Recipe Viewer
+	# default: true
+	addToRecipeViewers = true
 
 [developer_options]
 	# Replaces the description with a list of translation keys that can be used to match that item. Hold Alt to view their translations.

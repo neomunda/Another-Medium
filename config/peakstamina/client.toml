@@ -1,0 +1,191 @@
+["HUD Layout"]
+	# The style of the HUD. BAR is horizontal, ICON is vertical.
+	#Allowed Values: BAR, ICON
+	hudStyle = "BAR"
+	#X offset for the Stamina HUD in BAR mode.
+	# Default: 0
+	# Range: -5000 ~ 5000
+	barXOffset = 0
+	#Y offset for the Stamina HUD in BAR mode.
+	# Default: 1
+	# Range: -5000 ~ 5000
+	barYOffset = 0
+	#X offset for the Stamina HUD in ICON mode.
+	# Default: 0
+	# Range: -5000 ~ 5000
+	iconXOffset = 0
+	#Y offset for the Stamina HUD in ICON mode.
+	# Default: 1
+	# Range: -5000 ~ 5000
+	iconYOffset = 0
+	# Width of the bar in pixels (Used for BAR style)
+	# Default: 182
+	# Range: 1 ~ 1000
+	barWidth = 180
+	# Height of the bar in pixels (Used for BAR style)
+	# Default: 4
+	# Range: 1 ~ 100
+	barHeight = 2
+	# Whether to render text/emoji icons on the stamina bar penalty zones.
+	showIcons = true
+	#Regen Arrow Style: DEFAULT (uses >>> ), CUSTOM (uses your custom texture made in the sprite sheet) or OFF.
+	#Allowed Values: DEFAULT, CUSTOM, OFF
+	regenIndicatorStyle = "DEFAULT"
+	#If true, draws a slightly dark border around the regen indicators (>).
+	showRegenBorder = true
+
+[Colors]
+	# Default: 2236962
+	# Range: 0 ~ 16777215
+	colorBackground = 2236962
+	# Default: 65280
+	# Range: 0 ~ 16777215
+	colorSafe = 65280
+	# Default: 16711680
+	# Range: 0 ~ 16777215
+	colorCritical = 16711680
+	# Default: 65450
+	# Range: 0 ~ 16777215
+	colorTireless = 65450
+	# Default: 16711680
+	# Range: 0 ~ 16777215
+	colorStripes = 16711680
+	# Color for Hunger penalty stripes
+	# Default: 16763904
+	# Range: 0 ~ 16777215
+	colorPenaltyHunger = 16763904
+	# Color for Food Poisoning penalty stripes
+	# Default: 11141375
+	# Range: 0 ~ 16777215
+	colorPenaltyPoison = 11141375
+	# Color for weight stripes
+	# Default: 5592405
+	# Range: 0 ~ 16777215
+	colorPenaltyWeight = 5592405
+
+["Bonus Stamina Bar"]
+	# Top gradient color for Bonus Stamina (RGB). Default: Gold
+	# Default: 16777184
+	# Range: 0 ~ 16777215
+	colorBonusTop = 16766720
+	# Bottom gradient color for Bonus Stamina (RGB). Default: Dark Orange
+	# Default: 16449331
+	# Range: 0 ~ 16777215
+	colorBonusBottom = 16747520
+	# Color of the highlight sheen (RGB). Default: White
+	# Default: 16777215
+	# Range: 0 ~ 16777215
+	colorBonusHighlight = 16777215
+	# Opacity of the highlight sheen (0-255). 0 = Invisible, 255 = Solid. Default: 128 (Semi-transparent)
+	# Default: 128
+	# Range: 0 ~ 255
+	bonusHighlightAlpha = 128
+
+["Encumbrance UI"]
+	#Enable the dynamic Weight/Encumbrance text on the inventory screen.
+	enableWeightHUD = false
+	#X position offset for the Weight HUD (0 is the center of the screen)
+	# Default: 0
+	# Range: -4000 ~ 4000
+	weightXOffset = 0
+	#Y position offset for the Weight HUD (0 is the center of the screen)
+	# Default: 1
+	# Range: -4000 ~ 4000
+	weightYOffset = 1
+	#The unit of measurement to display for weight. (Internal logic remains in lbs)
+	#Allowed Values: lbs, kg, CUSTOM
+	displayUnit = "kg"
+	#If displayUnit is CUSTOM, what label should be shown? (e.g., 'oz', 'stones')
+	customUnitLabel = "kg"
+	#If displayUnit is CUSTOM, what should the internal lbs value be multiplied by.
+	#For example, 1 lbs = 16 oz, so the multiplier for 'oz' to be displayed 'accurately' would be 16.0.
+	# Default: 1.0
+	# Range: 1.0E-4 ~ 10000.0
+	customUnitMultiplier = 1.0
+
+["Auto Hud"]
+	# Enable hiding the stamina bar when full/not in use.
+	autoHudEnable = true
+	# Animation type. FADE, SLIDE, or BOTH.
+	#Allowed Values: FADE, SLIDE, BOTH
+	autoHudMode = "FADE"
+	# Direction the bar slides away to. UP, DOWN, LEFT, RIGHT.
+	#Allowed Values: UP, DOWN, LEFT, RIGHT
+	autoHudSlideDir = "DOWN"
+	# The mathematical curve used for the slide animation.
+	# LINEAR: Constant speed from start to finish.
+	# SMOOTHSTEP: Starts slow, speeds up in the middle, then ends slow.
+	# EASE_OUT_SINE: Starts fast and then slows down to a stop.
+	# EASE_OUT_EXPO: Starts extremely fast and then quickly slows down to a stop.
+	#Allowed Values: LINEAR, SMOOTHSTEP, EASE_OUT_SINE, EASE_OUT_EXPO
+	autoHudEasing = "EASE_OUT_SINE"
+	# Speed the bar fades in.
+	# Default: 0.08
+	# Range: 0.01 ~ 1.0
+	autoHudFadeInSpeed = 0.08
+	# Speed the bar fades out.
+	# Default: 0.05
+	# Range: 0.01 ~ 1.0
+	autoHudFadeOutSpeed = 0.05
+	# Speed the bar slides in.
+	# Default: 0.08
+	# Range: 0.01 ~ 1.0
+	autoHudSlideInSpeed = 0.08
+	# Speed the bar slides out.
+	# Default: 0.05
+	# Range: 0.01 ~ 1.0
+	autoHudSlideOutSpeed = 0.05
+	# How many pixels the bar moves when sliding out.
+	# Default: 45
+	# Range: 0 ~ 1000
+	autoHudSlideDistance = 45
+	# How long (in ticks) the bar stays visible after you stop using stamina (20 ticks = 1s).
+	# Default: 60
+	# Range: 0 ~ 1200
+	autoHudLingerTime = 60
+	# Show the bar if stamina drops below this percentage (0.35 = 35%)
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	autoHudThreshold = 0.35
+	# Force the bar to stay visible if you have penalties (hunger, poison, fatigue, weight).
+	autoHudShowOnPenalties = true
+	#If true, the stamina HUD will automatically show when you have Bonus Stamina.
+	autoHudShowOnBonus = true
+
+[Tooltips]
+	#Enable stamina information on item tooltips.
+	enableTooltips = false
+	#Only show tooltips when advanced tooltips are enabled (F3+H).
+	advancedTooltipsOnly = true
+	# Define multiple tooltips to display on items. (Order here dictates order shown in-game)
+	# Format: 'CONTENT_TYPE;PLACEMENT;LABEL_COLOR;VALUE_COLOR'
+	# 
+	# Available Content: WEIGHT, ATTACK_COST, MISSED_ATTACK_COST, USE_COST, TICK_COST, BLOCK_COST,
+	#                    INSTANT_STAMINA, BONUS_STAMINA, REGEN_MODIFIER, CURES
+	# Available Placements: BOTTOM, BELOW_NAME
+	# Colors: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+	# 
+	# Note: You can press Enter to format this list vertically in this file!
+	customTooltips = ["WEIGHT;BOTTOM;DARK_GRAY;WHITE", "ATTACK_COST;BOTTOM;DARK_GRAY;WHITE", "BLOCK_COST;BOTTOM;DARK_GRAY;WHITE", "USE_COST;BOTTOM;DARK_GRAY;WHITE", "TICK_COST;BOTTOM;DARK_GRAY;WHITE", "INSTANT_STAMINA;BOTTOM;DARK_GRAY;GREEN", "BONUS_STAMINA;BOTTOM;DARK_GRAY;GOLD", "REGEN_MODIFIER;BOTTOM;DARK_GRAY;YELLOW", "CURES;BOTTOM;DARK_GRAY;WHITE"]
+
+	[Tooltips.Labels]
+		#Text shown before the Weight value.
+		labelWeight = "Weight: "
+		#Text shown before the Attack Cost value.
+		labelAttackCost = "Attack Cost: "
+		#Text shown before the Use Cost value.
+		labelUseCost = "Use Cost: "
+		#Text shown before the Tick/Active Cost value.
+		labelTickCost = "Active Cost: "
+		#Text shown before the Block Cost value.
+		labelBlockCost = "Block Cost: "
+		#Text shown before the Missed Attack Cost value.
+		labelMissCost = "Miss Cost: "
+		#Text shown before the Instant Stamina value.
+		labelInstant = "Restores: "
+		#Text shown before the Bonus Stamina value.
+		labelBonus = "Bonus: "
+		#Text shown before the Regen Modifier value.
+		labelRegen = "Regen: "
+		#Text shown before the Cures value.
+		labelCures = "Cures: "

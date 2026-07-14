@@ -1,0 +1,4 @@
+#If true, the beam preview shown while placing the second endpoint is a translucent 'ghost'. If false, the preview instead renders fully solid
+ghostPreview = false
+#If true, a pitched placement sound plays whenever a new beam segment is added to or removed from the placement preview. If false, this sound is disabled.
+beamPitchSound = true

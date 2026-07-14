@@ -1,0 +1,278 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "overgeared:blueprint_tab"
+    ],
+    "icon": "overgeared:blueprint",
+    "remove_items": [],
+    "add_items": [
+      "overgeared:empty_blueprint",
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "NONE"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "POOR"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "WELL"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "EXPERT"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "PERFECT"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "MASTER"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "NONE",
+            "tool_type": "pickaxe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "POOR",
+            "tool_type": "pickaxe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "WELL",
+            "tool_type": "pickaxe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "EXPERT",
+            "tool_type": "pickaxe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "PERFECT",
+            "tool_type": "pickaxe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "MASTER",
+            "tool_type": "pickaxe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "NONE",
+            "tool_type": "shovel"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "POOR",
+            "tool_type": "shovel"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "WELL",
+            "tool_type": "shovel"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "EXPERT",
+            "tool_type": "shovel"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "PERFECT",
+            "tool_type": "shovel"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "MASTER",
+            "tool_type": "shovel"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "NONE",
+            "tool_type": "hoe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "POOR",
+            "tool_type": "hoe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "WELL",
+            "tool_type": "hoe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "EXPERT",
+            "tool_type": "hoe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "PERFECT",
+            "tool_type": "hoe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "MASTER",
+            "tool_type": "hoe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "NONE",
+            "tool_type": "axe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "POOR",
+            "tool_type": "axe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "WELL",
+            "tool_type": "axe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "EXPERT",
+            "tool_type": "axe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "PERFECT",
+            "tool_type": "axe"
+          }
+        }
+      },
+      {
+        "item": "overgeared:blueprint",
+        "components": {
+          "overgeared:blueprint_data": {
+            "quality": "MASTER",
+            "tool_type": "axe"
+          }
+        }
+      }
+    ],
+    "order": []
+  }
+]

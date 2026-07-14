@@ -1,9 +1,0 @@
-{
-    "pack": {
-        "description": "i steal those brainrots",
-        "supported_formats": [1, 1011],
-        "pack_format": 69,
-        "min_format": 1,
-        "max_format": 1011
-    }
-}

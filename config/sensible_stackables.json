@@ -1,0 +1,22 @@
+{
+  "items": {
+    "#c:foods/soup": 16,
+    "minecraft:saddle": 16,
+    "#sensible_stackables:minecarts": 16,
+    "minecraft:ender_pearl": 64,
+    "minecraft:cake": 16,
+    "#c:potions": 3,
+    "minecraft:snowball": 64,
+    "#minecraft:harnesses": 16,
+    "#minecraft:boats": 16,
+    "#minecraft:beds": 16,
+    "#sensible_stackables:horse_armor": 64,
+    "minecraft:enchanted_book": 64,
+    "#c:music_discs": 64,
+    "#c:eggs": 64,
+    "#sensible_stackables:banner_patterns": 64
+  },
+  "splashPotionCooldown": 1,
+  "uncapStackSize": true,
+  "commonStackSize": 128
+}

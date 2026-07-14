@@ -1,0 +1,192 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "minecraft:tools_and_utilities"
+    ],
+    "icon": "minecraft:diamond_pickaxe",
+    "remove_items": [],
+    "add_items": [
+      "minecraft:wooden_shovel",
+      "minecraft:wooden_pickaxe",
+      "minecraft:wooden_axe",
+      "minecraft:wooden_hoe",
+      "minecraft:stone_shovel",
+      "minecraft:stone_pickaxe",
+      "minecraft:stone_axe",
+      "minecraft:stone_hoe",
+      "minecraft:iron_shovel",
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_axe",
+      "minecraft:iron_hoe",
+      "minecraft:golden_shovel",
+      "minecraft:golden_pickaxe",
+      "minecraft:golden_axe",
+      "minecraft:golden_hoe",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_hoe",
+      "minecraft:netherite_shovel",
+      "minecraft:netherite_pickaxe",
+      "minecraft:netherite_axe",
+      "minecraft:netherite_hoe",
+      "minecraft:bucket",
+      "minecraft:water_bucket",
+      "minecraft:cod_bucket",
+      "minecraft:salmon_bucket",
+      "minecraft:tropical_fish_bucket",
+      "minecraft:pufferfish_bucket",
+      "minecraft:axolotl_bucket",
+      "minecraft:tadpole_bucket",
+      "minecraft:lava_bucket",
+      "minecraft:powder_snow_bucket",
+      "minecraft:milk_bucket",
+      "minecraft:fishing_rod",
+      "minecraft:flint_and_steel",
+      "minecraft:fire_charge",
+      "minecraft:bone_meal",
+      "minecraft:shears",
+      "minecraft:brush",
+      "minecraft:name_tag",
+      "minecraft:lead",
+      "minecraft:compass",
+      "minecraft:recovery_compass",
+      "minecraft:clock",
+      "minecraft:spyglass",
+      "minecraft:map",
+      "minecraft:writable_book",
+      "minecraft:wind_charge",
+      "minecraft:ender_pearl",
+      "minecraft:ender_eye",
+      "minecraft:elytra",
+      "minecraft:firework_rocket",
+      {
+        "item": "minecraft:firework_rocket",
+        "components": {
+          "minecraft:fireworks": {
+            "flight_duration": 2
+          }
+        }
+      },
+      {
+        "item": "minecraft:firework_rocket",
+        "components": {
+          "minecraft:fireworks": {
+            "flight_duration": 3
+          }
+        }
+      },
+      "minecraft:saddle",
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:oak_boat",
+      "minecraft:oak_chest_boat",
+      "minecraft:spruce_boat",
+      "minecraft:spruce_chest_boat",
+      "minecraft:birch_boat",
+      "minecraft:birch_chest_boat",
+      "minecraft:jungle_boat",
+      "minecraft:jungle_chest_boat",
+      "minecraft:acacia_boat",
+      "minecraft:acacia_chest_boat",
+      "minecraft:dark_oak_boat",
+      "minecraft:dark_oak_chest_boat",
+      "minecraft:mangrove_boat",
+      "minecraft:mangrove_chest_boat",
+      "minecraft:cherry_boat",
+      "minecraft:cherry_chest_boat",
+      "minecraft:bamboo_raft",
+      "minecraft:bamboo_chest_raft",
+      "minecraft:rail",
+      "minecraft:powered_rail",
+      "minecraft:detector_rail",
+      "minecraft:activator_rail",
+      "minecraft:minecart",
+      "minecraft:hopper_minecart",
+      "minecraft:chest_minecart",
+      "minecraft:furnace_minecart",
+      "minecraft:tnt_minecart",
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "minecraft:ponder_goat_horn"
+        }
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "minecraft:sing_goat_horn"
+        }
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "minecraft:seek_goat_horn"
+        }
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "minecraft:feel_goat_horn"
+        }
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "caverns_and_chasms:fly_goat_horn"
+        }
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "minecraft:admire_goat_horn"
+        }
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "minecraft:call_goat_horn"
+        }
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "minecraft:yearn_goat_horn"
+        }
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "minecraft:dream_goat_horn"
+        }
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "components": {
+          "minecraft:instrument": "caverns_and_chasms:resist_goat_horn"
+        }
+      },
+      "minecraft:music_disc_13",
+      "minecraft:music_disc_cat",
+      "minecraft:music_disc_blocks",
+      "minecraft:music_disc_chirp",
+      "minecraft:music_disc_far",
+      "minecraft:music_disc_mall",
+      "minecraft:music_disc_mellohi",
+      "minecraft:music_disc_stal",
+      "minecraft:music_disc_strad",
+      "minecraft:music_disc_ward",
+      "minecraft:music_disc_11",
+      "minecraft:music_disc_creator_music_box",
+      "minecraft:music_disc_wait",
+      "minecraft:music_disc_creator",
+      "minecraft:music_disc_precipice",
+      "minecraft:music_disc_otherside",
+      "minecraft:music_disc_relic",
+      "minecraft:music_disc_5",
+      "minecraft:music_disc_pigstep"
+    ],
+    "order": []
+  }
+]

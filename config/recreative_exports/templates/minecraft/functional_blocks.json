@@ -1,0 +1,2320 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "minecraft:functional_blocks"
+    ],
+    "icon": "minecraft:oak_sign",
+    "remove_items": [],
+    "add_items": [
+      "minecraft:torch",
+      "minecraft:soul_torch",
+      "minecraft:redstone_torch",
+      "minecraft:lantern",
+      "minecraft:soul_lantern",
+      "minecraft:chain",
+      "minecraft:end_rod",
+      "minecraft:sea_lantern",
+      "minecraft:redstone_lamp",
+      "minecraft:copper_bulb",
+      "minecraft:exposed_copper_bulb",
+      "minecraft:weathered_copper_bulb",
+      "minecraft:oxidized_copper_bulb",
+      "minecraft:waxed_copper_bulb",
+      "minecraft:waxed_exposed_copper_bulb",
+      "minecraft:waxed_weathered_copper_bulb",
+      "minecraft:waxed_oxidized_copper_bulb",
+      "minecraft:glowstone",
+      "minecraft:shroomlight",
+      "minecraft:ochre_froglight",
+      "minecraft:verdant_froglight",
+      "minecraft:pearlescent_froglight",
+      "minecraft:crying_obsidian",
+      "minecraft:glow_lichen",
+      "minecraft:magma_block",
+      "minecraft:crafting_table",
+      "minecraft:stonecutter",
+      "minecraft:cartography_table",
+      "minecraft:fletching_table",
+      "minecraft:smithing_table",
+      "minecraft:grindstone",
+      "minecraft:loom",
+      "minecraft:furnace",
+      "minecraft:smoker",
+      "minecraft:blast_furnace",
+      "minecraft:campfire",
+      "minecraft:soul_campfire",
+      "minecraft:anvil",
+      "minecraft:chipped_anvil",
+      "minecraft:damaged_anvil",
+      "minecraft:composter",
+      "minecraft:note_block",
+      "minecraft:jukebox",
+      "minecraft:enchanting_table",
+      "minecraft:end_crystal",
+      "minecraft:brewing_stand",
+      "minecraft:cauldron",
+      "minecraft:bell",
+      "minecraft:beacon",
+      "minecraft:conduit",
+      "minecraft:lodestone",
+      "minecraft:ladder",
+      "minecraft:scaffolding",
+      "minecraft:bee_nest",
+      "minecraft:beehive",
+      "minecraft:suspicious_sand",
+      "minecraft:suspicious_gravel",
+      "minecraft:lightning_rod",
+      "minecraft:flower_pot",
+      "minecraft:decorated_pot",
+      "minecraft:armor_stand",
+      "minecraft:item_frame",
+      "minecraft:glow_item_frame",
+      "minecraft:painting",
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:accident"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:alban"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:alpha"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:aztec"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:aztec2"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "clayworks:baked"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:beta"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:bomb"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:bouquet2"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:bubbles"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:crusty"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:euphoria"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:guardian_angel"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:kebab"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:meditative"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:mouse_on_venus"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "atmospheric:not_so_still_life"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:perennial"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:plant"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:starry_night"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:still_life"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:tussie_mussie"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "upgrade_aquatic:utensil"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:wasteland"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:wrong_side"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:bliss"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:bouquet"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:bouquet_edition"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:cat"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:film"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:flowers"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:graham"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "hominid:hothead"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:iconography"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:jazz_town"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:meaningless"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:noir"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:painting"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:prairie_ride"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:rising_sun_and_fading_death"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:rosemalling"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:self_reflection"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:squid_games"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:stare"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:vice"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:wanderer"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:blossoms"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:courbet"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:creebet"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:eyes"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:in_plains_sight"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:medley"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:pool"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:post_mortem"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:rainforest"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:red_dawn"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:sea"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:sunrise_sparse"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:sunset"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:the_sun_has_set"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:wildstyle"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:afternoon"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:farlander"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:final_bloom"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:fox"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:greatsword"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:luminescent"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:pillars"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:sandstones"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:shapes"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:stalks"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:sunflower"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:underwater"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:boscage"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:brick_monster"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:eye"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:gears"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:screaming"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:squirmy"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:the_place_within_the_pines"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:you_have_been_trolled"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:heavens_ladder"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:prickle"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:table"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:alpha"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:aquaculture"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:baroque"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "supplementaries:bombs"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:bust"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:fights_on_the_underwater_heights"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:generator"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:heartbeat"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:humble"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:isolation"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:lotl"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:macabre"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:macabre_alt"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:macrocosm"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:match"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "atmospheric:monsoon"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:operator"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "hominid:orbit"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:parrot"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:skull_and_roses"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:slabfish"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:snake_block"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:stage"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "nomansland:sun"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:traveller"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:void"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:watching"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:waves"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "atmospheric:wayward"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "nomansland:white_eyes"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:winter_wonderland"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:wither"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:beachside"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:drippy"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:heirloom"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:mountains"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:an_intruder"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:best_friend"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:cult"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:distant_peaks"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:harvest_moon"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:heartcore"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:marshpath"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:moonlight_tower"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:morning_on_the_seine"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:mourned_demise"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:ocean"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:optimal_aerodynamics"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:pixel_gobelin"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:pools"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:rana"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:randomtickspeed"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:shattered_dream"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:taiga"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:time_flies"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "oreganized:vindicating_bad"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:void_manor"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:warden_of_the_bloodmoon"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:wardona_lisa"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:yonder"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:ancestor"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "atmospheric:canyon"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:cave_game"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:creepy"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:ending"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:knight"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:lone_plum"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:nyctinasty"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:pit"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:prototype_701"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:pyramid"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:slime_chunk"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "nirvana:this_is_not_a_horn"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:unwrap"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:we_need_to_go_deeper"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:windmill_field"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:awful_housing"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:caricature"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:cherry_moon"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:embedded"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:escapeless"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:gulls"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "atmospheric:lost"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:serpent"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:changing"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:fighters"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:finding"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:inbetweenlands"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:lowmist"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:never_blooming_wattle"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:passage"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:picturesque"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "upgrade_aquatic:sightless"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:the_painting_at_end_of_catalogue"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:anchor"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:bouquet"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:cavebird"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:cotan"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:death"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:dennis"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:endboss"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:endy_warhol"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "atmospheric:fateful_outing"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:fern"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:life_cycle"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:mode_creative"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:owlemons"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:sunflowers"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:tides"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:waves"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:yondering_cranium"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:backyard"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:chef"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "upgrade_aquatic:coil"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:john_devouring_his_son"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:oak_door"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:pond"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:the_scream"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:underworld"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "environmental:archive"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:donkey_kong"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:feather_falling"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "upgrade_aquatic:monument"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "hominid:not_happy"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:rainbows"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:rainbows_alt"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:rainbows_trans"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:skeleton"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:statue"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:storm"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:the_far_lands"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:the_far_lands_alt"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:virtuosi_pas_de_deux"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:burning_skull"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:cloth"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:cloud_cuckoo"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:exsanguinated"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:giant"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:journeys_end"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:justice"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:orb"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:pigscene"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:pointer"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "portfolio:stair_hall"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "caverns_and_chasms:the_enigma"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "minecraft:unpacked"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:kitty"
+          }
+        }
+      },
+      {
+        "item": "minecraft:painting",
+        "components": {
+          "minecraft:entity_data": {
+            "id": "minecraft:painting",
+            "variant": "slimes_gallery:the_tree_of_life"
+          }
+        }
+      },
+      "minecraft:bookshelf",
+      "minecraft:chiseled_bookshelf",
+      "minecraft:lectern",
+      "minecraft:tinted_glass",
+      "minecraft:oak_sign",
+      "minecraft:oak_hanging_sign",
+      "minecraft:spruce_sign",
+      "minecraft:spruce_hanging_sign",
+      "minecraft:birch_sign",
+      "minecraft:birch_hanging_sign",
+      "minecraft:jungle_sign",
+      "minecraft:jungle_hanging_sign",
+      "minecraft:acacia_sign",
+      "minecraft:acacia_hanging_sign",
+      "minecraft:dark_oak_sign",
+      "minecraft:dark_oak_hanging_sign",
+      "minecraft:mangrove_sign",
+      "minecraft:mangrove_hanging_sign",
+      "minecraft:cherry_sign",
+      "minecraft:cherry_hanging_sign",
+      "minecraft:bamboo_sign",
+      "minecraft:bamboo_hanging_sign",
+      "minecraft:crimson_sign",
+      "minecraft:crimson_hanging_sign",
+      "minecraft:warped_sign",
+      "minecraft:warped_hanging_sign",
+      "minecraft:chest",
+      "minecraft:barrel",
+      "minecraft:ender_chest",
+      "minecraft:shulker_box",
+      "minecraft:white_shulker_box",
+      "minecraft:light_gray_shulker_box",
+      "minecraft:gray_shulker_box",
+      "minecraft:black_shulker_box",
+      "minecraft:brown_shulker_box",
+      "minecraft:red_shulker_box",
+      "minecraft:orange_shulker_box",
+      "minecraft:yellow_shulker_box",
+      "minecraft:lime_shulker_box",
+      "minecraft:green_shulker_box",
+      "minecraft:cyan_shulker_box",
+      "minecraft:light_blue_shulker_box",
+      "minecraft:blue_shulker_box",
+      "minecraft:purple_shulker_box",
+      "minecraft:magenta_shulker_box",
+      "minecraft:pink_shulker_box",
+      "minecraft:respawn_anchor",
+      "minecraft:white_bed",
+      "minecraft:light_gray_bed",
+      "minecraft:gray_bed",
+      "minecraft:black_bed",
+      "minecraft:brown_bed",
+      "minecraft:red_bed",
+      "minecraft:orange_bed",
+      "minecraft:yellow_bed",
+      "minecraft:lime_bed",
+      "minecraft:green_bed",
+      "minecraft:cyan_bed",
+      "minecraft:light_blue_bed",
+      "minecraft:blue_bed",
+      "minecraft:purple_bed",
+      "minecraft:magenta_bed",
+      "minecraft:pink_bed",
+      "minecraft:candle",
+      "minecraft:white_candle",
+      "minecraft:light_gray_candle",
+      "minecraft:gray_candle",
+      "minecraft:black_candle",
+      "minecraft:brown_candle",
+      "minecraft:red_candle",
+      "minecraft:orange_candle",
+      "minecraft:yellow_candle",
+      "minecraft:lime_candle",
+      "minecraft:green_candle",
+      "minecraft:cyan_candle",
+      "minecraft:light_blue_candle",
+      "minecraft:blue_candle",
+      "minecraft:purple_candle",
+      "minecraft:magenta_candle",
+      "minecraft:pink_candle",
+      "minecraft:white_banner",
+      "minecraft:light_gray_banner",
+      "minecraft:gray_banner",
+      "minecraft:black_banner",
+      "minecraft:brown_banner",
+      "minecraft:red_banner",
+      "minecraft:orange_banner",
+      "minecraft:yellow_banner",
+      "minecraft:lime_banner",
+      "minecraft:green_banner",
+      "minecraft:cyan_banner",
+      "minecraft:light_blue_banner",
+      "minecraft:blue_banner",
+      "minecraft:purple_banner",
+      "minecraft:magenta_banner",
+      "minecraft:pink_banner",
+      {
+        "item": "minecraft:white_banner",
+        "components": {
+          "minecraft:banner_patterns": [
+            {
+              "pattern": "minecraft:rhombus",
+              "color": "cyan"
+            },
+            {
+              "pattern": "minecraft:stripe_bottom",
+              "color": "light_gray"
+            },
+            {
+              "pattern": "minecraft:stripe_center",
+              "color": "gray"
+            },
+            {
+              "pattern": "minecraft:border",
+              "color": "light_gray"
+            },
+            {
+              "pattern": "minecraft:stripe_middle",
+              "color": "black"
+            },
+            {
+              "pattern": "minecraft:half_horizontal",
+              "color": "light_gray"
+            },
+            {
+              "pattern": "minecraft:circle",
+              "color": "light_gray"
+            },
+            {
+              "pattern": "minecraft:border",
+              "color": "black"
+            }
+          ],
+          "minecraft:hide_additional_tooltip": {},
+          "minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+        }
+      },
+      "minecraft:skeleton_skull",
+      "minecraft:wither_skeleton_skull",
+      "minecraft:player_head",
+      "minecraft:zombie_head",
+      "minecraft:creeper_head",
+      "minecraft:piglin_head",
+      "minecraft:dragon_head",
+      "minecraft:dragon_egg",
+      "minecraft:end_portal_frame",
+      "minecraft:ender_eye",
+      "minecraft:vault",
+      "minecraft:infested_stone",
+      "minecraft:infested_cobblestone",
+      "minecraft:infested_stone_bricks",
+      "minecraft:infested_mossy_stone_bricks",
+      "minecraft:infested_cracked_stone_bricks",
+      "minecraft:infested_chiseled_stone_bricks",
+      "minecraft:infested_deepslate"
+    ],
+    "order": []
+  }
+]

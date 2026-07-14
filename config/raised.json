@@ -286,6 +286,39 @@
       },
       "sync": "immersiveoverlays:wind"
     },
+    "launchers_and_arrows:attribute_effect_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "launchers_and_arrows:attribute_effect_info"
+    },
+    "launchers_and_arrows:bolt_thrower_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "launchers_and_arrows:bolt_thrower_info"
+    },
+    "launchers_and_arrows:mechanical_bow_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "launchers_and_arrows:mechanical_bow_info"
+    },
     "minecraft:bossbar": {
       "displacement": {
         "x": 0,
@@ -396,6 +429,28 @@
       },
       "sync": "minecraft:toasts"
     },
+    "nomansland:dialogue": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "nomansland:dialogue"
+    },
+    "nomansland:dream_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "nomansland:dream_overlay"
+    },
     "oreganized:stunning": {
       "displacement": {
         "x": 0,
@@ -428,6 +483,28 @@
         "y": "NONE"
       },
       "sync": "overgeared:popup"
+    },
+    "peakstamina:stamina_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 19
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "peakstamina:stamina_hud"
+    },
+    "satchels:satchel_hotbar": {
+      "displacement": {
+        "x": 0,
+        "y": 9
+      },
+      "direction": {
+        "x": "RIGHT",
+        "y": "UP"
+      },
+      "sync": "satchels:satchel_hotbar"
     },
     "simulated:linked_typewriter_binding": {
       "displacement": {
@@ -472,6 +549,28 @@
         "y": "NONE"
       },
       "sync": "supplementaries:slimed"
+    },
+    "vista:viewfinder": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "vista:viewfinder"
+    },
+    "whaleborne:anchor_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "whaleborne:anchor_overlay"
     }
   },
   "resource": {

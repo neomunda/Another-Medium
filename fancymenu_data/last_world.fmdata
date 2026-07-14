@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Usuario/AppData/Roaming/ElyPrismLauncher/instances/Another Medium...(1)/minecraft/saves/Testing
+}
+

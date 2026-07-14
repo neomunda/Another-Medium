@@ -11,6 +11,10 @@
 	enableAnvilToSmithing = true
 	#Requires blueprint to obtain higher quality items
 	enableBlueprintForging = false
+	#Enable Tier A Smithing Anvil to appears
+	enableTierA = false
+	#Enable Tier B Smithing Anvil to appears
+	enableTierB = false
 
 ["Stone Smithing Anvil"]
 	#Number of uses before the Stone Smithing Anvil breaks. Set to 0 to disable.
@@ -57,7 +61,7 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
 	masterFromIngredientChance = 0.5
-	#Maximum distance you can go from your Smithing Anvil before minigame reset
+	#Maximum distance you can go from your Smithing Anvil before minigame reset. Set to 0 to disable it.
 	# Default: 100
 	# Range: 0 ~ 1000
 	maxAnvilDistance = 100
@@ -377,3 +381,27 @@
 	# Default: 0.7
 	# Range: 0.0 ~ 5.0
 	poorMiningSpeedBonus = 0.7
+
+["Item Break Chance"]
+	#Enable quality-based break chance system
+	enableQualityBreakSystem = true
+	#Break chance at 0 durability for POOR quality
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	breakChancePoor = 1.0
+	#Break chance for WELL quality
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	breakChanceWell = 0.5
+	#Break chance for EXPERT quality
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	breakChanceExpert = 0.75
+	#Break chance for PERFECT quality
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	breakChancePerfect = 0.0
+	#Break chance for MASTER quality
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	breakChanceMaster = 0.0

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/template_sided_door_top_right_open",
-  "textures": {
-    "top": "minecraft:block/copper_door_top",
-    "side": "minecraft:block/copper_door_side",
-    "side_top": "minecraft:block/copper_door_side_top"
-  }
-}

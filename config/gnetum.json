@@ -1,6 +1,6 @@
 {
   "enabled": {
-    "value": "OFF"
+    "value": "ON"
   },
   "showHudFps": {
     "value": "OFF"
@@ -10,7 +10,7 @@
   },
   "numberOfPasses": 3,
   "maxFps": 60,
-  "screenMaxFps": 20,
+  "screenMaxFps": 65,
   "mapVanillaElements": {
     "create:value_settings": {
       "enabled": {
@@ -30,12 +30,6 @@
       },
       "pass": 2
     },
-    "immersiveoverlays:wind": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "create:toolbox": {
       "enabled": {
         "value": "AUTO"
@@ -43,12 +37,6 @@
       "pass": 1
     },
     "minecraft:overlay_message": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "immersiveoverlays:speed": {
       "enabled": {
         "value": "AUTO"
       },
@@ -72,6 +60,12 @@
       },
       "pass": 1
     },
+    "simulated:linked_typewriter_binding": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
     "create:track_placement": {
       "enabled": {
         "value": "AUTO"
@@ -90,12 +84,6 @@
       },
       "pass": 2
     },
-    "immersiveoverlays:temperature": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "minecraft:experience_level": {
       "enabled": {
         "value": "AUTO"
@@ -103,6 +91,18 @@
       "pass": 2
     },
     "overgeared:anvil_minigame": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "caverns_and_chasms:monocle": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "caverns_and_chasms:monocle_head": {
       "enabled": {
         "value": "AUTO"
       },
@@ -162,18 +162,6 @@
       },
       "pass": 1
     },
-    "immersiveoverlays:biome": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "immersiveoverlays:compass": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "minecraft:experience_bar": {
       "enabled": {
         "value": "AUTO"
@@ -181,12 +169,6 @@
       "pass": 2
     },
     "minecraft:saving_indicator": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "immersiveoverlays:clock": {
       "enabled": {
         "value": "AUTO"
       },
@@ -217,22 +199,9 @@
       "pass": 3
     }
   },
-  "mapModdedElementsPre": {
-    "midnightthoughts": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    }
-  },
+  "mapModdedElementsPre": {},
   "mapModdedElementsPost": {
     "gnetum_unknown": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "puzzleslib": {
       "enabled": {
         "value": "AUTO"
       },

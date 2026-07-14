@@ -1,0 +1,193 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "nomansland:nomansland_ancient_pots"
+    ],
+    "icon": "nomansland:large_ancient_pot",
+    "remove_items": [],
+    "add_items": [
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_1"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_1_face_happy"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_1_face_stern"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_1_wiggle"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_1_wiggle_gold"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_1_wiggle_green"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_1_wiggle_white"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_1alt"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_2"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_2_face_happy"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_2_face_stern"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_3"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_4"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_5"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_small_6"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:ancient_pot_small_1"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:ancient_pot_small_1alt"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:ancient_pot_small_2"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:ancient_pot_small_3"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:ancient_pot_small_4"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:ancient_pot_small_5"
+        }
+      },
+      {
+        "item": "nomansland:ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:ancient_pot_small_6"
+        }
+      },
+      {
+        "item": "nomansland:large_ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_large_1"
+        }
+      },
+      {
+        "item": "nomansland:large_ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_large_1_face_happy"
+        }
+      },
+      {
+        "item": "nomansland:large_ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_large_1_face_stern"
+        }
+      },
+      {
+        "item": "nomansland:large_ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_large_1_wiggle"
+        }
+      },
+      {
+        "item": "nomansland:large_ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_large_1_wiggle_gold"
+        }
+      },
+      {
+        "item": "nomansland:large_ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_large_1_wiggle_green"
+        }
+      },
+      {
+        "item": "nomansland:large_ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:alchemist_pot_large_1_wiggle_white"
+        }
+      },
+      {
+        "item": "nomansland:large_ancient_pot",
+        "components": {
+          "nomansland:pot_variant": "nomansland:ancient_pot_large_1"
+        }
+      }
+    ],
+    "order": []
+  }
+]

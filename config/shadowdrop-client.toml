@@ -1,0 +1,62 @@
+# Shadow Drop: Client Configuration
+# (note: for EMI compatibility, set 'use-batched-renderer' to 'false' in EMI config)
+#
+[general]
+	#
+	# Shadow opacity (255 is fully opaque)
+	# Default: 99
+	# Range: 0 ~ 255
+	shadowAlpha = 100
+	# Enable/disable the mod entirely
+	modEnabled = true
+	#
+	# Shadow color (RGB hex)
+	shadowColor = "#000000"
+	#
+	# Shadow X offset
+	# Default: 1
+	# Range: 0 ~ 4
+	shadowXOffset = 1
+	#
+	# Shadow Y offset
+	# Default: 1
+	# Range: 0 ~ 4
+	shadowYOffset = 1
+	#
+	# Shadow Z offset
+	# Default: -50
+	# Range: -100 ~ 0
+	shadowZOffset = -50
+
+[shadowContexts]
+	# Items always have shadows (overrules other shadow contexts when true)
+	shadowsAlways = true
+	#
+	# Items in slots (see slot detection config) have shadows
+	shadowsInSlots = true
+	#
+	# Items in hotbar slots always have shadows
+	shadowsInHotbar = true
+	#
+	# Items being carried by the cursor have shadows
+	shadowsInCursor = true
+
+[cropContexts]
+	# Shadows of items in slots (see slot detection config) should be cropped
+	cropToSlots = true
+	#
+	# Shadows of items in the hotbar should always be cropped
+	cropToHotbar = true
+
+[slotDetection]
+	# RGB hex colors for detection of visual slots (e.g. "#FFFFFF")
+	# This color is searched for in the bottom-right corner pixel wherever an item is rendered
+	# Adjust for compatibility with resource packs or modded GUIs where this pixel is not #FFFFFF
+	slotBrColors = ["#FFFFFF"]
+
+[exceptions]
+	# Items with half shadow alpha (e.g. "#c:glass_blocks", "minecraft:glass")
+	translucentItems = ["#c:glass_blocks", "#c:glass_panes", "minecraft:beacon"]
+	#
+	# Items with no shadow (e.g. "#c:glass_blocks", "minecraft:glass")
+	transparentItems = []

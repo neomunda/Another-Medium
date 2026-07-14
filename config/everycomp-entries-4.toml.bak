@@ -1,0 +1,25 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.wood_type.caverns_and_chasms]
+			azalea = true
+
+		[types.leaves_type.cookscollection]
+			lemon = true
+			fruiting_lemon = true
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.curiosities]
+			fancied_planks = false
+
+		[entries.wood_type.create]
+			window_pane = false
+			window = false
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.beams]
+			beam = true

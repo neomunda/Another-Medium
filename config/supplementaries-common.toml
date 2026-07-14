@@ -34,6 +34,21 @@
 		# Default: 0.035
 		# Range: 0.0 ~ 1.0
 		mineshaft_elevator = 0.035
+		#If true, pulleys retract their rope chain over multiple ticks, animating each block via vanilla moving-piston entities. 
+		#Connected blocks become moving blocks (so they push entities, drop sand etc) and multiple pulleys can cooperate to pull a single heavy contraption — useful for elevators. 
+		#If false, the original instant retraction behavior is used.
+		continuous_retraction = true
+		#If true, multiple pulleys firing on the same tick with the same period and push direction can pool their pull budget into one structure resolve — letting two ropes share a wide elevator platform. Only relevant when 'continuous_retraction' is enabled.
+		cooperative_pulleys = true
+		#Maximum number of NON-rope blocks a single pulley can drag (the anchor and anything sticky-attached to it). Rope segments don't count toward this. Cooperating pulleys pool their budgets — two pulleys can pull twice this many blocks together.
+		# Default: 8
+		# Range: 1 ~ 128
+		pull_limit = 8
+		#Ticks to wait between unit pulls when continuous_retraction is enabled. 
+		#Lower = faster pulley. Minimum 2 ticks because each animation takes that long to play out — going lower has no effect.
+		# Default: 4
+		# Range: 2 ~ 100
+		pull_interval = 4
 
 	[redstone.dispenser_minecart]
 		#Makes projectiles shot from dispenser minecart retain the minecart velocity and be shot at an angle when the minecart is on a rail slope
@@ -58,7 +73,6 @@
 		# Default: 5.0
 		# Range: 0.0 ~ 64.0
 		base_velocity_scaling = 5.0
-		#maximum range
 		#note that it will still only keep alive the two fire blocks closer to it
 		# Default: 5
 		# Range: 0 ~ 16
@@ -104,13 +118,7 @@
 	fodder = true
 
 	[functional.jar]
-		#Allow Jars to hold cookies
-		jar_cookies = false
 		enabled = false
-		#Allow Jars to hold liquids from bottles, buckets and bowls
-		jar_liquids = false
-		#Allow Jars to capture small mobs
-		jar_capture = false
 		#Jar liquid capacity: leave at 12 for pixel accuracy
 		# Default: 12
 		# Range: 0 ~ 1024
@@ -122,56 +130,16 @@
 		drink_from_jar_item = false
 		#Dynamically allows all small mobs inside jars depending on their hitbox size
 		jar_auto_detect = false
+		#Allow Jars to capture small mobs
+		jar_capture = true
+		#Allow Jars to hold cookies
+		jar_cookies = true
+		#Allow Jars to hold liquids from bottles, buckets and bowls
+		jar_liquids = true
 
-	[functional.rope]
-		#Enables horizontal placement of ropes. Disabling will make ropes always non solid
-		horizontal_ropes = false
-		#Also internally disables Galleons, Pulleys, Buntings, Rope arrows and rope mineshaft.
-		#Also disables compat blocks such as supplementaries Farmers Delight rope tomatoes and Decorative blocks rope chandeliers.
-		#Also reminder that you can disable any item from any mod with a recipe (datapack) + JEI hide
+	[functional.flax]
 		enabled = false
-		#Makes sliding down ropes as fast as free falling, still negating fall damage
-		slide_on_fall = false
-		#Allows ropes to be supported & attached to solid block sides
-		block_side_attachment = false
-		#Use this config to turn allow supplementaries to replace all items tagged as #supplementaries:ropes with supplementaries own rope or turn them to air instead. This is applied to all loot tables (chests and drops)
-		#Allowed Values: REPLACE, NONE, REMOVE
-		replace_in_loot_tables = "NONE"
-
-	[functional.safe]
-		enabled = false
-		#Makes safes only breakable by their owner or by a player in creative
-		prevent_breaking = false
-		#Make safes simpler so they do not require keys:
-		#they will be bound to the first person that opens one and only that person will be able to interact with them
-		simple_safes = false
-
-	[functional.bamboo_spikes]
-		tipped_spikes = false
-		#Populate the creative inventory with all tipped spikes variations
-		populate_creative_tab = false
-		enabled = false
-		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
-		only_allow_harmful_effects = false
-		#Allows entities killed by spikes to drop loot as if they were killed by a player
-		player_loot = false
-
-	[functional.cage]
-		enabled = false
-		#When on, if a mob is tameable, it will only be capturable when tamed.
-		require_taming = false
-		#Allows all entities to be captured by cages and jars. Not meant for survival
-		allow_all_mobs = false
-		#Allows all baby mobs to be captured by cages
-		cage_allow_all_babies = false
-		#Dynamically allows all small mobs inside cages depending on their hitbox size
-		cage_auto_detect = false
-		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
-		persistent_mobs = false
-		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
-		# Default: 100
-		# Range: 1 ~ 100
-		health_threshold = 100
+		wild_flax = false
 
 	[functional.sack]
 		#How many slots should a sack have
@@ -186,8 +154,79 @@
 		# Range: 1 ~ 50
 		sack_increment = 2
 
-	[functional.cannon]
+	[functional.bamboo_spikes]
+		tipped_spikes = false
+		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
+		only_allow_harmful_effects = false
 		enabled = false
+		#Populate the creative inventory with all tipped spikes variations
+		populate_creative_tab = false
+		#Allows entities killed by spikes to drop loot as if they were killed by a player
+		player_loot = false
+
+	[functional.rope]
+		#Makes sliding down ropes as fast as free falling, still negating fall damage
+		slide_on_fall = false
+		#Also internally disables Galleons, Pulleys, Buntings, Rope arrows and rope mineshaft.
+		#Also disables compat blocks such as supplementaries Farmers Delight rope tomatoes and Decorative blocks rope chandeliers.
+		#Also reminder that you can disable any item from any mod with a recipe (datapack) + JEI hide
+		enabled = true
+		#Enables horizontal placement of ropes. Disabling will make ropes always non solid
+		horizontal_ropes = false
+		#Allows ropes to be supported & attached to solid block sides
+		block_side_attachment = false
+		#Use this config to turn allow supplementaries to replace all items tagged as #supplementaries:ropes with supplementaries own rope or turn them to air instead. This is applied to all loot tables (chests and drops)
+		#Allowed Values: REPLACE, NONE, REMOVE
+		replace_in_loot_tables = "NONE"
+
+	[functional.safe]
+		enabled = false
+		#Makes safes only breakable by their owner or by a player in creative
+		prevent_breaking = false
+		#Make safes simpler so they do not require keys:
+		#they will be bound to the first person that opens one and only that person will be able to interact with them
+		simple_safes = false
+
+	[functional.cage]
+		enabled = false
+		#Allows all entities to be captured by cages and jars. Not meant for survival
+		allow_all_mobs = false
+		#Allows all baby mobs to be captured by cages
+		cage_allow_all_babies = false
+		#Dynamically allows all small mobs inside cages depending on their hitbox size
+		cage_auto_detect = false
+		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
+		persistent_mobs = false
+		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
+		# Default: 100
+		# Range: 1 ~ 100
+		health_threshold = 100
+		#When on, if a mob is tameable, it will only be capturable when tamed.
+		require_taming = true
+
+	[functional.urn]
+		enabled = true
+		#Chance for an urn to spawn a critter from the urn_spawn tag
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		critter_spawn_chance = 0.01
+		cave_urns = true
+
+	[functional.soap]
+		enabled = true
+		#Allows soap to clean blocks in-world. Disable to prevent in-world block cleaning while keeping soap item and recipes functional
+		block_cleaning_enabled = true
+		#Dyed Bock/Item types that cannot be cleaned with soap
+		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", ",minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
+
+		#This is a map of special blocks that can be cleaned with soap. For items you will also need to add a recipe
+		[functional.soap.special_blocks]
+			"quark:dirty_glass" = "minecraft:glass"
+			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
+			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+
+	[functional.cannon]
+		enabled = true
 		#Makes TNT-like block shot from a cannon explode on impact
 		#Allowed Values: IGNITE, IGNITE_ON_IMPACT, NONE
 		explode_tnt = "IGNITE"
@@ -227,34 +266,9 @@
 			enabled = true
 			galleon = true
 
-	[functional.urn]
-		enabled = true
-		#Chance for an urn to spawn a critter from the urn_spawn tag
-		# Default: 0.01
-		# Range: 0.0 ~ 1.0
-		critter_spawn_chance = 0.01
-		cave_urns = true
-
-	[functional.soap]
-		enabled = true
-		#Allows soap to clean blocks in-world. Disable to prevent in-world block cleaning while keeping soap item and recipes functional
-		block_cleaning_enabled = true
-		#Dyed Bock/Item types that cannot be cleaned with soap
-		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", ",minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
-
-		#This is a map of special blocks that can be cleaned with soap. For items you will also need to add a recipe
-		[functional.soap.special_blocks]
-			"quark:dirty_glass" = "minecraft:glass"
-			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
-			"quark:dirty_glass_pane" = "minecraft:glass_pane"
-
 	[functional.present]
 		enabled = true
 		trapped_present = true
-
-	[functional.flax]
-		enabled = true
-		wild_flax = true
 
 	[functional.lumisene]
 		enabled = true
@@ -276,33 +290,42 @@
 			glowing_duration = 200
 
 [building]
-	flint_block = false
-	end_stone_lamp = false
-	blackstone_lamp = false
-	stone_tile = false
-	wicker_fence = false
 	pancake = false
-	blackstone_tile = false
-	deepslate_lamp = false
-	fine_wood = false
-	checker_block = false
-	stone_lamp = false
-	doormat = false
-	lapis_bricks = false
 	statue = false
+	doormat = false
+	blackstone_lamp = false
+	feather_block = false
+	blackstone_tile = false
+	lapis_bricks = false
+	stone_tile = false
+	stone_lamp = false
 	#Buntings are automatically disabled if 'rope' feature is disabled
 	bunting = true
+	end_stone_lamp = false
+	flint_block = false
+	deepslate_lamp = false
+	checker_block = false
+	wicker_fence = false
 	raked_gravel = true
-	feather_block = true
+	fine_wood = true
 	candle_holder = true
 	fire_pit = true
+	brittlestone = false
+	brittlestone_bricks = false
 
-	[building.planter]
-		#When Farmers Delight is on planter will also act like rich soil and use it in its recipe
-		rich_soil_planter = false
+	[building.barnacles]
 		enabled = false
-		#Makes so saplings that grow in a planter will break it turning into rooted dirt
-		broken_by_sapling = false
+
+	[building.iron_gate]
+		#Allows two iron gates to be opened simultaneously when on top of the other
+		double_opening = false
+		enabled = false
+		#Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openable by redstone
+		door-like_gates = false
+
+	[building.daub]
+		wattle_and_daub = false
+		enabled = false
 
 	[building.netherite_doors]
 		trapdoor = false
@@ -310,54 +333,56 @@
 		#Makes netherite doors and trapdoors unbreakable
 		unbreakable = false
 
-	[building.timber_frame]
-		#Allows axes to remove a framed block leaving the contained block intact
-		axes_strip = false
-		#Replace a timber frame with wattle and daub block when daub is placed in it
-		replace_daub = false
+	[building.flower_box]
+		#Makes so flower boxes can only contain one tall flower item per block
+		simple_mode = false
 		enabled = false
-		#Allow placing a timber frame directly on a block by holding shift
-		swap_on_shift = false
 
-	[building.iron_gate]
+	[building.gold_bars]
 		enabled = false
-		#Allows two iron gates to be opened simultaneously when on top of the other
-		double_opening = false
-		#Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openable by redstone
-		door-like_gates = false
+
+	[building.item_shelf]
+		enabled = false
+		#Makes item shelves climbable
+		climbable_shelves = false
 
 	[building.goblet]
+		enabled = false
 		#Allows drinking from goblets
 		allow_drinking = false
+
+	[building.globe]
 		enabled = false
+		#Displays current coordinates when using a globe
+		show_coordinates = false
+		sepia_globe = false
+
+	[building.notice_board]
+		enabled = false
+		#Enables a GUI for the block. Not needed as the block just holds one item which you can place by clicking on it
+		gui = false
+		#Allows notice boards to accept and display any item, not just maps and books
+		allow_any_item = false
+
+	[building.blackboard]
+		enabled = false
+		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
+		colored_blackboard = false
+		#Interaction mode for blackboards
+		#Allowed Values: BOTH, GUI, MANUAL
+		interaction_mode = "BOTH"
 
 	[building.gravel_bricks]
 		enabled = false
 		#Allows gravel bricks to break when fallen upon or when an entity walks on them with enough falling speed
 		allow_breaking = false
 
-	[building.flag]
-		enabled = false
-		#Allows right/left clicking on a stick to lower/raise a flag attached to it
-		stick_pole = false
-		#Maximum allowed pole length
-		# Default: 16
-		# Range: 0 ~ 256
-		pole_length = 16
-
-	[building.barnacles]
-		enabled = false
-
-	[building.daub]
-		enabled = false
-		wattle_and_daub = false
-
 	[building.way_sign]
 		enabled = false
 
 		[building.way_sign.road_signs]
 			#Entirely disables them from spawning
-			enabled = false
+			enabled = true
 			#With this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
 			#Maximum distance in chunks that road signs will search for structures
@@ -371,39 +396,12 @@
 			# Range: 1 ~ 100
 			max_structures_searches = 12
 
-	[building.gold_bars]
+	[building.pedestal]
 		enabled = false
-
-	[building.item_shelf]
-		enabled = false
-		#Makes item shelves climbable
-		climbable_shelves = false
-
-	[building.globe]
-		enabled = false
-		sepia_globe = false
-		#Displays current coordinates when using a globe
-		show_coordinates = false
-
-	[building.notice_board]
-		enabled = false
-		#Enables a GUI for the block. Not needed as the block just holds one item which you can place by clicking on it
-		gui = false
-		#Allows notice boards to accept and display any item, not just maps and books
-		allow_any_item = false
-
-	[building.flower_box]
-		#Makes so flower boxes can only contain one tall flower item per block
-		simple_mode = false
-		enabled = false
-
-	[building.blackboard]
-		enabled = false
-		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
-		colored_blackboard = false
-		#Interaction mode for blackboards
-		#Allowed Values: BOTH, GUI, MANUAL
-		interaction_mode = "BOTH"
+		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
+		# Default: 3.0
+		# Range: 0.0 ~ 100.0
+		crystal_enchanting = 3.0
 
 	[building.spider_head]
 		enabled = true
@@ -415,6 +413,15 @@
 		# Range: 0.0 ~ 1.0
 		speed = 0.125
 
+	[building.timber_frame]
+		enabled = true
+		#Allow placing a timber frame directly on a block by holding shift
+		swap_on_shift = false
+		#Allows axes to remove a framed block leaving the contained block intact
+		axes_strip = true
+		#Replace a timber frame with wattle and daub block when daub is placed in it
+		replace_daub = true
+
 	[building.sugar_cube]
 		enabled = true
 		#Duration in seconts of speed effect garanted to horses that eat a sugar cube
@@ -422,12 +429,12 @@
 		# Range: 0 ~ 1000
 		horse_speed_duration = 10
 
-	[building.pedestal]
+	[building.planter]
 		enabled = true
-		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
-		# Default: 3.0
-		# Range: 0.0 ~ 100.0
-		crystal_enchanting = 3.0
+		#Makes so saplings that grow in a planter will break it turning into rooted dirt
+		broken_by_sapling = false
+		#When Farmers Delight is on planter will also act like rich soil and use it in its recipe
+		rich_soil_planter = true
 
 	[building.ash]
 		enabled = true
@@ -441,6 +448,15 @@
 		rain_wash_ash = true
 		#Use a datapack to tweak rarity
 		basalt_ash = true
+
+	[building.flag]
+		enabled = true
+		#Allows right/left clicking on a stick to lower/raise a flag attached to it
+		stick_pole = true
+		#Maximum allowed pole length
+		# Default: 16
+		# Range: 0 ~ 256
+		pole_length = 16
 
 	[building.ash_bricks]
 		enabled = true
@@ -615,8 +631,8 @@
 	[tools.antique_ink]
 		enabled = true
 
-#General settings
 [general]
+	#General settings
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 	#Enable Creative Tab
@@ -630,12 +646,9 @@
 	# Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
 
-#Vanilla tweaks
-[tweaks]
-
 	[tweaks.dragon_banner_pattern]
 		#Adds dragon banner pattern made from dragon head
-		enabled = true
+		enabled = false
 
 	[tweaks.ai_tweaks]
 		#Allows pillagers to use cannon boats. Add more entities to the 'supplementaries:can_use_cannon_boat' tag to allow them to use cannon boats as well
@@ -644,7 +657,7 @@
 		raiders_dismount_boats = true
 
 	[tweaks.golden_apple_disenchant]
-		enabled = true
+		enabled = false
 
 	[tweaks.traders_open_doors]
 		#Allows traders to open doors (because they couldn't apparently)
@@ -702,6 +715,14 @@
 		death_marker = "WITH_COMPASS"
 		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
 		tinted_blocks_on_maps = true
+		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
+		quill_adventurer_maps = true
+		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
+		quill_vanilla_maps = true
+		#Miminum search radius for quill. Used to incrase the radius of vanilla searches. For reference buried treasures are at 50 and locate is at 100 chunks
+		# Default: 75
+		# Range: 10 ~ 600
+		min_search_radius = 75
 
 		[tweaks.map_tweaks.random_adventurer_maps]
 			#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
@@ -775,3 +796,11 @@
 		compass_right_click = false
 		#Allow these features to work in dimensions like nether or end where normally clocks don't work
 		works_in_unnatural_dimensions = false
+
+	[tweaks.piston_tweaks]
+		#If true, pistons can push blocks that have a block entity (e.g. chests, furnaces). Blocks whose push reaction is BLOCK are still immovable regardless of this setting.
+		push_block_entities = true
+		#If true, adjacent pistons facing the same direction can pool their 12-block push budget to move structures larger than a single piston could handle alone (e.g. two side-by-side pistons pushing a 24-block slime contraption). Only triggers when a single piston's vanilla resolve would fail.
+		cooperative_pistons = true
+		#If true, pushing an empty cauldron into a water or lava source (with a piston or a pulley) fills it with that fluid, instead of leaving it empty. Also tops up cauldrons being moved.
+		moved_cauldron_filling = true

@@ -1,0 +1,12 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "overgeared:lingering_arrows_tab"
+    ],
+    "icon": "minecraft:fletching_table",
+    "remove_items": [],
+    "add_items": [],
+    "order": []
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "item.all_with_you.backpack": "Satchel",
+
+  "key.all_with_you.store_in_backpack": "Store in Satchel",
+  "key.categories.all_with_you": "All with You",
+  "message.all_with_you.backpack.no_space": "Not enough space",
+  "message.all_with_you.backpack.full": "Satchel is full!",
+  "message.all_with_you.backpack.forbidden": "This item cannot be put into the Satchel",
+  "advancements.all_with_you.obtain_backpack.title": "All with me",
+  "advancements.all_with_you.obtain_backpack.description": "Obtain a Satchel",
+  "advancements.all_with_you.full_backpack.title": "Full Limits!",
+  "advancements.all_with_you.full_backpack.description": "Pack your Satchel to the brim"
+}

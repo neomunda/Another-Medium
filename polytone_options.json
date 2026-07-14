@@ -1,0 +1,15 @@
+{
+  "polytone:lenient_loading": false,
+  "polytone:legacy_parsing": true,
+  "polytone:particles_throttle": 1.0,
+  "polytone:auto_particle_rate_limit": false,
+  "polytone:custom_particles_async": false,
+  "polytone:show_config_button": true,
+  "sunbathing:sun_intensity": 0.7,
+  "sunbathing:quality": 4.0,
+  "sunbathing:moon_intensity": 0.1,
+  "sunbathing:lens_flare": 0.0,
+  "sunbathing:enabled": true,
+  "sunbathing:density": 0.92,
+  "sunbathing:decay": 0.99
+}

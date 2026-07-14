@@ -1,0 +1,69 @@
+#Allowed Values: LIST, GENERATE
+no_worlds_behaviour = "LIST"
+
+[panel_design]
+	# Default: 0.4
+	# Range: 0.2 ~ 0.6
+	panel_width_ratio = 0.5
+	#Allowed Values: GRAY, BLACK
+	panel_background_style = "BLACK"
+	# Default: 102
+	# Range: 0 ~ 255
+	panel_alpha = 102
+	#Allowed Values: DYNAMIC, STATIC, MIXED
+	panel_behaviour = "MIXED"
+	#Allowed Values: LEFT, RIGHT
+	panel_position = "LEFT"
+	# Default: 1.25
+	# Range: 0.5 ~ 3.0
+	panel_text_scale = 1.0
+	#TOP - content starts from top, CENTER - content centered vertically, BOTTOM - content at bottom
+	#Allowed Values: TOP, CENTER, BOTTOM
+	panel_text_alignment = "CENTER"
+
+[element_animations]
+	enable_world_hover_animation = true
+	enable_text_hover_animation = true
+	# Default: 0.15
+	# Range: 0.01 ~ 1.0
+	panel_animation_speed = 0.15
+	# Default: 0.14
+	# Range: 0.01 ~ 1.0
+	world_select_animation_speed = 0.14
+	# Default: 0.45
+	# Range: 0.01 ~ 1.0
+	world_deselect_animation_speed = 0.45
+
+[visible_information]
+	show_world_name = true
+	show_folder_name = false
+	show_game_mode = true
+	show_difficulty = true
+	show_time_played = true
+	#Allowed Values: MINUTES, HOURS, DAYS, WEEKS, MONTHS, YEARS
+	time_played_format = "HOURS"
+	show_version = false
+	show_cheats = false
+	show_last_played = true
+	show_large_icon = true
+
+[large_icon_settings]
+	#Allowed Values: RATIO_16_9, RATIO_4_3, RATIO_1_1
+	large_icon_aspect_ratio = "RATIO_4_3"
+	#CROP - crops image to fill the box, STRETCH - stretches image to fill the box
+	#Allowed Values: CROP, STRETCH
+	large_icon_display_mode = "CROP"
+	# Default: 1.0
+	# Range: 0.25 ~ 3.0
+	large_icon_scale = 0.5
+	custom_icon_slideshow = true
+	# Default: 6
+	# Range: 1 ~ 120
+	custom_icon_slideshow_interval_seconds = 6
+	# Default: 1.2
+	# Range: 0.1 ~ 10.0
+	custom_icon_slideshow_fade_seconds = 1.2
+
+[internal]
+	custom_lines = []
+	panel_order = []

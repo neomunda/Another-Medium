@@ -126,3 +126,5 @@
 	fixed_holding_animations = false
 	#Prevents campfire smoke from rendering if there is a solid block above it
 	campfire_smoke_through_blocks = false
+	#Renders a flame particle on top of held torches
+	torch_item_flame = false

@@ -1,0 +1,12 @@
+[
+  {
+    "action": "modify_tab",
+    "tab": [
+      "simulated:main_tab"
+    ],
+    "icon": "simulated:physics_assembler",
+    "remove_items": [],
+    "add_items": [],
+    "order": []
+  }
+]
