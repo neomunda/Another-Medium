@@ -22,6 +22,16 @@ defaultconfigs/
 datapacks/
 coremods/
 data/
+.mixin.out/
+.pg-native/
+.sable/
+vista_ffmpeg_bin/
+vista_web_content_cache/
+paxi/
+moonlight-global-datapacks/
+exposures/
+dynamic-data-pack-cache/
+dynamic-resource-pack-cache/
 
 *.db
 *.env
@@ -31,5 +41,12 @@ usercache.json
 usernamecache.json
 icon.png
 emi.json
+vista_ffmpeg_sources.json
+temp_image_dump.png
+servers.dat
+ponders_watched.json
+polytone_popup.json
+polytone_options.json
+.qmenu_opened.marker
 
 *.disabled
