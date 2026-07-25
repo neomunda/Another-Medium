@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "minersdelight:item/seasoned_arthropods_particle",
+    "layer0": "minersdelight:item/seasoned_arthropods"
+  }
+}

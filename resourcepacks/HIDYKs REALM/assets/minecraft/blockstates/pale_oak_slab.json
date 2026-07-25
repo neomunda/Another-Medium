@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": {"model": "minecraft:block/pale_oak_slab"},
+    "type=double": {"model": "minecraft:block/pale_oak_planks_vertical"},
+    "type=top": {"model": "minecraft:block/pale_oak_slab_top"}
+  }
+}

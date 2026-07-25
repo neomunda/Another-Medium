@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/template_item_frame_map",
+    "textures": {
+        "particle": "block/glow_item_frame_map",
+        "map": "block/glow_item_frame_map"
+    }
+}

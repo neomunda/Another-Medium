@@ -1,0 +1,13 @@
+#Disable the slow first-person tool-raise animation
+flatToolRaise = false
+#How mining swing animations are handled
+#Allowed Values: DIRECT, VANILLA, NONE
+swingAnimationMode = "VANILLA"
+#Ticks before a swing lands its hit
+# Default: 0
+# Range: 0 ~ 20
+swingImpactOffset = 0
+#Only apply swing impact offset when holding a mining tool
+swingImpactOffsetOnlyWithTools = false
+#Use the punch animation for non-tool mining
+overridePunching = false

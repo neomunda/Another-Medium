@@ -1,0 +1,13 @@
+{
+    "parent": "item/buckets",
+    "textures": {
+        "layer0": "item/copper_door"
+    },
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [10, -30, 0],
+			"scale": [1, 1, 2]
+		}
+	}
+}

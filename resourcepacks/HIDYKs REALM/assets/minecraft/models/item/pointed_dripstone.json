@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Hidyk with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/pointed_dripstone"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 100, 0],
+			"translation": [-1, -1, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 100, 0],
+			"translation": [0, -2, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"head": {
+			"rotation": [0, 0, 2.75],
+			"translation": [0, 9, 0],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}

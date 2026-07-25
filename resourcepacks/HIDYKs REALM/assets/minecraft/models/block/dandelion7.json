@@ -1,0 +1,7 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "block/dandelion",
+		"cross2": "block/dandelion4"
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Made by Hidyk with Blockbench",
+	"parent": "block/fixed_door_bottom_right",
+	"textures": {
+		"bottom": "block/oxidized_copper_door_bottom",
+		"side": "block/oxidized_copper_door_side"
+	}
+}

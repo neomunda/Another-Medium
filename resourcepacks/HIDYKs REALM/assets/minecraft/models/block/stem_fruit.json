@@ -1,0 +1,17 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#upperstem"
+	},
+	"elements": [
+		{
+			"from": [-8, -1, 8],
+			"to": [24, 31, 8],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#upperstem"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#upperstem"}
+			}
+		}
+	]
+}

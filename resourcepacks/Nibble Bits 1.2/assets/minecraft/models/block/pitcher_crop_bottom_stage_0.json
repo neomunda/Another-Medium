@@ -1,0 +1,41 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"plant": "minecraft:block/pitcher_crop_bottom_stage_0",
+		"particle": "minecraft:block/pitcher_crop_pod_0"
+	},
+	"elements": [
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#plant"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#plant"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [4, -1, 4],
+			"to": [12, 3, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 12], "texture": "#particle"},
+				"east": {"uv": [0, 8, 8, 12], "texture": "#particle"},
+				"south": {"uv": [0, 8, 8, 12], "texture": "#particle"},
+				"west": {"uv": [0, 8, 8, 12], "texture": "#particle"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#particle"}
+			}
+		}
+	]
+}

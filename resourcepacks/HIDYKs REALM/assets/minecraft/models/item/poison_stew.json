@@ -1,0 +1,7 @@
+{
+    "parent": "item/bucket",
+    "textures": {
+        "layer0": "minecraft:item/poison",
+		"particle": "minecraft:item/poison_food"
+    }
+}

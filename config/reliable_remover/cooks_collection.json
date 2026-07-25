@@ -1,0 +1,16 @@
+[
+  {
+    "action": "remove",
+      "mod": [
+      "cookscollection"
+      ],
+    "pattern": "/.*lemon.*/"
+  },
+  {
+    "action": "remove",
+      "mod": [
+      "cookscollection"
+      ],
+    "pattern": "/.*salt.*/"
+  }
+]

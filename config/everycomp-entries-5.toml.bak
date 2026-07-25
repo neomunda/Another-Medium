@@ -4,19 +4,21 @@
 		[types.wood_type.caverns_and_chasms]
 			azalea = true
 
-		[types.leaves_type.cookscollection]
-			lemon = true
-			fruiting_lemon = true
+		[types.wood_type.arts_and_crafts]
+			cork = true
+
+		[types.wood_type.minecraft]
+			pale_oak = true
+
+		[types.leaves_type.arts_and_crafts]
+			cork = true
+
+		[types.leaves_type.minecraft]
+			pale_oak = true
 
 #Disables specific entries
 [entries]
 
-		[entries.wood_type.curiosities]
-			fancied_planks = false
-
 		[entries.wood_type.create]
 			window_pane = false
 			window = false
-
-		[entries.wood_type.farmersdelight]
-			cabinet = true

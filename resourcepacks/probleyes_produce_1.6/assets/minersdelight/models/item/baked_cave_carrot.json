@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "minersdelight:item/baked_cave_carrot_particle",
+    "layer0": "minersdelight:item/baked_cave_carrot"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "hanging=true": { "model": "block/lantern_hanging"},
+        "hanging=false": { "model": "block/lantern"}
+  }
+}

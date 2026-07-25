@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/exposed_copper"},
+	{"model": "minecraft:block/exposed_copper2"}
+	]
+  }
+}

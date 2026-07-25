@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/stone_bricks", "weight":16 },
+		{ "model": "block/stone_bricks2", "weight":1 },
+		{ "model": "block/stone_bricks3", "weight":6 },
+		{ "model": "block/stone_bricks4", "weight":8 },
+		{ "model": "block/stone_bricks5", "weight":10 }
+		]
+    }
+}

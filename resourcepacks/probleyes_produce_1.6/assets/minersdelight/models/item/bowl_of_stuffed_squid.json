@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "minersdelight:item/bowl_of_stuffed_squid_particle",
+    "layer0": "minersdelight:item/bowl_of_stuffed_squid"
+  }
+}

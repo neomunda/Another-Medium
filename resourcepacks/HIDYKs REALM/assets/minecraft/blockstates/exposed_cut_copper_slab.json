@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "type=bottom": {"model": "minecraft:block/exposed_cut_copper_slab"},
+    "type=double": [
+	{"model": "minecraft:block/exposed_cut_copper_slabs", "weight": 10},
+	{"model": "minecraft:block/exposed_cut_copper_slabs2", "weight": 1},
+	{"model": "minecraft:block/exposed_cut_copper_slabs3", "weight": 2}
+	],
+    "type=top": {"model": "minecraft:block/exposed_cut_copper_slab_top"}
+  }
+}

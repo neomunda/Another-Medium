@@ -7,14 +7,6 @@
     ]
   },
 
-{
-    "action": "replace_input",
-    "target": "create:andesite_casing",
-    "replacement": [
-      "alloyed:bronze_casing"
-    ]
-  },
-
     {
     "action": "replace_input",
     "target": "create:brass_casing",
@@ -30,6 +22,15 @@
       "alloyed:steel_ingot"
     ]
   },
+
+  {
+    "action": "replace_input",
+    "target": "create:brass_nugget",
+    "replacement": [
+      "alloyed:steel_nugget"
+    ]
+  },
+
 
   {
     "action": "replace_input",

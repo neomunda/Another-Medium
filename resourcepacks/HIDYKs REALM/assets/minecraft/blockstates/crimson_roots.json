@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/crimson_roots", "weight": 10},
+	{"model": "minecraft:block/crimson_roots2", "weight": 7},
+	{"model": "minecraft:block/crimson_roots3", "weight": 2}
+	]
+  }
+}

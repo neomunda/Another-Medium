@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "minersdelight:item/tentacles_on_a_stick_particle",
+    "layer0": "minersdelight:item/tentacles_on_a_stick"
+  }
+}

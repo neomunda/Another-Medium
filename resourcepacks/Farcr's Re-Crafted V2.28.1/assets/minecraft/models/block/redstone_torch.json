@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+		"outline": "block/redstone_torch_outline",
+		"torch": "block/redstone_torch"
+  }
+}

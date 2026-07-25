@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+		"fixed",
+		"on_shelf",
+        "ground"
+		],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/music_disc_otherside_flat"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/music_disc_otherside"
+    }
+  }
+}

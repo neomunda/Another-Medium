@@ -1,0 +1,6 @@
+{
+    "parent": "item/buckets",
+    "textures": {
+        "layer0": "item/lava_bucket"
+    }
+}

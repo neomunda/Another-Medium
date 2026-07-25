@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/big_cross",
+  "textures": {
+    "big_cross": "minecraft:block/tall_dry_grass3"
+  }
+}

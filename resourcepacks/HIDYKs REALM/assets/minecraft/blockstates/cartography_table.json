@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/cartography_table", "weight": 9 },
+		{ "model": "block/cartography_table2", "weight": 9 },
+		{ "model": "block/cartography_table3", "weight": 9 },
+		{ "model": "block/cartography_table4", "weight": 1 }
+		]
+    }
+}

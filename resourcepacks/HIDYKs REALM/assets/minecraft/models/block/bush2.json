@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"big_cross": "block/bush_big"
+	},
+	"elements": [
+		{
+			"from": [8, 0, -10.75],
+			"to": [8, 32, 27.25],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 16, 8.25]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#big_cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#big_cross", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-11, 0, 8.25],
+			"to": [27, 32, 8.25],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 16, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#big_cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#big_cross", "tintindex": 0}
+			}
+		}
+	]
+}

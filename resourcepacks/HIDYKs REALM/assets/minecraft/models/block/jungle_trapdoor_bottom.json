@@ -1,0 +1,7 @@
+{
+    "parent": "block/fixed_trapdoor_bottom",
+    "textures": {
+		"trapdoor": "minecraft:block/jungle_trapdoor",
+		"side": "minecraft:block/jungle_trapdoor_side"
+    }
+}

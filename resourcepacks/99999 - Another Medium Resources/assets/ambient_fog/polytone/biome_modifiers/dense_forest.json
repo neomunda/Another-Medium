@@ -1,0 +1,29 @@
+{
+  "targets": [
+    "minecraft:bamboo_jungle",
+    "minecraft:dark_forest",
+    "minecraft:pale_garden",
+    "minecraft:jungle",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "id": "abundant_atmosphere:eroded_bamboo_jungle",
+      "required": false
+    },
+    {
+      "id": "nomansland:boreal_forest",
+      "required": false
+    },
+    {
+      "id": "nomansland:old_growth_forest",
+      "required": false
+    },
+    {
+      "id": "nomansland:dark_taiga",
+      "required": false
+    }
+  ],
+  "fog_end": "0.7 - max(0, min(0.25, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.25) - max(0, 8 - SKY_LIGHT)))",
+  "fog_start": "10.5 + max(-0.75, min(0.5, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.25)- max(0, 8 - SKY_LIGHT)*100))"
+}

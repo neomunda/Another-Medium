@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/pointed_dripstone",
+  "ambientocclusion": false,
+  "textures": {
+    "cross": "minecraft:block/pointed_dripstone_down_tip"
+  }
+}

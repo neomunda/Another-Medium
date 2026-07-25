@@ -1,0 +1,180 @@
+filename = 'Brush & Juice.zip'
+name = 'Brush & Juice'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2 Pre-Release 1',
+    '1.20.2-pre1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5 Pre-Release 1',
+    '1.20.5 Pre-Release 2',
+    '1.20.5 Pre-Release 3',
+    '1.20.5-pre1',
+    '1.20.5-pre2',
+    '1.20.5-pre3',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2 Pre-Release 1',
+    '1.21.2 Pre-Release 2',
+    '1.21.2-pre1',
+    '1.21.2-pre2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '23w31a',
+    '23w32a',
+    '23w33a',
+    '23w35a',
+    '23w42a',
+    '23w43a',
+    '23w43b',
+    '23w44a',
+    '23w45a',
+    '23w46a',
+    '24w03a',
+    '24w03b',
+    '24w04a',
+    '24w05a',
+    '24w05b',
+    '24w06a',
+    '24w07a',
+    '24w09a',
+    '24w10a',
+    '24w11a',
+    '24w12a',
+    '24w13a',
+    '24w14a',
+    '24w14potato',
+    '24w18a',
+    '24w19a',
+    '24w19b',
+    '24w20a',
+    '24w33a',
+    '24w34a',
+    '24w35a',
+    '24w36a',
+    '24w37a',
+    '24w38a',
+    '24w39a',
+    '24w40a',
+    '24w44a',
+    '24w45a',
+    '24w46a',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.0.0'
+
+[download]
+hash = '50491400103239b2ce532aef193a586902952df03f5dbd3a1ffbf3d74f93771f23bf7e7f4bbbc590697cf55d11198dff942ae5845b34d9d0f649ba85871c4e6c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ulXVKXEC/versions/fldxxZre/Brush %26 Juice.zip'
+
+[update.modrinth]
+mod-id = 'ulXVKXEC'
+version = 'fldxxZre'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qnQsVE2z'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kjZCvAn6'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cU1kDASI'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qIv5FhAA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'KxOh9voD'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fFEIiSDQ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JI9mEkvq'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rI0hvYcd'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'adriDDJt'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tfjmPSbI'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nCQRBEiR'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'k9OKXOrZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JGfljjtd'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'yPjno2zz'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'DOUdJVEm'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'OqtiAZcV'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cRh6MJ6n'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cVNW5lr6'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gTuTFFyz'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'b7vOFSIp'
+type = 'OPTIONAL'

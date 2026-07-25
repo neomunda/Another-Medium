@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/iron_ore", "weight": 4 },
+		{ "model": "block/iron_ore2", "weight": 4 },
+		{ "model": "block/iron_ore3", "weight": 4 },
+		{ "model": "block/iron_ore4", "weight": 4 },
+		{ "model": "block/iron_ore5", "weight": 4 },
+		{ "model": "block/iron_ore6", "weight": 1 }
+		]
+    }
+}

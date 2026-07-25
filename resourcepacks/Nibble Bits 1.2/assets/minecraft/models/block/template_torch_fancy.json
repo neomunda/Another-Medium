@@ -1,0 +1,36 @@
+{
+	"credit": "Made by Sheddmer",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#torch"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 10, 10],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 0, 4, 4], "texture": "#torch"},
+				"down": {"uv": [0, 4, 4, 8], "texture": "#torch"}
+			}
+		},
+		{
+			"from": [7, 0, 6],
+			"to": [9, 16, 10],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [6, 0, 10, 16], "texture": "#torch"},
+				"west": {"uv": [6, 0, 10, 16], "texture": "#torch"}
+			}
+		},
+		{
+			"from": [6, 0, 7],
+			"to": [10, 16, 9],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [6, 0, 10, 16], "texture": "#torch"},
+				"south": {"uv": [6, 0, 10, 16], "texture": "#torch"}
+			}
+		}
+	]
+}

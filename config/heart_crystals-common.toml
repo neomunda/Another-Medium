@@ -18,4 +18,4 @@
 	#Max Y Level that Heart Crystals can spawn at; default: 30
 	# Default: 30
 	# Range: -60 ~ 60
-	"Max Y Level" = 30
+	"Max Y Level" = 20

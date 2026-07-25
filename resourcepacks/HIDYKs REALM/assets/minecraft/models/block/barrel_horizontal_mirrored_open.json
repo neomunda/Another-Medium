@@ -1,0 +1,8 @@
+{
+    "parent": "block/barrel_horizontal_mirrored",
+    "textures": {
+        "top": "block/barrel_top_open",
+        "side": "block/barrel_side_mirrored2",
+        "bottom": "block/barrel_bottom"
+    }
+}

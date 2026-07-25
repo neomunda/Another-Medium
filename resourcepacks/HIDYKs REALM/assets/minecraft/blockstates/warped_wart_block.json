@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+	 {"model": "minecraft:block/warped_wart_block"},
+	 {"model": "minecraft:block/warped_wart_block2"},
+	 {"model": "minecraft:block/warped_wart_block3"}
+	]
+  }
+}

@@ -1,0 +1,96 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Hidyk with Blockbench",
+	"parent": "block/lever_on",
+	"textures": {
+		"particle": "block/lever_cobblestone",
+		"base": "block/lever_cobblestone",
+		"lever": "block/lever"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 4],
+			"to": [11, 3, 12],
+			"faces": {
+				"north": {"uv": [8, 0, 14, 3], "texture": "#base"},
+				"east": {"uv": [0, 0, 8, 3], "texture": "#base"},
+				"south": {"uv": [8, 0, 14, 3], "texture": "#base"},
+				"west": {"uv": [0, 0, 8, 3], "texture": "#base"},
+				"up": {"uv": [0, 3, 6, 11], "texture": "#base"},
+				"down": {"uv": [6, 3, 12, 11], "texture": "#base", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7, 1, 7],
+			"to": [9, 11, 9],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 16], "texture": "#lever"},
+				"east": {"uv": [7, 6, 9, 16], "texture": "#lever"},
+				"south": {"uv": [7, 6, 9, 16], "texture": "#lever"},
+				"west": {"uv": [7, 6, 9, 16], "texture": "#lever"}
+			}
+		},
+		{
+			"from": [6.75, 8.75, 6.75],
+			"to": [9.25, 11.25, 9.25],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [9, 5, 11, 7], "texture": "#lever"},
+				"east": {"uv": [9, 5, 11, 7], "texture": "#lever"},
+				"south": {"uv": [9, 5, 11, 7], "texture": "#lever"},
+				"west": {"uv": [9, 5, 11, 7], "texture": "#lever"},
+				"up": {"uv": [9, 7, 11, 9], "texture": "#lever"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [-137, 82, 132],
+			"translation": [1.13, 4.5, 1.13],
+			"scale": [0.48, 0.48, 0.48]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-137, 82, 132],
+			"translation": [1.13, 4.5, 1.13],
+			"scale": [0.48, 0.48, 0.48]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [22, 135, 0],
+			"translation": [0, 3, 0]
+		},
+		"head": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 13, 7]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0]
+		},
+		"on_shelf": {
+			"rotation": [90, 180, 0],
+			"translation": [0, 0, 9],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "lever",
+			"origin": [8, 3, 8],
+			"scope": 0,
+			"color": 0,
+			"shade": false,
+			"children": [1, 2]
+		}
+	]
+}

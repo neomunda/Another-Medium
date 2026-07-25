@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "minersdelight:item/insect_stew_particle",
+    "layer0": "minersdelight:item/insect_stew"
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"targets": [
+	 {
+	  "id": "minecraft:dripstone_caves",
+	  "required": false
+	 },
+	 {
+	  "id": "minecraft:lush_caves",
+	  "required": false
+	 },
+	 {
+	  "id": "minecraft:sulfur_caves",
+	  "required": false
+	 },
+	 {
+	  "id": "abundant_atmosphere:geothermal_garden",
+	  "required": false
+	 },
+	 {
+	  "id": "nomansland:caves",
+	  "required": false
+	 },
+	 {
+	  "id": "nomansland:cave_depths",
+	  "required": false
+	 },
+	 {
+	  "id": "quark:glimmering_weald",
+	  "required": false
+	 }
+	],
+	"fog_end": 0.5,
+	"fog_start": 10
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "block/dried_ghast_template",
+	"textures": {
+		"ghast": "block/dried_ghast_hydration_0",
+		"particles": "block/dried_ghast_hydration_0_particles"
+	}
+}

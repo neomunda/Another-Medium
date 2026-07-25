@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/book_pattern",
+  "textures": {
+    "layer0": "minecraft:item/clock_21",
+    "layer1": "minecraft:item/clock_base"
+  }
+}

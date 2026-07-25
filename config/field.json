@@ -1,0 +1,7 @@
+{
+  "bannerLayers": 32,
+  "bannerTooltipLayers": 8,
+  "bannerStackSize": 64,
+  "loomTooltip": true,
+  "wearableBanners": true
+}

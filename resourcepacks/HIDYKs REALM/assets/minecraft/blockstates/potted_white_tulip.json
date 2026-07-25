@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/potted_white_tulip" },
+		{ "model": "block/potted_white_tulip2" }
+		]
+    }
+}

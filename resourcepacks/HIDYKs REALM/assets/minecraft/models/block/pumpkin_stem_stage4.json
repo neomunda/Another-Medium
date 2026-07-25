@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross_stem",
+  "textures": {
+    "cross": "minecraft:block/pumpkin_stem_stage4"
+  }
+}

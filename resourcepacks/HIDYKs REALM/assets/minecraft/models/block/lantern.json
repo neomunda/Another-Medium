@@ -1,0 +1,7 @@
+{
+	"parent": "block/template_lantern_new",
+	"textures": {
+		"particle": "block/anvil",
+		"lantern": "block/lantern"
+	}
+}

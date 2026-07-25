@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fixed_trapdoor_open",
+  "textures": {
+    "trapdoor": "minecraft:block/acacia_trapdoor_top",
+    "side": "minecraft:block/acacia_trapdoor_side"
+  }
+}

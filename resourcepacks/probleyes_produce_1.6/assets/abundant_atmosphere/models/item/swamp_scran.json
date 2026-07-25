@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "abundant_atmosphere:item/swamp_scran_particle",
+    "layer0": "abundant_atmosphere:item/swamp_scran"
+  }
+}

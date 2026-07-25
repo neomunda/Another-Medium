@@ -1,0 +1,42 @@
+{
+	"credit": "Made by Sheddmer",
+	"textures": {
+		"stand": "supplementaries:block/globe_stand",
+		"rod": "supplementaries:block/globe_stand_rod",
+		"particle": "#stand"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 2, 12],
+			"faces": {
+				"north": {"uv": [0, 8, 8, 10], "texture": "#stand"},
+				"east": {"uv": [0, 8, 8, 10], "texture": "#stand"},
+				"south": {"uv": [0, 8, 8, 10], "texture": "#stand"},
+				"west": {"uv": [0, 8, 8, 10], "texture": "#stand"},
+				"up": {"uv": [0, 0, 8, 8], "rotation": 180, "texture": "#stand"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#stand", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7, 2, 7],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [8, 8, 10, 10], "texture": "#stand"},
+				"east": {"uv": [8, 8, 10, 10], "texture": "#stand"},
+				"south": {"uv": [8, 8, 10, 10], "texture": "#stand"},
+				"west": {"uv": [8, 8, 10, 10], "texture": "#stand"},
+				"up": {"uv": [10, 8, 12, 10], "texture": "#stand"}
+			}
+		},
+		{
+			"from": [8, 3, 7],
+			"to": [8, 15, 16],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 9, 8]},
+			"faces": {
+				"east": {"uv": [9, 0, 0, 12], "texture": "#rod"},
+				"west": {"uv": [0, 0, 9, 12], "texture": "#rod"}
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/iron_bars_side",
+  "textures": {
+    "bars": "minecraft:block/copper_bars",
+    "bar": "minecraft:block/copper_bar"
+  }
+}

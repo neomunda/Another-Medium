@@ -1,0 +1,7 @@
+{
+	"parent": "block/fixed_door_bottom_right_open",
+	"textures": {
+		"bottom": "block/oxidized_copper_door_bottom",
+		"side": "block/oxidized_copper_door_side"
+	}
+}

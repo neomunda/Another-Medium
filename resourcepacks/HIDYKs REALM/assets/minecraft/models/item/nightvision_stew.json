@@ -1,0 +1,7 @@
+{
+    "parent": "item/bucket",
+    "textures": {
+        "layer0": "minecraft:item/night_vision",
+		"particle": "minecraft:item/night_vision_food"
+    }
+}

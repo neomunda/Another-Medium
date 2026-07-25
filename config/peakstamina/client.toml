@@ -1,7 +1,7 @@
 ["HUD Layout"]
 	# The style of the HUD. BAR is horizontal, ICON is vertical.
 	#Allowed Values: BAR, ICON
-	hudStyle = "BAR"
+	hudStyle = "ICON"
 	#X offset for the Stamina HUD in BAR mode.
 	# Default: 0
 	# Range: -5000 ~ 5000
@@ -13,11 +13,11 @@
 	#X offset for the Stamina HUD in ICON mode.
 	# Default: 0
 	# Range: -5000 ~ 5000
-	iconXOffset = 0
+	iconXOffset = 100
 	#Y offset for the Stamina HUD in ICON mode.
 	# Default: 1
 	# Range: -5000 ~ 5000
-	iconYOffset = 0
+	iconYOffset = -15
 	# Width of the bar in pixels (Used for BAR style)
 	# Default: 182
 	# Range: 1 ~ 1000
@@ -105,7 +105,7 @@
 
 ["Auto Hud"]
 	# Enable hiding the stamina bar when full/not in use.
-	autoHudEnable = true
+	autoHudEnable = false
 	# Animation type. FADE, SLIDE, or BOTH.
 	#Allowed Values: FADE, SLIDE, BOTH
 	autoHudMode = "FADE"

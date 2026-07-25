@@ -11,6 +11,39 @@
       },
       "sync": "aperture_innovations:portal_crosshair"
     },
+    "brewinandchewin:food_offset": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "brewinandchewin:food_offset"
+    },
+    "brewinandchewin:intoxication": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "brewinandchewin:intoxication"
+    },
+    "brewinandchewin:tipsy": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "brewinandchewin:tipsy"
+    },
     "caverns_and_chasms:monocle": {
       "displacement": {
         "x": 0,
@@ -142,6 +175,28 @@
         "y": "NONE"
       },
       "sync": "enderscape:debug"
+    },
+    "enderscape:fueled_tool": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "enderscape:fueled_tool"
+    },
+    "enderscape:lodestone_teleport_screen": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "enderscape:lodestone_teleport_screen"
     },
     "enderscape:mirror_screen": {
       "displacement": {
@@ -328,7 +383,7 @@
         "x": "NONE",
         "y": "DOWN"
       },
-      "sync": "minecraft:bossbar"
+      "sync": "minecraft:hotbar"
     },
     "minecraft:chat": {
       "displacement": {
@@ -355,10 +410,10 @@
     "minecraft:hotbar": {
       "displacement": {
         "x": 0,
-        "y": 9
+        "y": 0
       },
       "direction": {
-        "x": "NONE",
+        "x": "LEFT",
         "y": "UP"
       },
       "sync": "minecraft:hotbar"
@@ -495,6 +550,17 @@
       },
       "sync": "peakstamina:stamina_hud"
     },
+    "sable_player_ragdoll:ragdoll_controls": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "sable_player_ragdoll:ragdoll_controls"
+    },
     "satchels:satchel_hotbar": {
       "displacement": {
         "x": 0,
@@ -571,6 +637,17 @@
         "y": "NONE"
       },
       "sync": "whaleborne:anchor_overlay"
+    },
+    "windswept:carved_pinecone": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "windswept:carved_pinecone"
     }
   },
   "resource": {

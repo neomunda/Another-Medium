@@ -1,0 +1,97 @@
+#Enable or disable the mod
+enabled = true
+#Base ticks between each swing
+# Default: 12
+# Range: 4 ~ 40
+swingInterval = 12
+#Mining damage multiplier
+# Default: 1.0
+# Range: 0.1 ~ 10.0
+damageMultiplier = 1.0
+#Swing-speed bonus per Efficiency level
+# Default: 0.25
+# Range: 0.0 ~ 2.0
+efficiencyTierStep = 0.25
+#Swing-speed bonus per Haste level
+# Default: 0.25
+# Range: 0.0 ~ 2.0
+hasteTierStep = 0.25
+#Efficiency/Haste boost damage per swing instead of swing speed
+miningSpeedBonusesBoostDamage = false
+#Auto-break blocks that get stuck instead of freezing them
+autoVanillaFallback = true
+#Splash effects when swinging at or under water
+waterSplashEffects = true
+#Respect mining-speed changes from other mods
+respectExternalBreakSpeed = true
+#Restore Multi Mine crack progress gradually instead of all at once
+multiMineGradualRestore = true
+#Use vanilla-style rapid breaking for foliage
+vanillaFoliageBreaking = true
+#Block IDs or #tags to mine with vanilla/modded behavior instead
+vanillaMiningBlocks = []
+#Tool IDs or #tags to mine with vanilla behavior while held
+vanillaMiningTools = []
+#Block IDs or #tags to always treat as unbreakable
+forceUnbreakableBlocks = []
+#Use Incremental Mining sounds or vanilla block sounds
+#Allowed Values: INCREMENTAL, VANILLA
+blockImpactSoundMode = "INCREMENTAL"
+#Per-block/#tag impact sound overrides (block=sound)
+blockImpactSoundOverrides = []
+
+[sounds]
+	#Metal block sound
+	metal = "minecraft:block.copper.break"
+	#Stone block sound
+	stone = "minecraft:block.stone.break"
+	#Wood block sound
+	wood = "minecraft:block.bamboo_wood.break"
+	#Sand/gravel sound
+	sand = "minecraft:block.sand.break"
+	#Dirt/grass sound
+	dirt = "minecraft:block.rooted_dirt.break"
+	#Glass/ice sound
+	glass = "minecraft:block.glass.break"
+	#Coal ore sound
+	coal_ore = "minecraft:block.calcite.break"
+	#Iron ore sound
+	iron_ore = "minecraft:block.copper.break"
+	#Gold ore sound
+	gold_ore = "minecraft:block.copper.break"
+	#Diamond ore sound
+	diamond_ore = "minecraft:block.netherite_block.break"
+	#Emerald ore sound
+	emerald_ore = "minecraft:block.netherite_block.break"
+	#Lapis ore sound
+	lapis_ore = "minecraft:block.calcite.break"
+	#Redstone ore sound
+	redstone_ore = "minecraft:block.stone.break"
+	#Copper ore sound
+	copper_ore = "minecraft:block.copper.break"
+	#Nether quartz ore sound
+	nether_quartz_ore = "minecraft:block.netherrack.break"
+	#Nether gold ore sound
+	nether_gold_ore = "minecraft:block.netherrack.break"
+	#Ancient debris sound
+	ancient_debris = "minecraft:block.netherite_block.break"
+	#Deepslate coal ore sound
+	deepslate_coal_ore = "minecraft:block.calcite.break"
+	#Deepslate iron ore sound
+	deepslate_iron_ore = "minecraft:block.copper.break"
+	#Deepslate gold ore sound
+	deepslate_gold_ore = "minecraft:block.copper.break"
+	#Deepslate diamond ore sound
+	deepslate_diamond_ore = "minecraft:block.netherite_block.break"
+	#Deepslate emerald ore sound
+	deepslate_emerald_ore = "minecraft:block.netherite_block.break"
+	#Deepslate lapis ore sound
+	deepslate_lapis_ore = "minecraft:block.calcite.break"
+	#Deepslate redstone ore sound
+	deepslate_redstone_ore = "minecraft:block.deepslate.break"
+	#Deepslate copper ore sound
+	deepslate_copper_ore = "minecraft:block.copper.break"
+	#Surface water swing sound
+	water_surface = "minecraft:entity.generic.splash"
+	#Underwater swing sound
+	water_underwater = "minecraft:entity.player.swim"

@@ -1,0 +1,7 @@
+{
+    "parent": "item/bucket",
+    "textures": {
+        "layer0": "minecraft:item/regeneration",
+		"particle": "minecraft:item/regeneration_food"
+    }
+}

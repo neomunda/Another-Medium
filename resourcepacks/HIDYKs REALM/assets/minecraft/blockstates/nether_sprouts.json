@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "minecraft:block/nether_sprouts","weight":3},
+	  {"model": "minecraft:block/nether_sprouts2","weight":1},
+	  {"model": "minecraft:block/nether_sprouts3","weight":1},
+	  {"model": "minecraft:block/nether_sprouts4","weight":3}
+      ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "block/crafting_table_side",
+	"textures": {
+		"side": "block/crafting_table_side3"
+	}
+}

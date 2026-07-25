@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/flowerbed_lower",
+  "textures": {
+    "flowerbed": "minecraft:block/pink_petals_lower"
+  }
+}

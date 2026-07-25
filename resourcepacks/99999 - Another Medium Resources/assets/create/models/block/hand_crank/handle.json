@@ -1,0 +1,62 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"4": "create:block/hand_crank",
+		"particle": "create:block/hand_crank"
+	},
+	"elements": [
+		{
+			"name": "Connector",
+			"from": [5, 5, 11],
+			"to": [11, 11, 14],
+			"faces": {
+				"north": {"uv": [0, 10, 6, 16], "texture": "#4"},
+				"east": {"uv": [6, 13, 12, 16], "rotation": 90, "texture": "#4"},
+				"south": {"uv": [0, 10, 6, 16], "texture": "#4"},
+				"west": {"uv": [6, 16, 12, 13], "rotation": 90, "texture": "#4"},
+				"up": {"uv": [6, 13, 12, 16], "texture": "#4"},
+				"down": {"uv": [12, 16, 6, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "Arm",
+			"from": [-2, 6, 10],
+			"to": [10, 10, 13],
+			"faces": {
+				"north": {"uv": [4, 0, 16, 4], "texture": "#4"},
+				"east": {"uv": [0, 0, 4, 3], "rotation": 90, "texture": "#4"},
+				"south": {"uv": [16, 0, 4, 4], "texture": "#4"},
+				"west": {"uv": [0, 0, 4, 3], "rotation": 90, "texture": "#4"},
+				"up": {"uv": [16, 4, 4, 7], "texture": "#4"},
+				"down": {"uv": [16, 7, 4, 4], "texture": "#4"}
+			}
+		},
+		{
+			"name": "Grip",
+			"from": [-1, 7, 4],
+			"to": [1, 9, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [0, 8, 10]},
+			"faces": {
+				"north": {"uv": [14, 8, 16, 10], "rotation": 90, "texture": "#4"},
+				"east": {"uv": [16, 10, 14, 16], "rotation": 90, "texture": "#4"},
+				"south": {"uv": [14, 8, 16, 10], "texture": "#4"},
+				"west": {"uv": [14, 16, 16, 10], "rotation": 90, "texture": "#4"},
+				"up": {"uv": [14, 10, 16, 16], "texture": "#4"},
+				"down": {"uv": [16, 16, 14, 10], "texture": "#4"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "shaft_half",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0]
+		},
+		1,
+		2
+	]
+}

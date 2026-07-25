@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fixed_door_bottom_left_open",
+  "textures": {
+		"bottom": "block/cherry_door_bottom",
+		"side": "block/cherry_door_side"
+	}
+}

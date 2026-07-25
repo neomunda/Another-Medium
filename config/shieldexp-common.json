@@ -1,0 +1,30 @@
+{
+  "shieldList": [
+    "shieldexp:wooden_shield",
+    "shieldexp:iron_shield",
+    "shieldexp:netherite_shield",
+    "minecraft:shield",
+    "shieldexp:golden_shield",
+    "shieldexp:diamond_shield",
+    "caverns_and_chasms:aegis",
+    ""
+  ],
+  "shieldBlacklist": [],
+  "itemOnlyMode": false,
+  "stashingCooldown": true,
+  "generalCooldown": true,
+  "speedModification": true,
+  "advancedExplosions": false,
+  "lenientParry": false,
+  "lenientStamina": false,
+  "tooltips": false,
+  "tooltipCooldown": false,
+  "tooltipStamina": false,
+  "tooltipSpeed": false,
+  "tooltipParryDamage": false,
+  "tooltipParryWindow": true,
+  "tooltipBlastResistance": false,
+  "hudIndicator": true,
+  "hudXOffset": 0,
+  "hudYOffset": 0
+}

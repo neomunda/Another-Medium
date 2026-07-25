@@ -1,0 +1,6 @@
+{
+    "parent": "item/book_pattern",
+    "textures": {
+        "layer0": "item/knowledge_book"
+    }
+}

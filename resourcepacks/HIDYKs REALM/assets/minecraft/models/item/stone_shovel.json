@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stone_shovel"
+  },
+	"display": {
+		"head": {
+			"rotation": [0, 0, 90],
+			"translation": [12.5, 5, 0],
+			"scale": [1.5, 1.5, 1.5]
+	}
+  }
+}

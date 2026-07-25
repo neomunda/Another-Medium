@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "minersdelight:item/pasta_with_veggieballs_particle",
+    "layer0": "minersdelight:item/pasta_with_veggieballs"
+  }
+}

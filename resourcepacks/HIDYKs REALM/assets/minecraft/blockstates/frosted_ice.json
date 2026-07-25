@@ -1,0 +1,17 @@
+{
+    "variants": {
+        "age=0": { "model": "block/frosted_ice_0" },
+        "age=1": { "model": "block/frosted_ice_1" },
+        "age=2": { "model": "block/frosted_ice_2" },
+        "age=3": [
+		{ "model": "block/frosted_ice_3" },
+		{ "model": "block/frosted_ice_3", "y":90, "x":90 },
+		{ "model": "block/frosted_ice_3", "y":180, "x":180 },
+		{ "model": "block/frosted_ice_3", "y":270, "x":270 },
+		{ "model": "block/frosted_ice_3_2" },
+		{ "model": "block/frosted_ice_3_2", "y":90, "x":90 },
+		{ "model": "block/frosted_ice_3_2", "y":180, "x":180 },
+		{ "model": "block/frosted_ice_3_2", "y":270, "x":270 }
+		]
+    }
+}

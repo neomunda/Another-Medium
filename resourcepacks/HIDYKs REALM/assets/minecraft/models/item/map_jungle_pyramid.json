@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/filled_map",
+	"textures": {
+		"0": "minecraft:item/map_jungle_pyramid"
+	}
+}

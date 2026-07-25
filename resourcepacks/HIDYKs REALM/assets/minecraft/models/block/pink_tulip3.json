@@ -1,0 +1,7 @@
+{
+    "parent": "block/cross_double",
+    "textures": {
+        "cross": "block/pink_tulip",
+		"cross2": "block/pink_tulip2"
+    }
+}

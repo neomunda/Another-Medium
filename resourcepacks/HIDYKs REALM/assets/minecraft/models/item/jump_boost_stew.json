@@ -1,0 +1,7 @@
+{
+    "parent": "item/bucket",
+    "textures": {
+        "layer0": "minecraft:item/jump_boost",
+		"particle": "minecraft:item/jump_boost_food"
+    }
+}

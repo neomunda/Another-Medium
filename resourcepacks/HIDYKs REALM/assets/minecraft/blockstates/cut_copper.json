@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/cut_copper"},
+	{"model": "minecraft:block/cut_copper2"},
+	{"model": "minecraft:block/cut_copper3"}
+	]
+  }
+}

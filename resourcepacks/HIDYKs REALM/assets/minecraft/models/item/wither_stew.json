@@ -1,0 +1,7 @@
+{
+    "parent": "item/bucket",
+    "textures": {
+        "layer0": "minecraft:item/wither",
+		"particle": "minecraft:item/wither_food"
+    }
+}

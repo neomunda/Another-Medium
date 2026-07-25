@@ -1,0 +1,7 @@
+{
+    "parent": "item/bucket",
+    "textures": {
+        "layer0": "item/beetroot_soup",
+		"particle": "item/beetroot_soup_food"
+    }
+}

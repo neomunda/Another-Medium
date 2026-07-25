@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/soul_sand"},
+	{"model": "minecraft:block/soul_sand2"},
+	{"model": "minecraft:block/soul_sand3"},
+	{"model": "minecraft:block/soul_sand", "x": 90, "y": 90},
+	{"model": "minecraft:block/soul_sand2", "x": 90, "y": 90},
+	{"model": "minecraft:block/soul_sand3", "x": 90, "y": 90},
+	{"model": "minecraft:block/soul_sand", "x": 180, "y": 180},
+	{"model": "minecraft:block/soul_sand2", "x": 180, "y": 180},
+	{"model": "minecraft:block/soul_sand3", "x": 180, "y": 180}
+	]
+  }
+}

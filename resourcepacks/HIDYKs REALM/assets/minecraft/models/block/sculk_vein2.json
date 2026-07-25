@@ -1,0 +1,42 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Hidyk with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/sculk_stems",
+		"particle": "block/sculk_vein",
+		"sculk_vein": "block/sculk_vein"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.05],
+			"to": [16, 16, 0.05],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#sculk_vein"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#sculk_vein"}
+			}
+		},
+		{
+			"from": [0.8, 11, 0.05],
+			"to": [15.2, 11, 16.05],
+			"shade": false,
+			"light_emission": 2,
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8, 3.8, 0.05],
+			"to": [8, 18.2, 16.05],
+			"shade": false,
+			"light_emission": 2,
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#2"}
+			}
+		}
+	]
+}

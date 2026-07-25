@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fixed_trapdoor_open",
+  "textures": {
+		"trapdoor": "minecraft:block/mangrove_trapdoor",
+		"side": "minecraft:block/mangrove_trapdoor_side"
+  }
+}

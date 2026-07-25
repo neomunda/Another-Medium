@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/soul_lantern_inventory",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "head",
+          "fixed",
+          "ground",
+          "on_shelf"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/soul_lantern_inventory"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/soul_lantern"
+    }
+  }
+}

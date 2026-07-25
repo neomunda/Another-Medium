@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/potted_crimson_fungus"},
+	{"model": "minecraft:block/potted_crimson_fungus2"},
+	{"model": "minecraft:block/potted_crimson_fungus3"},
+	{"model": "minecraft:block/potted_crimson_fungus4"},
+	
+	{"model": "minecraft:block/potted_crimson_fungus", "y": 90},
+	{"model": "minecraft:block/potted_crimson_fungus2", "y": 90},
+	{"model": "minecraft:block/potted_crimson_fungus3", "y": 90},
+	{"model": "minecraft:block/potted_crimson_fungus4", "y": 90},
+	
+	{"model": "minecraft:block/potted_crimson_fungus", "y": 180},
+	{"model": "minecraft:block/potted_crimson_fungus2", "y": 180},
+	{"model": "minecraft:block/potted_crimson_fungus3", "y": 180},
+	{"model": "minecraft:block/potted_crimson_fungus4", "y": 180}
+	]
+  }
+}

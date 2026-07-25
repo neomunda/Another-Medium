@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/cherry_planks"},
+	{"model": "minecraft:block/cherry_planks2"}
+	]
+  }
+}

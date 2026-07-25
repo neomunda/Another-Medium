@@ -1,0 +1,15 @@
+{
+  "create.ponder.gantry_cascaded.text_1": "Gantry shafts attach to a carriage without the need of glue",
+  "create.ponder.linear_chassis_attachment.text_7": "Attaching blocks to any other side requires the use of glue",
+  "create.ponder.sail.text_2": "They will attach to blocks and each other without the need of glue or chassis blocks",
+  "create.ponder.sail_frame.text_2": "They will attach to blocks and each other without the need of glue or chassis blocks",
+  "create.ponder.shared.movement_anchors": "With the help of glue, larger structures can be moved",
+  "create.ponder.super_glue.header": "Attaching blocks using glue",
+  "create.ponder.super_glue.text_1": "Glue groups blocks together into moving contraptions",
+  "create.ponder.train_assembly.text_7": "Attach blocks with the help of glue",
+  "create.ponder.windmill_source.text_2": "Create a movable structure with the help of glue",
+  "create.train_assembly.no_controls": "Attach at least one forward-facing Train Controls block (are you missing glue?)",
+  "entity.create.super_glue": "Glue",
+  "item.create.super_glue": "Glue Brush",
+  "block.create.andesite_casing": "Bronze Casing"
+}

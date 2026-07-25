@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "farmersdelight:item/stuffed_pumpkin_particle",
+    "layer0": "farmersdelight:item/stuffed_pumpkin"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "models": [
+      {
+        "type": "minecraft:special",
+        "model": {
+          "type": "minecraft:chest",
+          "texture": "minecraft:copper_weathered"
+        },
+        "base": "minecraft:item/weathered_copper_chest"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/waxed_icon"
+      }
+    ],
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:special",
+              "model": {
+                "type": "minecraft:chest",
+                "texture": "minecraft:copper_weathered"
+              },
+              "base": "minecraft:item/weathered_copper_chest"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/waxed_icon"
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "model": {
+        "type": "minecraft:chest",
+        "texture": "minecraft:copper_weathered"
+      },
+      "base": "minecraft:item/weathered_copper_chest"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/calcite"},
+	{"model": "minecraft:block/calcite2"},
+	
+	{"model": "minecraft:block/calcite", "x": 180, "y": 180},
+	{"model": "minecraft:block/calcite2", "x": 180, "y": 180}
+	]
+  }
+}

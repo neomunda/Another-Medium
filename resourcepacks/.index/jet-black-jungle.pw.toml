@@ -1,0 +1,129 @@
+filename = 'JetBlackJungle1.20-26.1v1.1.zip'
+name = 'Jet-Black Jungle'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21.1', '1.21.11', '26.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20-26.1v1.1'
+
+[download]
+hash = '48fb8bb29f103e907b0623dcf82609479605a3749100d2d4f88874c1cbffa87627ce28be12561f09cf6e82a94d3f2a0e870ad1c95e073a99bcadae79c8080283'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dEvVd6a3/versions/zz9qxo3e/JetBlackJungle1.20-26.1v1.1.zip'
+
+[update.modrinth]
+mod-id = 'dEvVd6a3'
+version = 'zz9qxo3e'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'UmGvBQOb'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '91UlXH1I'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LTTvOp5L'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'quxmRK48'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fFEIiSDQ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7vxePowz'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'OSDpLd82'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'r1j9x0VR'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ckH8gssX'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'guitPqEi'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'xaH4PQRj'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aQ7h7gal'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'iZKVfhNM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vt0VyseM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ulloLmqG'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'jL77Iazm'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'iYSvSEF0'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hevpK888'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '2B65v74X'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qnQsVE2z'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RG50cUrX'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'xejiztgi'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Bg6Ed4OL'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rv1sovni'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'e1pVqFHg'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'UiFDlI7w'
+type = 'OPTIONAL'

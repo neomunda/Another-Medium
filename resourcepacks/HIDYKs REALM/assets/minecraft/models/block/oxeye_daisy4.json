@@ -1,0 +1,7 @@
+{
+    "parent": "block/cross_double",
+    "textures": {
+        "cross": "block/oxeye_daisy",
+		"cross2": "block/oxeye_daisy2"
+    }
+}

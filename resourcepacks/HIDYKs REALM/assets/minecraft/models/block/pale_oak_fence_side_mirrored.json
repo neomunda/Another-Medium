@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_side_mirrored",
+    "textures": {
+        "texture": "block/pale_oak_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "minersdelight:item/bat_soup_particle",
+    "layer0": "minersdelight:item/bat_soup"
+  }
+}

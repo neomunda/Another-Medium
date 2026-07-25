@@ -1,0 +1,48 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/repeater_on_north",
+		"lit": "block/redstone_torch",
+		"lock": "block/repeater_locked"
+	},
+	"elements": [
+		{
+			"from": [7, 2, 2],
+			"to": [9, 7, 4],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [7, 6, 9, 11], "texture": "#lit"},
+				"east": {"uv": [7, 6, 9, 11], "texture": "#lit"},
+				"south": {"uv": [7, 6, 9, 11], "texture": "#lit"},
+				"west": {"uv": [7, 6, 9, 11], "texture": "#lit"},
+				"up": {"uv": [7, 4, 9, 6], "texture": "#lit"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#lit"}
+			}
+		},
+		{
+			"from": [9.5, 7.5, 4.5],
+			"to": [6.5, 4.5, 1.5],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [7, 9, 8, 8], "texture": "#lit"},
+				"east": {"uv": [7, 9, 8, 8], "texture": "#lit"},
+				"south": {"uv": [7, 9, 8, 8], "texture": "#lit"},
+				"west": {"uv": [7, 9, 8, 8], "texture": "#lit"},
+				"up": {"uv": [7, 9, 8, 8], "texture": "#lit"},
+				"down": {"uv": [7, 9, 8, 8], "texture": "#lit"}
+			}
+		},
+		{
+			"from": [2, 2, 6],
+			"to": [14, 4, 8],
+			"faces": {
+				"north": {"uv": [2, 9, 14, 11], "texture": "#lock"},
+				"east": {"uv": [14, 7, 16, 9], "texture": "#lock"},
+				"south": {"uv": [2, 9, 14, 11], "texture": "#lock"},
+				"west": {"uv": [0, 7, 2, 9], "texture": "#lock"},
+				"up": {"uv": [2, 7, 14, 9], "texture": "#lock"},
+				"down": {"uv": [0, 0, 0, 0], "rotation": 90, "texture": "#lock"}
+			}
+		}
+	]
+}

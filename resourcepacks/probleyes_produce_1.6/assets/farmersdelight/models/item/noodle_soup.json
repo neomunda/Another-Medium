@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "farmersdelight:item/noodle_soup_particle",
+    "layer0": "farmersdelight:item/noodle_soup"
+  }
+}

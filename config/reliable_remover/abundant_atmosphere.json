@@ -1,0 +1,19 @@
+[
+  {
+    "action": "remove",
+    "pattern": "/.*calcite.*/",
+    "mod": ["abundant_atmosphere"]
+  },
+  {
+  "action": "remove",
+  "pattern": "/.*dripstone.*/",
+  "mod": ["abundant_atmosphere"]
+  },
+  {
+  "action": "remove",
+  "items": [
+    "abundant_atmosphere:deepslate_pillar",
+    "abundant_atmosphere:chiseled_mud_bricks"
+  ]
+  }
+]

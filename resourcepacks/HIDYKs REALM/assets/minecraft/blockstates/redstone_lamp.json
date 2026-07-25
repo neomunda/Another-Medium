@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "lit=false": { "model": "block/redstone_lamp" },
+        "lit=true": [
+		{ "model": "block/redstone_lamp_on", "weight": 1},
+		{ "model": "block/redstone_lamp_on2", "weight": 8}
+		]
+    }
+}

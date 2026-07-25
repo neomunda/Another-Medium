@@ -1,0 +1,6 @@
+{
+    "parent": "block/pumpkin",
+    "textures": {
+        "side": "block/pumpkin_side2"
+    }
+}

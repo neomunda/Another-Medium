@@ -1,0 +1,6 @@
+{
+  "parent": "create:item/mug",
+  "textures": {
+    "layer0": "create:item/builders_tea"
+  }
+}

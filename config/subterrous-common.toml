@@ -1,0 +1,66 @@
+[redstone_caves]
+	redstone_caves_can_generate = true
+	redstone_heart_pulses = true
+	# Default: 40
+	# Range: 1 ~ 200
+	transponder_compass_update_interval = 40
+	# Default: 512
+	# Range: 1 ~ 2048
+	transponder_compass_pet_radius = 512
+	# Default: 16
+	# Range: 1 ~ 64
+	ledger_node_query_radius = 16
+	# Default: 64
+	# Range: 1 ~ 256
+	ledger_node_query_limit = 64
+
+[rootwood_thicket]
+	rootwood_thicket_can_generate = true
+
+[lush_caves]
+	virid_wood_azalea_trees = true
+	moss_setae_can_generate = true
+	white_yellow_azaleas_can_generate = true
+	azalea_lilies_can_generate = true
+	conferva_can_generate = true
+	azalea_collision_changes = true
+	big_dripleaf_collision_changes = true
+
+[blight]
+	mausoleums_can_generate = true
+
+[amethyst_and_citrine]
+	citrine_geodes_can_generate = true
+	ametrine_geodes_can_generate = true
+
+	[amethyst_and_citrine.citrine_spectacles]
+		# Default: 128
+		# Range: 16 ~ 640
+		citrine_spectacles_max_charge = 128
+		# Default: 48
+		# Range: 16 ~ 640
+		citrine_spectacles_dim_length = 48
+
+	[amethyst_and_citrine.citrine_roses]
+		glimmering_rosebud_can_generate = true
+		# Default: 16
+		# Range: 0 ~ 32
+		citrine_rose_radius = 16
+		# Default: 10
+		# Range: 0 ~ 100
+		citrine_rose_charge_depletion_chance = 10
+
+[throwing_picks]
+	# Default: 15
+	# Range: 0 ~ 40
+	throwing_pick_cooldown_amount = 15
+	# Default: 13
+	# Range: 5 ~ 25
+	throwing_pick_throw_distance = 13
+	# Default: 0
+	# Range: 0 ~ 100
+	throwing_pick_break_chance = 0
+	# Default: 5
+	# Range: 0 ~ 10
+	throwing_pick_max_time_in_block = 5
+	throwing_pick_direct_pickup = false

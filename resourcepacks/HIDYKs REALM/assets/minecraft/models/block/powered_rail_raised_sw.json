@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_fixed_rail_raised_sw",
+    "textures": {
+        "rail": "block/powered_rail_raised",
+		"particle": "block/powered_rail"
+    }
+}

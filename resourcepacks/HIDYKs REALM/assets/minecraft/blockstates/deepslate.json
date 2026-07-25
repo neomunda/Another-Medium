@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=x": [
+      {"model": "minecraft:block/deepslate","x": 90,"y": 90, "weight": 5},
+	  {"model": "minecraft:block/deepslate2","x": 90,"y": 90, "weight": 5},
+	  {"model": "minecraft:block/deepslate3","x": 90,"y": 90, "weight": 2}
+    ],
+    "axis=y": [
+      {"model": "minecraft:block/deepslate", "weight": 5},
+	  {"model": "minecraft:block/deepslate2", "weight": 5},
+	  {"model": "minecraft:block/deepslate3", "weight": 2}
+    ],
+    "axis=z": [
+      {"model": "minecraft:block/deepslate","x": 90, "weight": 5},
+      {"model": "minecraft:block/deepslate2","x": 90, "weight": 5},
+	  {"model": "minecraft:block/deepslate3","x": 90, "weight": 2}
+    ]
+  }
+}

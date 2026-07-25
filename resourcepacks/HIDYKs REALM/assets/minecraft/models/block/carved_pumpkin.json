@@ -1,0 +1,25 @@
+{
+	"credit": "Made by Hidyk with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"3": "block/carved_pumpkin_top",
+		"4": "block/pumpkin_down",
+		"5": "block/carved_pumpkin",
+		"6": "block/pumpkin_side",
+		"particle": "#5"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#5", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#6", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#6", "cullface": "south"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#6", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4", "cullface": "down"}
+			}
+		}
+	]
+}

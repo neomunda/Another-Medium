@@ -1,0 +1,14 @@
+{
+	"format_version": "1.21.11",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/waxed_icon"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [-19, -28, -7],
+			"translation": [-1, 0.25, 80]
+		}
+	}
+}

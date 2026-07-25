@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "minersdelight:item/vegan_steak_and_potatoes_particle",
+    "layer0": "minersdelight:item/vegan_steak_and_potatoes"
+  }
+}

@@ -310,8 +310,7 @@
 	fine_wood = true
 	candle_holder = true
 	fire_pit = true
-	brittlestone = false
-	brittlestone_bricks = false
+	brittlestone = true
 
 	[building.barnacles]
 		enabled = false
@@ -632,7 +631,6 @@
 		enabled = true
 
 [general]
-	#General settings
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 	#Enable Creative Tab

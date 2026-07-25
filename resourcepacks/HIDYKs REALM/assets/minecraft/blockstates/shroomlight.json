@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{ "model": "minecraft:block/shroomlight" },
+	{ "model": "minecraft:block/shroomlight2" }
+	]
+  }
+}

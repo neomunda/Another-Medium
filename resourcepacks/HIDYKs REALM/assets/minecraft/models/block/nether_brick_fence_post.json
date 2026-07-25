@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/nether_bricks_fence",
+		"particle": "block/nether_bricks_fence"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [12, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [12, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [12, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [7, 7, 11, 11], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [7, 7, 11, 11], "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

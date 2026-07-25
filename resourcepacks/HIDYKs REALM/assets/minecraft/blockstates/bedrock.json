@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/bedrock" },
+            { "model": "block/bedrock", "y": 180 },
+			{ "model": "block/bedrock2" },
+            { "model": "block/bedrock2", "y": 180 },
+			{ "model": "block/bedrock3" },
+            { "model": "block/bedrock3", "y": 180 }
+        ]
+    }
+}

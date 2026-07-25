@@ -1,0 +1,7 @@
+{
+    "parent": "item/bucket",
+    "textures": {
+        "layer0": "minecraft:item/weakness",
+		"particle": "minecraft:item/weakness_food"
+    }
+}

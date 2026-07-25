@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "brewinandchewin:item/fiery_fondue_particle",
+    "layer0": "brewinandchewin:item/fiery_fondue"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+{ "model": "nomansland:block/grass_sprouts", "weight":1 },
+{ "model": "nomansland:block/grass_sprouts2", "weight":1 },
+{ "model": "nomansland:block/grass_sprouts3", "weight":1 },
+{ "model": "nomansland:block/grass_sprouts4", "weight":0 },
+{ "model": "nomansland:block/grass_sprouts5", "weight":0 }
+ ]   }
+}

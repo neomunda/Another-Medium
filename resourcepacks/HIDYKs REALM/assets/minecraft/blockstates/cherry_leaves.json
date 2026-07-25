@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "distance=1,persistent=false": {"model": "minecraft:block/cherry_leaves1"},
+    "distance=2,persistent=false": {"model": "minecraft:block/cherry_leaves1"},
+    "distance=3,persistent=false": {"model": "minecraft:block/cherry_leaves"},
+    "distance=4,persistent=false": {"model": "minecraft:block/cherry_leaves_dangling2"},
+    "distance=5,persistent=false": {"model": "minecraft:block/cherry_leaves_dangling2"},
+    "distance=6,persistent=false": {"model": "minecraft:block/cherry_leaves_dangling"},
+    "distance=7,persistent=false": {"model": "minecraft:block/cherry_leaves_dangling"},
+	
+    "persistent=true": [
+	{"model": "minecraft:block/cherry_leaves1", "weight":1},
+	{"model": "minecraft:block/cherry_leaves", "weight":1},
+    {"model": "minecraft:block/cherry_leaves_dangling2", "weight":3},
+    {"model": "minecraft:block/cherry_leaves_dangling", "weight":4}
+	]
+  }
+}

@@ -1,0 +1,85 @@
+["Mystery Eggs"]
+	#Determines if creepers can drop Mystery Eggs on death
+	"Enable Mystery Eggs" = false
+
+["Festive Creeper"]
+	#Determines if Festive Creepers should spawn
+	"Spawn Festive Creepers" = true
+	#Determines how often do Festive Creepers spawn
+	#Range: 0 ~ 100
+	"Festive Creeper Spawn Weight" = 18
+	#Determines how often do Festive Creepers spawn in extra biomes
+	#Range: 0 ~ 100
+	"Festive Creeper Extra Spawn Weight" = 40
+	#Requires Tolerable Creepers. Prevents Festive Creeper explosions from damaging blocks and spawns Festive Creepies instead
+	"Prevent Festive Creeper Block Damage" = true
+
+["Support Creeper"]
+	#Determines if Support Creepers should spawn
+	"Spawn Support Creepers" = true
+	#Determines how often do Support Creepers spawn
+	#Range: 0 ~ 100
+	"Support Creeper Spawn Weight" = 20
+	#Determines how often do Support Creepers spawn in extra biomes
+	#Range: 0 ~ 100
+	"Support Creeper Extra Spawn Weight" = 50
+	#Requires Tolerable Creepers. Prevents Support Creeper explosions from damaging blocks and spawns a Support Creeper spore cloud instead
+	"Prevent Support Creeper Block Damage" = true
+	#Requires Tolerable Creepers. Halves the damage Support Creeper explosions deal to entities
+	"Debuff Support Creeper Explosion Damage" = true
+
+["Rocket Creeper"]
+	#Determines if Rocket Creepers should spawn
+	"Spawn Rocket Creepers" = true
+	#Determines how often do Rocket Creepers spawn
+	#Range: 0 ~ 100
+	"Rocket Creeper Spawn Weight" = 25
+	#Determines how often do Rocket Creepers spawn in extra biomes
+	#Range: 0 ~ 100
+	"Rocket Creeper Extra Spawn Weight" = 50
+	#Requires Tolerable Creepers. Prevents Rocket Creeper explosions from damaging blocks and spawns a Rocket Creeper spore cloud instead
+	"Prevent Rocket Creeper Block Damage" = true
+	#Requires Tolerable Creepers. Halves the damage Rocket Creeper explosions deal to entities
+	"Debuff Rocket Creeper Explosion Damage" = true
+
+["Festive Creeper Spores"]
+	#Base number of Festive Creepies a Festive Creeper's spore cloud tries to spawn during the day
+	#Range: 0 ~ 100
+	"Festive Spore Count Day Base" = 1
+	#Upper bound (exclusive) of the random bonus added to the day base count
+	#Range: 0 ~ 100
+	"Festive Spore Count Day Random" = 2
+	#Base number of Festive Creepies a Festive Creeper's spore cloud tries to spawn at night
+	#Range: 0 ~ 100
+	"Festive Spore Count Night Base" = 3
+	#Upper bound (exclusive) of the random bonus added to the night base count
+	#Range: 0 ~ 100
+	"Festive Spore Count Night Random" = 4
+
+["Rocket Creeper Spores"]
+	#Base number of Rocket Creepies a Rocket Creeper's spore cloud tries to spawn during the day
+	#Range: 0 ~ 100
+	"Rocket Spore Count Day Base" = 1
+	#Upper bound (exclusive) of the random bonus added to the day base count
+	#Range: 0 ~ 100
+	"Rocket Spore Count Day Random" = 2
+	#Base number of Rocket Creepies a Rocket Creeper's spore cloud tries to spawn at night
+	#Range: 0 ~ 100
+	"Rocket Spore Count Night Base" = 3
+	#Upper bound (exclusive) of the random bonus added to the night base count
+	#Range: 0 ~ 100
+	"Rocket Spore Count Night Random" = 4
+
+["Support Creeper Spores"]
+	#Base number of Support Creepies a Support Creeper's spore cloud tries to spawn during the day
+	#Range: 0 ~ 100
+	"Support Spore Count Day Base" = 1
+	#Upper bound (exclusive) of the random bonus added to the day base count
+	#Range: 0 ~ 100
+	"Support Spore Count Day Random" = 2
+	#Base number of Support Creepies a Support Creeper's spore cloud tries to spawn at night
+	#Range: 0 ~ 100
+	"Support Spore Count Night Base" = 3
+	#Upper bound (exclusive) of the random bonus added to the night base count
+	#Range: 0 ~ 100
+	"Support Spore Count Night Random" = 4

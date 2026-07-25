@@ -1,0 +1,12 @@
+{
+  id: "HidyksRealm",
+  version: 13,
+  capabilities: ["FileFilter", "DirFilter"],
+  conf: {
+    diamond_block: [
+      "DiamondMean",
+      "vanilla",
+      "detailed"
+    ]
+  }
+}

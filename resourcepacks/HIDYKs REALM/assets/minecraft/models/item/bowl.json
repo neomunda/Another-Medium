@@ -1,0 +1,6 @@
+{
+    "parent": "item/bucket",
+    "textures": {
+        "layer0": "item/bowl"
+    }
+}

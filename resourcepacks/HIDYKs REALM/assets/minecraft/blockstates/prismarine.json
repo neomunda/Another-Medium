@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+		{"model": "block/prismarine"},
+		{"model": "block/prismarine2"}
+		]
+    }
+}

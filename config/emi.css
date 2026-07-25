@@ -9,17 +9,17 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: creative;
+	cheat-mode: false;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
 	 */
-	help-level: none;
+	help-level: normal;
 
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: creative;
+	index-source: creative-plus-registered;
 
 	/**
 	 * Which sidebar should be searched using the search bar.
@@ -39,14 +39,14 @@
 	/**
 	 * Whether normal search queries should include the stack's tags.
 	 */
-	search-tags-by-default: false;
+	search-tags-by-default: true;
 }
 
 #ui {
 	/**
 	 * Which action should be performed when clicking the recipe book.
 	 */
-	recipe-book-action: toggle-visibility;
+	recipe-book-action: toggle-craftables;
 
 	/**
 	 * Where to display status effects in the inventory.
@@ -82,13 +82,13 @@
 	 * Whether to use the batched render system. Batching is faster, but may have
 	 * incompatibilities with shaders or other mods.
 	 */
-	use-batched-renderer: false;
+	use-batched-renderer: true;
 
 	/**
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: false;
+	center-search-bar: true;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -98,7 +98,7 @@
 	/**
 	 * Which sidebar type to focus when the search is empty.
 	 */
-	empty-search-sidebar-focus: none;
+	empty-search-sidebar-focus: craftables;
 
 	/**
 	 * Whether the EMI config button should be visible.
@@ -114,19 +114,19 @@
 	 * The maximum height the recipe screen will grow to be if space is available in
 	 * pixels.
 	 */
-	maximum-recipe-screen-height: 256;
+	maximum-recipe-screen-height: 384;
 
 	/**
 	 * The minimum width of the recipe screen in pixels. Controls how many tabs there
 	 * can be, and where the page switching buttons go. The default is 176, the width
 	 * of most screens.
 	 */
-	minimum-recipe-screen-width: 176;
+	minimum-recipe-screen-width: 182;
 
 	/**
 	 * The amount of vertical margin to give in the recipe screen.
 	 */
-	vertical-margin: 20;
+	vertical-margin: 24;
 
 	/**
 	 * Where to show workstations in the recipe screen
@@ -136,12 +136,12 @@
 	/**
 	 * Display cost per batch when hovering a recipe output
 	 */
-	show-cost-per-batch: true;
+	show-cost-per-batch: false;
 
 	/**
 	 * Whether recipes should have a button to set as default.
 	 */
-	recipe-default-button: true;
+	recipe-default-button: false;
 
 	/**
 	 * Whether recipes should have a button to show the recipe tree.
@@ -177,17 +177,17 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 10, 10;
+	left-sidebar-size: 8, 7;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
 	 */
-	left-sidebar-margins: 65, 10, 55, 10;
+	left-sidebar-margins: 2, 2, 2, 2;
 
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: right, center;
+	left-sidebar-align: center, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
@@ -197,7 +197,7 @@
 	/**
 	 * Which theme to use for the left sidebar
 	 */
-	left-sidebar-theme: modern;
+	left-sidebar-theme: vanilla;
 
 	/**
 	 * The pages in the right sidebar
@@ -212,17 +212,17 @@
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 6, 80;
+	right-sidebar-size: 7, 7;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
 	 */
-	right-sidebar-margins: 45, 15, 45, -5;
+	right-sidebar-margins: 2, 2, 2, 2;
 
 	/**
 	 * Where to position the right sidebar
 	 */
-	right-sidebar-align: right, top;
+	right-sidebar-align: center, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the right sidebar
@@ -232,12 +232,12 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: transparent;
+	right-sidebar-theme: vanilla;
 
 	/**
 	 * The pages in the top sidebar
 	 */
-	top-sidebar-pages: favorites;
+	top-sidebar-pages: none;
 
 	/**
 	 * The subpanels in the top sidebar
@@ -247,7 +247,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the top sidebar to
 	 */
-	top-sidebar-size: 12, 4;
+	top-sidebar-size: 9, 9;
 
 	/**
 	 * How much space to maintain between the top sidebar and obstructions, in pixels
@@ -257,12 +257,12 @@
 	/**
 	 * Where to position the top sidebar
 	 */
-	top-sidebar-align: left, top;
+	top-sidebar-align: center, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the top sidebar
 	 */
-	top-sidebar-header: invisible;
+	top-sidebar-header: visible;
 
 	/**
 	 * Which theme to use for the top sidebar
@@ -310,7 +310,7 @@
 	/**
 	 * Toggle the visibility of EMI.
 	 */
-	toggle-visibility: "ctrl key.keyboard.o";
+	toggle-visibility: "shift key.keyboard.r";
 
 	/**
 	 * Focuses the search bar.
@@ -320,7 +320,7 @@
 	/**
 	 * Clears the search bar.
 	 */
-	clear-search: "key.keyboard.unknown";
+	clear-search: "key.keyboard.delete";
 
 	/**
 	 * Display the recipes for creating a stack.
@@ -415,7 +415,7 @@
 	/**
 	 * Cheat in one of an item into the cursor.
 	 */
-	cheat-one-to-cursor: "ctrl key.keyboard.r";
+	cheat-one-to-cursor: "ctrl key.mouse.middle";
 
 	/**
 	 * Cheat in a stack of an item into the cursor.
@@ -448,7 +448,7 @@
 	 * Whether development functions should be enabled. Not recommended for general
 	 * play.
 	 */
-	dev-mode: false;
+	dev-mode: true;
 
 	/**
 	 * Whether editing the index is enabled

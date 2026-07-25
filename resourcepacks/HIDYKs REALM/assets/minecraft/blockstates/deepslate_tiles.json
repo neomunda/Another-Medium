@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/deepslate_tiles", "weight": 4},
+	{"model": "minecraft:block/deepslate_tiles2", "weight": 2},
+	{"model": "minecraft:block/deepslate_tiles3", "weight": 1}
+	]
+  }
+}

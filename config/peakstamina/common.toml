@@ -20,7 +20,7 @@
 	# Stamina recovered per tick
 	# Default: 0.45
 	# Range: 0.0 ~ 100.0
-	recoveryPerTick = 0.5
+	recoveryPerTick = 0.4
 	# Multiplier for recovery when standing completely still
 	# Default: 1.45
 	# Range: 1.0 ~ 10.0
@@ -42,7 +42,7 @@
 	# Stamina drained per tick while sprinting. Set to 0.0 to disable. Set to negative to gain stamina
 	# Default: 0.15
 	# Range: -100.0 ~ 100.0
-	depletionSprint = 0.15
+	depletionSprint = 0.25
 	# Stamina drained per jump. Set to 0.0 to disable. Set to negative to gain stamina
 	# Default: 0.85
 	# Range: -100.0 ~ 100.0
@@ -71,10 +71,6 @@
 	# Default: 0.7
 	# Range: -100.0 ~ 100.0
 	depletionClimb = 0.7
-	# Ticks to disable an item if you run out of stamina while using it.
-	# Default: 120
-	# Range: 0 ~ 1200
-	itemInterruptionCooldown = 120
 
 [Combat]
 	# If true, the stamina drained per attack is modified by the weapon's weight.
@@ -114,6 +110,17 @@
 	# Default: 5.0
 	# Range: 1.0 ~ 100.0
 	missedAttackWeightMaxMultiplier = 5.0
+	# Ticks to disable an item if you run out of stamina while using it. (Shields and stuff, NOT WEAPONS
+	# Default: 120
+	# Range: 0 ~ 1200
+	itemInterruptionCooldown = 120
+	#
+	# If true, attacking or missing an attack while out of stamina puts the weapon on cooldown.
+	enableAttackCooldownWhenExhausted = false
+	# Duration (in ticks) of the weapon cooldown when attacking while out of stamina (20 ticks = 1s).
+	# Default: 80
+	# Range: 0 ~ 12000
+	exhaustedAttackCooldownDuration = 80
 
 [Enchantments]
 	#Weight reduction multiplier for Lightweight I (e.g. 0.25 = 25% reduction)
@@ -189,7 +196,7 @@
 	# Food level at which stamina penalty begins (6 = 3 shanks)
 	# Default: 6
 	# Range: 0 ~ 20
-	hungerPenaltyThreshold = 6
+	hungerPenaltyThreshold = 0
 
 	["Fatigue & Limits"."Sleep Mechanics"]
 		# DEFAULT: Fatigue decays over time, sleeping, and eating consumables reduces it.

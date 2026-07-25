@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "minecraft:block/bee_nest_top",
+    "bottom": "minecraft:block/bee_nest_bottom",
+    "side": "minecraft:block/bee_nest_side",
+    "front": "minecraft:block/bee_nest_front1",
+    "particle": "minecraft:block/bee_nest_side"
+  },
+	"display": {
+		"gui": {
+			"rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+		}
+	}
+}

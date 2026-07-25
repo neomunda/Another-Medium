@@ -1,0 +1,12 @@
+{
+  "creativetab.cookscollection.cookscollections_tab": "Cooks Collection",
+
+  "recipe.cookscollection.shapeless_baking": "Baking",
+  "recipe.cookscollection.shaped_baking": "Baking",
+
+  "emi.category.cookscollection.shapeless_baking": "Baking",
+  "emi.category.cookscollection.shaped_baking": "Baking",
+
+  "container.cookscollection.oven.heated": "Heated",
+  "container.cookscollection.oven.not_heated": "Needs heat from below"
+}

@@ -1,0 +1,119 @@
+{
+  "emi:info": {
+    "order": 1
+  },
+  "minecraft:crafting": {
+    "order": 2
+  },
+  "minecraft:campfire_cooking": {
+    "order": 3
+  },
+  "minecraft:smelting": {
+    "order": 4
+  },
+  "farmersdelight:cutting": {
+    "order": 5
+  },
+  "farmersdelight:cooking": {
+    "order": 6
+  },
+  "modestmining:shapeless_forging": {
+    "order": 7
+  },
+  "modestmining:shaped_forging": {
+    "order": 8
+  },
+  "emi:fuel": {
+    "order": 9
+  },
+  "minecraft:stonecutting": {
+    "order": 10
+  },
+  "emi:composting": {
+    "order": 11
+  },
+  "create:item_application": {
+    "order": 12
+  },
+  "create:sandpaper_polishing": {
+    "order": 13
+  },
+  "minecraft:smithing": {
+    "order": 14
+  },
+  "create:pressing": {
+    "order": 15
+  },
+  "create:packing": {
+    "order": 16
+  },
+  "create:automatic_packing": {
+    "order": 17
+  },
+  "create:milling": {
+    "order": 18
+  },
+  "create:crushing": {
+    "order": 19
+  },
+  "create:mixing": {
+    "order": 20
+  },
+  "create:automatic_shapeless": {
+    "order": 21
+  },
+  "create:automatic_brewing": {
+    "order": 22
+  },
+  "create:spout_filling": {
+    "order": 23
+  },
+  "create:draining": {
+    "order": 24
+  },
+  "create:fan_smoking": {
+    "order": 25
+  },
+  "create:fan_washing": {
+    "order": 26
+  },
+  "create:fan_blasting": {
+    "order": 27
+  },
+  "create:fan_haunting": {
+    "order": 28
+  },
+  "create:deploying": {
+    "order": 29
+  },
+  "create:mechanical_crafting": {
+    "order": 30
+  },
+  "create:automatic_shaped": {
+    "order": 31
+  },
+  "create:sequenced_assembly": {
+    "order": 32
+  },
+  "create:sawing": {
+    "order": 33
+  },
+  "create:wood_cutting": {
+    "order": 34
+  },
+  "create:block_cutting": {
+    "order": 35
+  },
+  "create:mystery_conversion": {
+    "order": 36
+  },
+  "exposure:photograph_printing": {
+    "order": 37
+  },
+  "jeed:effect_info": {
+    "order": 38
+  },
+  "emi:tag": {
+    "order": 39
+  }
+}

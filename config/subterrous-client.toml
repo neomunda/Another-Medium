@@ -1,0 +1,41 @@
+[ambience_client]
+	depth_water_color_fade = true
+
+	[ambience_client.cave_fog]
+		cave_fog_renders = true
+		# Default: 8
+		# Range: 1 ~ 16
+		cave_fog_density = 8
+		lush_caves_fog = true
+		dripstone_caves_fog = true
+		deep_dark_fog = true
+		spectator_cave_fog = false
+
+[redstone_caves_client]
+	redstone_heart_ambient_particles = true
+	redstone_heart_ambience = true
+	redstone_crystal_pulse_particles = true
+	transponder_compass_entity_outline = true
+	revamped_redstone_component_particles = true
+
+	[redstone_caves_client.ledgers_client]
+		# Default: 6
+		# Range: 0 ~ 10
+		ledger_highlight_bounce_rate = 6
+		# Default: 0
+		# Range: 0 ~ 10
+		ledger_highlight_color_flash_rate = 0
+		# Default: 40
+		# Range: 0 ~ 100
+		ledger_highlight_color_opacity = 40
+		#Allowed Values: WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY, LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, BLACK
+		ledger_highlight_color = "RED"
+
+[amethyst_and_citrine_client]
+	budding_amethyst_ambient_sounds = true
+
+	[amethyst_and_citrine_client.lucent_glass_client]
+		lucent_glass_glow_rendering = true
+		# Default: 128
+		# Range: 64 ~ 200
+		lucent_glass_glow_render_distance = 128

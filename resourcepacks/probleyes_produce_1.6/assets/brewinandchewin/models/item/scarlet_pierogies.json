@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"particle": "brewinandchewin:item/scarlet_pierogies_particle",
+    "layer0": "brewinandchewin:item/scarlet_pierogies"
+  }
+}

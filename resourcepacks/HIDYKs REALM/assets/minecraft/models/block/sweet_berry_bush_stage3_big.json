@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Hidyk with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/sweet_berry_bush_stage3_big",
+		"particle": "block/sweet_berry_bush_stage3_big"
+	},
+	"elements": [
+		{
+			"from": [7, 0, -10.2],
+			"to": [7, 32, 28.2],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7, 8, 9]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-12.2, 0, 9],
+			"to": [26.2, 32, 9],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7, 8, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}
