@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "tag": "c:ingots/invar"
+    },
+    "N": {
+      "tag": "c:nuggets/invar"
+    }
+  },
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "result": {
+    "count": 4,
+    "id": "curiosities:big_chain"
+  }
+}

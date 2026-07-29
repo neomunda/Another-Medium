@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "alloyed:bronze_casing"
+    },
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "C": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    " C ",
+    "BAB",
+    " C "
+  ],
+  "result": {
+    "count": 4,
+    "id": "create:encased_chain_drive"
+  },
+  "show_notification": false
+}

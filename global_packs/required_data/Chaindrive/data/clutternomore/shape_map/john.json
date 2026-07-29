@@ -1,0 +1,14 @@
+{
+  "priority": 500,
+  "add": {
+    "/(?<ns>[^:]+):(?<end>sign)/": {
+      "shapes": [
+        "${ns}:${stem}_hanging_sign",
+        "${ns}:${stem}_way_sign",
+      ],
+      "conditions": {
+        "is_blockitem": true
+      }
+    }
+  }
+}

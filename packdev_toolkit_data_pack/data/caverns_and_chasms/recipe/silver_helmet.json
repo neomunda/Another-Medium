@@ -1,0 +1,17 @@
+{
+  "key": {
+    "X": {
+      "tag": "c:ingots/silver"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "result": {
+    "id": "caverns_and_chasms:silver_helmet",
+    "count": 1
+  },
+  "category": "equipment",
+  "type": "minecraft:crafting_shaped"
+}

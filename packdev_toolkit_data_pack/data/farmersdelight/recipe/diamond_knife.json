@@ -1,0 +1,20 @@
+{
+  "key": {
+    "m": {
+      "item": "minecraft:diamond"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "m",
+    "s"
+  ],
+  "result": {
+    "id": "farmersdelight:diamond_knife",
+    "count": 1
+  },
+  "category": "equipment",
+  "type": "minecraft:crafting_shaped"
+}

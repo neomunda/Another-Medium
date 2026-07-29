@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/gold"
+    },
+    "D": {
+      "item": "create:depot"
+    },
+    "I": {
+      "item": "create:cogwheel"
+    }
+  },
+  "pattern": [
+    "A",
+    "D",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:weighted_ejector"
+  }
+}

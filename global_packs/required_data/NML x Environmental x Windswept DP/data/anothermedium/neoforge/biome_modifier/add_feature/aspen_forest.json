@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "atmospheric:aspen_parkland",
+  "features": "windswept:dry_moss_rock",
+  "step": "vegetal_decoration"
+}

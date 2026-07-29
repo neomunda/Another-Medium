@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/iron"
+    },
+    "B": {
+      "tag": "minecraft:logs"
+    },
+    "C": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "B B"
+  ], 
+  "result": {
+    "count": 1,
+    "id": "create:cart_assembler"
+  },
+  "show_notification": false
+}

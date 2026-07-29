@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 5,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "caverns_and_chasms:copper_chestplate"
+  },
+  "show_notification": false,
+  "tier": "stone"
+}

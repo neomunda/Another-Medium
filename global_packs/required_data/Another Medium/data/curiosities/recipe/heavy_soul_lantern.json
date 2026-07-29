@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:soul_torch"
+    },
+    "N": {
+      "tag": "c:nuggets/invar"
+    }
+  },
+  "pattern": [
+    "NIN",
+    "NLN",
+    "NIN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "curiosities:heavy_soul_lantern"
+  }
+}

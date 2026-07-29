@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "atmospheric:patch_short_aloe_vera",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "atmospheric:patch_tall_aloe_vera"
+      }
+    ]
+  }
+}

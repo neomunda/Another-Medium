@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": {
+      "item": "minecraft:stone_button"
+    },
+    "N": {
+      "tag": "c:ingots/nickel"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "RRB",
+    "NNN"
+  ],
+  "result": {
+    "count": 4,
+    "id": "curiosities:redstone_diode"
+  }
+}

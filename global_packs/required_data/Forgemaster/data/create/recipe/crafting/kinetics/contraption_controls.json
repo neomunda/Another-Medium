@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "minecraft:buttons"
+    },
+    "C": {
+      "item": "alloyed:bronze_casing"
+    },
+    "I": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "B",
+    "C",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:contraption_controls"
+  }
+}

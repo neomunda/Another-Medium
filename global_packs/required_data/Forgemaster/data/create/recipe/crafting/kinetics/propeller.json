@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:ingots/iron"
+    },
+    "S": {
+      "tag": "c:plates/iron"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:propeller"
+  }
+}

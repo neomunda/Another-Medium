@@ -1,0 +1,16 @@
+{
+  "template": {
+    "item": "oreganized:electrum_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "farmersdelight:diamond_knife"
+  },
+  "addition": {
+    "item": "oreganized:electrum_ingot"
+  },
+  "result": {
+    "id": "oreganized:electrum_knife",
+    "count": 1
+  },
+  "type": "minecraft:smithing_transform"
+}

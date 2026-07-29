@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "S": {
+      "tag": "c:ingots/tin"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "pattern": [
+    " C ",
+    "RBT",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simulated:redstone_inductor"
+  }
+}

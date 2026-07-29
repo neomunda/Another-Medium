@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "alloyed:bronze_casing"
+    },
+    "B": {
+      "tag": "c:dusts/redstone"
+    },
+    "C": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "BAC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:clutch"
+  },
+  "show_notification": false
+}

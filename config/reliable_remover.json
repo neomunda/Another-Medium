@@ -393,6 +393,8 @@
     "curiosities:bland_incense",
     "alloyed:steel_nautilus_armor",
     "alloyed:steel_spear",
-    "alloyed:steel_mesh_fence"
+    "alloyed:steel_mesh_fence",
+    "supplementaries:rope",
+    "environmental:willow_bookshelf"
   ]
 }

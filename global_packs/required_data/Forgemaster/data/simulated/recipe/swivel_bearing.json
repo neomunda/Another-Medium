@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/steel"
+    },
+    "C": {
+      "item": "create:shaft"
+    },
+    "D": {
+      "item": "create:cogwheel"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ADA",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "simulated:swivel_bearing"
+  },
+  "show_notification": false
+}

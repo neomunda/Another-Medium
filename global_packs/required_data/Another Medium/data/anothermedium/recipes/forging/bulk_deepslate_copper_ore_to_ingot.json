@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "minecraft:deepslate_copper_ore"},
+    {"item": "minecraft:deepslate_copper_ore"},
+    {"item": "minecraft:deepslate_copper_ore"}
+  ],
+  "result":
+    {
+      "count": 3,
+      "id": "overgeared:heated_copper_ingot"
+    }
+}

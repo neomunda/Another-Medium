@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "pattern": [
+    "S",
+    "P",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simulated:navigation_table"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "type": "alloyed:forging_shaped",
+  "key": {
+    "C": {"tag": "c:ingots/copper"},
+    "D": {"item": "minecraft:deepslate"}
+  },
+  "pattern": [
+    "CD",
+    "DC"
+  ],
+  "result": {
+    "count": 4,
+    "id": "caverns_and_chasms:copper_bricks"
+  }
+}

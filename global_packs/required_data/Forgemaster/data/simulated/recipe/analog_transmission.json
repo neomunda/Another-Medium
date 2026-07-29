@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/tin"
+    },
+    "C": {
+      "item": "create:shaft"
+    },
+    "D": {
+      "item": "create:cogwheel"
+    },
+    "B": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ADA",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simulated:analog_transmission"
+  }
+}

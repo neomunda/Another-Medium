@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "C": {
+      "item": "alloyed:bronze_casing"
+    },
+    "D": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BDB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:mechanical_bearing"
+  },
+  "show_notification": false
+}

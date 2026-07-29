@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curiosities"
+    }
+  ],
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "curiosities:nickel_ore"},
+    {"item": "curiosities:nickel_ore"},
+    {"item": "curiosities:nickel_ore"}
+  ],
+  "result":
+    {
+      "count": 3,
+      "id": "anothermedium:heated_nickel_ingot"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "oreganized"
+    }
+  ],
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "oreganized:deepslate_lead_ore"},
+    {"item": "oreganized:deepslate_lead_ore"},
+    {"item": "oreganized:deepslate_lead_ore"}
+  ],
+  "result":
+    {
+      "count": 3,
+      "id": "anothermedium:heated_lead_ingot"
+    }
+}

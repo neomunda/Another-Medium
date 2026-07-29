@@ -1,0 +1,21 @@
+{
+  "key": {
+    "#": {
+      "tag": "c:rods/wooden"
+    },
+    "X": {
+      "tag": "c:ingots/silver"
+    }
+  },
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "result": {
+    "id": "caverns_and_chasms:silver_hoe",
+    "count": 1
+  },
+  "category": "equipment",
+  "type": "minecraft:crafting_shaped"
+}

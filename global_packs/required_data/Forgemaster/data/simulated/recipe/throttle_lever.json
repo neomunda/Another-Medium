@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "c:ingots/tin"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "S",
+    "B",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simulated:throttle_lever"
+  }
+}

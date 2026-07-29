@@ -1,0 +1,10 @@
+{
+  "angry_texture": "autumnity:entity/wolf/wolf_spicy_angry",
+  "biomes": [
+    "nomansland:maple_forest",
+    "nomansland:maple_grove",
+    "nomansland:autumnal_forest"
+  ],
+  "tame_texture": "autumnity:entity/wolf/wolf_spicy_tame",
+  "wild_texture": "autumnity:entity/wolf/wolf_spicy"
+}

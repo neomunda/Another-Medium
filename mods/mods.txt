@@ -1,22 +1,27 @@
 9dbe26e0558c8dfcc73b81357f69b84010512f62 *mods/abnormals_delight-1.21.1-6.0.2.jar
 f2efa0e602ed38aed55ea30cdc4c86dd8f047bc0 *mods/abundant_atmosphere-1.21.1-2.0.0-beta2-neoforge.jar
+b4a8e11384454bcc341043b251db7fb5afdfdf45 *mods/AI-Improvements-1.21-0.5.3.jar
 0df5867a85f596b91774a15db763c061e423ada0 *mods/alloyed-3.0.11+1.21.1-neoforge.jar
 69b9a6243a1513f7e40780367c40d23a4d687439 *mods/amendments-neoforge-1.21-2.1.7.jar
 008656a0702801174b8ec245ed7aad1921d6e9f1 *mods/architectury-13.0.11-neoforge.jar
 08729408d2d2078060352c9529a95a4240a0558d *mods/arts_and_crafts-neoforge-1.21.1-1.5.4.jar
+287ec5c76bf9f7f8493e789f70759ab993784f5e *mods/async-locator-refined-neoforge-1.21.1-1.6.0.jar
 522bbf4f8e0dcb1754c464e66ab301d8235ea315 *mods/atmospheric-1.21.1-7.0.1.jar
 8b041bce1cd0c5f5223c285784a3e8498273d6ea *mods/biolith-neoforge-3.0.14.jar
 afe7842dbb10435917e5fb576be21883aaeba6f2 *mods/blueprint-1.21.1-8.1.1.jar
 bc86c776779b16dec386f4b667ff46d9e2ecb88d *mods/BrewinAndChewin-neoforge-4.5.0+1.21.1.jar
 2e38a18b4cef4128cf4c5ed42cf6015ebd72a51a *mods/brick_and_mortar-neoforge-1.21.1-1.2.1.jar
+2ceb0d9284525b6cb2a214c88cf6511cab91f601 *mods/carryon-neoforge-1.21.1-2.2.6.13.jar
 a20e72a96c1db7d948c9a972fdcdd900c469e8f5 *mods/caverns_and_chasms-1.21.1-3.0.0.jar
 3cc6110e72c9aa2a64887b54e7b092c53e08a1c3 *mods/celesteconfig-neoforge-1.21.1-1.1.3.jar
+de821ac64b3c8694b1a27e0acd05742660c6af3f *mods/chat_heads-0.15.3-neoforge-1.21.jar
 e57792898117777a09b04cb29bbceb2d88fbc7f6 *mods/clayworks-1.21.1-4.0.3.jar
 9d13b8315b03bda4bc6f5637c51f25a99cdcacd3 *mods/clientsort-neoforge-2.2.2+1.21.1.jar
 c3e5733ba4503b102589a026000fd5ce0212f6f2 *mods/cloth-config-15.0.140-neoforge.jar
 581e13e65a2cffb192dcc2993516282be04f8755 *mods/clutternomore-2.0.6+1.21.1-neoforge.jar
 b2f84ac887087169ee257907bfd9544e0621c943 *mods/connectiblechains-neoforge-1.21.1-2.2.5.jar
 a9bf4b59823233257c9dc0362a68784052636ca1 *mods/cookscollection-0.5.5.jar
+a15df749534b7b2003282ffb5950dcf3767d1243 *mods/coolrain-1.21.1-NeoForge-1.0.1.jar
 0e97e49837bed766e6f28a4c95b04885d6acc353 *mods/create-1.21.1-6.0.10.jar
 a2b08963ebc9f331f52c626aebcd65013e100d69 *mods/create-aeronautics-bundled-1.21.1-1.3.0.jar
 e38d2afdb45f61cf26848d7e66a4258221c829cc *mods/curiosities-0.2.1.jar
@@ -49,16 +54,20 @@ d10d062caf1aad9aec82d7852f2fee1781735c1f *mods/kotlinforforge-5.12.0-all.jar
 c053488319689def80a6803586c2f7a7d82a44d8 *mods/Lychee-1.21.1-NeoForge-6.5.3.jar
 98a771b14c1f4ead12ffcd99a90b1c91b25cca8d *mods/mcqoy-0.4.1+neo-1.21.jar
 77e92dc19173617c64cb9055c006f832d90b56d3 *mods/melancholic_hunger-2.0.3-1.21.1-neoforge.jar
+9608b1bff92e075ad8c2feb07f7ef095f6887117 *mods/modelfix-1.21-1.10.jar
 0cd1aa80e768883cd434230e519700e6e3ea8335 *mods/modulation-neoforge-1.21.1-2.0.0.jar
 2752b6ab1ded59ab91942e380f0f1853e57dc1ca *mods/moonlight-neoforge-1.21.1-3.3.0.jar
+6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc *mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar
 de423611ee7dee1e4ae76b6362d553440b69a624 *mods/music_tweaks-neoforge-1.21.1-1.5.2.jar
 f0422c70689d5b31b65ef5a84c1d5eb2d7536d4c *mods/neoforge-runiclib-1.21.1-5.0.7.jar
+28aa89d854ab2b70f0649ceb92c44ff74e8411c3 *mods/nomansdelight-2.2.0.jar
 f054aa8e15170b3cf3d2021feaa438aa04975ec7 *mods/nomansland-1.5.12.jar
 e0c36cd85d3d31cc2afb1bfc6b885f505245252f *mods/Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar
 0698627555afc9bb331da5ecf28a469531974272 *mods/obe+1.21.1-neoforge-1.1.36-htofix.1.jar
 f4f66d677b104c6af7f5c0f7e3c08d8e4370ecad *mods/OctoLib-NEOFORGE-0.6.2+1.21.jar
 8088b583285249607903f8cbc3f0d0e44fc51675 *mods/Oreganized 1.21.1-5.1.2.jar
 130e2974d57bfeb550334679a226e60a87b85ad1 *mods/overgeared-1.21.1-1.6.16.jar
+1f5a128e794d2ea00a1d20f1543897bf26ff9e13 *mods/packdev_toolkit-neoforge-1.21.1-1.3.1.jar
 76932927fd1a974fb4500641436494e4698b9686 *mods/peaceless-1.0.jar
 3ece29a6a239bcf1bf00d2749ff751be8e32b0ef *mods/PeakStamina NeoForge 2.1.0+hotfix.jar
 37e37dbb2ad16e1a4d2c3a8ca38ca3791c479511 *mods/personality-1.21.1-5.0.2.jar
@@ -76,7 +85,7 @@ b9c7ee0d9017beea862743ed00e2b0031ebd7e84 *mods/rearm-2.4.16+1.21.1-neoforge.jar
 18a6d4f77457dac0b85365fd3f7a37ef8e8ab1db *mods/reliable_backpacks-neoforge-1.21.1-1.8.2.jar
 91eed9991e3434bc506d549474ddc07ae6f073fc *mods/reliable_recipes-neoforge-1.21.1-3.1.2.jar
 ef9e7480c03dc24d3d38c5f4fdb043b205ed4f2a *mods/reliable_remover-neoforge-1.21.1-2.10.8.jar
-da8341a431c76b535daef886d0bb7a678ea57d92 *mods/reliable_replacer-neoforge-1.21.1-1.5.5.jar
+6c64c28c7db7d4632b3741d72f17507d54749fa1 *mods/reliable_replacer-neoforge-1.21.1-1.6.0.jar
 71b853a382ff2a17e91dc1db5728dd205e29cf74 *mods/RespawningAnimals-v21.1.2-1.21.1-NeoForge.jar
 8eb55e09b5efa1c436ebd29b106c2ec2dd3fb816 *mods/rkktprv.jar
 f3ba9a497122ba29d9e94ebe6f9a3a3aaa5fa756 *mods/sable-neoforge-1.21.1-2.0.3.jar
@@ -88,6 +97,7 @@ f3ba9a497122ba29d9e94ebe6f9a3a3aaa5fa756 *mods/sable-neoforge-1.21.1-2.0.3.jar
 c7c7bdb618123a12a62874eb24e8931c1cb9a0f0 *mods/smoothskies-2.10.4+1.21.1-neoforge.jar
 3aaac7712521b477acc73757459b3883c4e0bbda *mods/sodium-extra-neoforge-0.9.3+mc1.21.1.jar
 762251ab3d6825d5accfd89c3f02f1145376105e *mods/sodium-neoforge-0.8.12+mc1.21.1.jar
+be15102bd2468a224fb02e4d243b54bfca2c9c49 *mods/sootychimneys-neoforge-1.3.5.jar
 9430cc2ab64ff89d698be593769fb9f9ee4efae6 *mods/spark-1.10.124-neoforge.jar
 786236af93ac7541b4e9129922efdd5e49c4ba01 *mods/supplementaries-neoforge-1.21.1-3.8.4.jar
 b186cdfd311158858429e494ecd11e2157274eff *mods/teallib-1.3.teal.jar

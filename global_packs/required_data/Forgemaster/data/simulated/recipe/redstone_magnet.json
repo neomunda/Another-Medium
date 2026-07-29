@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:dusts/redstone"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "D": {
+      "item": "create:industrial_iron_block"
+    }
+  },
+  "pattern": [
+    "A",
+    "C",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simulated:redstone_magnet"
+  }
+}

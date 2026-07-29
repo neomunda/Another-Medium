@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "create:brass_hand"
+    },
+    "A": {
+      "tag": "c:ingots/bronze"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "item": "create:cogwheel"
+    }
+  },
+  "pattern": [
+    " AD",
+    " A ",
+    " A ",
+    "ACA",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:mechanical_arm"
+  },
+  "show_notification": false
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "c:ingots/aluminum"
+  },
+  "base": {
+    "item": "minecraft:leather_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "curiosities:aluminum_leggings"
+  },
+  "template": {
+    "item": "curiosities:aluminum_upgrade_smithing_template"
+  }
+}

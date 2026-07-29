@@ -1,0 +1,6 @@
+{
+  "type": "environmental:remove_spawns_inverted_ignore",
+  "entity_types": "environmental:deer",
+  "ignored_biomes": "#minecraft:end",
+  "inverted_biomes": "#minecraft:end"
+}

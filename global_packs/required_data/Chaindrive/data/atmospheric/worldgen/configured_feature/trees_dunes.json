@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "atmospheric:yucca",
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": "atmospheric:yucca_with_flowers"
+      }
+    ]
+  }
+}

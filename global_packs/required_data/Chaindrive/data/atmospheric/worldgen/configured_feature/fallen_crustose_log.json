@@ -1,0 +1,14 @@
+{
+  "type": "atmospheric:fallen_log",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "atmospheric:crustose_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

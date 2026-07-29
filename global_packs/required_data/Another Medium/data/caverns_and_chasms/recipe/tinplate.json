@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"tag": "c:ingots/tin"},
+    {"item": "minecraft:honeycomb"}
+  ],
+  "result":
+    {
+      "count": 16,
+      "id": "caverns_and_chasms:tinplate"
+    }
+}

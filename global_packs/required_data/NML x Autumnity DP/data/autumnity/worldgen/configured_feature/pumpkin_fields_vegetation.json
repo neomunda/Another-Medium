@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "autumnity:pumpkin_fields_trees",
+    "features": [
+      {
+        "chance": 0.025,
+        "feature": {
+          "feature": "minecraft:huge_brown_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": "minecraft:huge_red_mushroom",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

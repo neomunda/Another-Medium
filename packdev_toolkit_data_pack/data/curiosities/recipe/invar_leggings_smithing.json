@@ -1,0 +1,16 @@
+{
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "addition": {
+    "tag": "c:ingots/invar"
+  },
+  "result": {
+    "id": "curiosities:invar_leggings",
+    "count": 1
+  },
+  "type": "minecraft:smithing_transform"
+}

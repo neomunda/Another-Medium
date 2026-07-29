@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "C": {
+      "item": "alloyed:bronze_casing"
+    },
+    "D": {
+      "item": "create:cogwheel"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:gantry_carriage"
+  },
+  "show_notification": false
+}

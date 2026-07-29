@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "caverns_and_chasms:deepslate_silver_ore"},
+    {"item": "caverns_and_chasms:deepslate_silver_ore"},
+    {"item": "caverns_and_chasms:deepslate_silver_ore"}
+  ],
+  "result":
+    {
+      "count": 3,
+      "id": "overgeared:heated_silver_ingot"
+    }
+}

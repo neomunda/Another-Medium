@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "AAAAA",
+    "AABAA",
+    "AAAAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:large_water_wheel"
+  },
+  "show_notification": false
+}

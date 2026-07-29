@@ -19,9 +19,7 @@ server-resource-packs/
 schematics/
 downloads/
 defaultconfigs/
-datapacks/
 coremods/
-data/
 .mixin.out/
 .pg-native/
 .sable/

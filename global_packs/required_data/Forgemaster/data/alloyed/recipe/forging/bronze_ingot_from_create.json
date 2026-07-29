@@ -1,0 +1,36 @@
+{
+  "type": "alloyed:forging",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "tag": "c:nuggets/tin"
+    },
+    {
+      "tag": "c:nuggets/tin"
+    },
+    {
+      "tag": "c:nuggets/tin"
+    }
+  ],
+  "result":
+    {
+      "id": "alloyed:bronze_ingot"
+    }
+  ,
+  "fabric:load_conditions": [
+    {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "create"
+        ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

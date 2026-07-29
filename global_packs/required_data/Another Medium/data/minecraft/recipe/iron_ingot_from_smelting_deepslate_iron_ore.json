@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.85,
+  "cookingtime": 200,
+  "ingredient": { "item": "minecraft:deepslate_iron_ore" },
+  "result": { "item": "overgeared:heated_iron_ingot" }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "tag": "c:nuggets/aluminum"
+    },
+    "G": {
+      "tag": "c:glass_blocks/colorless"
+    },
+    "N": {
+      "tag": "c:ingots/nickel"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " R ",
+    "AGA",
+    "NNN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "curiosities:redstone_fuse"
+  }
+}

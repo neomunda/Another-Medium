@@ -1,0 +1,21 @@
+{
+  "key": {
+    "#": {
+      "tag": "c:rods/wooden"
+    },
+    "X": {
+      "tag": "c:ingots/silver"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "result": {
+    "id": "caverns_and_chasms:silver_shovel",
+    "count": 1
+  },
+  "category": "equipment",
+  "type": "minecraft:crafting_shaped"
+}

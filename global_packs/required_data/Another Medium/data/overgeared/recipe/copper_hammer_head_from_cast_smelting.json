@@ -1,0 +1,15 @@
+{
+  "type": "overgeared:cast_smelting",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "group": "misc",
+  "input": {
+    "copper": 99
+  },
+  "need_polishing": true,
+  "result": {
+    "count": 1,
+    "id": "overgeared:copper_hammer_head"
+  },
+  "tool_type": "hammer"
+}

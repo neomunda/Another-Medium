@@ -281,7 +281,8 @@
       "quark:tweaks/crafting/utility/better_stone_tools/axe",
       "quark:tweaks/crafting/utility/better_stone_tools/pickaxe",
       "quark:tweaks/crafting/utility/better_stone_tools/shovel",
-      "quark:tweaks/crafting/utility/better_stone_tools/sword"
+      "quark:tweaks/crafting/utility/better_stone_tools/sword",
+      "alloyed:mechanical_crafting/steel_knife"
     ]
   }
 ]

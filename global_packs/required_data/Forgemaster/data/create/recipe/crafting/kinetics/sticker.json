@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:cobblestones"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "S": {
+      "tag": "c:slimeballs"
+    }
+  },
+  "pattern": [
+    "ISI",
+    "CRC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:sticker"
+  }
+}

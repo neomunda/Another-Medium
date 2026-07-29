@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "alloyed:steel_ingot"
+    },
+    "C": {
+      "tag": "c:storage_blocks/copper"
+    },
+    "P": {
+      "tag": "c:plates/gold"
+    }
+  },
+  "pattern": [
+    "P",
+    "A",
+    "C"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:steam_engine"
+  }
+}

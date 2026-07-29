@@ -1,0 +1,15 @@
+{
+  "feature": "atmospheric:ocean_floor_raiser",
+  "placement": [
+    {
+      "type": "atmospheric:in_square_center"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

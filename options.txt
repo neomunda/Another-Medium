@@ -48,7 +48,7 @@ mouseSensitivity:0.6091549295774648
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Brush \u0026 Juice","file/Nibble Bits","file/Gentle Touches-1.1.0.zip","file/Os\u0027 Colorful Grasses (Mojang Style).zip","file/Probleyes Produce","file/Farcr-rified Stuff","file/Farcr\u0027s Re-Crafted","file/Another Medium Resources","file/Regrown Grass.zip","file/Revibed","file/JavaUI.zip","file/Fluff Clouds.zip","file/Brush Up","file/Discography 3.3.zip","file/Font","file/Pixion\u0027s Rebrush","file/Hidyk\u0027s Realm","file/0000_Peeves","file/000_GUI Slots and Peeves Compat","mod/rearm:resourcepacks/1_21_1/rp"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Brush \u0026 Juice","file/Nibble Bits","file/Gentle Touches-1.1.0.zip","file/Os\u0027 Colorful Grasses (Mojang Style).zip","file/Probleyes Produce","file/Farcr-rified Stuff","file/Farcr\u0027s Re-Crafted","file/Another Medium Resources","file/Revibed","file/JavaUI.zip","file/Fluff Clouds.zip","file/Brush Up","file/Discography 3.3.zip","file/Pixion\u0027s Rebrush","file/Hidyk\u0027s Realm","file/0000_Peeves","file/000_GUI Slots and Peeves Compat","mod/rearm:resourcepacks/1_21_1/rp"]
 incompatibleResourcePacks:["file/Fluff Clouds.zip","file/Font","file/Pixion\u0027s Rebrush","file/0000_Peeves","file/000_GUI Slots and Peeves Compat"]
 lastServer:washing-sift.na.e4mc.link
 lang:en_us
@@ -133,6 +133,10 @@ key_key.clientsort.op.sort:key.mouse.middle
 key_key.clientsort.op.stackFill:key.keyboard.unknown
 key_key.clientsort.op.matchTransfer:key.keyboard.unknown
 key_key.clientsort.op.transfer:key.keyboard.unknown
+key_key.carry.desc:key.keyboard.unknown
+key_key.packdev_toolkit.export:key.keyboard.o
+key_key.packdev_toolkit.copy_translation_key:key.keyboard.j
+key_key.packdev_toolkit.export_description:key.keyboard.z
 key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.rearm.action:key.keyboard.left.alt
 key_key.fast_placement:key.keyboard.unknown

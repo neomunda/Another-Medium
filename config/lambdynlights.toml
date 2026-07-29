@@ -1,6 +1,6 @@
 # LambDynamicLights configuration.
 # The dynamic lights mode
-mode = "fastest"
+mode = "fancy"
 # The chunk rebuild scheduler mode (immediate, culling).
 chunk_rebuild_scheduler = "culling"
 
@@ -389,6 +389,9 @@ chunk_rebuild_scheduler = "culling"
 
 			[light_sources.settings.entities.offroad]
 				borehead_contraption_entity = true
+
+			[light_sources.settings.entities.rearm]
+				axe = true
 
 [debug]
 	active_dynamic_lighting_cells = false

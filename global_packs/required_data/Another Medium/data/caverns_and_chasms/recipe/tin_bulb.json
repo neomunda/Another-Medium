@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "type": "alloyed:forging_shaped",
+  "key": {
+    "C": {"tag": "c:ingots/tin"},
+    "R": {"item": "minecraft:redstone"},
+    "B": {"item": "minecraft:blaze_rod"}
+  },
+  "pattern": [
+    " C ",
+    "CBC",
+    " R "
+  ],
+  "result": {
+    "count": 4,
+    "id": "caverns_and_chasms:tin_bulb"
+  }
+}

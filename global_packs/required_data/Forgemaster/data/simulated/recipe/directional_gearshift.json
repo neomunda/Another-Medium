@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:gearshift"
+    },
+    "B": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "pattern": [
+    "BAB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simulated:directional_gearshift"
+  },
+  "show_notification": false
+}

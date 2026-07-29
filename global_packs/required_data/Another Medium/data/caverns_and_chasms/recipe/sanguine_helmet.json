@@ -1,0 +1,22 @@
+{
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 5,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "caverns_and_chasms:living_flesh"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "caverns_and_chasms:sanguine_helmet"
+  },
+  "show_notification": false,
+  "tier": "stone"
+}

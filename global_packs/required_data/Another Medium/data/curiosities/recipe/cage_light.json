@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "L": {
+      "item": "minecraft:torch"
+    },
+    "N": {
+      "tag": "c:nuggets/nickel"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NLN",
+    "NRN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "curiosities:cage_light"
+  }
+}

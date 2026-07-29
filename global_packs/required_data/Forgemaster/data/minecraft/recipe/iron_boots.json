@@ -1,0 +1,22 @@
+{
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 3,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_boots"
+  },
+  "show_notification": false,
+  "tier": "stone"
+}

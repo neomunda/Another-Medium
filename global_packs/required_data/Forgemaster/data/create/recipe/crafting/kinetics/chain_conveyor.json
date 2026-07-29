@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "alloyed:bronze_casing"
+    },
+    "B": {
+      "item": "create:large_cogwheel"
+    }
+  },
+  "pattern": [
+    "B",
+    "A",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:chain_conveyor"
+  },
+  "show_notification": false
+}

@@ -1,0 +1,6 @@
+{
+  "type": "atmospheric:coarse_dirt",
+  "config": {
+    "probability": 0.1
+  }
+}

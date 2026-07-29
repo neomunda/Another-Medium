@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "atmospheric:petrified_yucca",
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": "atmospheric:red_petrified_yucca"
+      }
+    ]
+  }
+}

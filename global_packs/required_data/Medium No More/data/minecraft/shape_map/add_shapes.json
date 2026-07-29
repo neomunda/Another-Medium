@@ -1,0 +1,11 @@
+{
+  "priority": 500,
+  "add": {
+    "/(?<ns>[^:]+):(?<wood>.+)_fence/": [
+      "${ns}:${wood}_fence_gate"
+    ],
+    "/(?<ns>[^:]+):(?<wood>.+)_sign/": [
+      "${ns}:${wood}_hanging_sign"
+    ]
+  }
+}

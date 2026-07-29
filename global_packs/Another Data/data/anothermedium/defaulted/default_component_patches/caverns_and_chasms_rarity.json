@@ -1,0 +1,9 @@
+{
+  "items": [
+    "caverns_and_chasms:monocle",
+    "caverns_and_chasms:unicorn_horn"
+  ],
+  "patch": {
+    "minecraft:rarity": "uncommon"
+  }
+}

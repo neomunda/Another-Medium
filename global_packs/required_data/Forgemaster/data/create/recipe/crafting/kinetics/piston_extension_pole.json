@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/bronze"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "P",
+    "A",
+    "P"
+  ],
+  "result": {
+    "count": 8,
+    "id": "create:piston_extension_pole"
+  }
+}

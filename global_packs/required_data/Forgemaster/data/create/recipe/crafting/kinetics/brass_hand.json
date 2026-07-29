@@ -1,0 +1,16 @@
+{
+  "type": "alloyed:forging_shaped",
+  "key": {
+    "A": {"tag": "c:plates/bronze"},
+    "B": {"tag": "c:ingots/bronze"}
+  },
+  "pattern": [
+    " A ",
+    "BBB",
+    " B "
+  ],
+  "result": {
+    "count": 16,
+    "id": "create:brass_hand"
+  }
+}

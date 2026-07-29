@@ -1,0 +1,24 @@
+{
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:torch"
+    },
+    "N": {
+      "tag": "c:nuggets/invar"
+    }
+  },
+  "pattern": [
+    "NIN",
+    "NLN",
+    "NIN"
+  ],
+  "result": {
+    "id": "curiosities:heavy_lantern",
+    "count": 1
+  },
+  "category": "building",
+  "type": "minecraft:crafting_shaped"
+}

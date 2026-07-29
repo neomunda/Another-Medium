@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "alloyed:bronze_casing"
+    },
+    "I": {
+      "item": "create:whisk"
+    },
+    "S": {
+      "item": "create:cogwheel"
+    }
+  },
+  "pattern": [
+    "S",
+    "C",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:mechanical_mixer"
+  }
+}

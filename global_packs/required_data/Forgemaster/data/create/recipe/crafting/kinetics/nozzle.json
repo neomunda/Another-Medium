@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "wholecloth:clote_scrap"
+    },
+    "S": {
+      "item": "alloyed:bronze_ingot"
+    }
+  },
+  "pattern": [
+    " S ",
+    " C ",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:nozzle"
+  }
+}

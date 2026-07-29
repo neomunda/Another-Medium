@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 5,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "another_medium:necromium_plate"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "caverns_and_chasms:necromium_leggings"
+  },
+  "show_notification": false,
+  "tier": "stone"
+}

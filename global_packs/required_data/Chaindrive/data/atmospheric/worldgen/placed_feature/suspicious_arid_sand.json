@@ -1,0 +1,9 @@
+{
+  "feature": "atmospheric:suspicious_arid_sand",
+  "placement": [
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    }
+  ]
+}

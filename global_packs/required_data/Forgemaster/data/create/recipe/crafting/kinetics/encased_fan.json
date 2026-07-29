@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "alloyed:brass_casing"
+    },
+    "P": {
+      "item": "create:propeller"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "S",
+    "A",
+    "P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:encased_fan"
+  }
+}

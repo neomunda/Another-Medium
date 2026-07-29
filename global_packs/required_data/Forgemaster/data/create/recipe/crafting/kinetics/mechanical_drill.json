@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "alloyed:steel_casing"
+    },
+    "B": {
+      "tag": "c:ingots/steel"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " C ",
+    " B ",
+    "BBB",
+    "BBB",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:mechanical_drill"
+  },
+  "show_notification": false
+}

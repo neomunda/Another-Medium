@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": [15, 94],
+    "min_format": 15,
+    "max_format": 94,
+    "description": [
+      {
+        "text": "Improvements to grass, dirt and creepers! ",
+        "color": "#B0EF49"
+      },
+      {
+        "text": "By Ekho",
+        "color": "#45A346"
+      }
+    ]
+  }
+}

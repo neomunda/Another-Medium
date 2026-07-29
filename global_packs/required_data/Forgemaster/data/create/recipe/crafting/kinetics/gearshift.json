@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "alloyed:bronze_casing"
+    },
+    "B": {
+      "tag": "c:dusts/redstone"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    }
+  },
+  "pattern": [
+    "BAC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:gearshift"
+  },
+  "show_notification": false
+}

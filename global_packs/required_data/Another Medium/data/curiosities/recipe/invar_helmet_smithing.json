@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "c:ingots/invar"
+  },
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "result": {
+    "count": 1,
+    "id": "curiosities:invar_helmet"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

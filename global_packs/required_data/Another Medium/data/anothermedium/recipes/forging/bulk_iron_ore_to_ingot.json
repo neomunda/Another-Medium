@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "minecraft:iron_ore"},
+    {"item": "minecraft:iron_ore"},
+    {"item": "minecraft:iron_ore"}
+  ],
+  "result":
+    {
+      "count": 3,
+      "id": "overgeared:heated_iron_ingot"
+    }
+}

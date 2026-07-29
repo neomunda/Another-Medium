@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "environmental:patch_duckweed",
+    "environmental:patch_duckweed_swamp"
+  ]
+}

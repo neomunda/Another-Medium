@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:electron_tube"
+    },
+    "B": {
+      "item": "alloyed:steel_casing"
+    },
+    "C": {
+      "item": "create:crushing_wheel"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:mechanical_roller"
+  },
+  "show_notification": false
+}

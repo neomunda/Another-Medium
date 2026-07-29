@@ -1,0 +1,20 @@
+{
+  "key": {
+    "m": {
+      "item": "minecraft:gold_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "m",
+    "s"
+  ],
+  "result": {
+    "id": "farmersdelight:golden_knife",
+    "count": 1
+  },
+  "category": "equipment",
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "atmospheric:coarse_dirt_patch",
+  "config": {
+    "half_height": 2,
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 7,
+      "min_inclusive": 1
+    },
+    "state": {
+      "Name": "minecraft:coarse_dirt"
+    },
+    "targets": [
+      {
+        "Name": "atmospheric:red_arid_sand"
+      },
+      {
+        "Name": "atmospheric:arid_sand"
+      }
+    ]
+  }
+}

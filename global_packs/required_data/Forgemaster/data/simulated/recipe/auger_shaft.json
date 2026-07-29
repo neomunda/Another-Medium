@@ -1,0 +1,27 @@
+
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:chute"
+    },
+    "B": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "count": 2,
+    "id": "simulated:auger_shaft"
+  },
+  "show_notification": false
+}
