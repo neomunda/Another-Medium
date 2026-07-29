@@ -1,7 +1,0 @@
-{
-	"parent": "block/template_hanging_lantern_new",
-	"textures": {
-		"particle": "block/weathered_copper",
-		"lantern": "block/weathered_copper_lantern"
-	}
-}

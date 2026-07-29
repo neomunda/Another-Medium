@@ -1,11 +1,11 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
 		[types.wood_type.caverns_and_chasms]
 			azalea = true
 
 		[types.wood_type.arts_and_crafts]
 			cork = true
-
-		[types.wood_type.minecraft]
-			pale_oak = true
 
 		[types.wood_type.abundant_atmosphere]
 			red_bamboo = true
@@ -59,9 +59,6 @@
 
 		[types.leaves_type.arts_and_crafts]
 			cork = true
-
-		[types.leaves_type.minecraft]
-			pale_oak = true
 
 		[types.leaves_type.abundant_atmosphere]
 			ashroot = true
@@ -155,6 +152,9 @@
 		[types.lantern.enderscape]
 			void_lantern = true
 			bulb_lantern = true
+
+#Disables specific entries
+[entries]
 
 		[entries.wood_type.create]
 			window_pane = false

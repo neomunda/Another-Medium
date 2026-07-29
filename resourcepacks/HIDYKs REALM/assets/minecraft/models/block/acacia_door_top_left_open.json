@@ -1,8 +1,0 @@
-{
-	"credit": "Made by Hidyk with Blockbench",
-	"parent": "block/fixed_door_top_left_open",
-	"textures": {
-		"top": "block/acacia_door_top",
-		"side": "block/acacia_door_side"
-	}
-}

@@ -1,0 +1,7 @@
+{
+  "type": "emixx:tag",
+  "id": "c:fence_gates/wooden",
+  "tag": "c:fence_gates/wooden",
+  "registry": "minecraft:item",
+  "enabled": true
+}

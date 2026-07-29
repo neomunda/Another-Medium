@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/soul_torch",
-	"textures": {
-		"5": "block/copper_torch_fire2",
-		"4": "block/copper_torch",
-		"particle": "block/copper_torch"
-	}
-}

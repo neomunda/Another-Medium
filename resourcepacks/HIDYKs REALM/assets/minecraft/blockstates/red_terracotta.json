@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "": [
-		{ "model": "block/red_terracotta" },
-		{ "model": "block/red_terracotta", "y": 90, "x": 90 },
-		{ "model": "block/red_terracotta", "y": 180, "x": 180 }
-		]
-    }
-}

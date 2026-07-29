@@ -1,6 +1,0 @@
-{
-    "parent": "block/sweet_berry_bush_stage0",
-    "textures": {
-        "1": "block/sweet_berry_bush_stage1"
-    }
-}

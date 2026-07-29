@@ -1,7 +1,0 @@
-{
-    "parent": "item/bucket",
-    "textures": {
-        "layer0": "minecraft:item/saturation",
-		"particle": "minecraft:item/saturation_food"
-    }
-}

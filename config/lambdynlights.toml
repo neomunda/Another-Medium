@@ -1,6 +1,6 @@
 # LambDynamicLights configuration.
 # The dynamic lights mode
-mode = "fancy"
+mode = "fastest"
 # The chunk rebuild scheduler mode (immediate, culling).
 chunk_rebuild_scheduler = "culling"
 
@@ -164,96 +164,30 @@ chunk_rebuild_scheduler = "culling"
 				interaction = true
 				wither = true
 
-			[light_sources.settings.entities.nirvana]
-				reefer = true
-				thc_minecart = true
-				thc = true
+			[light_sources.settings.entities.farmersdelight]
+				rotten_tomato = true
 
 			[light_sources.settings.entities.overgeared]
 				lingering_arrow = true
 				upgrade_arrow = true
 
-			[light_sources.settings.entities.environmental]
-				deer = true
-				zebra = true
-				yak = true
-				reindeer = true
-				koi = true
-				mud_ball = true
-				zorse = true
-				slabfish = true
-				duck_egg = true
-				duck = true
-				zonkey = true
-				pinecone_golem = true
-				tapir = true
-
-			[light_sources.settings.entities.hominid]
-				rock = true
-				incendiary = true
-				bellman = true
-				juggernaut = true
-				vampire = true
-				famished = true
-				mellified = true
-				fossilized = true
-
-			[light_sources.settings.entities.simulated]
-				launched_plunger = true
-				honey_glue = true
-				contraption_diagram = true
-
 			[light_sources.settings.entities.connectiblechains]
 				chain_knot = true
 				chain_collision = true
+
+			[light_sources.settings.entities.amendments]
+				medium_dragon_fireball = true
+				falling_lantern = true
+				medium_fireball = true
 
 			[light_sources.settings.entities.oreganized]
 				shrapnel_bomb = true
 				lead_bolt = true
 				shrapnel_bomb_minecart = true
 
-			[light_sources.settings.entities.blueprint]
-				falling_block = true
-				chest_boat = true
-				boat = true
-
 			[light_sources.settings.entities.aeronautics]
 				propeller_bearing_contraption = true
 				gust = true
-
-			[light_sources.settings.entities.caverns_and_chasms]
-				copper_golem = true
-				rat = true
-				ricochet_arrow = true
-				grazer = true
-				oxidized_copper_golem = true
-				mime = true
-				saddled_grazer = true
-				cavefish = true
-				blunt_arrow = true
-				peeper = true
-				glare = true
-				kunai = true
-				deeper = true
-				large_arrow = true
-				tmt = true
-				tmt_minecart = true
-				lost_goat = true
-				evendeeper = true
-				bejeweled_pearl = true
-
-			[light_sources.settings.entities.spelunkery]
-				dust_bunny = true
-				pebble = true
-				falling_layer = true
-				glowstick = true
-				pick = true
-				egg_plither = true
-				mineomite = true
-				eggplant = true
-
-			[light_sources.settings.entities.mannequins]
-				dummy = true
 
 			[light_sources.settings.entities.creaturefeature]
 				machination = true
@@ -314,6 +248,125 @@ chunk_rebuild_scheduler = "culling"
 				nautilus = true
 				perch = true
 
+			[light_sources.settings.entities.create]
+				carriage_contraption = true
+				seat = true
+				stationary_contraption = true
+				package = true
+				contraption = true
+				gantry_contraption = true
+				super_glue = true
+				crafting_blueprint = true
+				potato_projectile = true
+
+			[light_sources.settings.entities.arts_and_crafts]
+				floating_block = true
+				chest_boat = true
+				boat = true
+
+			[light_sources.settings.entities.teallib]
+				mannequin = true
+
+			[light_sources.settings.entities.nirvana]
+				reefer = true
+				thc_minecart = true
+				thc = true
+
+			[light_sources.settings.entities.powergrid]
+				cord = true
+				block_wire = true
+				string_light_cord = true
+				hanging_wire = true
+				zap_projectile = true
+
+			[light_sources.settings.entities.environmental]
+				deer = true
+				zebra = true
+				yak = true
+				reindeer = true
+				koi = true
+				mud_ball = true
+				zorse = true
+				slabfish = true
+				duck_egg = true
+				duck = true
+				zonkey = true
+				pinecone_golem = true
+				tapir = true
+
+			[light_sources.settings.entities.hominid]
+				rock = true
+				incendiary = true
+				bellman = true
+				juggernaut = true
+				vampire = true
+				famished = true
+				mellified = true
+				fossilized = true
+
+			[light_sources.settings.entities.abundant_atmosphere]
+				nutling = true
+
+			[light_sources.settings.entities.simulated]
+				launched_plunger = true
+				honey_glue = true
+				contraption_diagram = true
+
+			[light_sources.settings.entities.electroenergetics]
+				detached_node = true
+
+			[light_sources.settings.entities.blueprint]
+				falling_block = true
+				chest_boat = true
+				boat = true
+
+			[light_sources.settings.entities.peaceless]
+				shrapin_scute = true
+				harpy = true
+				shade = true
+				mimic_spit = true
+				shrapin = true
+				mimic = true
+
+			[light_sources.settings.entities.caverns_and_chasms]
+				copper_golem = true
+				rat = true
+				ricochet_arrow = true
+				grazer = true
+				oxidized_copper_golem = true
+				mime = true
+				saddled_grazer = true
+				cavefish = true
+				blunt_arrow = true
+				peeper = true
+				glare = true
+				kunai = true
+				deeper = true
+				large_arrow = true
+				tmt = true
+				tmt_minecart = true
+				lost_goat = true
+				evendeeper = true
+				bejeweled_pearl = true
+
+			[light_sources.settings.entities.spelunkery]
+				dust_bunny = true
+				pebble = true
+				falling_layer = true
+				glowstick = true
+				pick = true
+				egg_plither = true
+				mineomite = true
+				eggplant = true
+
+			[light_sources.settings.entities.mannequins]
+				dummy = true
+
+			[light_sources.settings.entities.windswept]
+				frostbiter = true
+				chilled = true
+				frost_arrow = true
+
 			[light_sources.settings.entities.supplementaries]
 				dispenser_minecart = true
 				slingshot_projectile = true
@@ -330,17 +383,6 @@ chunk_rebuild_scheduler = "culling"
 				cannon_boat = true
 				rope_arrow = true
 				slimeball_projectile = true
-
-			[light_sources.settings.entities.create]
-				carriage_contraption = true
-				seat = true
-				stationary_contraption = true
-				package = true
-				contraption = true
-				gantry_contraption = true
-				super_glue = true
-				crafting_blueprint = true
-				potato_projectile = true
 
 			[light_sources.settings.entities.curiosities]
 				concussion_bomb = true

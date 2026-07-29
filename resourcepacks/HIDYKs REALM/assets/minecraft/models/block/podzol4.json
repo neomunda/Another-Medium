@@ -1,8 +1,0 @@
-{
-    "parent": "block/cube_bottom_top",
-    "textures": {
-        "bottom": "block/grass_dirt_rooted",
-        "top": "block/podzol_top4",
-        "side": "block/podzol_side4"
-    }
-}

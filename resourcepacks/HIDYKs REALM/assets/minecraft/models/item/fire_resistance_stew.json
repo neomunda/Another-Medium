@@ -1,7 +1,0 @@
-{
-    "parent": "item/bucket",
-    "textures": {
-        "layer0": "minecraft:item/fire_resistance0",
-		"particle": "minecraft:item/fire_resistance_food"
-    }
-}

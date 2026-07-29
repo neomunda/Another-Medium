@@ -1,7 +1,7 @@
 ["HUD Layout"]
 	# The style of the HUD. BAR is horizontal, ICON is vertical.
 	#Allowed Values: BAR, ICON
-	hudStyle = "ICON"
+	hudStyle = "BAR"
 	#X offset for the Stamina HUD in BAR mode.
 	# Default: 0
 	# Range: -5000 ~ 5000

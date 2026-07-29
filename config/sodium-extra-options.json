@@ -70,7 +70,7 @@
     "cloud_distance": 100,
     "toasts": true,
     "advancement_toast": true,
-    "recipe_toast": true,
+    "recipe_toast": false,
     "system_toast": true,
     "tutorial_toast": true,
     "instant_sneak": false,

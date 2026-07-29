@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/poisonous_potato",
-	"particle": "item/poisonous_potato_food"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-	{"model": "minecraft:block/weathered_chiseled_copper"},
-	{"model": "minecraft:block/weathered_chiseled_copper2"}
-	]
-  }
-}

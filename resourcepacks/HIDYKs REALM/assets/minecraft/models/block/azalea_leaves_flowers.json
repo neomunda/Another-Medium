@@ -1,8 +1,0 @@
-{
-"parent": "block/lushy_leaves",
-    "textures": {
-        "all": "block/azalea_leaves_flowers",
-		"top": "block/leavy_azalea_leaves_flowers_top",
-		"down": "block/leavy_azalea_leaves_flowers_down"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "parent": "block/cross_double",
-    "textures": {
-        "cross": "block/poppy2",
-		"cross2": "block/poppy4"
-    }
-}

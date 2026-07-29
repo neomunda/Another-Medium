@@ -1,6 +1,0 @@
-{
-    "parent": "item/buckets",
-    "textures": {
-        "layer0": "item/peony"
-    }
-}

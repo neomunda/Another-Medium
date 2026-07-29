@@ -1,7 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "block/cartography_table",
-	"textures": {
-		"5": "block/cartography_table_map2"
-	}
-}

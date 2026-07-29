@@ -43,7 +43,7 @@
     // Underground rivers under snowy biomes will generate with ice.
     "river_ice": false,
     // Underground rivers will rarely generate with hanging lanterns.
-    "river_lanterns": true,
+    "river_lanterns": false,
     // Some Plains biomes generate very smooth, hilly terrain.
     "rolling_hills": true,
     // Rivers that reach mountain ranges continue underground, allowing smoother boat exploration.

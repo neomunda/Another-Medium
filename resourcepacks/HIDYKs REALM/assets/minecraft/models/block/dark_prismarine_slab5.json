@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "block/dark_prismarine5",
-        "top": "block/dark_prismarine5",
-        "side": "block/dark_prismarine5"
-    }
-}

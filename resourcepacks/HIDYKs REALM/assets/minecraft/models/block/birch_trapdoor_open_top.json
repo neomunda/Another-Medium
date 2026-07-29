@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/fixed_trapdoor_open_top",
-  "textures": {
-    "trapdoor": "minecraft:block/birch_trapdoor",
-    "side": "minecraft:block/birch_trapdoor_side"
-  }
-}

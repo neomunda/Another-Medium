@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "block/fireproof_stone_bricks"
-    }
-}

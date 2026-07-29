@@ -41,7 +41,7 @@ display_scale = 6
 #Default Value: 4
 # Default: 4
 # Range: 1 ~ 12
-max_lines = 3
+max_lines = 4
 #Should the tooltip be hidden when the respective data component is present.
 #Default Value: true
 respect_hidden_tooltip = true
@@ -85,7 +85,7 @@ respect_hidden_tooltip = true
 			underline = false
 			#Should the text in this component appear italic.
 			#Default Value: false
-			italic = false
+			italic = true
 
 	#Additional information supplied by individual items such as potion effect and firework duration.
 	[components.additional]
@@ -219,7 +219,7 @@ respect_hidden_tooltip = true
 		#Default Value: 70
 		# Default: 70
 		# Range: > -2147483648
-		priority = 70
+		priority = 80
 		#Represent information for this component as if advanced tooltips were enabled independently of the actual setting.
 		#Default Value: false
 		advanced_tooltips = false
@@ -227,7 +227,7 @@ respect_hidden_tooltip = true
 		#Default Value: 30
 		# Default: 30
 		# Range: > -2147483648
-		ordering = 30
+		ordering = 50
 
 		#Text formatting settings for this component's text appearance.
 		[components.enchantments.formatting]

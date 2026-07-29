@@ -1,0 +1,16 @@
+{
+  "target_type": "menu_class",
+  "target": "net.minecraft.world.inventory.AnvilMenu",
+  "slot_modifiers": [
+    {
+      "slots": "0->2",
+      "x_offset": 0,
+      "y_offset": -3
+    },    
+    {
+      "slots": "3->38",
+      "x_offset": 0,
+      "y_offset": -7
+    }
+  ]
+}

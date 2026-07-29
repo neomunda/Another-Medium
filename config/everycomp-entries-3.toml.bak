@@ -52,6 +52,11 @@
 			chestnut = true
 			pine = true
 
+		[types.wood_type.enderscape]
+			veiled = true
+			celestial = true
+			murublight = true
+
 		[types.leaves_type.arts_and_crafts]
 			cork = true
 
@@ -146,6 +151,10 @@
 
 		[types.lantern.windswept]
 			ice_lantern = true
+
+		[types.lantern.enderscape]
+			void_lantern = true
+			bulb_lantern = true
 
 		[entries.wood_type.create]
 			window_pane = false

@@ -1,9 +1,0 @@
-{
-  "variants": {
-    "type=bottom": {"model": "minecraft:block/mangrove_slab"},
-    "type=double": [
-	{"model": "minecraft:block/mangrove_planks_vertical"}
-	],
-    "type=top": {"model": "minecraft:block/mangrove_slab_top"}
-  }
-}

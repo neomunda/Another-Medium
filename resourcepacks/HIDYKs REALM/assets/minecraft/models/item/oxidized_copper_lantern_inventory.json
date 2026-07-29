@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/lantern_inventory",
-	"textures": {
-		"lantern": "block/oxidized_copper_lantern"
-	}
-}

@@ -1,7 +1,7 @@
 {
   "configVersion": 5,
   "perf": {
-    "maxParticleAmount": 1500,
+    "maxParticleAmount": 750,
     "particleDensity": 100,
     "particleStormDensity": 200,
     "particleDistance": 16,

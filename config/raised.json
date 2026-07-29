@@ -165,6 +165,17 @@
       },
       "sync": "create:value_settings"
     },
+    "electroenergetics:electric_properties_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "electroenergetics:electric_properties_overlay"
+    },
     "enderscape:debug": {
       "displacement": {
         "x": 0,

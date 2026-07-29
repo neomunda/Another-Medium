@@ -1,9 +1,0 @@
-{
-  "variants": {
-    "": [
-	{ "model": "minecraft:block/deepslate_bricks" },
-	{ "model": "minecraft:block/deepslate_bricks2" },
-	{ "model": "minecraft:block/deepslate_bricks3" }
-	]
-  }
-}

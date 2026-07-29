@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-		{ "model": "block/glowstone" },
-		{ "model": "block/glowstone2" }
-		]
-    }
-}

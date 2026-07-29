@@ -1,9 +1,0 @@
-{
-  "variants": {
-    "": [
-	{"model": "minecraft:block/smooth_basalt"},
-	{"model": "minecraft:block/smooth_basalt2"},
-	{"model": "minecraft:block/smooth_basalt3"}
-	]
-  }
-}

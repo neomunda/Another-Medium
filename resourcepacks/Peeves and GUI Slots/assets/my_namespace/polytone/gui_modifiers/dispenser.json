@@ -1,0 +1,16 @@
+{
+  "target_type": "menu_class",
+  "target": "net.minecraft.world.inventory.DispenserMenu",
+  "slot_modifiers": [
+    {
+      "slots": "0->8",
+      "x_offset": -2,
+      "y_offset": -10
+    },    
+    {
+      "slots": "9->44",
+      "x_offset": -2,
+      "y_offset": -9
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-{
-	"credit": "Made by Hidyk with Blockbench",
-    "parent": "block/pumpkin",
-    "textures": {
-        "side": "block/pumpkin_side3"
-    }
-}

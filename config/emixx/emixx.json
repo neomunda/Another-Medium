@@ -2,17 +2,29 @@
   "enableCreativeModeTabs": true,
   "syncSelectedCreativeModeTab": false,
   "showCreativeTabNameInSearchbar": false,
+  "maxSidebarTabs": 0,
   "disabledCreativeModeTabs": [
     "minecraft:op_blocks"
   ],
   "enableStackGroups": true,
   "enableCreateStackGroupButton": true,
-  "disabledStackGroups": [],
+  "disabledStackGroups": [
+    "c:fence_gates/wooden"
+  ],
   "stackGroupItemOrder": {},
+  "enableCategorizedTagPages": true,
+  "enableEntityTags": true,
+  "enableTagSearchEnhancements": true,
   "emiOnlyInRecipeBook": false,
-  "disablePaginationWrapping": false,
-  "scrollInsteadOfPagination": false,
-  "showTitleInsteadOfPageNumbers": false,
+  "disablePaginationWrapping": true,
+  "scrollInsteadOfPagination": true,
+  "showTitleInsteadOfPageNumbers": true,
   "hidePageButtonWhenOnePage": false,
-  "incrementalScrollbarFill": false
+  "incrementalScrollbarFill": true,
+  "searchWidgetAlignWithPanel": true,
+  "searchWidgetTopOffset": 0,
+  "searchWidgetHorizontalPadding": 4,
+  "searchWidgetVerticalPadding": 2,
+  "searchWidgetSuggestionTextColor": -8355712,
+  "searchWidgetTextColor": -1
 }

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/template_music_disc2",
-  "textures": {
-    "layer1": "minecraft:item/music_disc_chirp_flat",
-    "layer0": "minecraft:item/music_disc_base_flat"
-  }
-}

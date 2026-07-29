@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button2",
-  "textures": {
-    "texture": "minecraft:block/bamboo_button"
-  }
-}

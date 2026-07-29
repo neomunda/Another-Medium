@@ -1,7 +1,0 @@
-{
-	"format_version": "1.21.11",
-	"parent": "block/potted_torchflower",
-	"textures": {
-		"plant": "block/torchflower_potted2"
-	}
-}

@@ -20,7 +20,7 @@
   "walkNoiseAmount": 0.25,
   "sprintBobMult": 1.8,
   "landingEnabled": true,
-  "landingIntensity": 3.85,
+  "landingIntensity": 1.925,
   "landingPitchMax": 9.0,
   "landingRollMax": 3.5,
   "landingYawMax": 2.5,

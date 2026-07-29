@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-	{"model": "minecraft:block/dripstone_block"},
-	{"model": "minecraft:block/dripstone_block2"}
-	]
-  }
-}

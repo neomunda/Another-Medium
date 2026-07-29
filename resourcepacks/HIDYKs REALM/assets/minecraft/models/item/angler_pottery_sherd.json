@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/buckets",
-  "textures": {
-    "layer0": "minecraft:item/pottery_sherd_base",
-    "layer1": "minecraft:item/angler_pottery_sherd"
-  }
-}

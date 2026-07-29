@@ -1,0 +1,7 @@
+{
+  "type": "emixx:tag",
+  "id": "farmersdelight:cabinets",
+  "tag": "farmersdelight:cabinets",
+  "registry": "minecraft:item",
+  "enabled": true
+}

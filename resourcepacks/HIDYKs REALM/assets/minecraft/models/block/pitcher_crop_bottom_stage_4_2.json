@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/pitcher_crop_bottom_stage_4",
-	"textures": {
-		"particle": "block/pitcher_crop_bottom_stage_4_2",
-		"stage_4_bottom": "block/pitcher_crop_bottom_stage_4_2"
-	}
-}

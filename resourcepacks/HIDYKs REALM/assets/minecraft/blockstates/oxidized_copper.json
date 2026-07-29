@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-	{"model": "minecraft:block/oxidized_copper"},
-	{"model": "minecraft:block/oxidized_copper2"}
-	]
-  }
-}

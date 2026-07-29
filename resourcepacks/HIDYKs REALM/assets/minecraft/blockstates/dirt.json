@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "": [
-		{ "model": "block/dirt" },
-		{ "model": "block/dirt2" },
-		{ "model": "block/dirt3" }
-        ]
-    }
-}

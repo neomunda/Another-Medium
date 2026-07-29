@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/buckets",
-  "textures": {
-    "layer0": "minecraft:item/axolotl_bucket",
-    "layer1": "minecraft:item/axolotl_bucket_base"
-  }
-}

@@ -1,4 +1,7 @@
 {
   "shulker_box_ambient_occlusion": "true",
-  "chest_ambient_occlusion": "true"
+  "chest_ambient_occlusion": "true",
+  "skull_ambient_occlusion": "true",
+  "optimized_decorated_pot": "false",
+  "decorated_pot_ambient_occlusion": "true"
 }

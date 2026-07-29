@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/fixed_door_top_left_open",
-  "textures": {
-		"top": "block/cherry_door_top",
-		"side": "block/cherry_door_side"
-	}
-}

@@ -1,9 +1,0 @@
-{
-    "parent": "block/template_farmland",
-    "textures": {
-        "particle": "block/farmland3_2",
-        "dirt": "block/dirt",
-		"side": "block/farmland_side3",
-        "top": "block/farmland3_2"
-    }
-}

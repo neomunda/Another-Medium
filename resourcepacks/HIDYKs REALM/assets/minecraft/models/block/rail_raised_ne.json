@@ -1,7 +1,0 @@
-{
-    "parent": "block/template_fixed_rail_raised_ne",
-    "textures": {
-        "rail": "block/rail_raised",
-		"particle": "block/rail"
-    }
-}

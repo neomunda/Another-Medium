@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-	{"model": "minecraft:block/raw_gold_block"},
-	{"model": "minecraft:block/raw_gold_block2"}
-	]
-  }
-}

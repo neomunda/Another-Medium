@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_leaf_litter_notint_3",
-  "textures": {
-    "texture": "minecraft:block/leaf_litter"
-  }
-}

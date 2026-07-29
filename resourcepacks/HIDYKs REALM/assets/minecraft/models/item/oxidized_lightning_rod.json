@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/lightning_rod",
-  "textures": {
-    "texture": "minecraft:block/oxidized_lightning_rod"
-  }
-}

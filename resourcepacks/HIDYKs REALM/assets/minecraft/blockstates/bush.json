@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-	{"model": "minecraft:block/bush", "weight": 3},
-	{"model": "minecraft:block/bush2", "weight": 1}
-	]
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-      {"model": "minecraft:block/infested_deepslate"},
-	  {"model": "minecraft:block/infested_deepslate2"}
-    ]
-  }
-}

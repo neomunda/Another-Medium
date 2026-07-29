@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/sniffer_egg",
-  "textures": {
-    "egg": "minecraft:block/sniffer_egg_cracked"
-  }
-}

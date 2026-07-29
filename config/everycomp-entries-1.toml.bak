@@ -1,6 +1,3 @@
-#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
-[types]
-
 		[types.wood_type.caverns_and_chasms]
 			azalea = true
 
@@ -56,6 +53,9 @@
 			veiled = true
 			celestial = true
 			murublight = true
+
+		[types.wood_type.minecraft]
+			pale_oak = true
 
 		[types.leaves_type.arts_and_crafts]
 			cork = true
@@ -119,6 +119,9 @@
 			pine = true
 			flowering_acacia = true
 
+		[types.leaves_type.minecraft]
+			pale_oak = true
+
 		[types.cake.dungeonsdelight]
 			monster_cake = true
 
@@ -153,21 +156,18 @@
 			void_lantern = true
 			bulb_lantern = true
 
-#Disables specific entries
-[entries]
-
 		[entries.wood_type.create]
-			window_pane = false
-			window = false
+			window_pane = true
+			window = true
 
 		[entries.wood_type.curiosities]
-			fancied_planks = true
+			fancied_planks = false
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
 
 		[entries.wood_type.nomansland]
-			bookshelf = true
+			bookshelf = false
 			trimmed_planks = true
 
 		[entries.wood_type.woodworks]

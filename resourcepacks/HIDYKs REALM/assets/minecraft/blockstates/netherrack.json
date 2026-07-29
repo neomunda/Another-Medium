@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/netherrack" },
-            { "model": "block/netherrack", "x": 180, "y": 180 }
-        ]
-    }
-}
