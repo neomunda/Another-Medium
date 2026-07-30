@@ -1,0 +1,25 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "atmospheric:currant_muffin",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "tag": "c:foods/currant"
+    },
+    {
+      "tag": "c:foods/currant"
+    },
+    {
+      "tag": "c:foods/currant"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

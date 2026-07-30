@@ -1,0 +1,19 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "id": "nomansland:trimmed_warped_planks",
+    "count": 3
+  },
+  "group": "trimmed_planks",
+  "category": "building",
+  "type": "minecraft:crafting_shaped"
+}

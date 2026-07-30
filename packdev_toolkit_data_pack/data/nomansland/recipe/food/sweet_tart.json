@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "nomansland:sweet_tart",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "nomansland:pine_nuts"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,25 @@
+{
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:terracotta"
+      },
+      {
+        "item": "minecraft:red_terracotta"
+      }
+    ],
+    "P": {
+      "item": "minecraft:packed_mud"
+    }
+  },
+  "pattern": [
+    "#P",
+    "P#"
+  ],
+  "result": {
+    "id": "nomansland:earthen_tiles",
+    "count": 4
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

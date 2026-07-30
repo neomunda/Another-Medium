@@ -1,0 +1,19 @@
+{
+  "key": {
+    "#": {
+      "item": "abundant_atmosphere:ashroot_planks"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "id": "abundant_atmosphere:trimmed_ashroot_planks",
+    "count": 3
+  },
+  "group": "trimmed_planks",
+  "category": "building",
+  "type": "minecraft:crafting_shaped"
+}

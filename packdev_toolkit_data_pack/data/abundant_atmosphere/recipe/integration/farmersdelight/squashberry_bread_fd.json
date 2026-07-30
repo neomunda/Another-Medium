@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "abundant_atmosphere:squashberry_bread",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "abundant_atmosphere:squashberry_jam"
+    },
+    {
+      "item": "farmersdelight:wheat_dough"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

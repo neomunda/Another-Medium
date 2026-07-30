@@ -1,0 +1,25 @@
+{
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:white_terracotta"
+      },
+      {
+        "item": "minecraft:light_gray_terracotta"
+      }
+    ],
+    "P": {
+      "item": "nomansland:cobblestone_bricks"
+    }
+  },
+  "pattern": [
+    "#P",
+    "P#"
+  ],
+  "result": {
+    "id": "nomansland:mundane_tiles",
+    "count": 4
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

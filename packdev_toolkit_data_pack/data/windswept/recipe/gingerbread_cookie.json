@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "windswept:gingerbread_cookie",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "windswept:ginger_root"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

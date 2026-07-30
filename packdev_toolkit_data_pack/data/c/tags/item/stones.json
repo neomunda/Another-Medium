@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "windswept:arkose",
+    "windswept:shale",
+    "minecraft:calcite",
+    "minecraft:dripstone_block",
+    "oreganized:glance"
+  ]
+}

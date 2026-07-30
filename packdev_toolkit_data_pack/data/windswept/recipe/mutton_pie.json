@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "windswept:mutton_pie",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "tag": "c:foods/cooked_mutton"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

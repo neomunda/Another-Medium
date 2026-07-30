@@ -1,0 +1,19 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "id": "nomansland:trimmed_acacia_planks",
+    "count": 3
+  },
+  "group": "trimmed_planks",
+  "category": "building",
+  "type": "minecraft:crafting_shaped"
+}

@@ -48,8 +48,8 @@ mouseSensitivity:0.6091549295774648
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Brush \u0026 Juice","file/Nibble Bits","file/Gentle Touches-1.1.0.zip","file/Os\u0027 Colorful Grasses (Mojang Style).zip","file/Probleyes Produce","file/Farcr-rified Stuff","file/Farcr\u0027s Re-Crafted","file/Another Medium Resources","file/Revibed","file/JavaUI.zip","file/Fluff Clouds.zip","file/Brush Up","file/Discography 3.3.zip","file/Pixion\u0027s Rebrush","file/Hidyk\u0027s Realm","file/0000_Peeves","file/000_GUI Slots and Peeves Compat","mod/rearm:resourcepacks/1_21_1/rp"]
-incompatibleResourcePacks:["file/Fluff Clouds.zip","file/Font","file/Pixion\u0027s Rebrush","file/0000_Peeves","file/000_GUI Slots and Peeves Compat"]
+resourcePacks:[]
+incompatibleResourcePacks:[]
 lastServer:washing-sift.na.e4mc.link
 lang:en_us
 chatVisibility:0
@@ -122,8 +122,12 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
-key_placebo.toggleTrails:key.keyboard.unknown
-key_placebo.toggleWings:key.keyboard.unknown
+key_aperture_innovations.portal_gun.reset:key.keyboard.r
+key_aperture_innovations.portal_gun.pick_up:key.keyboard.g
+key_aperture_innovations.portal_gun.primary_fire:key.mouse.left
+key_aperture_innovations.portal_gun.secondary_fire:key.mouse.right
+key_placebo.toggleTrails:key.keyboard.keypad.9
+key_placebo.toggleWings:key.keyboard.keypad.8
 key_simulated.keyinfo.rotate_mode:key.keyboard.tab
 key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
@@ -156,10 +160,9 @@ key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
-key_key.clutternomore.change_block_shape:key.keyboard.tab
+key_key.clutternomore.change_block_shape:key.keyboard.left.alt
 key_key.raised.options:key.keyboard.grave.accent
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
-key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

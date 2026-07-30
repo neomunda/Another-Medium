@@ -1,0 +1,20 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:stone_bricks"
+    },
+    "A": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "#A",
+    "A#"
+  ],
+  "result": {
+    "id": "nomansland:faded_stone_bricks",
+    "count": 4
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

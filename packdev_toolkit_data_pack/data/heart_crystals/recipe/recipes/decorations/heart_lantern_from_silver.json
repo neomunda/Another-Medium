@@ -1,0 +1,21 @@
+{
+  "key": {
+    "#": {
+      "item": "heart_crystals:heart_crystal"
+    },
+    "I": {
+      "tag": "c:ingots/silver"
+    }
+  },
+  "pattern": [
+    "I",
+    "#",
+    "I"
+  ],
+  "result": {
+    "id": "heart_crystals:heart_lantern",
+    "count": 1
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

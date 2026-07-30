@@ -1,0 +1,31 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "nomansland:seared_venison",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "tag": "nomansland:edible_mushrooms"
+    },
+    {
+      "tag": "nomansland:edible_mushrooms"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "tag": "c:foods/cooked_venison"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

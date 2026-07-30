@@ -1,0 +1,19 @@
+{
+  "key": {
+    "#": {
+      "item": "nomansland:willow_planks"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "id": "nomansland:trimmed_willow_planks",
+    "count": 3
+  },
+  "group": "trimmed_planks",
+  "category": "building",
+  "type": "minecraft:crafting_shaped"
+}

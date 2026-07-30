@@ -1,0 +1,33 @@
+{
+  "key": {
+    "M": {
+      "tag": "c:drinks/milk"
+    },
+    "P": {
+      "item": "nomansland:pear"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "B": {
+      "item": "minecraft:sweet_berries"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "PBA",
+    "MEM",
+    "WWW"
+  ],
+  "result": {
+    "id": "nomansland:fruit_cake",
+    "count": 1
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

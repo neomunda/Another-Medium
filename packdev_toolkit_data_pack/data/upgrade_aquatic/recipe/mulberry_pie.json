@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "upgrade_aquatic:mulberry_pie",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "upgrade_aquatic:mulberry"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

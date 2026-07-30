@@ -1,0 +1,19 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "id": "nomansland:trimmed_dark_oak_planks",
+    "count": 3
+  },
+  "group": "trimmed_planks",
+  "category": "building",
+  "type": "minecraft:crafting_shaped"
+}

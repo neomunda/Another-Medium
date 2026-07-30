@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "curiosities:aluminum_ore",
+    "curiosities:deepslate_nickel_ore",
+    "curiosities:nickel_ore",
+    "curiosities:deepslate_aluminum_ore"
+  ]
+}

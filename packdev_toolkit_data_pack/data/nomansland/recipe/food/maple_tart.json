@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "nomansland:maple_tart",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "nomansland:maple_syrup_bottle"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

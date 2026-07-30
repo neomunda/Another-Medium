@@ -38,7 +38,7 @@
 	#If the prairie is enabled
 	prairie = true
 	#If the lavender field is enabled
-	lavenderField = true
+	lavenderField = false
 	#If the blackwater river sub-biome is enabled
 	blackwaterRiver = true
 	#If the lush river sub-biome is enabled

@@ -1,0 +1,24 @@
+{
+  "key": {
+    "A": {
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      },
+      "block_type": "minecraft:wood_type",
+      "from": "minecraft:oak",
+      "to": "abundant_atmosphere:red_bamboo",
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "pattern": [
+    "A",
+    "A"
+  ],
+  "result": {
+    "id": "everycomp:abnww/abundant_atmosphere/red_bamboo_boards",
+    "count": 1
+  },
+  "group": "wooden_boards",
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

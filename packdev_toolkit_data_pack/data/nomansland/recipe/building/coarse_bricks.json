@@ -1,0 +1,25 @@
+{
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:coarse_dirt"
+      },
+      {
+        "item": "nomansland:coarse_silt"
+      }
+    ],
+    "P": {
+      "item": "minecraft:brick"
+    }
+  },
+  "pattern": [
+    "#P",
+    "P#"
+  ],
+  "result": {
+    "id": "nomansland:coarse_bricks",
+    "count": 2
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

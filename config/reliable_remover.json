@@ -395,6 +395,12 @@
     "alloyed:steel_spear",
     "alloyed:steel_mesh_fence",
     "supplementaries:rope",
-    "environmental:willow_bookshelf"
+    "environmental:willow_bookshelf",
+    "cookscollection:rustic_loaf_slice",
+    "cookscollection:rustic_loaf",
+    "cookscollection:fish_and_chips",
+    "cookscollection:fried_potato",
+    "cookscollection:chocolate_muffin",
+    "cookscollection:cooking_oil"
   ]
 }

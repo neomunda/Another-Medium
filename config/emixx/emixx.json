@@ -9,13 +9,16 @@
   "enableStackGroups": true,
   "enableCreateStackGroupButton": true,
   "disabledStackGroups": [
-    "c:fence_gates/wooden"
+    "c:fence_gates/wooden",
+    "c:fence_gates"
   ],
   "stackGroupItemOrder": {},
+  "emiOnlyInRecipeBook": false,
+  "emiOnlyInRecipeBookState": false,
+  "dragCheatToInventory": true,
   "enableCategorizedTagPages": true,
   "enableEntityTags": true,
   "enableTagSearchEnhancements": true,
-  "emiOnlyInRecipeBook": false,
   "disablePaginationWrapping": true,
   "scrollInsteadOfPagination": true,
   "showTitleInsteadOfPageNumbers": true,

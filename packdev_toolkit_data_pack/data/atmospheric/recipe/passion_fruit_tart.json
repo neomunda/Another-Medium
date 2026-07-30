@@ -1,0 +1,21 @@
+{
+  "key": {
+    "#": {
+      "tag": "c:foods/passion_fruit"
+    },
+    "X": {
+      "tag": "c:eggs"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "atmospheric:passion_fruit_tart",
+    "count": 1
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

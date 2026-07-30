@@ -1,0 +1,25 @@
+{
+  "key": {
+    "A": {
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      },
+      "block_type": "minecraft:wood_type",
+      "from": "minecraft:oak",
+      "to": "atmospheric:laurel",
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "pattern": [
+    "A",
+    "A",
+    "A"
+  ],
+  "result": {
+    "id": "everycomp:nml/atmospheric/trimmed_laurel_planks",
+    "count": 3
+  },
+  "group": "trimmed_planks",
+  "category": "building",
+  "type": "minecraft:crafting_shaped"
+}
