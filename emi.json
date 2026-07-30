@@ -5,6 +5,8 @@
     }
   ],
   "lookup_history": [
+    "item:caverns_and_chasms:tin_bulb",
+    "item:minecraft:waxed_copper_bulb",
     "item:clayworks:kiln",
     "item:simulated:redstone_magnet",
     "item:powergrid:magnet",
@@ -660,7 +662,6 @@
       "id": "caverns_and_chasms:weathered_copper_bars",
       "amount": 64
     },
-    "item:caverns_and_chasms:tin_bulb",
     {
       "type": "item",
       "id": "caverns_and_chasms:exposed_copper_bars",

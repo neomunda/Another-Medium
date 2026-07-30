@@ -401,6 +401,9 @@
     "cookscollection:fish_and_chips",
     "cookscollection:fried_potato",
     "cookscollection:chocolate_muffin",
-    "cookscollection:cooking_oil"
+    "cookscollection:cooking_oil",
+    "curiosities:aluminum_upgrade_smithing_template",
+    "oreganized:electrum_upgrade_smithing_template",
+    "minecraft:netherite_upgrade_smithing_template"
   ]
 }
