@@ -122,10 +122,6 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
-key_aperture_innovations.portal_gun.reset:key.keyboard.r
-key_aperture_innovations.portal_gun.pick_up:key.keyboard.g
-key_aperture_innovations.portal_gun.primary_fire:key.mouse.left
-key_aperture_innovations.portal_gun.secondary_fire:key.mouse.right
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_simulated.keyinfo.rotate_mode:key.keyboard.tab
@@ -163,6 +159,7 @@ key_create.keyinfo.alt_modifier:key.keyboard.left.alt
 key_key.clutternomore.change_block_shape:key.keyboard.left.alt
 key_key.raised.options:key.keyboard.grave.accent
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
+key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

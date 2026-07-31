@@ -1,10 +1,10 @@
 {
   "type": "woodworks:sawmill",
   "ingredient": {
-    "item": "nomansland:walnut_planks"
+    "tag": "nomansland:walnut_logs"
   },
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "everycomp:abnww/nomansland/walnut_boards"
   }
 }

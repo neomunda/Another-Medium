@@ -1,19 +1,10 @@
 {
-  "key": {
-    "#": {
-      "item": "minecraft:mangrove_planks"
-    }
+  "type": "woodworks:sawmill",
+  "ingredient": {
+    "item": "minecraft:mangrove_planks"
   },
-  "pattern": [
-    " # ",
-    " # ",
-    " # "
-  ],
   "result": {
-    "id": "nomansland:trimmed_mangrove_planks",
-    "count": 3
-  },
-  "group": "trimmed_planks",
-  "category": "building",
-  "type": "minecraft:crafting_shaped"
+    "count": 1,
+    "id": "nomansland:trimmed_mangrove_planks"
+  }
 }

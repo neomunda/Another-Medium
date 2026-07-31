@@ -1,19 +1,10 @@
 {
-  "key": {
-    "#": {
-      "item": "nomansland:walnut_planks"
-    }
+  "type": "woodworks:sawmill",
+  "ingredient": {
+    "item": "nomansland:walnut_planks"
   },
-  "pattern": [
-    " # ",
-    " # ",
-    " # "
-  ],
   "result": {
-    "id": "nomansland:trimmed_walnut_planks",
-    "count": 3
-  },
-  "group": "trimmed_planks",
-  "category": "building",
-  "type": "minecraft:crafting_shaped"
+    "count": 1,
+    "id": "nomansland:trimmed_walnut_planks"
+  }
 }

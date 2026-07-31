@@ -1,0 +1,10 @@
+{
+  "type": "woodworks:sawmill",
+  "ingredient": {
+    "tag": "nomansland:willow_logs"
+  },
+  "result": {
+    "count": 4,
+    "id": "everycomp:abnww/nomansland/willow_boards"
+  }
+}

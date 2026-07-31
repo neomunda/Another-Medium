@@ -1,25 +1,10 @@
 {
-  "key": {
-    "A": {
-      "ingredient": {
-        "item": "minecraft:oak_planks"
-      },
-      "block_type": "minecraft:wood_type",
-      "from": "minecraft:oak",
-      "to": "upgrade_aquatic:river",
-      "type": "moonlight:block_type_swap"
-    }
+  "type": "woodworks:sawmill",
+  "ingredient": {
+    "item": "upgrade_aquatic:river_planks"
   },
-  "pattern": [
-    "A",
-    "A",
-    "A"
-  ],
   "result": {
-    "id": "everycomp:nml/upgrade_aquatic/trimmed_river_planks",
-    "count": 3
-  },
-  "group": "trimmed_planks",
-  "category": "building",
-  "type": "minecraft:crafting_shaped"
+    "count": 1,
+    "id": "everycomp:nml/upgrade_aquatic/trimmed_river_planks"
+  }
 }

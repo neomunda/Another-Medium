@@ -1,19 +1,10 @@
 {
-  "key": {
-    "#": {
-      "item": "minecraft:acacia_planks"
-    }
+  "type": "woodworks:sawmill",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
   },
-  "pattern": [
-    " # ",
-    " # ",
-    " # "
-  ],
   "result": {
-    "id": "nomansland:trimmed_acacia_planks",
-    "count": 3
-  },
-  "group": "trimmed_planks",
-  "category": "building",
-  "type": "minecraft:crafting_shaped"
+    "count": 1,
+    "id": "nomansland:trimmed_acacia_planks"
+  }
 }
