@@ -421,7 +421,7 @@
     "minecraft:hotbar": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 5
       },
       "direction": {
         "x": "LEFT",

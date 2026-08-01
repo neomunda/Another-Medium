@@ -404,6 +404,9 @@
     "cookscollection:cooking_oil",
     "curiosities:aluminum_upgrade_smithing_template",
     "oreganized:electrum_upgrade_smithing_template",
-    "minecraft:netherite_upgrade_smithing_template"
+    "minecraft:netherite_upgrade_smithing_template",
+    "create:zinc_nugget",
+    "create:crushed_raw_zinc",
+    "create:raw_zinc"
   ]
 }

@@ -1,16 +1,23 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "tag": "c:ingots/invar"
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 5,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "another_medium:invar_plate"
+    }
   },
-  "base": {
-    "item": "minecraft:diamond_leggings"
-  },
+  "need_quenching": false,
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
   "result": {
     "count": 1,
     "id": "curiosities:invar_leggings"
   },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "show_notification": false,
+  "tier": "stone"
 }

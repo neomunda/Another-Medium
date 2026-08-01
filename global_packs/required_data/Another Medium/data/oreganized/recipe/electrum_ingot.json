@@ -1,0 +1,18 @@
+{
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "minecraft:netherite_scrap"},
+    {"item": "minecraft:netherite_scrap"},
+    {"item": "minecraft:netherite_scrap"},
+    {"item": "minecraft:gold_ingot"},
+    {"item": "minecraft:gold_ingot"},
+    {"item": "minecraft:gold_ingot"},
+    {"item": "caverns_and_chasms:silver_ingot"},
+    {"item": "caverns_and_chasms:silver_ingot"},
+    {"item": "caverns_and_chasms:silver_ingot"}
+  ],
+  "result":
+    {
+      "id": "another_medium:heated_electrum_ingot"
+    }
+}

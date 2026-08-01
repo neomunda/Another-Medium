@@ -1,0 +1,12 @@
+[
+  {
+    "action": "replace_input",
+    "target": "create:zinc_ingot",
+    "replacement": "minecraft:gold_ingot"
+  },
+  {
+    "action": "replace_input",
+    "target": "powergrid:zinc_sheet",
+    "replacement": "create:golden_sheet"
+  }
+]

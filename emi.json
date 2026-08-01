@@ -5,6 +5,27 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "nomansland:cobblestone_bricks",
+      "amount": 4
+    },
+    "item:create:zinc_ingot",
+    "item:create:copper_nugget",
+    {
+      "type": "item",
+      "id": "caverns_and_chasms:copper_nugget",
+      "amount": 128
+    },
+    "item:powergrid:cord_junction",
+    "item:powergrid:spark_gap",
+    "item:powergrid:zinc_sheet",
+    "item:powergrid:electrical_gizmo",
+    "item:powergrid:electrozapper",
+    "item:powergrid:conductive_casing",
+    "item:create:andesite_casing",
+    "item:create:deployer",
+    "item:create:smart_chute",
     "item:nomansland:trimmed_oak_planks",
     "item:everycomp:abnww/abundant_atmosphere/ashroot_boards",
     "item:everycomp:abnww/abundant_atmosphere/gourdrot_boards",
@@ -338,7 +359,6 @@
     "item:minecraft:stone_axe",
     "item:minecraft:stone_hoe",
     "item:create:brass_ingot",
-    "item:create:zinc_ingot",
     "item:oreganized:lead_ingot",
     "item:arts_and_crafts:ivory_pietraforte_bricks",
     "item:arts_and_crafts:magenta_mud_bricks",
@@ -426,7 +446,6 @@
     "item:caverns_and_chasms:mossy_cobblestone_bricks",
     "item:nomansland:mossy_cobblestone_bricks",
     "item:nomansland:cracked_cobblestone_bricks",
-    "item:nomansland:cobblestone_bricks",
     "item:caverns_and_chasms:cobblestone_bricks",
     "item:upgrade_aquatic:chiseled_driftwood_bookshelf",
     "item:upgrade_aquatic:chiseled_river_bookshelf",
@@ -505,7 +524,6 @@
       "amount": 8
     },
     "item:brick_and_mortar:brown_brick",
-    "item:powergrid:conductive_casing",
     "item:powergrid:golden_wire",
     "item:powergrid:integrated_circuit",
     "item:minecraft:copper_ingot",
@@ -1009,11 +1027,10 @@
     "item:minecraft:birch_button"
   ],
   "craft_history": [
+    "nomansland:building/cobblestone_bricks",
     "nomansland:building/polished_stone",
     "oreganized:lead_nugget",
     "oreganized:lead_ingot_from_block",
-    "nomansland:building/cobblestone_bricks",
-    "atmospheric:laurel_boards",
     "atmospheric:laurel_planks",
     "caverns_and_chasms:silver_bars",
     "caverns_and_chasms:copper_bars",

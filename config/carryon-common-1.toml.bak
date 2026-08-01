@@ -1,9 +1,9 @@
 [settings]
 	#General Settings
 	#Maximum distance from where Blocks and Entities can be picked up
-	# Default: 2.5
+	# Default: 1.5
 	# Range: 0.0 ~ 1.7976931348623157E308
-	maxDistance = 2.5
+	maxDistance = 1.5
 	#Max width of entities that can be picked up in survival mode
 	# Default: 1.5
 	# Range: 0.0 ~ 10.0
@@ -55,9 +55,13 @@
 	#Usually all the block state information is retained when placing a block that was picked up. But some information is changed to a modified property, like rotation or orientation. In this list, add additional properties that should NOT be saved and instead be updated when placed. Format: modid:block[propertyname]. Note: You don't need to add an entry for every subtype of a same block. For example, we only add an entry for one type of slab, but the change is applied to all slabs.
 	placementStateExceptions = ["minecraft:chest[type]", "minecraft:stone_button[face]", "minecraft:vine[north,east,south,west,up]", "minecraft:creeper_head[rotation]", "minecraft:glow_lichen[north,east,south,west,up,down]", "minecraft:oak_sign[rotation]", "minecraft:oak_trapdoor[half]"]
 	#Whether Players can be picked up. Creative players can't be picked up in Survival Mode
-	pickupPlayers = true
+	pickupPlayers = false
 	#Whether players in Survival Mode can pick up unbreakable blocks. Creative players always can.
 	pickupUnbreakableBlocks = false
+	#Pickup distance scales with player reach
+	scaleDistance = true
+	#Size of entities is considered relative to player scale
+	relativePlayerScale = true
 
 [whitelist]
 	#Whitelist. Read about the format here: https://github.com/Tschipp/CarryOn/wiki/Black---and-Whitelist-Config

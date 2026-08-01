@@ -1,16 +1,26 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "tag": "c:ingots/aluminum"
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 5,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "another_medium:aluminum_plate"
+    },
+    "!": {
+      "item": "minecraft:leather_helmet"
+    }
   },
-  "base": {
-    "item": "minecraft:leather_helmet"
-  },
+  "need_quenching": false,
+  "pattern": [
+    " # ",
+    "#!#",
+    " # "
+  ],
   "result": {
     "count": 1,
     "id": "curiosities:aluminum_helmet"
   },
-  "template": {
-    "item": "curiosities:aluminum_upgrade_smithing_template"
-  }
+  "show_notification": false,
+  "tier": "stone"
 }

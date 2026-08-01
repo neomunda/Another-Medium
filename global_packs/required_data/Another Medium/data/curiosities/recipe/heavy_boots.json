@@ -1,24 +1,29 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 5,
+  "has_polishing": false,
   "key": {
-    "C": {
-      "item": "minecraft:heavy_core"
+    "#": {
+      "item": "alloyed:steel_plate"
     },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "R": {
+    "!": {
       "item": "minecraft:breeze_rod"
+    },
+    "E": {
+      "item": "minecraft:heavy_core"
     }
   },
+  "need_quenching": false,
   "pattern": [
-    " C ",
-    "R R",
-    "I I"
+    " E ",
+    "! !",
+    "# #"
   ],
   "result": {
     "count": 1,
     "id": "curiosities:heavy_boots"
-  }
+  },
+  "show_notification": false,
+  "tier": "stone"
 }

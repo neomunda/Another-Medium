@@ -1,0 +1,21 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "pattern": [
+    "X#",
+    "#X"
+  ],
+  "result": {
+    "id": "nomansland:cobblestone_bricks",
+    "count": 4
+  },
+  "group": "cobblestone_bricks",
+  "category": "building",
+  "type": "minecraft:crafting_shaped"
+}

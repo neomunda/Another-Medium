@@ -1,0 +1,19 @@
+{
+  "type": "overgeared:forging",
+  "category": "TOOL_HEADS",
+  "hammering": 3,
+  "key": {
+    "#": {
+      "item": "another_medium:heated_invar_ingot"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "another_medium:invar_hoe_head"
+  },
+  "show_notification": false,
+  "tier": "stone"
+}
