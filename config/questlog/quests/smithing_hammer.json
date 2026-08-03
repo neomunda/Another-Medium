@@ -1,0 +1,31 @@
+{
+  "title": "Hammer of Justice",
+  "description": "Los Smithing Hammer son herramientas útiles para hacer Smithing Anvils y fabricar en estos placas, herramientas y armaduras. Para seguir avanzando, tendrás que hacer uno",
+  "icon": {
+    "item": "overgeared:copper_smithing_hammer"
+  },
+  "chapter": "main",
+  "sort_order": 6,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Haz una Cabeza de Martillo de Piedra y dale forma a un molde",
+      "icon": {
+        "item": "overgeared:stone_hammer_head"
+      },
+      "item": "overgeared:stone_hammer_head",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Haz un martillo de cobre",
+      "icon": {
+        "item": "overgeared:copper_smithing_hammer"
+      },
+      "item": "overgeared:copper_smithing_hammer",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "another_medium:heated_gold_ingot"
+  },
+  "output": {
+    "id": "minecraft:gold_ingot",
+    "count": 1
+  },
+  "type": "overgeared:cooling"
+}

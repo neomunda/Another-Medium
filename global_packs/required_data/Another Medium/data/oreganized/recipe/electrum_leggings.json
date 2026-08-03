@@ -1,16 +1,23 @@
 {
-  "template": {
-    "item": "oreganized:electrum_upgrade_smithing_template"
+  "type": "overgeared:forging",
+  "category": "ARMORS",
+  "hammering": 5,
+  "has_polishing": false,
+  "key": {
+    "#": {
+      "item": "another_medium:electrum_plate"
+    }
   },
-  "base": {
-    "item": "minecraft:diamond_leggings"
-  },
-  "addition": {
-    "item": "oreganized:electrum_ingot"
-  },
+  "need_quenching": false,
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
   "result": {
-    "id": "oreganized:electrum_leggings",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:electrum_leggings"
   },
-  "type": "minecraft:smithing_transform"
+  "show_notification": false,
+  "tier": "stone"
 }

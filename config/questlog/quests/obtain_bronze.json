@@ -1,0 +1,31 @@
+{
+  "title": "The Bronze Age",
+  "description": "La Forja te permitirá hacer una amplia gama de aleaciones, entre otras cosas. Una de estas es el bronce, tu siguiente gran paso dentro de la progresión.",
+  "icon": {
+    "item": "alloyed:bronze_ingot"
+  },
+  "chapter": "main",
+  "sort_order": 8,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Funde Bronce",
+      "icon": {
+        "item": "alloyed:bronze_ingot"
+      },
+      "item": "alloyed:bronze_ingot",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obten un Pico de Bronce",
+      "icon": {
+        "item": "another_medium:bronze_pickaxe"
+      },
+      "item": "another_medium:bronze_pickaxe",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

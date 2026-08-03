@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curiosities"
+    }
+  ],
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "curiosities:deepslate_nickel_ore"},
+    {"item": "curiosities:deepslate_nickel_ore"},
+    {"item": "curiosities:deepslate_nickel_ore"}
+  ],
+  "result":
+    {
+      "count": 3,
+      "id": "another_medium:heated_nickel_ingot"
+    }
+}

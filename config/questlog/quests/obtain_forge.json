@@ -1,0 +1,31 @@
+{
+  "title": "This Heat, An Evil Heat",
+  "description": "Fundiste tus primeros metales, eso es excelente. Pero para alcanzar tu siguiente objetivo, el Horno te será insuficiente, es por eso que has de ir mas profundo, y recolectar materiales para hacer una Forge.\n\n... ¿Pero como lo harás? La Deepslate ya no puede picarse a menos que tengas un pico de hierro...",
+  "icon": {
+    "item": "alloyed:forge"
+  },
+  "chapter": "main",
+  "sort_order": 7,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "¿Explosivos? ¿Para qué?",
+      "icon": {
+        "item": "nomansland:explosive"
+      },
+      "item": "nomansland:explosive",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Fabrica una Forge",
+      "icon": {
+        "item": "alloyed:forge"
+      },
+      "item": "alloyed:forge",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

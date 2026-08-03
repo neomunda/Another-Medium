@@ -1,0 +1,47 @@
+{
+  "config_version": "2.0.30",
+  "config_datetime": "2026-08-02_18-19-23",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "minecraft:village_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_plains",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "is_disabled": true
+    },
+    {
+      "name": "darkerdepths:petrified_mineshaft",
+      "is_disabled": true
+    },
+    {
+      "name": "darkerdepths:rope_mine_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "darkerdepths:rope_mine_forest",
+      "is_disabled": true
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

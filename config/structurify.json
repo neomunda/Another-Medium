@@ -1,0 +1,107 @@
+{
+  "config_version": "2.0.30",
+  "config_datetime": "2026-08-02_18-21-08",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "minecraft:village_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_plains",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "is_disabled": true
+    },
+    {
+      "name": "darkerdepths:rope_mine_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "darkerdepths:rope_mine_forest",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_acacia",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_birch",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_cherry",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_dark_oak",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_mangrove",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_oak",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_spruce",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:village_birch",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:village_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "oreganized:boulder",
+      "is_disabled": true
+    },
+    {
+      "name": "windswept:village_frozen",
+      "is_disabled": true
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

@@ -18,7 +18,7 @@
 [ingui]
 	#Screenshot Manager Customization
 	#The path to the folder containing the screenshots images that will be displayed in the screen.
-	screenshotsFolder = "C:\\Users\\Usuario\\AppData\\Roaming\\ElyPrismLauncher\\instances\\Another Medium...(1)\\minecraft\\screenshots"
+	screenshotsFolder = "/home/cesar/.var/app/io.github.elyprismlauncher.ElyPrismLauncher/data/ElyPrismLauncher/instances/The Fire Is gone/minecraft/screenshots"
 	#The ordering of the screenshots when the screen is opened.
 	#Allowed Values: ASCENDING, DESCENDING
 	defaultListOrder = "ASCENDING"
@@ -55,7 +55,7 @@
 [screenshot_thumbnails]
 	#Screenshot Thumbnails
 	#The path to the folder containing the screenshots thumbnails that will be displayed in the screen.
-	screenshotsFolder = "C:\\Users\\Usuario\\AppData\\Roaming\\ElyPrismLauncher\\instances\\Another Medium...(1)\\minecraft\\screenshots\\thumbnails"
+	screenshotsFolder = "/home/cesar/.var/app/io.github.elyprismlauncher.ElyPrismLauncher/data/ElyPrismLauncher/instances/The Fire Is gone/minecraft/screenshots/thumbnails"
 	#If set to none, will not generate any thumbnails. Controls the downscale ratio between a screenshot image and its thumbnail.
 	#Allowed Values: NONE, HALF, QUARTER, EIGHTH
 	compression_ratio = "NONE"

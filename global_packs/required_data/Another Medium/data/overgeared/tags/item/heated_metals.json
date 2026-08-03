@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "another_medium:heated_aluminum_ingot",
+    "another_medium:heated_bronze_ingot",
+    "another_medium:heated_electrum_ingot",
+    "another_medium:heated_gold_ingot",
+    "another_medium:heated_invar_ingot",
+    "another_medium:heated_lead_ingot",
+    "another_medium:heated_necromium_ingot",
+    "another_medium:heated_netherite_ingot",
+    "another_medium:heated_nickel_ingot",
+    "another_medium:heated_tin_ingot",
+    "another_medium:heated_zinc_ingot"
+  ]
+}

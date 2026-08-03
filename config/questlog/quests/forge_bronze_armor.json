@@ -1,0 +1,22 @@
+{
+  "title": "Armored Core",
+  "description": "Una de las posibilidades que te desbloquea el Yunque es hacer tus primeras piezas de armadura metálicas a partir de Plates. \n\nAlgunas armaduras tienen atributos que las distinguen del resto, por lo que es viable utilizarlas aún si vas más adelantado en la progresión. Por ejemplo, la armadura de bronce aumenta tu daño.",
+  "icon": {
+    "item": "minecraft:chainmail_chestplate"
+  },
+  "chapter": "main",
+  "sort_order": 11,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Fabrica una Pechera de Bronce",
+      "icon": {
+        "item": "minecraft:chainmail_chestplate"
+      },
+      "item": "minecraft:chainmail_chestplate",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

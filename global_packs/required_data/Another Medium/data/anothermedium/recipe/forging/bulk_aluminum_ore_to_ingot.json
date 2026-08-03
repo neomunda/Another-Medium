@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curiosities"
+    }
+  ],
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "curiosities:aluminum_ore"},
+    {"item": "curiosities:aluminum_ore"},
+    {"item": "curiosities:aluminum_ore"}
+  ],
+  "result":
+    {
+      "count": 3,
+      "id": "another_medium:heated_aluminum_ingot"
+    }
+}

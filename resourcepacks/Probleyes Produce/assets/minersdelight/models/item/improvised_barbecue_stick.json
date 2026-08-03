@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-	"particle": "minersdelight:item/improvised_barbecue_stick_particle",
-    "layer0": "minersdelight:item/improvised_barbecue_stick"
-  }
-}

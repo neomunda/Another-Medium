@@ -1,19 +1,51 @@
 {
-  "vanilla": {
-    "fix_focus_bug": true,
-    "attack_sleeping_villagers": true,
-    "fix_experience_loss": true,
-    "fix_resource_filter_leak": true,
-    "fix_density_memoization": true,
-    "remove_anvil_limit": true,
-    "no_anvil_enchant_cost": true,
-    "no_anvil_repair_cost": true,
-    "no_anvil_rename_cost": true
-  },
   "reconnectible_chains": {
     "enabled": true,
     "charge_up_ticks": 10,
     "consume_durability": true,
     "consume_chains": true
+  },
+  "passable_foliage": {
+    "enable_passable_foliage": true,
+    "enable_pale_oak_leaves": true,
+    "enable_tinted_leaves": true,
+    "enable_tinted_needles": true,
+    "enable_cherry_leaves": true,
+    "base_drag": 0.3,
+    "max_drag": 0.7,
+    "enable_leaf_sounds": true
+  },
+  "vanilla_anvil": {
+    "remove_anvil_limit": true,
+    "no_anvil_enchant_cost": false,
+    "no_anvil_repair_cost": false,
+    "no_anvil_rename_cost": true
+  },
+  "vanilla_bugfixes": {
+    "fix_focus_bug": true,
+    "attack_sleeping_villagers": true,
+    "fix_experience_loss": true,
+    "fix_resource_filter_leak": true,
+    "fix_density_memoization": true
+  },
+  "vanilla_gameplay": {
+    "flammable_cobwebs": true,
+    "campfires_place_unlit": true
+  },
+  "vanilla_gui": {
+    "ctrl_drag_to_crafting_grid": true,
+    "chat_message_duration": 200,
+    "disable_creative_inventory": false
+  },
+  "vanilla_visual": {
+    "nicer_map_colors": true,
+    "waxed_item_icon_overlay": true,
+    "extra_item_icon_overlays": true,
+    "better_copper_tooltips": true
+  },
+  "vanilla_walls": {
+    "walls_connect_to_fences": true,
+    "fences_connect_to_walls_and_bars": true,
+    "bars_connect_to_fences": true
   }
 }

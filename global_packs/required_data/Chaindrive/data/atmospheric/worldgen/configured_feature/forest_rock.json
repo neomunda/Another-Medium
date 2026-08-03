@@ -1,8 +1,0 @@
-{
-  "type": "atmospheric:dune_rock",
-  "config": {
-    "state": {
-      "Name": "atmospheric:arid_sandstone"
-    }
-  }
-}

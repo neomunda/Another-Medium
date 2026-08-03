@@ -2,7 +2,7 @@
 # Overridden if disabled via hotkey.
 # options: ALWAYS, COMPASS_HELD, COMPASS_HOTBAR, COMPASS_INVENTORY
 # default: COMPASS_HELD
-displayMode = "COMPASS_HELD"
+displayMode = "COMPASS_INVENTORY"
 # What items to consider compasses for non-always display modes.
 # Overridden by #dead_reckoning:compasses (or #c:compasses) if present.
 # all(matches r'([a-z0-9_.-]+:)?[a-z0-9/._-]+')
@@ -19,7 +19,7 @@ compassItems = ["minecraft:compass", "minecraft:recovery_compass"]
 	# How opaque to render all compass elements.
 	# range: 0.1 - 1.0
 	# default: 1.0
-	opacity = 0.75
+	opacity = 0.50000006
 	# What color to render the compass background decoration in.
 	# 6-digit hex code, starting with #
 	# matches r'#[0-9A-Fa-f]{6}'
@@ -56,7 +56,7 @@ compassItems = ["minecraft:compass", "minecraft:recovery_compass"]
 	# The portion of the screen the compass should occupy.
 	# range: 0.1 - 1.0
 	# default: 0.9
-	screenWidth = 0.9
+	screenWidth = 0.70000005
 	# The number of pixels below the top of the screen to render the compass.
 	# default: 4
 	yOffset = 4

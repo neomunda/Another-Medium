@@ -27,11 +27,6 @@
 		[types.wood_type.dungeonsdelight]
 			wormwood = true
 
-		[types.wood_type.enderscape]
-			veiled = true
-			celestial = true
-			murublight = true
-
 		[types.wood_type.environmental]
 			willow = true
 			pine = true
@@ -148,10 +143,6 @@
 
 		[types.lantern.dungeonsdelight]
 			living_lantern = true
-
-		[types.lantern.enderscape]
-			void_lantern = true
-			bulb_lantern = true
 
 		[types.lantern.windswept]
 			ice_lantern = true

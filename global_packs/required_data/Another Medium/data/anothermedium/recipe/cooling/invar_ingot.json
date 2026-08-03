@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "another_medium:heated_invar_ingot"
+  },
+  "output": {
+    "id": "curiosities:invar_ingot",
+    "count": 1
+  },
+  "type": "overgeared:cooling"
+}

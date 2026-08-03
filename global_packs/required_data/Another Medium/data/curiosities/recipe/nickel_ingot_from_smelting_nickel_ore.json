@@ -1,12 +1,11 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
   "cookingtime": 200,
   "experience": 0.7,
   "ingredient": {
     "item": "curiosities:nickel_ore"
   },
   "result": {
-  "result": { "item": "another_medium:heated_nickel_ingot" }
+    "id": "another_medium:heated_nickel_ingot"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "title": "I Don't Have Ideas For This One",
+  "description": "Haz un Flint Knife y con él, rompe Grass para obtener Straw y así hacer Rope. Con esto podrás unir tu Tool Part a un palo y conseguir tu primera herramienta.",
+  "icon": {
+    "item": "minecraft:wooden_pickaxe"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Fabrica un Flint Knife",
+      "icon": {
+        "item": "farmersdelight:flint_knife"
+      },
+      "item": "farmersdelight:flint_knife",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Fabrica cuerda",
+      "icon": {
+        "item": "farmersdelight:rope"
+      },
+      "item": "farmersdelight:rope",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Crea un Pico de Pedernal",
+      "icon": {
+        "item": "minecraft:wooden_pickaxe"
+      },
+      "item": "minecraft:wooden_pickaxe",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

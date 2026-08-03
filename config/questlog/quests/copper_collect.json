@@ -1,0 +1,31 @@
+{
+  "title": "I'll Cu later!",
+  "description": "Encuentra una mena de cobre y fundela... pero ten cuidado, tendrás que enfriar el lingote lanzándolo al agua si quieres llegar al siguiente paso.\n\nPara manejar mejor los Lingotes calientes puedes hacer Tongs, basta con que las tengas en la mano mientras manipulas el metal hirviendo.",
+  "icon": {
+    "item": "minecraft:copper_ingot"
+  },
+  "chapter": "main",
+  "sort_order": 1,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Pica una Mena de Cobre",
+      "icon": {
+        "item": "minecraft:copper_ore"
+      },
+      "item": "minecraft:raw_copper",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Funde Cobre a lingotes",
+      "icon": {
+        "item": "minecraft:copper_ingot"
+      },
+      "item": "overgeared:heated_copper_ingot",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

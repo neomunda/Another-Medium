@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "another_medium:heated_netherite_ingot"
+  },
+  "output": {
+    "id": "minecraft:netherite_ingot",
+    "count": 1
+  },
+  "type": "overgeared:cooling"
+}

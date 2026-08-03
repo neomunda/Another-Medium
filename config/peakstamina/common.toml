@@ -42,15 +42,15 @@
 	# Stamina drained per tick while sprinting. Set to 0.0 to disable. Set to negative to gain stamina
 	# Default: 0.15
 	# Range: -100.0 ~ 100.0
-	depletionSprint = 0.25
+	depletionSprint = 0.2
 	# Stamina drained per jump. Set to 0.0 to disable. Set to negative to gain stamina
 	# Default: 0.85
 	# Range: -100.0 ~ 100.0
-	depletionJump = 0.75
+	depletionJump = 0.5
 	# Base stamina drained per attack. Set to 0.0 to disable. Set to negative to gain stamina
 	# Default: 3.45
 	# Range: -100.0 ~ 100.0
-	depletionAttack = 3.45
+	depletionAttack = 0.25
 	# Stamina drained when swinging at the air (missing an attack). Set to 0.0 to disable.
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
@@ -58,11 +58,11 @@
 	# Stamina drained per block broken. Set to 0.0 to disable. Set to negative to gain stamina
 	# Default: 1.1
 	# Range: -100.0 ~ 100.0
-	depletionBlockBreak = 0.5
+	depletionBlockBreak = 0.15
 	# Stamina drained per block placed. Set to 0.0 to disable. Set to negative to gain stamina
 	# Default: 0.7
 	# Range: -100.0 ~ 100.0
-	depletionBlockPlace = 0.5
+	depletionBlockPlace = 0.15
 	# Stamina drained per tick while swimming. Set to 0.0 to disable. Set to negative to gain stamina
 	# Default: 0.05
 	# Range: -100.0 ~ 100.0
@@ -70,7 +70,7 @@
 	# Stamina drained per tick while climbing. Set to 0.0 to disable. Set to negative to gain stamina
 	# Default: 0.7
 	# Range: -100.0 ~ 100.0
-	depletionClimb = 0.7
+	depletionClimb = 0.5
 
 [Combat]
 	# If true, the stamina drained per attack is modified by the weapon's weight.

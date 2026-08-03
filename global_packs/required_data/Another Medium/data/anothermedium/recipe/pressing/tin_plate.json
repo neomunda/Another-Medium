@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "caverns_and_chasms:tin_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "another_medium:tin_plate"
+    }
+  ]
+}

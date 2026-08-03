@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "type": "alloyed:forging",
+  "ingredients": [
+    {"item": "caverns_and_chasms:cylindrite_tin_ore"},
+    {"item": "caverns_and_chasms:cylindrite_tin_ore"},
+    {"item": "caverns_and_chasms:cylindrite_tin_ore"}
+  ],
+  "result":
+    {
+      "count": 3,
+      "id": "another_medium:heated_zinc_ingot"
+    }
+}

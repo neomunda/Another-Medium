@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-	"particle": "minersdelight:item/copper_carrot_particle",
-    "layer0": "minersdelight:item/copper_carrot"
-  }
-}

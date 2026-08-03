@@ -421,7 +421,7 @@
     "minecraft:hotbar": {
       "displacement": {
         "x": 0,
-        "y": 5
+        "y": 10
       },
       "direction": {
         "x": "LEFT",
@@ -594,6 +594,17 @@
       },
       "sync": "simulated:linked_typewriter_binding"
     },
+    "simulatedcoasters:coaster_track_placement": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "simulatedcoasters:coaster_track_placement"
+    },
     "supplementaries:cannon_charge": {
       "displacement": {
         "x": 0,
@@ -626,6 +637,50 @@
         "y": "NONE"
       },
       "sync": "supplementaries:slimed"
+    },
+    "tacz:tac_gun_hud_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tacz:tac_gun_hud_overlay"
+    },
+    "tacz:tac_heat_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tacz:tac_heat_bar"
+    },
+    "tacz:tac_interact_key_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tacz:tac_interact_key_overlay"
+    },
+    "tacz:tac_kill_amount_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tacz:tac_kill_amount_overlay"
     },
     "vista:viewfinder": {
       "displacement": {

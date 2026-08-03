@@ -9,7 +9,7 @@
 	#Y offset for the Stamina HUD in BAR mode.
 	# Default: 1
 	# Range: -5000 ~ 5000
-	barYOffset = 0
+	barYOffset = -23
 	#X offset for the Stamina HUD in ICON mode.
 	# Default: 0
 	# Range: -5000 ~ 5000
@@ -25,7 +25,7 @@
 	# Height of the bar in pixels (Used for BAR style)
 	# Default: 4
 	# Range: 1 ~ 100
-	barHeight = 2
+	barHeight = 5
 	# Whether to render text/emoji icons on the stamina bar penalty zones.
 	showIcons = true
 	#Regen Arrow Style: DEFAULT (uses >>> ), CUSTOM (uses your custom texture made in the sprite sheet) or OFF.

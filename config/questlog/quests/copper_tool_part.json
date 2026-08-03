@@ -1,0 +1,31 @@
+{
+  "title": "Copperworks",
+  "description": "Inserta lingotes de cobre en tu recién adquirido molde y caliéntalo en un horno para obtener tu primera parte de herramienta de cobre.",
+  "icon": {
+    "item": "minecraft:stone_pickaxe"
+  },
+  "chapter": "main",
+  "sort_order": 3,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Fabrica una Tool Part de cobre",
+      "icon": {
+        "item": "overgeared:copper_pickaxe_head"
+      },
+      "item": "overgeared:copper_pickaxe_head",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Fabrica un pico de cobre",
+      "icon": {
+        "item": "minecraft:stone_pickaxe"
+      },
+      "item": "minecraft:stone_pickaxe",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

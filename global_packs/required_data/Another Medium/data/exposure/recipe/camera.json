@@ -1,0 +1,28 @@
+{
+  "key": {
+    "B": {
+      "tag": "minecraft:buttons"
+    },
+    "G": {
+      "tag": "c:glass_panes/colorless"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    }
+  },
+  "pattern": [
+    "LIB",
+    "IGI",
+    "III"
+  ],
+  "result": {
+    "id": "exposure:camera",
+    "count": 1
+  },
+  "group": "camera",
+  "category": "equipment",
+  "type": "minecraft:crafting_shaped"
+}

@@ -407,6 +407,21 @@
     "minecraft:netherite_upgrade_smithing_template",
     "create:zinc_nugget",
     "create:crushed_raw_zinc",
-    "create:raw_zinc"
+    "create:raw_zinc",
+    "overgeared:alloy_furnace",
+    "overgeared:nether_alloy_furnace",
+    "create:crushed_raw_iron",
+    "create:crushed_raw_gold",
+    "create:crushed_raw_copper",
+    "create:crushed_raw_silver",
+    "create:crushed_raw_tin",
+    "create:crushed_raw_lead",
+    "create:crushed_raw_aluminum",
+    "create:crushed_raw_nickel",
+    "dungeonsdelight:golden_cleaver",
+    "dungeonsdelight:netherite_cleaver",
+    "dungeonsdelight:flint_cleaver",
+    "dungeonsdelight:diamond_cleaver",
+    "darkerdepths:rope"
   ]
 }

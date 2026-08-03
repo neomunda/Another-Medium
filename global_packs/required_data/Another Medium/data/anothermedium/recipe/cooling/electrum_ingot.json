@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "another_medium:heated_electrum_ingot"
+  },
+  "output": {
+    "id": "oreganized:electrum_ingot",
+    "count": 1
+  },
+  "type": "overgeared:cooling"
+}

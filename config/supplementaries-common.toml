@@ -307,10 +307,10 @@
 	checker_block = false
 	wicker_fence = false
 	raked_gravel = true
-	fine_wood = true
+	fine_wood = false
 	candle_holder = true
 	fire_pit = true
-	brittlestone = true
+	brittlestone = false
 
 	[building.barnacles]
 		enabled = false

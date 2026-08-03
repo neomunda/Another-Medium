@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "another_medium:heated_necromium_ingot"
+  },
+  "output": {
+    "id": "caverns_and_chasms:necromium_ingot",
+    "count": 1
+  },
+  "type": "overgeared:cooling"
+}

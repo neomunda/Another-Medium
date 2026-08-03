@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-	"particle": "minersdelight:item/cave_soup_cup_particle",
-    "layer0": "minersdelight:item/cave_soup_cup"
-  }
-}

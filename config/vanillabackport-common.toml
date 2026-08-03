@@ -1,12 +1,12 @@
 ["Bundles of Bravery"]
 	#toggle the updated controls and UI for bundles
-	has_updated_bundles = true
+	has_updated_bundles = false
 	#allow bundles to appear on chests at villages
 	bundle_loot = false
 	#toggle the modern rendering for bundles
-	has_modern_bundle_graphics = true
+	has_modern_bundle_graphics = false
 	#toggle whether bundles should be dyeable
-	has_dyeable_bundle_recipe = true
+	has_dyeable_bundle_recipe = false
 
 ["The Garden Awakens"]
 	#allow resin to be obtainable from creaking hearts

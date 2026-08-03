@@ -18,12 +18,6 @@
 			kousa = true
 			grimwood = true
 
-		[types.wood_type.darkerdepths]
-			petrified = true
-
-		[types.wood_type.dungeonsdelight]
-			wormwood = true
-
 		[types.wood_type.environmental]
 			willow = true
 			pine = true
@@ -36,10 +30,6 @@
 			walnut = true
 			willow = true
 
-		[types.wood_type.spawn]
-			rotten = true
-			date = true
-
 		[types.wood_type.upgrade_aquatic]
 			driftwood = true
 			river = true
@@ -48,14 +38,6 @@
 			holly = true
 			chestnut = true
 			pine = true
-
-		[types.wood_type.enderscape]
-			veiled = true
-			celestial = true
-			murublight = true
-
-		[types.wood_type.minecraft]
-			pale_oak = true
 
 		[types.leaves_type.arts_and_crafts]
 			cork = true
@@ -107,9 +89,6 @@
 			apple_fruit = true
 			pear_fruit = true
 
-		[types.leaves_type.spawn]
-			date = true
-
 		[types.leaves_type.upgrade_aquatic]
 			river = true
 
@@ -118,12 +97,6 @@
 			chestnut = true
 			pine = true
 			flowering_acacia = true
-
-		[types.leaves_type.minecraft]
-			pale_oak = true
-
-		[types.cake.dungeonsdelight]
-			monster_cake = true
 
 		[types.cake.nomansland]
 			fruit_cake = true
@@ -143,18 +116,8 @@
 			heavy_lantern = true
 			heavy_soul_lantern = true
 
-		[types.lantern.darkerdepths]
-			glowshroom_lantern = true
-
-		[types.lantern.dungeonsdelight]
-			living_lantern = true
-
 		[types.lantern.windswept]
 			ice_lantern = true
-
-		[types.lantern.enderscape]
-			void_lantern = true
-			bulb_lantern = true
 
 		[entries.wood_type.create]
 			window_pane = true

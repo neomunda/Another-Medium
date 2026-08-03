@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "another_medium:heated_aluminum_ingot"
+  },
+  "output": {
+    "id": "curiosities:aluminum_ingot",
+    "count": 1
+  },
+  "type": "overgeared:cooling"
+}

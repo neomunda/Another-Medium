@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "curiosities:invar_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "another_medium:invar_plate"
+    }
+  ]
+}

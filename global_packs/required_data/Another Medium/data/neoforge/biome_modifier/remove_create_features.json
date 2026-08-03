@@ -4,6 +4,9 @@
   "features": [
     "create:zinc_ore",
     "create:striated_ores_overworld",
-    "create:striated_ores_nether"
-  ]
+    "create:striated_ores_nether",
+    "minecraft:ore_emerald",
+    "cookscollection:salt_placed"
+  ],
+  "step": "underground_ores"
 }

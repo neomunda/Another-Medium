@@ -1,11 +1,11 @@
 {
   "configVersion": 3,
-  "effectsEnabled": false,
+  "effectsEnabled": true,
   "disableInCreativeFlight": true,
   "enableEffectsThirdPerson": false,
   "enableEffectsSecondPerson": false,
   "enableVanillaFov": true,
-  "masterIntensity": 2.0,
+  "masterIntensity": 1.0,
   "noiseOctaves": 4,
   "breathEnabled": true,
   "breathIntensity": 0.75,

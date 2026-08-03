@@ -322,7 +322,9 @@
       "windswept:holly_boards",
       "windswept:chestnut_boards",
       "windswept:pine_boards",
-      "create:mixing/brass_ingot"
+      "create:mixing/brass_ingot",
+      "overgeared:copper_smithing_hammer_2",
+      "caverns_and_chasms:copper_ingot_from_smelting"
     ]
   }
 ]

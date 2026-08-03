@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "another_medium:heated_lead_ingot"
+  },
+  "output": {
+    "id": "oreganized:lead_ingot",
+    "count": 1
+  },
+  "type": "overgeared:cooling"
+}

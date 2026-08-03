@@ -52,11 +52,11 @@ items_open_world_map = true
 	# Horizontal offset from the edge of the screen.
 	# range: 0 - 500
 	# default: 5
-	xOffset = 5
+	xOffset = 4
 	# Vertical offset from the edge of the screen.
 	# range: 0 - 500
 	# default: 5
-	yOffset = 5
+	yOffset = 20
 	# Whether to render a background behind the map.
 	# default: true
 	draw_background = true

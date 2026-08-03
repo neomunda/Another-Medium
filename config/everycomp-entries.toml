@@ -39,6 +39,24 @@
 			chestnut = true
 			pine = true
 
+		[types.wood_type.darkerdepths]
+			petrified = true
+
+		[types.wood_type.dungeonsdelight]
+			wormwood = true
+
+		[types.wood_type.enderscape]
+			veiled = true
+			celestial = true
+			murublight = true
+
+		[types.wood_type.minecraft]
+			pale_oak = true
+
+		[types.wood_type.spawn]
+			rotten = true
+			date = true
+
 		[types.leaves_type.arts_and_crafts]
 			cork = true
 
@@ -98,8 +116,17 @@
 			pine = true
 			flowering_acacia = true
 
+		[types.leaves_type.minecraft]
+			pale_oak = true
+
+		[types.leaves_type.spawn]
+			date = true
+
 		[types.cake.nomansland]
 			fruit_cake = true
+
+		[types.cake.dungeonsdelight]
+			monster_cake = true
 
 		[types.lantern.caverns_and_chasms]
 			cupric_lantern = true
@@ -118,6 +145,16 @@
 
 		[types.lantern.windswept]
 			ice_lantern = true
+
+		[types.lantern.darkerdepths]
+			glowshroom_lantern = true
+
+		[types.lantern.dungeonsdelight]
+			living_lantern = true
+
+		[types.lantern.enderscape]
+			void_lantern = true
+			bulb_lantern = true
 
 		[entries.wood_type.create]
 			window_pane = true

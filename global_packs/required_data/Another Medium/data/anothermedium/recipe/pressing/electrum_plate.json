@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "oreganized:electrum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "another_medium:electrum_plate"
+    }
+  ]
+}

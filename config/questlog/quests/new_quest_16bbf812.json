@@ -1,0 +1,30 @@
+{
+  "title": "Jacksmith",
+  "description": "El proceso para fabricar partes de herramienta metálicas es distinto a las hechas con pedernal. Primero necesitaras fabricar un molde de arcilla y darle una forma, luego, has de cocinarlo.",
+  "icon": {
+    "item": "overgeared:clay_tool_cast"
+  },
+  "chapter": "main",
+  "sort_order": 2,
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "name": "Fabrica un molde",
+      "icon": {
+        "item": "overgeared:unfired_tool_cast"
+      },
+      "item": "overgeared:unfired_tool_cast",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "¡Cocinalo!",
+      "icon": {
+        "item": "overgeared:clay_tool_cast"
+      },
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

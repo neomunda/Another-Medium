@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "curiosities:aluminum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "another_medium:aluminum_plate"
+    }
+  ]
+}

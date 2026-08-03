@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "curiosities:nickel_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "another_medium:nickel_plate"
+    }
+  ]
+}

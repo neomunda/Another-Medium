@@ -1,0 +1,6 @@
+#Automatically reload packs when files change
+autoReload = false
+#Seconds between file change checks
+# Default: 1.0
+# Range: 0.1 ~ 60.0
+autoReloadInterval = 1.0

@@ -1,7 +1,7 @@
 {
   "quality": {
     "weather_quality": "DEFAULT",
-    "leaves_quality": "DEFAULT",
+    "leaves_quality": "FAST",
     "enable_vignette": true,
     "use_closest_point_entity_sort": false
   },
@@ -22,7 +22,7 @@
   },
   "notifications": {
     "has_cleared_donation_button": false,
-    "has_seen_donation_prompt": true
+    "has_seen_donation_prompt": false
   },
   "debug": {
     "terrain_sorting_enabled": true

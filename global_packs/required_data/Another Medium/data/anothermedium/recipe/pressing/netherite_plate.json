@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "another_medium:netherite_plate"
+    }
+  ]
+}

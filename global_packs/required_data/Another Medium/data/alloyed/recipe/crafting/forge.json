@@ -1,0 +1,24 @@
+{
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "D": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "pattern": [
+    "III",
+    "IFI",
+    "DDD"
+  ],
+  "result": {
+    "id": "alloyed:forge",
+    "count": 1
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

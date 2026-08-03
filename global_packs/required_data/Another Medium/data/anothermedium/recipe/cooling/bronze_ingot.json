@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "another_medium:heated_bronze_ingot"
+  },
+  "output": {
+    "id": "alloyed:bronze_ingot",
+    "count": 1
+  },
+  "type": "overgeared:cooling"
+}

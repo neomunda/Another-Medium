@@ -1,4 +1,13 @@
 {
+	"item.minecraft.enchanted_golden_apple": "Panacea",
+	"block.minecraft.oak_sapling": "Acorn",
+	"block.minecraft.birch_sapling": "Birch Catkin",
+	"block.minecraft.spruce_sapling": "Spruce Cone",
+	"block.minecraft.dark_oak_sapling": "Dark Acorn",
+	"block.minecraft.jungle_sapling": "Jungle Pod",
+	"block.minecraft.acacia_sapling": "Acacia Beans",
+	"block.minecraft.cherry_sapling": "Seeding Cherries",
+	"block.minecraft.pale_oak_sapling": "Pale Acorn",
   "death.attack.badRespawnPoint.message": "%1$s was de-anchored from reality",
   "deathScreen.score": "                                                                                                                                                                                                                                                                                             ",
   "deathScreen.title": "You Died!",
@@ -48,5 +57,15 @@
   "item.minecraft.glistering_melon_slice": "Golden Watermelon Slice",
   "item.minecraft.clay_ball": "Lump of Clay",
   "item.minecraft.glass_bottle": "Bottle",
-  "item.minecraft.lead": "Leash"
+  "item.minecraft.lead": "Leash",
+
+  "container.enchant": "",
+  "container.enchant.clue": "%s . . . ?",
+  "container.enchant.lapis.many": "%s Lapis Lazuli",
+  "container.enchant.lapis.one": "1 Lapis Lazuli",
+  "container.enchant.level.many": "%s Enchantment Levels",
+  "container.enchant.level.one": "1 Enchantment Level",
+  "container.enchant.level.requirement": "Level Requirement: %s",
+  "container.inventory": "",
+  "container.crafting": ""
 }

@@ -1,7 +1,11 @@
 {
   "type": "minecraft:smelting",
-  "experience": 0.7,
   "cookingtime": 200,
-  "ingredient": { "item": "curiosities:deepslate_nickel_ore" },
-  "result": { "item": "another_medium:heated_nickel_ingot" }
+  "experience": 0.7,
+  "ingredient": {
+    "item": "curiosities:deepslate_nickel_ore"
+  },
+  "result": {
+    "id": "another_medium:heated_nickel_ingot"
+  }
 }

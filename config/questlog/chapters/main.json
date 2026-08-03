@@ -1,0 +1,9 @@
+{
+  "name": "Progression",
+  "icon": {
+    "item": "alloyed:steel_pickaxe"
+  },
+  "order": 0,
+  "default_chapter": true,
+  "hidden": false
+}

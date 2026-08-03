@@ -1,0 +1,22 @@
+{
+  "title": "The Flintstones",
+  "description": "Deambula por la tierra hasta que encuentres rocas en el suelo o parches de pedernal, recolectalos y tallalos para hacer tus primeras partes de herramienta.",
+  "icon": {
+    "item": "minecraft:flint"
+  },
+  "chapter": "main",
+  "sort_order": -1,
+  "objectives": [
+    {
+      "type": "questlog:advancement",
+      "name": "Fabrica una Tool Part ",
+      "icon": {
+        "item": "overgeared:stone_axe_head"
+      },
+      "advancement": "overgeared:rock_knapping",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Adquire Hardware",
+  "description": "Tu pico de bronce te permitirá ir más allá y picar nuevos minerales... entre estos, el hierro.",
+  "icon": {
+    "item": "minecraft:iron_ingot"
+  },
+  "chapter": "main",
+  "sort_order": 10,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Pica una Mena de Hierro",
+      "icon": {
+        "item": "minecraft:raw_iron"
+      },
+      "item": "minecraft:iron_ore",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Funde Hierro a lingotes",
+      "icon": {
+        "item": "minecraft:iron_ingot"
+      },
+      "item": "overgeared:heated_iron_ingot",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": []
+}

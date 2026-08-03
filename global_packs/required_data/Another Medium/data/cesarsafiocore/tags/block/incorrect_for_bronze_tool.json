@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#minecraft:needs_iron_tool",
+    {
+      "id": "#minecraft:needs_diamond_tool",
+      "required": false
+    },
+    {
+      "id": "#neoforge:needs_netherite_tool",
+      "required": false
+    }
+  ]
+}
