@@ -1,21 +1,21 @@
 {
-  "key": {
-    "#": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:paper"
     },
-    "X": {
-      "item": "minecraft:compass"
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:ink_sac"
     }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
   ],
   "result": {
-    "id": "minecraft:map",
-    "count": 1
-  },
-  "category": "misc",
-  "type": "minecraft:crafting_shaped"
+    "count": 1,
+    "id": "minecraft:map"
+  }
 }

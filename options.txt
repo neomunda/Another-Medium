@@ -48,7 +48,7 @@ mouseSensitivity:0.6091549295774648
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["fabric"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Farcr\u0027s Re-Crafted","file/Another Medium Resources"]
 incompatibleResourcePacks:[]
 lastServer:stammer-manages.tun.ply.gg 
 lang:en_us
@@ -58,7 +58,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.15140845070422534
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -140,7 +140,7 @@ key_key.fast_placement:key.keyboard.unknown
 key_key.fieldguide.open:key.keyboard.b
 key_key.fieldguide.scan:key.keyboard.unknown
 key_key.reliable_remover.emi_delete:key.keyboard.delete
-key_key.immersiveoverlays.toggle:key.keyboard.unknown
+key_key.immersiveoverlays.toggle:key.keyboard.f4
 key_key.immersiveoverlays.settings:key.keyboard.unknown
 key_key.toggleVisualItemContents:key.keyboard.unknown
 key_key.toggleSelectedItemTooltips:key.keyboard.unknown
@@ -158,7 +158,7 @@ key_key.packdev_toolkit.export:key.keyboard.o
 key_key.packdev_toolkit.copy_translation_key:key.keyboard.j
 key_key.packdev_toolkit.export_description:key.keyboard.z
 key_key.travelertoolbelt.open_toolbelt:key.keyboard.r
-key_key.easybuilding.show_grid:key.keyboard.left.alt
+key_key.easybuilding.show_grid:key.keyboard.tab
 key_key.hoofprint.open:key.keyboard.m
 key_key.immersiveminimaps.zoom_in:key.keyboard.equal
 key_key.immersiveminimaps.zoom_out:key.keyboard.minus
@@ -186,9 +186,9 @@ key_key.raised.options:key.keyboard.grave.accent
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:0.43211920529801323
-soundCategory_music:0.13380281690140844
+soundCategory_music:1.0
 soundCategory_record:0.4777194238879606
-soundCategory_weather:1.0
+soundCategory_weather:0.5505901651949916
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

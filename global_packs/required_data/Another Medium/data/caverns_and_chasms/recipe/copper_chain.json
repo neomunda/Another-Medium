@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "!": {
-      "item": "caverns_and_chasms:silver_nugget"
+      "tag": "c:nuggets/copper"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "caverns_and_chasms:silver_chain"
+    "id": "caverns_and_chasms:copper_chain"
   }
 }

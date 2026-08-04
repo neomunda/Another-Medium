@@ -1,0 +1,47 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "candle_holder"
+    },
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "buzzier_bees"
+    },
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "endergetic"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "candle_holder"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "buzzier_bees"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "endergetic"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NCN",
+    " N "
+  ],
+  "key": {
+    "C": {
+      "item": "buzzier_bees:ender_candle"
+    },
+    "N": {
+        "tag": "c:nuggets/iron"
+    }
+  },
+  "result": {
+    "id": "supplementaries:candle_holder_ender",
+    "count": 1
+  }
+}

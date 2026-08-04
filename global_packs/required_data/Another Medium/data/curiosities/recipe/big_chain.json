@@ -2,17 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "I": {
-      "tag": "c:ingots/invar"
-    },
-    "N": {
-      "tag": "c:nuggets/invar"
+    "!": {
+      "item": "curiosities:invar_nugget"
     }
   },
   "pattern": [
-    "N",
-    "I",
-    "N"
+    "!",
+    "!",
+    "!"
   ],
   "result": {
     "count": 4,

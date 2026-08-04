@@ -2,17 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "#": {
+      "item": "minecraft:honeycomb"
+    },
     "!": {
-      "item": "caverns_and_chasms:silver_nugget"
+      "item": "minecraft:string"
     }
   },
   "pattern": [
-    "#",
-    "#",
+    "!",
     "#"
   ],
   "result": {
     "count": 4,
-    "id": "caverns_and_chasms:silver_chain"
+    "id": "minecraft:candle"
   }
 }

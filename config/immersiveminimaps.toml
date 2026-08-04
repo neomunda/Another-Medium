@@ -1,6 +1,6 @@
 # Whether to show a minimap.
 # default: true
-minimap_enable = true
+minimap_enable = false
 # When right aligned, status effects move the minimap down
 # default: true
 moved_by_effects = true

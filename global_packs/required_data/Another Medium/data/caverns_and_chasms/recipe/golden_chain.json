@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "!": {
-      "item": "caverns_and_chasms:silver_nugget"
+      "item": "minecraft:gold_nugget"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "caverns_and_chasms:silver_chain"
+    "id": "caverns_and_chasms:golden_chain"
   }
 }

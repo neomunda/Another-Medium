@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
     "!": {
       "item": "minecraft:iron_nugget"
     }
   },
   "pattern": [
-    "#",
-    "#",
-    "#"
+    "###",
+    "#!#",
+    "###"
   ],
   "result": {
-    "count": 4,
-    "id": "minecraft:iron_chain"
+    "count": 1,
+    "id": "minecraft:chest"
   }
 }
