@@ -1,8 +1,8 @@
 {
   "animation_settings": {
     "animation": true,
-    "water": true,
-    "lava": true,
+    "water": false,
+    "lava": false,
     "fire": true,
     "portal": true,
     "block_animations": true,

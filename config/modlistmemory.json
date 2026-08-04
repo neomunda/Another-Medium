@@ -12,12 +12,12 @@
     "saveOnUpdate": true,
     "pinnedMods": [],
     "recentMods": [
-      "alloyed",
       "reliable_gliders",
       "shieldexp",
       "windy",
-      "create"
+      "create",
+      "spawn"
     ],
-    "scrollAmount": 818.9428571428579
+    "scrollAmount": 0.0
   }
 }

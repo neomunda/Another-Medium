@@ -38,7 +38,7 @@
     "disable_creative_inventory": false
   },
   "vanilla_visual": {
-    "nicer_map_colors": true,
+    "nicer_map_colors": false,
     "waxed_item_icon_overlay": true,
     "extra_item_icon_overlays": true,
     "better_copper_tooltips": true

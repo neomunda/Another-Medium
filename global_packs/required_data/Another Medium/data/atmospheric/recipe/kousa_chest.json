@@ -1,0 +1,22 @@
+{
+  "key": {
+    "#": {
+      "item": "atmospheric:kousa_planks"
+    },
+    "!": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "result": {
+    "id": "atmospheric:kousa_chest",
+    "count": 1
+  },
+  "group": "wooden_chest",
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

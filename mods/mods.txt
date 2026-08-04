@@ -10,6 +10,7 @@ b4a8e11384454bcc341043b251db7fb5afdfdf45 *mods/AI-Improvements-1.21-0.5.3.jar
 287ec5c76bf9f7f8493e789f70759ab993784f5e *mods/async-locator-refined-neoforge-1.21.1-1.6.0.jar
 522bbf4f8e0dcb1754c464e66ab301d8235ea315 *mods/atmospheric-1.21.1-7.0.1.jar
 0beeb796055f8abdebb9304fe26b655068a52a9c *mods/betterdays-1.21.1-3.3.6.3-NEOFORGE.jar
+9c499f5133ebeed43da4ce42d48bf747cead6d24 *mods/betterfpsdist-1.21.1-6.1.jar
 5d1cf6603c8518faadd19230b700c7bdee9a6a4a *mods/bigwater-1.2.0-neoforge+mc1.21.1.jar
 8b041bce1cd0c5f5223c285784a3e8498273d6ea *mods/biolith-neoforge-3.0.14.jar
 afe7842dbb10435917e5fb576be21883aaeba6f2 *mods/blueprint-1.21.1-8.1.1.jar
@@ -18,13 +19,14 @@ bc86c776779b16dec386f4b667ff46d9e2ecb88d *mods/BrewinAndChewin-neoforge-4.5.0+1.
 2ceb0d9284525b6cb2a214c88cf6511cab91f601 *mods/carryon-neoforge-1.21.1-2.2.6.13.jar
 a20e72a96c1db7d948c9a972fdcdd900c469e8f5 *mods/caverns_and_chasms-1.21.1-3.0.0.jar
 3cc6110e72c9aa2a64887b54e7b092c53e08a1c3 *mods/celesteconfig-neoforge-1.21.1-1.1.3.jar
-2c45db1eac2f28aff337a0619f48bdddbb4df280 *mods/cesarsafiocore-1.0.0.jar
+20f8250a2adcefcb5f2eb16e908ef7b688a76d67 *mods/cesarsafiocore-1.0.0(1).jar
 de821ac64b3c8694b1a27e0acd05742660c6af3f *mods/chat_heads-0.15.3-neoforge-1.21.jar
 e57792898117777a09b04cb29bbceb2d88fbc7f6 *mods/clayworks-1.21.1-4.0.3.jar
 9d13b8315b03bda4bc6f5637c51f25a99cdcacd3 *mods/clientsort-neoforge-2.2.2+1.21.1.jar
 c3e5733ba4503b102589a026000fd5ce0212f6f2 *mods/cloth-config-15.0.140-neoforge.jar
 655a2f521636e5eb51c74e056cb0e07bbb0dfbaa *mods/cloud-layers-1.1+1.21.jar
 581e13e65a2cffb192dcc2993516282be04f8755 *mods/clutternomore-2.0.6+1.21.1-neoforge.jar
+e977d86eec39d49295df4e2c4265d6710ae065e8 *mods/configured-neoforge-1.21.1-2.6.3.jar
 b2f84ac887087169ee257907bfd9544e0621c943 *mods/connectiblechains-neoforge-1.21.1-2.2.5.jar
 f874627f9b3f8c33c8ef7f904a0084742aad48e5 *mods/connector-2.0.0-beta.16+1.21.1-full.jar
 a9bf4b59823233257c9dc0362a68784052636ca1 *mods/cookscollection-0.5.5.jar
@@ -32,6 +34,7 @@ a15df749534b7b2003282ffb5950dcf3767d1243 *mods/coolrain-1.21.1-NeoForge-1.0.1.ja
 a735362c4e5ef705956f1fcbac01fb9f1aae5b8e *mods/corpse-neoforge-1.21.1-1.1.13.jar
 0e97e49837bed766e6f28a4c95b04885d6acc353 *mods/create-1.21.1-6.0.10.jar
 a2b08963ebc9f331f52c626aebcd65013e100d69 *mods/create-aeronautics-bundled-1.21.1-1.3.0.jar
+39952f4de65df780cf68ab0fd2f3d44a53d855f2 *mods/cupboard-1.21.1-3.9.jar
 e38d2afdb45f61cf26848d7e66a4258221c829cc *mods/curiosities-0.2.1.jar
 550f272c140566f0961c1bb3fdfb1a6272be30dd *mods/CutThrough-v21.1.0-1.21.1-NeoForge.jar
 d745f44aa58ba7c88c7c4310a5fae9deb53193b9 *mods/darkerdepths-2.1.4.jar

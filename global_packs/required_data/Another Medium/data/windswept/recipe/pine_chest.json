@@ -1,0 +1,22 @@
+{
+  "key": {
+    "#": {
+      "item": "windswept:pine_planks"
+    },
+    "!": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "result": {
+    "id": "windswept:pine_chest",
+    "count": 1
+  },
+  "group": "wooden_chests",
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

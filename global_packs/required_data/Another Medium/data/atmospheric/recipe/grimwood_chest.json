@@ -1,0 +1,22 @@
+{
+  "key": {
+    "#": {
+      "item": "atmospheric:grimwood_planks"
+    },
+    "!": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "result": {
+    "id": "atmospheric:grimwood_chest",
+    "count": 1
+  },
+  "group": "wooden_chest",
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

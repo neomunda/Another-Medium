@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "condition": "supplementaries:flag",
+      "flag": "sack"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "sack"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "1 1",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "item": "farmersdelight:canvas"
+    },
+    "2": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "supplementaries:sack",
+    "count": 1
+  }
+}

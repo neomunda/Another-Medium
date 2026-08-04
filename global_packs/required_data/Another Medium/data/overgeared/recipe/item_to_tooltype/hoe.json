@@ -15,6 +15,9 @@
     },
     {
       "item": "overgeared:steel_hoe_head"
+    },
+    {
+      "item": "another_medium:bronze_hoe_head"
     }
   ],
   "tooltype": "hoe"

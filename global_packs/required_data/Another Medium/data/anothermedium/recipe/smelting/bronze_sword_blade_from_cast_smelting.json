@@ -1,0 +1,15 @@
+{
+  "type": "overgeared:cast_smelting",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "group": "misc",
+  "input": {
+    "bronze": 18
+  },
+  "need_polishing": true,
+  "result": {
+    "count": 1,
+    "id": "another_medium:bronze_sword_blade"
+  },
+  "tool_type": "sword"
+}

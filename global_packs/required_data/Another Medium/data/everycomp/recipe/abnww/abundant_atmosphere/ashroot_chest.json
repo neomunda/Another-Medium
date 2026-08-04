@@ -1,0 +1,28 @@
+{
+  "key": {
+    "A": {
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      },
+      "block_type": "minecraft:wood_type",
+      "from": "minecraft:oak",
+      "to": "abundant_atmosphere:ashroot",
+      "type": "moonlight:block_type_swap"
+    },
+    "!": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "result": {
+    "id": "everycomp:abnww/abundant_atmosphere/ashroot_chest",
+    "count": 1
+  },
+  "group": "wooden_chest",
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

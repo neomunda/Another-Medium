@@ -1,0 +1,22 @@
+{
+  "key": {
+    "#": {
+      "item": "environmental:wisteria_planks"
+    },
+    "!": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "result": {
+    "id": "environmental:wisteria_chest",
+    "count": 1
+  },
+  "group": "wooden_chest",
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

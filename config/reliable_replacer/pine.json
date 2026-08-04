@@ -1,0 +1,10 @@
+[
+  {
+    "inputs": ["nomansland:pine_log"],
+    "output": "windswept:pine_log"
+  },
+  {
+    "inputs": ["nomansland:pine_leaves"],
+    "output": "windswept:pine_leaves"
+  }
+]

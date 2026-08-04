@@ -1,0 +1,22 @@
+{
+  "key": {
+    "#": {
+      "item": "atmospheric:rosewood_planks"
+    },
+    "!": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "result": {
+    "id": "atmospheric:rosewood_chest",
+    "count": 1
+  },
+  "group": "wooden_chest",
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

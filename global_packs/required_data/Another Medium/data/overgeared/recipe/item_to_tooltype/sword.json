@@ -15,6 +15,9 @@
     },
     {
       "item": "overgeared:steel_sword_blade"
+    },
+    {
+      "item": "another_medium:bronze_axe_blade"
     }
   ],
   "tooltype": "sword"

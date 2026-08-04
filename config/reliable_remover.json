@@ -422,6 +422,9 @@
     "dungeonsdelight:netherite_cleaver",
     "dungeonsdelight:flint_cleaver",
     "dungeonsdelight:diamond_cleaver",
-    "darkerdepths:rope"
+    "darkerdepths:rope",
+    "minecraft:emerald",
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore"
   ]
 }

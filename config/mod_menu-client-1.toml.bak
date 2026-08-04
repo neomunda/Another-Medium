@@ -26,7 +26,7 @@ mod_parents = []
 	quick_configure = true
 	#Modifies title screen, if false will be neoforge default with default mods button
 	modify_title_screen = true
-	#Changes pause screen's button position and replaces neoforge's mods button with better modlist's one
+	#Changes pause screen's button position and replaces neoforge's mods button with modmenu's one
 	modify_game_menu = true
 	#Will only show mods with config available
 	config_mode = false

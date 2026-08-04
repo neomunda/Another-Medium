@@ -1,6 +1,6 @@
 #Adds badge to mod in this format "modid=badge1, badge2"
 mod_badges = []
-#Make mods apear under another mod in this format "parenModId=childId1, childId2"
+#Make mods apear under another mod in this format "parenModId=childId1, childId2", add ! at the beginning of parentId to prevent creating a fake parent
 mod_parents = []
 
 [main]
@@ -26,7 +26,7 @@ mod_parents = []
 	quick_configure = true
 	#Modifies title screen, if false will be neoforge default with default mods button
 	modify_title_screen = true
-	#Changes pause screen's button position and replaces neoforge's mods button with modmenu's one
+	#Changes pause screen's button position and replaces neoforge's mods button with better modlist's one
 	modify_game_menu = true
 	#Will only show mods with config available
 	config_mode = false
@@ -34,6 +34,8 @@ mod_parents = []
 	disable_drag_and_drop = false
 	#Will use catalogue's icon if present
 	use_catalogue_icon = true
+	#Allows to edit mod badges and parents ingame by dragging or button
+	editor_mode = false
 
 [hide]
 	#Shows mods with library badge
@@ -50,8 +52,6 @@ mod_parents = []
 	hide_mod_credits = false
 	#Hides mod's config button
 	hide_config_buttons = false
-	#hides button which allows changing mod's badge
-	hide_badge_buttons = true
 	#Hides search bar and drag and drop text, also moves mod's icon up
 	hide_screen_top = false
 	#Add modid of the mod to hide it from the modlist

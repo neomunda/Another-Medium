@@ -15,6 +15,9 @@
     },
     {
       "item": "overgeared:steel_axe_head"
+    },
+    {
+      "item": "another_medium:bronze_axe_head"
     }
   ],
   "tooltype": "axe"

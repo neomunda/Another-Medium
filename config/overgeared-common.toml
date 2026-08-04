@@ -363,7 +363,7 @@
 	#
 	castingToolTypes = [["sword", 18], ["pickaxe", 27], ["axe", 27], ["shovel", 9], ["hoe", 18], ["hammer", 99]]
 	#Material Source Items: [item_id or item_tag, material_id, material_value]
-	materialSetting = [["minecraft:iron_nugget", "iron", 1], ["minecraft:iron_ingot", "iron", 9], ["minecraft:iron_block", "iron", 81], ["minecraft:gold_nugget", "gold", 1], ["minecraft:gold_ingot", "gold", 9], ["minecraft:gold_block", "gold", 81], ["minecraft:copper_ingot", "copper", 9], ["#c:nuggets/copper", "copper", 1], ["minecraft:copper_block", "copper", 81], ["#c:ingots/steel", "steel", 9], ["#c:nuggets/steel", "steel", 1], ["#c:storage_blocks/steel", "steel", 81], ["#c:ingots/silver", "silver", 9], ["#c:nuggets/silver", "silver", 1], ["#c:storage_blocks/silver", "silver", 81]]
+	materialSetting = [["alloyed:bronze_nugget", "bronze", 1], ["alloyed:bronze_ingot", "bronze", 9], ["alloyed:bronze_block", "bronze", 81], ["minecraft:iron_nugget", "iron", 1], ["minecraft:iron_ingot", "iron", 9], ["minecraft:iron_block", "iron", 81], ["minecraft:gold_nugget", "gold", 1], ["minecraft:gold_ingot", "gold", 9], ["minecraft:gold_block", "gold", 81], ["minecraft:copper_ingot", "copper", 9], ["#c:nuggets/copper", "copper", 1], ["minecraft:copper_block", "copper", 81], ["#c:ingots/steel", "steel", 9], ["#c:nuggets/steel", "steel", 1], ["#c:storage_blocks/steel", "steel", 81], ["#c:ingots/silver", "silver", 9], ["#c:nuggets/silver", "silver", 1], ["#c:storage_blocks/silver", "silver", 81]]
 
 ["Mining Speed Bonuses"]
 	# Default: 1.5
