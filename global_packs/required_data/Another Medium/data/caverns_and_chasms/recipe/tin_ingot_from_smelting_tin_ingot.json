@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0,
+  "ingredient": {
+    "item": "caverns_and_chasms:tin_ingot"
+  },
+  "result": {
+    "id": "another_medium:heated_tin_ingot"
+  }
+}

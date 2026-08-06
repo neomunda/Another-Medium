@@ -1,32 +1,249 @@
 {
   "favorites": [
     {
-      "stack": "item:curiosities:aluminum_nugget"
+      "stack": "item:farmersdelight:stove"
     },
     {
-      "stack": "item:farmersdelight:cooked_bacon"
+      "stack": "item:cookscollection:oven"
     },
     {
       "stack": {
         "type": "item",
-        "id": "minecraft:oak_sapling",
-        "amount": 4
+        "id": "minecraft:gravel",
+        "amount": 12
       }
     },
     {
-      "stack": "item:farmersdelight:stove"
+      "stack": {
+        "type": "item",
+        "id": "minecraft:flint",
+        "amount": 6
+      }
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "dungeonsdelight:rotten_tripe",
+        "amount": 30
+      }
     }
   ],
   "lookup_history": [
+    "item:exposure:camera",
+    "item:overgeared:heated_steel_ingot",
+    "item:alloyed:steel_ingot",
+    {
+      "type": "item",
+      "id": "caverns_and_chasms:zirconia_lamp",
+      "amount": 128
+    },
+    {
+      "type": "item",
+      "id": "minecraft:amethyst_shard",
+      "amount": 128
+    },
+    "item:yo_hooks:iron_grappling_hook",
+    "item:yo_hooks:iron_hook_head",
+    "item:minecraft:clay_ball",
+    "item:minecraft:clay",
+    {
+      "type": "item",
+      "id": "farmersdelight:hanging_canvas_sign",
+      "amount": 128
+    },
+    {
+      "type": "item",
+      "id": "spawn:unstable_heliostone",
+      "amount": 128
+    },
+    "item:brewinandchewin:tankard",
+    "item:brewinandchewin:keg",
+    "item:brewinandchewin:heating_cask",
+    "item:brewinandchewin:ice_crate",
+    "item:minecraft:iron_pickaxe",
+    "item:minecraft:iron_ingot",
+    {
+      "type": "item",
+      "id": "minecraft:chest",
+      "amount": 128
+    },
+    "item:darkerdepths:trimmed_petrified_planks",
+    "item:offroad:rockcutting_wheel",
+    "item:offroad:borehead_bearing",
+    {
+      "type": "item",
+      "id": "farmersdelight:onion",
+      "amount": 32
+    },
+    {
+      "type": "item",
+      "id": "farmersdelight:cooked_cod_slice",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "minecraft:cooked_cod",
+      "amount": 8
+    },
+    "item:nomansland:shelf_mushroom",
+    "item:farmersdelight:cooking_pot",
+    "item:minecraft:lead",
+    "item:windswept:wooden_water_bucket{\"minecraft:damage\":1}",
+    "item:another_medium:silver_sword_blade",
+    "item:caverns_and_chasms:silver_sword",
+    {
+      "type": "item",
+      "id": "alloyed:bronze_sheet",
+      "amount": 2
+    },
+    "item:overgeared:heated_iron_ingot",
+    "item:alloyed:steel_leggings",
+    "item:minecraft:fire_charge",
+    "item:another_medium:heated_aluminum_ingot",
+    "item:another_medium:heated_lead_ingot",
+    "item:another_medium:heated_tin_ingot",
+    "item:another_medium:heated_bronze_ingot",
+    "item:another_medium:heated_invar_ingot",
+    "item:another_medium:heated_electrum_ingot",
+    "item:another_medium:heated_necromium_ingot",
+    "item:another_medium:heated_netherite_ingot",
+    "item:another_medium:heated_nickel_ingot",
+    "item:another_medium:heated_gold_ingot",
+    "item:overgeared:heated_silver_ingot",
+    "item:overgeared:heated_copper_ingot",
+    "item:windswept_delights:chestnut_cabinet",
+    "item:windswept:chestnut_chest",
+    "item:windswept:holly_chest",
+    "item:windswept:pine_chest",
+    "item:atmospheric:grimwood_chest",
+    "item:atmospheric:yucca_chest",
+    "item:upgrade_aquatic:driftwood_chest",
+    "item:everycomp:abnww/minecraft/pale_oak_chest",
+    "item:everycomp:abnww/abundant_atmosphere/gourdrot_chest",
+    "item:everycomp:abnww/enderscape/murublight_chest",
+    "item:everycomp:abnww/enderscape/celestial_chest",
+    "item:everycomp:abnww/abundant_atmosphere/red_bamboo_chest",
+    "item:heart_crystals:heart_crystal_shard",
+    "item:caverns_and_chasms:living_flesh",
+    "item:alloyed:bronze_ingot",
+    "item:create:andesite_alloy",
+    "item:create:andesite_casing",
+    "item:alloyed:bronze_casing",
+    "item:minecraft:splash_potion{\"minecraft:potion_contents\":{potion:\"minecraft:awkward\"}}",
+    "item:supplementaries:ash",
+    "item:wholecloth:cloth_scrap",
+    "item:minecraft:blaze_powder",
+    "item:minecraft:nether_wart",
+    "item:minecraft:fermented_spider_eye",
+    "item:minecraft:glistering_melon_slice",
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:long_poison\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:harming\"}}",
+      "amount": 25
+    },
+    "item:minecraft:gunpowder",
+    "item:caverns_and_chasms:silver_ingot",
+    "item:nomansland:pebbles",
+    {
+      "type": "item",
+      "id": "minecraft:string",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "dungeonsdelight:stained_scrap",
+      "amount": 10
+    },
+    {
+      "type": "item",
+      "id": "minecraft:diamond",
+      "amount": 3
+    },
+    {
+      "type": "fluid",
+      "id": "nomansland:resin_oil",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "nomansland:resin",
+      "amount": 8
+    },
+    "item:minecraft:netherite_ingot",
+    "item:caverns_and_chasms:necromium_ingot",
+    "item:alloyed:steel_sheet",
+    "item:yo_hooks:diamond_hook_head",
+    "item:minecraft:filled_map{\"minecraft:custom_data\":{asynclocator.pending:1b,asynclocator.pending.uuid:[I;332880696,-1261547690,-1424273674,-1283709958]},\"minecraft:item_name\":\u0027{\"translate\":\"menu.working\"}\u0027,\"minecraft:map_color\":4336408,\"minecraft:map_id\":6}",
+    {
+      "type": "item",
+      "id": "minecraft:sulfur",
+      "amount": 65
+    },
+    "item:spawn:dead_sea_urchin",
+    "item:supplementaries:bunting_white",
+    "item:oreganized:electrum_ingot",
+    "item:nomansland:thatch",
+    "item:environmental:grass_thatch",
+    "item:nomansland:crude_door",
+    {
+      "type": "item",
+      "id": "spawn:mucus",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "minecraft:wheat",
+      "amount": 17
+    },
+    "item:caverns_and_chasms:copper_axe",
+    {
+      "type": "item",
+      "id": "minecraft:stone",
+      "amount": 3
+    },
+    "item:nomansland:coarse_bricks",
+    "item:sootychimneys:iron_chimney",
+    "item:minecraft:flint",
+    "item:cookscollection:oven",
+    "item:create:stock_link",
+    "item:create:stock_ticker",
+    "item:minecraft:shears",
+    "item:sootychimneys:dirty_cobblestone_chimney",
+    "item:sootychimneys:cobblestone_chimney",
+    {
+      "type": "item",
+      "id": "nomansland:rose_vines",
+      "amount": 42
+    },
+    {
+      "type": "item",
+      "id": "nomansland:autumn_crocus",
+      "amount": 3
+    },
+    "item:curiosities:nickel_ingot",
     "item:caverns_and_chasms:copper_chain",
     "item:enderscape:shadoline_chain",
     "item:caverns_and_chasms:silver_chain",
+    "item:caverns_and_chasms:golden_chain",
     "item:caverns_and_chasms:tin_chain",
+    "item:minecraft:chain",
     "item:minecraft:soul_lantern",
     "item:windswept:ice_chain",
     "item:another_medium:bronze_pickaxe{\"minecraft:damage\":138}",
     "item:powergrid:portable_battery",
-    "item:minecraft:chest",
     "item:minecraft:candle",
     "item:minecraft:light_gray_candle",
     "item:minecraft:white_candle",
@@ -65,7 +282,6 @@
     "item:caverns_and_chasms:waxed_exposed_copper_chain",
     "item:caverns_and_chasms:waxed_weathered_copper_chain",
     "item:caverns_and_chasms:waxed_oxidized_copper_chain",
-    "item:caverns_and_chasms:golden_chain",
     "item:minecraft:iron_nugget",
     "item:yo_hooks:gold_grappling_hook",
     "item:yo_hooks:gold_hook_head",
@@ -74,21 +290,8 @@
       "id": "minecraft:gold_ingot",
       "amount": 3
     },
-    "item:windswept:holly_chest",
-    "item:cookscollection:oven",
-    "item:heart_crystals:heart_crystal_shard",
     "item:heart_crystals:heart_crystal",
     "item:windswept_delights:pine_cabinet",
-    {
-      "type": "item",
-      "id": "windswept:pine_chest",
-      "amount": 128
-    },
-    {
-      "type": "item",
-      "id": "windswept:chestnut_chest",
-      "amount": 128
-    },
     {
       "type": "item",
       "id": "everycomp:abnww/spawn/rotten_chest",
@@ -131,11 +334,6 @@
     },
     {
       "type": "item",
-      "id": "everycomp:abnww/abundant_atmosphere/red_bamboo_chest",
-      "amount": 128
-    },
-    {
-      "type": "item",
       "id": "woodworks:warped_chest",
       "amount": 128
     },
@@ -156,11 +354,6 @@
     },
     {
       "type": "item",
-      "id": "upgrade_aquatic:driftwood_chest",
-      "amount": 128
-    },
-    {
-      "type": "item",
       "id": "environmental:wisteria_chest",
       "amount": 128
     },
@@ -172,11 +365,6 @@
     {
       "type": "item",
       "id": "caverns_and_chasms:azalea_chest",
-      "amount": 128
-    },
-    {
-      "type": "item",
-      "id": "atmospheric:grimwood_chest",
       "amount": 128
     },
     {
@@ -194,11 +382,6 @@
       "id": "atmospheric:laurel_chest",
       "amount": 128
     },
-    {
-      "type": "item",
-      "id": "atmospheric:yucca_chest",
-      "amount": 128
-    },
     "item:atmospheric:morado_chest",
     "item:atmospheric:rosewood_chest",
     "item:woodworks:cherry_chest",
@@ -211,11 +394,6 @@
     "item:woodworks:oak_chest",
     {
       "type": "item",
-      "id": "supplementaries:ash",
-      "amount": 33
-    },
-    {
-      "type": "item",
       "id": "minecraft:brick",
       "amount": 8
     },
@@ -223,17 +401,8 @@
     "item:clayworks:kiln",
     "item:farmersdelight:stove",
     "item:abnormals_delight:silver_knife",
-    "item:yo_hooks:iron_hook_head",
-    "item:yo_hooks:iron_grappling_hook",
-    "item:another_medium:heated_tin_ingot",
     "item:caverns_and_chasms:tin_ingot",
     "item:caverns_and_chasms:tin_nugget",
-    "item:another_medium:heated_bronze_ingot",
-    {
-      "type": "item",
-      "id": "alloyed:bronze_ingot",
-      "amount": 4
-    },
     {
       "type": "item",
       "id": "minecraft:rotten_flesh",
@@ -251,31 +420,25 @@
     "item:minecraft:light_gray_bed",
     "item:supplementaries:sack",
     "item:travelertoolbelt:iron_belt",
-    "item:minecraft:iron_ingot",
-    "item:overgeared:heated_iron_ingot",
     "item:nomansland:straw_bed",
     "item:shieldexp:wooden_shield",
     "item:caverns_and_chasms:toolbelt",
     [
-      "item:minecraft:chest",
-      "item:windswept:chestnut_chest",
       "item:windswept:pine_chest",
+      "item:windswept:chestnut_chest",
       "item:windswept:holly_chest",
+      "item:minecraft:chest",
       "#item:blueprint:wooden_chests"
     ],
     "item:minecraft:shulker_box",
     "item:reliable_backpacks:backpack",
     "item:powergrid:conductive_casing",
     "item:oreganized:electrum_chestplate",
-    "item:another_medium:heated_gold_ingot",
     "item:minecraft:gold_block",
-    "item:alloyed:bronze_sheet",
     "item:minecraft:raw_gold_block",
     "item:minecraft:obsidian",
     "item:minecraft:iron_block",
     "item:another_medium:heated_zinc_ingot",
-    "item:overgeared:heated_silver_ingot",
-    "item:overgeared:heated_copper_ingot",
     "item:minecraft:grass_block",
     "item:nomansland:walnut_sapling",
     "item:nomansland:seashells",
@@ -284,12 +447,8 @@
       "id": "minecraft:raw_copper",
       "amount": 29
     },
-    "item:nomansland:crude_door",
     "item:overgeared:golden_sword_blade",
     "item:create:copper_sheet",
-    "item:nomansland:thatch",
-    "item:another_medium:heated_necromium_ingot",
-    "item:another_medium:heated_nickel_ingot",
     "item:supplementaries:sconce",
     "item:minecraft:redstone_torch",
     "item:enderscape:void_torch",
@@ -298,11 +457,6 @@
     "item:minecraft:torch",
     "item:simulated:physics_assembler",
     "item:darkerdepths:rope",
-    {
-      "type": "item",
-      "id": "sootychimneys:iron_chimney",
-      "amount": 128
-    },
     "item:minecraft:tuff",
     {
       "type": "item",
@@ -324,11 +478,6 @@
       "id": "create:sturdy_sheet",
       "amount": 128
     },
-    {
-      "type": "item",
-      "id": "alloyed:steel_sheet",
-      "amount": 128
-    },
     "item:another_medium:electrum_plate",
     "item:another_medium:invar_plate",
     "item:another_medium:necromium_plate",
@@ -337,9 +486,6 @@
     "item:another_medium:aluminum_plate",
     "item:another_medium:silver_plate",
     "item:another_medium:tin_plate",
-    "item:caverns_and_chasms:silver_ingot",
-    "item:another_medium:heated_netherite_ingot",
-    "item:another_medium:heated_aluminum_ingot",
     "item:caverns_and_chasms:monocle",
     "item:another_medium:bronze_axe_head",
     "item:minecraft:golden_hoe",
@@ -354,9 +500,6 @@
     "item:minecraft:netherite_chestplate",
     "item:caverns_and_chasms:copper_chestplate",
     "item:minecraft:chainmail_chestplate",
-    "item:alloyed:steel_ingot",
-    "item:another_medium:heated_invar_ingot",
-    "item:another_medium:heated_electrum_ingot",
     "item:powergrid:generator_induction_rotor",
     "item:powergrid:generator_commutator",
     "item:powergrid:generator_vertical_commutator",
@@ -374,16 +517,10 @@
     },
     {
       "type": "item",
-      "id": "minecraft:gunpowder",
-      "amount": 128
-    },
-    {
-      "type": "item",
       "id": "supplementaries:cannon",
       "amount": 128
     },
     "item:oreganized:lead_ingot",
-    "item:alloyed:bronze_casing",
     "item:overgeared:steel_hoe_head",
     "item:overgeared:steel_axe_head",
     "item:overgeared:stone_shovel_head",
@@ -396,13 +533,6 @@
     "item:overgeared:golden_axe_head",
     "item:overgeared:golden_pickaxe_head",
     "item:another_medium:aluminum_axe_head",
-    "item:minecraft:netherite_ingot",
-    "item:overgeared:heated_steel_ingot",
-    {
-      "type": "item",
-      "id": "curiosities:nickel_ingot",
-      "amount": 2
-    },
     "item:curiosities:tiki_torch",
     {
       "type": "item",
@@ -431,8 +561,6 @@
     "item:curiosities:invar_sword",
     "item:minecraft:diamond_sword",
     "item:oreganized:electrum_sword",
-    "item:another_medium:silver_sword_blade",
-    "item:caverns_and_chasms:silver_sword",
     "item:another_medium:aluminum_sword_blade",
     "item:curiosities:aluminum_sword",
     "item:minecraft:golden_sword",
@@ -444,16 +572,12 @@
     "item:minecraft:wooden_sword",
     "item:alloyed:steel_chestplate",
     "item:alloyed:steel_boots",
-    "item:alloyed:steel_leggings",
     "item:alloyed:steel_sword",
     "item:alloyed:steel_pickaxe",
     "item:alloyed:steel_shovel",
-    "item:create:andesite_casing",
     "item:exposure:lightroom",
-    "item:exposure:camera",
     "item:dungeonsdelight:iron_cleaver",
     "item:oreganized:electrum_shield",
-    "item:oreganized:electrum_ingot",
     "item:oreganized:electrum_axe",
     "item:create:zinc_ingot",
     "item:create:copper_nugget",
@@ -565,7 +689,6 @@
     "item:nomansland:dross_tiles",
     "item:nomansland:earthen_tiles",
     "item:nomansland:mundane_tiles",
-    "item:nomansland:coarse_bricks",
     "item:nomansland:pancake",
     "item:nomansland:trail_mix",
     "item:cookscollection:cooking_oil",
@@ -574,9 +697,6 @@
     "item:brewinandchewin:glow_berry_marmalade",
     "item:brewinandchewin:sweet_berry_jam",
     "item:brewinandchewin:apple_jelly",
-    "item:brewinandchewin:keg",
-    "item:brewinandchewin:heating_cask",
-    "item:brewinandchewin:ice_crate",
     "item:brewinandchewin:saccharine_rum",
     "item:brewinandchewin:vegetable_omelet",
     "item:brewinandchewin:horror_lasagna",
@@ -647,11 +767,6 @@
     "item:brewinandchewin:jerky",
     "item:brewinandchewin:pickled_pickles",
     "item:brewinandchewin:cocoa_fudge",
-    {
-      "type": "item",
-      "id": "nomansland:rose_vines",
-      "amount": 128
-    },
     "item:nomansland:siltstone",
     "item:minecraft:green_terracotta",
     "item:minecraft:brown_terracotta",
@@ -673,7 +788,6 @@
     "item:caverns_and_chasms:waxed_floodlight",
     "item:caverns_and_chasms:lava_lamp",
     "item:create:precision_mechanism",
-    "item:create:stock_ticker",
     "item:simulated:throttle_lever",
     "item:create:mechanical_piston",
     "item:create:transmitter",
@@ -942,7 +1056,6 @@
       "id": "nomansland:tap",
       "amount": 128
     },
-    "item:environmental:grass_thatch",
     {
       "type": "item",
       "id": "minecraft:white_bed",
@@ -967,14 +1080,8 @@
     "item:environmental:willow_sapling",
     "item:atmospheric:dolerite",
     "item:powergrid:vfet",
-    {
-      "type": "item",
-      "id": "wholecloth:cloth_scrap",
-      "amount": 5
-    },
     "item:arts_and_crafts:white_chalk",
     "item:arts_and_crafts:red_chalk",
-    "item:minecraft:blaze_powder",
     "item:windswept:holly_berries",
     "item:windswept:frozen_flesh",
     "item:windswept:ginger_root",
@@ -1014,7 +1121,6 @@
     "item:minecraft:dripstone_block",
     "item:windswept:shale",
     "item:minecraft:andesite",
-    "item:minecraft:stone",
     "item:minecraft:mud",
     "item:minecraft:end_stone",
     "item:minecraft:bamboo_fence_gate",
@@ -1118,11 +1224,6 @@
     "item:caverns_and_chasms:tinplate",
     {
       "type": "item",
-      "id": "minecraft:chain",
-      "amount": 64
-    },
-    {
-      "type": "item",
       "id": "caverns_and_chasms:tin_bars",
       "amount": 64
     },
@@ -1196,7 +1297,6 @@
       "amount": 64
     },
     "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:water\"}}",
-    "item:minecraft:clay_ball",
     "item:minecraft:oak_planks",
     "item:minecraft:stripped_spruce_log",
     "item:minecraft:redstone",
@@ -1228,20 +1328,16 @@
     "item:caverns_and_chasms:waxed_oxidized_copper_ingot",
     "item:minecraft:chainmail_boots",
     "item:minecraft:golden_shovel",
-    "item:minecraft:iron_pickaxe",
     "item:caverns_and_chasms:sugilite",
     "item:caverns_and_chasms:sanguine_helmet",
     "item:caverns_and_chasms:copper_boots",
-    "item:minecraft:flint",
     "item:caverns_and_chasms:copper_hoe",
-    "item:caverns_and_chasms:copper_axe",
     "item:caverns_and_chasms:copper_pickaxe",
     "item:caverns_and_chasms:copper_shovel",
     "item:caverns_and_chasms:necromium_axe",
     "item:caverns_and_chasms:sanguine_boots",
     "item:caverns_and_chasms:diamond_lamp",
     "item:minecraft:diamond_block",
-    "item:minecraft:diamond",
     "item:minecraft:netherite_upgrade_smithing_template",
     "item:minecraft:diamond_hoe",
     "item:minecraft:diamond_shovel",
@@ -1265,7 +1361,6 @@
     "item:minecraft:blue_candle",
     "item:caverns_and_chasms:light_blue_sparkler",
     "item:minecraft:bow",
-    "item:caverns_and_chasms:necromium_ingot",
     "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"caverns_and_chasms:extending\":2}}}",
     "item:minecraft:danger_pottery_sherd",
     "item:minecraft:ochre_froglight",
@@ -1285,166 +1380,51 @@
     "item:minecraft:decorated_pot",
     "item:caverns_and_chasms:sparkler",
     "item:minecraft:golden_helmet",
-    "item:minecraft:iron_helmet",
-    "item:minecraft:iron_leggings",
-    "item:caverns_and_chasms:zirconia_lamp",
-    "item:caverns_and_chasms:turquoise_lamp",
-    "item:caverns_and_chasms:spinel_lamp",
-    "item:caverns_and_chasms:trail_potion{\"minecraft:potion_contents\":{potion:\"minecraft:long_weakness\"}}",
-    "item:caverns_and_chasms:trail_potion{\"minecraft:potion_contents\":{potion:\"minecraft:turtle_master\"}}",
-    "item:caverns_and_chasms:trail_potion{\"minecraft:potion_contents\":{potion:\"minecraft:strong_swiftness\"}}",
-    {
-      "type": "item",
-      "id": "minecraft:beacon",
-      "amount": 128
-    },
-    "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:strong_harming\"}}",
-    "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}",
-    "#item:minecraft:trim_templates",
-    "item:minecraft:dune_armor_trim_smithing_template",
-    "item:caverns_and_chasms:tinplate_block",
-    {
-      "type": "item",
-      "id": "minecraft:stick",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "minecraft:raw_iron",
-      "amount": 63
-    },
-    {
-      "type": "item",
-      "id": "minecraft:raw_gold",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "minecraft:nether_brick",
-      "amount": 32
-    },
-    "item:minecraft:birch_pressure_plate",
-    "item:minecraft:wooden_shovel",
-    "item:minecraft:firework_star",
-    {
-      "type": "item",
-      "id": "minecraft:wheat",
-      "amount": 21
-    },
-    "item:minecraft:grindstone",
-    "item:minecraft:iron_shovel",
-    "item:minecraft:iron_hoe",
-    "item:minecraft:iron_axe",
-    "item:minecraft:lava_bucket",
-    {
-      "type": "item",
-      "id": "minecraft:fire_charge",
-      "amount": 58
-    },
-    "item:minecraft:shears",
-    "item:minecraft:iron_boots",
-    "item:minecraft:anvil",
-    {
-      "type": "item",
-      "id": "minecraft:polished_blackstone",
-      "amount": 32
-    },
-    "item:minecraft:cauldron",
-    "item:minecraft:acacia_door",
-    "item:minecraft:water_bucket",
-    "item:minecraft:birch_fence_gate",
-    "item:minecraft:netherite_leggings",
-    "item:minecraft:golden_boots",
-    "item:minecraft:golden_leggings",
-    "item:minecraft:stripped_spruce_wood",
-    "item:minecraft:spruce_stairs",
-    "item:minecraft:fletching_table",
-    "item:minecraft:oak_fence",
-    "item:minecraft:brown_banner",
-    "item:minecraft:white_stained_glass_pane",
-    "item:minecraft:tinted_glass",
-    "item:minecraft:orange_carpet",
-    "item:minecraft:yellow_concrete",
-    "item:minecraft:lime_wool",
-    "item:minecraft:red_terracotta"
+    "item:minecraft:iron_helmet"
   ],
   "craft_history": [
-    "minecraft:iron_nugget",
-    "yo_hooks:gold_hook_head",
-    "minecraft:bricks",
-    "brick_and_mortar:kiln_firing/clay_bricks_tier_2",
-    "minecraft:bone_meal",
-    "minecraft:stone_bricks_from_stone_stonecutting",
-    "minecraft:stonecutter",
-    "brick_and_mortar:kiln_firing/stone_from_cobblestone",
-    "nomansland:building/coarse_bricks",
-    "windswept:chestnut_planks",
-    "minecraft:stone_axe",
-    "brick_and_mortar:kiln",
+    "spawn:reefstone_tiles",
+    "minecraft:sea_lantern",
+    "minecraft:glass_pane",
+    "minecraft:sponge",
     "minecraft:furnace",
-    "farmersdelight:stove",
-    "minecraft:campfire",
-    "minecraft:paper",
-    "minecraft:stone_pickaxe",
-    "overgeared:wooden_tongs",
+    "minecraft:crafting_table",
+    "nomansland:wood/maple/maple_chest_boat",
+    "minecraft:iron_sword",
+    "nomansland:wood/walnut/walnut_fence",
+    "nomansland:wood/walnut/walnut_planks",
     "minecraft:stick",
+    "nomansland:building/wooden_platform",
+    "nomansland:building/crude_trapdoor_fd",
+    "nomansland:wood/maple/maple_button",
+    "nomansland:building/coarse_bricks",
+    "minecraft:bone_meal",
+    "nomansland:wood/maple/maple_sign",
+    "minecraft:decorated_pot_simple",
+    "brewinandchewin:tankard",
+    "farmersdelight:rice",
+    "nomansland:bone_meal_from_seashells",
+    "farmersdelight:tomato_seeds",
+    "nomansland:wood/maple/maple_cabinet",
+    "nomansland:wood/maple/maple_trapdoor",
     "nomansland:wood/maple/maple_planks",
     "nomansland:building/crude_door_fd",
-    "overgeared:copper_smithing_hammer",
-    "minecraft:painting",
-    "minecraft:brush",
-    "anothermedium:smithing/bronze_pickaxe",
-    "anothermedium:smelting/bronze_pickaxe_head_from_cast_smelting",
-    "minecraft:torch",
-    "windswept:wooden_bucket",
-    "caverns_and_chasms:tin_nugget",
-    "alloyed:crafting/forge",
+    "minecraft:flower_pot",
+    "farmersdelight:cooking_pot",
     "minecraft:wooden_shovel",
-    "farmersdelight:rope",
-    "farmersdelight:canvas",
-    "farmersdelight:flint_knife",
-    "nomansland:red_dye_from_rose_bush",
-    "nomansland:building/straw_bed",
-    "windswept:roasted_chestnuts",
-    "anothermedium:crafting/sack_from_canvas_and_rope",
-    "minecraft:oak_fence",
-    "minecraft:oak_planks",
+    "nomansland:wood/maple/maple_fence",
+    "nomansland:building/wooden_scaffolding_fd",
+    "minecraft:chest",
+    "minecraft:iron_nugget",
+    "toomanyrecipeviewers:/minecraft/minecraft.chest",
+    "anothermedium:forging/bulk_raw_copper_to_ingot",
+    "brick_and_mortar:kiln_firing/stone_from_cobblestone",
+    "farmersdelight:cooking/cooked_porkchops",
+    "farmersdelight:bread_from_dough",
+    "anothermedium:forging/bulk_raw_tin_to_ingot",
+    "brick_and_mortar:kiln_firing/clay_bricks_tier_2",
     "overgeared:clay_tool_cast/hammer",
-    "minecraft:cooked_porkchop",
-    "minecraft:grindstone",
-    "woodworks:oak_chest",
-    "nomansland:building/thatch",
-    "minecraft:wooden_axe",
-    "minecraft:cooked_beef",
-    "nomansland:wood/walnut/walnut_planks",
-    "minecraft:crafting_table",
-    "nomansland:food/grilled_mushrooms",
-    "farmersdelight:cooked_bacon",
-    "shieldexp:wooden_shield",
-    "minecraft:wooden_pickaxe",
-    "farmersdelight:wooden_basket",
-    "farmersdelight:cutting_board",
-    "minecraft:wheat",
-    "minecraft:birch_planks",
-    "nomansland:polished_deepslate",
-    "nomansland:pebbles",
-    "nomansland:building/cobblestone_bricks",
-    "nomansland:building/polished_stone",
-    "oreganized:lead_nugget",
-    "oreganized:lead_ingot_from_block",
-    "atmospheric:laurel_planks",
-    "caverns_and_chasms:silver_bars",
-    "caverns_and_chasms:copper_bars",
-    "caverns_and_chasms:golden_bars",
-    "caverns_and_chasms:copper_nugget",
-    "caverns_and_chasms:silver_nugget",
-    "minecraft:gold_nugget",
-    "minecraft:polished_granite",
-    "minecraft:lapis_lazuli",
-    "caverns_and_chasms:packing_container",
-    "caverns_and_chasms:silver_boots",
-    "caverns_and_chasms:silver_ingot_from_nuggets",
-    "minecraft:slime_block"
+    "caverns_and_chasms:silver_boots"
   ],
   "recipe_defaults": {
     "added": [],

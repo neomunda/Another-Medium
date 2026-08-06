@@ -2,7 +2,7 @@
 # 0 to use GUI scale, -1 to use half.
 # range: -1 - 10
 # default: -1
-defaultScale = -1
+defaultScale = 0
 
 # Options to change the visuals of the map to be more or less vanilla-style.
 [style]

@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "film": {
+    "tag": "exposure:color_film_rolls"
+  },
+  "ingredients": [
+    {
+      "items": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water"
+        }
+      },
+      "type": "neoforge:components"
+    }
+  ],
+  "result": {
+    "id": "exposure:developed_color_film",
+    "count": 1
+  },
+  "type": "exposure:film_developing"
+}

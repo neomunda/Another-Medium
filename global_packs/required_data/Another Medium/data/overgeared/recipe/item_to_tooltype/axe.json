@@ -18,6 +18,9 @@
     },
     {
       "item": "another_medium:bronze_axe_head"
+    },
+    {
+      "item": "another_medium:silver_axe_head"
     }
   ],
   "tooltype": "axe"

@@ -18,6 +18,9 @@
     },
     {
       "item": "another_medium:bronze_shovel_head"
+    },
+    {
+      "item": "another_medium:silver_shovel_head"
     }
   ],
   "tooltype": "shovel"

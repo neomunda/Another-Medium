@@ -1,0 +1,225 @@
+#Enables entity-driven foliage interaction on the client.
+enableFoliageInteractivity = false
+#Scales how strongly foliage reacts to nearby entities.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+foliageInteractivityStrength = 1.0
+#Allows Where Winds Blow to animate compatible plant-like models from Minecraft and other mods.
+enableAutodetectedFoliageModels = false
+#Enables Where Winds Blow's custom foliage shader for vanilla cutout foliage render types.
+enableCustomFoliageShader = false
+#Enables the bright wind sheen highlight on responsive foliage.
+enableWindSheen = false
+#Scales the visible intensity of wind sheen highlights.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+windSheenStrength = 0.55
+#Enables subtle Wind Waker-inspired wind streaks in the air.
+enableWindStreaks = true
+#Scales overall ambient wind streak and drifting leaf density.
+# Default: 1.0
+# Range: 0.0 ~ 4.0
+windStreakVisibility = 0.0
+#Scales how many wind lines spawn.
+# Default: 1.0
+# Range: 0.0 ~ 4.0
+windLineDensity = 0.0
+#Scales how many drifting leaf particles spawn.
+# Default: 1.0
+# Range: 0.0 ~ 4.0
+windLeafDensity = 1.0
+#Scales wind line opacity.
+# Default: 0.65
+# Range: 0.0 ~ 1.0
+windStreakOpacity = 0.65
+#Scales drifting leaf particle opacity.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+windLeafOpacity = 1.0
+#Sets the maximum wind streak line thickness in pixels. Individual strokes range down to about half this width.
+# Default: 3.0
+# Range: 1.0 ~ 4.0
+windStreakThickness = 3.0
+#Sets the fixed or prevailing wind direction in compass degrees clockwise from north. 0 is north, 90 is east, 180 is south, and 270 is west.
+# Default: 125.0
+# Range: 0.0 ~ 360.0
+windDirectionDegrees = 125.0
+#Enables slow ambient wind variation, direction transitions, and calm periods.
+enableDynamicWind = true
+#Chooses whether wind direction changes dynamically or stays at the configured compass direction.
+#Allowed Values: DYNAMIC, FIXED
+windDirectionMode = "DYNAMIC"
+#Scales the strength produced by the shared wind simulation.
+# Default: 1.0
+# Range: 0.0 ~ 3.0
+overallWindStrength = 1.0
+#Scales how much dynamic wind direction can wander from its prevailing flow.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+dynamicDirectionVariation = 1.0
+#Minimum time in seconds before dynamic wind chooses a new direction target.
+# Default: 150.0
+# Range: 30.0 ~ 900.0
+minimumDirectionHoldTime = 150.0
+#Maximum time in seconds before dynamic wind chooses a new direction target.
+# Default: 360.0
+# Range: 30.0 ~ 900.0
+maximumDirectionHoldTime = 360.0
+#Largest normal direction change in degrees. Storms can rarely exceed this value.
+# Default: 38.0
+# Range: 0.0 ~ 180.0
+maximumOrdinaryDirectionChange = 38.0
+#Allows smooth calm periods that reduce the shared wind strength.
+enableWindLulls = true
+#Scales how often calm periods occur. Zero disables them even when the toggle is on.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+windLullFrequency = 1.0
+#Sets the fraction of normal ambient wind retained at the deepest point of a lull.
+# Default: 0.3
+# Range: 0.0 ~ 1.0
+windLullStrength = 0.3
+#Enables a bounded set of travelling gust bands shared by wind-reactive effects.
+enableGustFronts = true
+#Scales how often travelling gust fronts form.
+# Default: 1.0
+# Range: 0.0 ~ 3.0
+gustFrequency = 1.0
+#Scales the additional wind strength carried by travelling gust fronts.
+# Default: 1.0
+# Range: 0.0 ~ 3.0
+gustStrength = 1.0
+#Sets the average gust-front travel speed in blocks per second.
+# Default: 8.0
+# Range: 1.0 ~ 24.0
+gustTravelSpeed = 8.0
+#Sets the average width of a travelling gust front in blocks.
+# Default: 14.0
+# Range: 3.0 ~ 48.0
+gustWidth = 14.0
+#Scales controlled crosswind, flutter, curl, and tumbling around the prevailing flow.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+turbulenceStrength = 1.0
+#Shows a compact client-side overlay with the current wind simulation state.
+enableWindDebugOverlay = false
+#Uses cached direction-aware shelter sampling for local wind strength.
+enableLocalWindExposure = true
+#Sets the radius of the small shelter sampling pattern in blocks.
+# Default: 5.0
+# Range: 2.0 ~ 8.0
+windExposureRadius = 5.0
+#Scales the subtle wind increase at high elevations using the current dimension's build height.
+# Default: 0.5
+# Range: 0.0 ~ 2.0
+altitudeWindInfluence = 0.5
+#Applies reloadable biome-specific wind strength, gust, turbulence, and altitude multipliers.
+enableBiomeWindProfiles = true
+#Lets campfire smoke drift, curl, and merge into larger wind-shaped plumes.
+enableWindSmoke = true
+#Scales how strongly campfire smoke follows the wind and plume turbulence.
+# Default: 3.0
+# Range: 0.0 ~ 4.0
+windSmokeStrength = 3.0
+#Lets hanging lanterns sway subtly with the wind.
+enableWindLanternSway = true
+#Scales how strongly hanging lanterns sway with the wind.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+windLanternSwayStrength = 1.0
+#Lets hanging signs sway back and forth with the wind.
+enableWindHangingSignSway = true
+#Scales how strongly hanging signs sway with the wind.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+windHangingSignSwayStrength = 1.0
+#Lets standing and wall banners deform in response to the shared client wind simulation.
+enableWindReactiveBanners = true
+#Scales how far wind lifts the vanilla banner cloth from its resting angle.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+bannerWindStrength = 1.0
+#Scales how strongly the whole banner responds to travelling gust fronts.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+bannerGustResponse = 1.0
+#Scales the banner's small, quick whole-cloth movement.
+# Default: 0.75
+# Range: 0.0 ~ 2.0
+bannerFlutterStrength = 0.75
+#Scales how strongly banner cloth prefers to hang downward.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+bannerSagStrength = 1.0
+#Scales irregular banner sway from local turbulence.
+# Default: 0.65
+# Range: 0.0 ~ 2.0
+bannerTurbulenceResponse = 0.65
+#Maximum camera distance in blocks for wind-reactive banner cloth.
+# Default: 64.0
+# Range: 16.0 ~ 128.0
+bannerAnimationDistance = 64.0
+#Lets vertical chain blocks sway even when their connected stack does not end in a hanging lantern.
+enableStandaloneChainSway = true
+#Adds Where Winds Blow wind uniforms and source injections to Sodium's own terrain shader.
+enableSodiumShaderPatch = true
+#Enables wind-driven foliage sway in the responsive foliage shader.
+enableWindFoliageSway = false
+#Enables wind-driven sway for grass, crops, flowers, and other plant-like foliage.
+enableWindPlantSway = false
+#Enables wind-driven sway for leaf blocks.
+enableWindLeafSway = false
+#Scales the strength of wind-driven foliage sway.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+windFoliageSwayStrength = 1.0
+#Sets how far above the bottom of plant-like foliage wind sway starts, in block units.
+# Default: 0.6
+# Range: 0.0 ~ 1.0
+windPlantSwayStartHeight = 0.8
+#Weather wind power while the weather is clear. Affects foliage gust intensity, wind streak density, and wind smoke.
+# Default: 0.25
+# Range: 0.0 ~ 4.0
+clearWeatherWindPower = 0.25
+#Weather wind power at full rain. Affects foliage gust intensity, wind streak density, and wind smoke.
+# Default: 0.75
+# Range: 0.0 ~ 4.0
+rainWeatherWindPower = 0.75
+#Weather wind power at full thunder. Affects foliage gust intensity, wind streak density, and wind smoke.
+# Default: 2.0
+# Range: 0.0 ~ 4.0
+thunderWeatherWindPower = 2.0
+#Minimum foliage sway strength while the weather is clear.
+# Default: 0.0
+# Range: 0.0 ~ 4.0
+clearWeatherSwayStrength = 0.0
+#Minimum foliage sway strength at full rain.
+# Default: 1.5
+# Range: 0.0 ~ 4.0
+rainWeatherSwayStrength = 1.5
+#Minimum foliage sway strength at full thunder.
+# Default: 2.0
+# Range: 0.0 ~ 4.0
+thunderWeatherSwayStrength = 2.0
+#Minimum wind sheen strength while the weather is clear.
+# Default: 0.0
+# Range: 0.0 ~ 4.0
+clearWeatherSheenStrength = 0.0
+#Minimum wind sheen strength at full rain.
+# Default: 1.5
+# Range: 0.0 ~ 4.0
+rainWeatherSheenStrength = 1.5
+#Minimum wind sheen strength at full thunder.
+# Default: 2.0
+# Range: 0.0 ~ 4.0
+thunderWeatherSheenStrength = 2.0
+#Uses Where Winds Blow's atmospheric precipitation renderer. Disable this to use vanilla rain and snow.
+enableWindReactivePrecipitation = false
+#Renders atmospheric rain while Where Winds Blow's precipitation renderer is enabled.
+enableRainEffects = false
+#Lets rain lean with the shared wind simulation. Rain falls vertically when this is disabled.
+enableSlantedRain = false
+#Renders atmospheric snow while Where Winds Blow's precipitation renderer is enabled.
+enableSnowEffects = false
+#Lets snow drift and flutter with the shared wind simulation. Snow falls vertically when this is disabled.
+enableWindDrivenSnow = false

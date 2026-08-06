@@ -425,6 +425,13 @@
     "darkerdepths:rope",
     "minecraft:emerald",
     "minecraft:emerald_ore",
-    "minecraft:deepslate_emerald_ore"
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:enchanting_table",
+    "caverns_and_chasms:atoning_table",
+    "minecraft:filled_map",
+    "yo_hooks:iron_hook_head",
+    "yo_hooks:gold_hook_head",
+    "yo_hooks:diamond_hook_head",
+    "yo_hooks:netherite_hook_head"
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "# #",
+    "AAA"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "brewinandchewin:keg",
+    "count": 1
+  }
+}

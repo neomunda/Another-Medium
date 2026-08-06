@@ -5,18 +5,13 @@
       "item": "minecraft:copper_ingot"
     },
     {
-      "tag": "c:nuggets/tin"
-    },
-    {
-      "tag": "c:nuggets/tin"
-    },
-    {
-      "tag": "c:nuggets/tin"
+      "tag": "c:ingots/tin"
     }
   ],
   "result":
     {
-      "id": "another_medium:heated_bronze_ingot"
+      "id": "another_medium:heated_bronze_ingot",
+      "count": 2
     }
   ,
   "fabric:load_conditions": [

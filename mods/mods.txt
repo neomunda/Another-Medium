@@ -7,8 +7,8 @@ b4a8e11384454bcc341043b251db7fb5afdfdf45 *mods/AI-Improvements-1.21-0.5.3.jar
 66c053e74379607c614ad252b8f838d3a2533e32 *mods/Amplified_Nether_26.2_v1.2.16.jar
 008656a0702801174b8ec245ed7aad1921d6e9f1 *mods/architectury-13.0.11-neoforge.jar
 08729408d2d2078060352c9529a95a4240a0558d *mods/arts_and_crafts-neoforge-1.21.1-1.5.4.jar
-287ec5c76bf9f7f8493e789f70759ab993784f5e *mods/async-locator-refined-neoforge-1.21.1-1.6.0.jar
 522bbf4f8e0dcb1754c464e66ab301d8235ea315 *mods/atmospheric-1.21.1-7.0.1.jar
+0a0de4a4232deacb5e24152e6042f14864568dd6 *mods/ayame-paperdoll-neoforge-4.4.1+1.21.1.jar
 0beeb796055f8abdebb9304fe26b655068a52a9c *mods/betterdays-1.21.1-3.3.6.3-NEOFORGE.jar
 9c499f5133ebeed43da4ce42d48bf747cead6d24 *mods/betterfpsdist-1.21.1-6.1.jar
 5d1cf6603c8518faadd19230b700c7bdee9a6a4a *mods/bigwater-1.2.0-neoforge+mc1.21.1.jar
@@ -21,10 +21,10 @@ a20e72a96c1db7d948c9a972fdcdd900c469e8f5 *mods/caverns_and_chasms-1.21.1-3.0.0.j
 3cc6110e72c9aa2a64887b54e7b092c53e08a1c3 *mods/celesteconfig-neoforge-1.21.1-1.1.3.jar
 20f8250a2adcefcb5f2eb16e908ef7b688a76d67 *mods/cesarsafiocore-1.0.0(1).jar
 de821ac64b3c8694b1a27e0acd05742660c6af3f *mods/chat_heads-0.15.3-neoforge-1.21.jar
+28a32f2913c50990b6649283a43a7ac8d4dda438 *mods/cirrus-neoforge-1.21.1-1.0.1.jar
 e57792898117777a09b04cb29bbceb2d88fbc7f6 *mods/clayworks-1.21.1-4.0.3.jar
 9d13b8315b03bda4bc6f5637c51f25a99cdcacd3 *mods/clientsort-neoforge-2.2.2+1.21.1.jar
 c3e5733ba4503b102589a026000fd5ce0212f6f2 *mods/cloth-config-15.0.140-neoforge.jar
-655a2f521636e5eb51c74e056cb0e07bbb0dfbaa *mods/cloud-layers-1.1+1.21.jar
 581e13e65a2cffb192dcc2993516282be04f8755 *mods/clutternomore-2.0.6+1.21.1-neoforge.jar
 e977d86eec39d49295df4e2c4265d6710ae065e8 *mods/configured-neoforge-1.21.1-2.6.3.jar
 b2f84ac887087169ee257907bfd9544e0621c943 *mods/connectiblechains-neoforge-1.21.1-2.2.5.jar
@@ -58,6 +58,7 @@ a59a4bc6d8466a6d1d4d9aedb2ccf0ef4d05994f *mods/fieldguide-neoforge-1.21.1-1.13.6
 f302ea49c98ef9e7bd04acda62398f39588ffea4 *mods/field-neoforge-1.21.1-1.1.1.jar
 31491e08947da57d4af6c48e8d3237cc6d4009c1 *mods/flerovium-neoforge-1.21.1-1.1.2-all.jar
 f3b5ff6e2ca338d8d9338acc5a1e47393e7b1ad2 *mods/forgified-fabric-api-0.116.15+2.3.1+1.21.1.jar
+428eee42f39e6f4c36a3fed2fc127ee9cbd5fa0c *mods/freecam-neoforge-1.3.0+mc1.21.jar
 c0910f9b975aaab8545ce950539748fb33d704d1 *mods/fzzy_config-0.7.6+1.21+neoforge.jar
 e5facb54dccd46c75c938a599f2f9da1ef39f19e *mods/gallery-1.21.1-2.0.1.jar
 14c64013cadee7d28f3685f94350f9a4d2ec6d86 *mods/geckolib-neoforge-1.21.1-4.9.2.jar
@@ -74,6 +75,7 @@ e9a1e53d8d9084a189e80ff6cd2ba85ffa71d2d5 *mods/immersiveoverlays-1.7.3+1.21.1-ne
 fd8df1a7398539d66ecbcf406d22b8408d2d4808 *mods/item_descriptions-2.8.0+1.21.1-neoforge.jar
 4fcb38e30b7654cf94bdf7b4e1511ed860c31aae *mods/jinxedlib-neoforge-1.21.1-1.0.4.jar
 d10d062caf1aad9aec82d7852f2fee1781735c1f *mods/kotlinforforge-5.12.0-all.jar
+089ed2eb09006718a1657396803604348dfffcba *mods/kubejsstudio-neoforge-1.21.1-1.0.0-beta1.jar
 7d2e36037c88d24e40e0fdd4bf2bed9f8c2dd092 *mods/lambdynamiclights-4.8.10+1.21.1.jar
 97212e45c963730bbfc7c44780df99317814c21b *mods/lithium-neoforge-0.15.4+mc1.21.1.jar
 771a104dde071e16e67c7cd3149f7c3015375483 *mods/lithostitched-1.7.13-neoforge-21.1.jar
@@ -129,14 +131,13 @@ f3ba9a497122ba29d9e94ebe6f9a3a3aaa5fa756 *mods/sable-neoforge-1.21.1-2.0.3.jar
 62ce692654e09271b5c55cbb3a1ef7606d067132 *mods/servercore-neoforge-1.5.19+1.21.1.jar
 d3f1197ae73887db6614200082f0b5ed4064ec68 *mods/shadowdrop-neoforge-1.21.1-2.0.2.jar
 2b67d77f60e51cc811cee903972c14d6ad3b2f74 *mods/shieldexp-neoforge-1.21.1-1.4.1.jar
-c7c7bdb618123a12a62874eb24e8931c1cb9a0f0 *mods/smoothskies-2.10.4+1.21.1-neoforge.jar
 3aaac7712521b477acc73757459b3883c4e0bbda *mods/sodium-extra-neoforge-0.9.3+mc1.21.1.jar
 f868ab0a037d1211fabd31b2f42a2862b8e6c669 *mods/sodium-neoforge-0.8.13-beta.1+mc1.21.1.jar
 315891dcf8459a53fe263d985073bef619c360d0 *mods/sodium-shadowy-path-blocks-neoforge-4.1.0.jar
 be15102bd2468a224fb02e4d243b54bfca2c9c49 *mods/sootychimneys-neoforge-1.3.5.jar
-9430cc2ab64ff89d698be593769fb9f9ee4efae6 *mods/spark-1.10.124-neoforge.jar
 2deea6d639e5d197414f0903b4beb89c56466ae0 *mods/spawn-4.0.7-1.21.1.jar
 7d80d5f52fc1e6194d3dfa38985f6a4b272c9362 *mods/structurify-neoforge-2.0.30+mc1.21.1.jar
+f0c846484bd7c769b88f38ab31429457f52552d7 *mods/SubtleEffects-neoforge-1.21.1-1.14.3.jar
 b7c9a5e2ab4d6bfb8124099ad607e07d2fec1dbc *mods/supplementaries-neoforge-1.21.1-3.8.5.jar
 77e9d3996c11eed104fe224c3ba706be1c759303 *mods/surveyor-1.2.4+1.21.jar
 b186cdfd311158858429e494ecd11e2157274eff *mods/teallib-1.3.teal.jar

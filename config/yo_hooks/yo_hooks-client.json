@@ -1,5 +1,5 @@
 {
-	"holdHookTightly": false,
-	"climbWithMouseWheelScroll": false,
+	"holdHookTightly": true,
+	"climbWithMouseWheelScroll": true,
 	"usingWhileHoldingFood": false
 }

@@ -1,0 +1,38 @@
+#Enables Where Winds Blow's added grass worldgen. Changes require a world reload/restart and only affect newly generated chunks.
+enableDenseGrassWorldgen = false
+#Multiplies dense short grass feature passes. Rounded to whole passes when biome modifiers load; changes require a world reload/restart.
+# Default: 8.0
+# Range: 0.0 ~ 8.0
+denseGrassDensityMultiplier = 8.0
+#Multiplies medium short grass feature passes. Rounded to whole passes when biome modifiers load; changes require a world reload/restart.
+# Default: 8.0
+# Range: 0.0 ~ 8.0
+mediumGrassDensityMultiplier = 8.0
+#Multiplies sparse short grass feature passes. Rounded to whole passes when biome modifiers load; changes require a world reload/restart.
+# Default: 8.0
+# Range: 0.0 ~ 8.0
+sparseGrassDensityMultiplier = 8.0
+#Multiplies tall grass patch feature passes. Rounded to whole passes when biome modifiers load; changes require a world reload/restart.
+# Default: 4.0
+# Range: 0.0 ~ 8.0
+tallGrassPatchMultiplier = 4.0
+#Multiplies short dry grass patch feature passes. Rounded to whole passes when biome modifiers load; changes require a world reload/restart.
+# Default: 1.0
+# Range: 0.0 ~ 8.0
+shortDryGrassPatchMultiplier = 1.0
+#Multiplies tall dry grass patch feature passes. Rounded to whole passes when biome modifiers load; changes require a world reload/restart.
+# Default: 1.0
+# Range: 0.0 ~ 8.0
+tallDryGrassPatchMultiplier = 1.0
+#Multiplies dead grass patch feature passes. Rounded to whole passes when biome modifiers load; changes require a world reload/restart.
+# Default: 1.0
+# Range: 0.0 ~ 8.0
+deadGrassPatchMultiplier = 1.0
+#Multiplies overgrown grass patch feature passes. Rounded to whole passes when biome modifiers load; changes require a world reload/restart.
+# Default: 1.0
+# Range: 0.0 ~ 8.0
+overgrownGrassPatchMultiplier = 1.0
+#Multiplies wild wheat patch feature passes. Rounded to whole passes when biome modifiers load; changes require a world reload/restart.
+# Default: 0.0
+# Range: 0.0 ~ 8.0
+wildWheatPatchMultiplier = 0.0

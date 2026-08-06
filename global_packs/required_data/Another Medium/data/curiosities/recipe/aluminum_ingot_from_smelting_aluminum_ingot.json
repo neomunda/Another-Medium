@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0,
+  "ingredient": {
+    "item": "curiosities:aluminum_ingot"
+  },
+  "result": {
+    "id": "another_medium:heated_aluminum_ingot"
+  }
+}

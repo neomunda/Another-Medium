@@ -1,0 +1,179 @@
+#Cloud rendering
+[clouds]
+	#Replace vanilla clouds with Cirrus clouds. The vanilla Clouds: Off setting still hides clouds.
+	enabled = true
+	#Cloud render distance in chunks, independent of terrain render distance.
+	# Default: 64
+	# Range: 2 ~ 128
+	renderDistanceChunks = 57
+	#Hide Cirrus cloud illumination during lightning without changing the vanilla sky flash.
+	hideLightningCloudFlashes = false
+	#Maximum opacity of lightning illumination on nearby clouds.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	lightningCloudFlashOpacity = 0.75
+	#Normal cloud layer height offset from the dimension's cloud height, in blocks.
+	# Default: 0.0
+	# Range: -128.0 ~ 128.0
+	lowerLayerHeightOffset = 0.0
+	#Normal cloud layer speed multiplier. Zero makes the layer stationary.
+	# Default: 2.0
+	# Range: 0.0 ~ 4.0
+	lowerLayerSpeed = 2.0
+	#Normal cloud layer opacity. Defaults more transparent than the upper layer.
+	# Default: 0.25
+	# Range: 0.05 ~ 1.0
+	lowerLayerOpacity = 0.25
+	#Render a second, independently sampled cloud layer above the dimension's normal clouds.
+	upperLayerEnabled = true
+	#Upper cloud layer height above the normal cloud layer, in blocks.
+	# Default: 64.0
+	# Range: 16.0 ~ 256.0
+	upperLayerHeightOffset = 64.0
+	#Upper cloud layer speed multiplier. Defaults slower than the normal layer.
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	upperLayerSpeed = 1.0
+	#Upper cloud layer opacity.
+	# Default: 0.5
+	# Range: 0.05 ~ 1.0
+	upperLayerOpacity = 0.5
+	#Render a third, independently sampled cloud layer above the upper cloud layer.
+	topLayerEnabled = true
+	#Top cloud layer height above the upper cloud layer, in blocks.
+	# Default: 64.0
+	# Range: 16.0 ~ 256.0
+	topLayerHeightOffset = 64.0
+	#Top cloud layer speed multiplier. Defaults slower than the upper layer.
+	# Default: 0.5
+	# Range: 0.0 ~ 4.0
+	topLayerSpeed = 0.5
+	#Top cloud layer opacity. Defaults more transparent than the other layers.
+	# Default: 0.15
+	# Range: 0.05 ~ 1.0
+	topLayerOpacity = 0.15
+
+#Sky rendering
+[sky]
+	#Smooth abrupt visual changes in the sky when the world's day time changes.
+	smoothTimeTransitions = false
+	#Speed multiplier for smooth time transitions. Higher values complete transitions faster.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	timeTransitionSpeed = 1.0
+	#Replace vanilla stars with Cirrus' shader-driven star field.
+	customStarsEnabled = true
+	#Maximum number of stars distributed across the complete celestial sphere.
+	# Default: 2000
+	# Range: 250 ~ 8000
+	starDensity = 1000
+	#Opacity of the dimmest stars.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	starMinimumOpacity = 0.25
+	#Opacity of the brightest stars.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	starMaximumOpacity = 1.0
+	#Size multiplier used by the smallest stars.
+	# Default: 0.55
+	# Range: 0.25 ~ 4.0
+	starMinimumSize = 0.55
+	#Size multiplier used by the largest stars.
+	# Default: 2.0
+	# Range: 0.25 ~ 4.0
+	starMaximumSize = 2.0
+	#Amount that individual stars gently vary in brightness.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	starTwinkleStrength = 1.0
+	#Speed of the star twinkle animation. Zero freezes the animation.
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	starTwinkleSpeed = 1.0
+	#Strength of subtle warm and cool color differences between stars.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	starColorVariation = 1.0
+	#Occasionally render shader-animated shooting stars at night.
+	shootingStarsEnabled = false
+	#Average shooting-star events per real-world minute. Zero disables events.
+	# Default: 1.0
+	# Range: 0.0 ~ 12.0
+	shootingStarFrequency = 1.0
+	#Maximum opacity of shooting-star heads and trails.
+	# Default: 0.85
+	# Range: 0.0 ~ 1.0
+	shootingStarOpacity = 0.85
+	#Size multiplier used by the smallest shooting stars.
+	# Default: 0.75
+	# Range: 0.25 ~ 4.0
+	shootingStarMinimumSize = 0.75
+	#Size multiplier used by the largest shooting stars.
+	# Default: 1.5
+	# Range: 0.25 ~ 4.0
+	shootingStarMaximumSize = 1.5
+	#Speed multiplier used by the slowest shooting stars.
+	# Default: 0.65
+	# Range: 0.25 ~ 3.0
+	shootingStarMinimumSpeed = 0.65
+	#Speed multiplier used by the fastest shooting stars.
+	# Default: 1.35
+	# Range: 0.25 ~ 3.0
+	shootingStarMaximumSpeed = 1.35
+	#Length multiplier for shooting-star trails.
+	# Default: 3.0
+	# Range: 0.25 ~ 3.0
+	shootingStarTrailLength = 3.0
+	#Strength of the soft glow around shooting-star cores and trails.
+	# Default: 2.0
+	# Range: 0.0 ~ 2.0
+	shootingStarBloom = 0.0
+	#Strength of warm and cool color variation between shooting stars.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	shootingStarColorVariation = 1.0
+	#Tint the night sky with a restrained indigo, mauve, and gold palette.
+	nightSkyColorsEnabled = false
+	#Strength of the custom night-sky color palette.
+	# Default: 0.55
+	# Range: 0.0 ~ 1.0
+	nightSkyColorOpacity = 0.55
+	#Render a shader-driven Milky Way behind clouds and northern lights.
+	milkyWayEnabled = false
+	#Render the Milky Way through a sky-fixed pixel grid.
+	milkyWayPixelationEnabled = true
+	#Maximum opacity of the Milky Way's galactic haze.
+	# Default: 0.65
+	# Range: 0.0 ~ 1.0
+	milkyWayOpacity = 0.65
+	#Render animated northern lights at night. Biome restrictions are configured separately.
+	auroraEnabled = false
+	#Render northern lights through a sky-fixed pixel grid.
+	auroraPixelationEnabled = false
+	#Only render northern lights while the camera is in or near a freezing biome.
+	auroraColdBiomesOnly = false
+	#Maximum opacity of the northern lights.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	auroraOpacity = 1.0
+	#Animation speed multiplier. Zero freezes the aurora in place.
+	# Default: 5.0
+	# Range: 0.0 ~ 5.0
+	auroraAnimationSpeed = 5.0
+	#Amount of drifting, waving, and breathing in the aurora.
+	# Default: 2.0
+	# Range: 0.0 ~ 2.0
+	auroraMovement = 2.0
+	#Width multiplier for the aurora ribbons.
+	# Default: 1.0
+	# Range: 0.5 ~ 2.0
+	auroraRibbonWidth = 1.0
+	#Vertical offset of the aurora in degrees.
+	# Default: -10.0
+	# Range: -20.0 ~ 30.0
+	auroraHeightDegrees = -10.0
+	#How strongly the aurora layout changes from one night to the next.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	auroraNightlyVariation = 1.0

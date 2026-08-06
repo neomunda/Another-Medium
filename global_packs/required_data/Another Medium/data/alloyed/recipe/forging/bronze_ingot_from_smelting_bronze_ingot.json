@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0,
+  "ingredient": {
+    "item": "alloyed:bronze_ingot"
+  },
+  "result": {
+    "id": "overgeared:heated_bronze_ingot"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "darkerdepths:petrified_planks"
+  },
+  "result": {
+    "id": "darkerdepths:trimmed_petrified_planks",
+    "count": 1
+  },
+  "type": "woodworks:sawmill"
+}

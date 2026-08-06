@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "A": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "farmersdelight:cooking_pot",
+    "count": 1
+  }
+}

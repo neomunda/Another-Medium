@@ -1,8 +1,0 @@
-{
-    "extensions.experimental.issueQuickAccess": false,
-    "telemetry.feedback.enabled": false,
-    "github.gitAuthentication": false,
-    "github.branchProtection": false,
-    "github.showAvatar": false,
-    "json.format.keepLines": true
-}

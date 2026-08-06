@@ -8,6 +8,9 @@
     { "item": "overgeared:steel_pickaxe_head" },
     {
       "item": "another_medium:bronze_pickaxe_head"
+    },
+    {
+      "item": "another_medium:silver_pickaxe_head"
     }
   ],
   "tooltype": "pickaxe"
