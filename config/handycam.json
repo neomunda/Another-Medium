@@ -1,6 +1,6 @@
 {
   "configVersion": 3,
-  "effectsEnabled": true,
+  "effectsEnabled": false,
   "disableInCreativeFlight": true,
   "enableEffectsThirdPerson": false,
   "enableEffectsSecondPerson": false,

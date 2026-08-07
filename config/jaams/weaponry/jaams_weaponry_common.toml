@@ -1,0 +1,4837 @@
+	["Custom Effects Handler".Incapable]
+		#Enable or disable the Incapable effect (prevents attacking/using items)
+		Incapable = true
+		#Attack speed multiplier when Incapable (negative = slower)
+		# Default: -0.8
+		# Range: -2.0 ~ 0.0
+		"Incapable Attack Speed Attribute Multiplier" = -0.8
+		#Attack damage multiplier when Incapable (negative = weaker)
+		# Default: -0.8
+		# Range: -2.0 ~ 0.0
+		"Incapable Attack Damage Attribute Multiplier" = -0.8
+		#Prevent item use while Incapable
+		"Incapable Restrict Item Use" = true
+		#Prevent block interaction while Incapable
+		"Incapable Restrict Block Interaction" = true
+
+	["Custom Effects Handler".Depletion]
+		#Enable or disable the Depletion effect (stat penalties)
+		Depletion = true
+		#Attack speed multiplier when Depleted (negative = slower)
+		# Default: -0.2
+		# Range: -1.0 ~ 0.0
+		"Depletion Attack Speed Attribute Multiplier" = -0.2
+		#Movement speed multiplier when Depleted (negative = slower)
+		# Default: -0.2
+		# Range: -1.0 ~ 0.0
+		"Depletion Movement Speed Attribute Multiplier" = -0.2
+		#Attack damage multiplier when Depleted (negative = weaker)
+		# Default: -0.2
+		# Range: -1.0 ~ 0.0
+		"Depletion Attack Damage Attribute Multiplier" = -0.2
+
+	["Custom Effects Handler"."Knocked Out"]
+		#Enable or disable the Knocked Out effect (severely cripples the entity)
+		"Knocked Out" = true
+		#Attack speed multiplier when Knocked Out (negative = slower)
+		# Default: -1.0
+		# Range: -1.0 ~ 0.0
+		"Knocked Out Attack Speed Attribute Multiplier" = -1.0
+		#Movement speed multiplier when Knocked Out (negative = slower)
+		# Default: -1.0
+		# Range: -1.0 ~ 0.0
+		"Knocked Out Movement Speed Attribute Multiplier" = -1.0
+		#Prevent item use while Knocked Out
+		"Knocked Out Restrict Item Use" = true
+		#Prevent block interaction while Knocked Out
+		"Knocked Out Restrict Block Interaction" = true
+		#Prevent jumping while Knocked Out
+		"Knocked Out Restrict Jump" = true
+		#Prevent attacking while Knocked Out
+		"Knocked Out Restrict Attacking" = true
+
+	["Custom Effects Handler"."Vigorous Rage"]
+		#Enable or disable the Vigorous Rage effect (offensive buffs)
+		"Vigorous Rage" = true
+		#Attack speed multiplier while Vigorous Rage is active
+		# Default: 0.3
+		# Range: 0.0 ~ 2.0
+		"Vigorous Rage Attack Speed Attribute Multiplier" = 0.3
+		#Knockback multiplier while Vigorous Rage is active
+		# Default: 0.5
+		# Range: 0.0 ~ 2.0
+		"Vigorous Rage Knockback Attribute Multiplier" = 0.5
+		#Movement speed multiplier while Vigorous Rage is active
+		# Default: 0.1
+		# Range: 0.0 ~ 2.0
+		"Vigorous Rage Movement Speed Attribute Multiplier" = 0.1
+		#Base chance to upgrade Vigorous Rage level on kill
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		"Vigorous Rage Upgrade Chance" = 0.2
+		#Maximum upgrade level for Vigorous Rage
+		# Default: 10
+		# Range: 1 ~ 255
+		"Vigorous Rage Upgrade Max Level" = 10
+		#Maximum base duration of Vigorous Rage in ticks
+		# Default: 300
+		# Range: 20 ~ 72000
+		"Vigorous Rage Upgrade Max Duration Ticks" = 300
+		#Minimum extra ticks added on kill
+		# Default: 60
+		# Range: 0 ~ 1200
+		"Vigorous Rage Upgrade Min Extra Ticks On Kill" = 60
+		#Maximum extra ticks added on kill
+		# Default: 120
+		# Range: 0 ~ 1200
+		"Vigorous Rage Upgrade Max Extra Ticks On Kill" = 120
+		#Chance decay per level (multiplied per level)
+		# Default: 0.8
+		# Range: 0.0 ~ 1.0
+		"Vigorous Rage Upgrade Chance Decay Per Level" = 0.8
+		#Extra upgrade chance per %% of target max health
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		"Vigorous Rage Upgrade Health Scaling Factor" = 0.02
+		#Minimum target health for health scaling bonus
+		# Default: 10.0
+		# Range: 0.0 ~ 1024.0
+		"Vigorous Rage Upgrade Min Health Threshold" = 10.0
+		#Maximum target health for health scaling bonus
+		# Default: 100.0
+		# Range: 0.0 ~ 1024.0
+		"Vigorous Rage Upgrade Max Health Threshold" = 100.0
+
+	["Custom Effects Handler"."Warrior's Grace"]
+		#Enable or disable the Warrior's Grace effect (melee buffs)
+		"Warrior's Grace" = true
+		#Critical damage bonus per level of Warrior's Grace
+		# Default: 0.15
+		# Range: 0.0 ~ 2.0
+		"Warrior's Grace Crit Damage Per Level" = 0.15
+		#Incoming damage reduction per level
+		# Default: 0.05
+		# Range: 0.0 ~ 0.5
+		"Warrior's Grace Damage Reduction Per Level" = 0.05
+		#Attack damage multiplier while active
+		# Default: 0.3
+		# Range: 0.0 ~ 2.0
+		"Warrior's Grace Attack Damage Attribute Multiplier" = 0.3
+		#Knockback resistance multiplier while active
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		"Warrior's Grace Knockback Resistance Attribute Multiplier" = 0.1
+
+	["Custom Effects Handler"."Archer's Grace"]
+		#Enable or disable the Archer's Grace effect (ranged buffs)
+		"Archer's Grace" = true
+		#Ranged damage multiplier per level of Archer's Grace
+		# Default: 0.5
+		# Range: 0.0 ~ 50.0
+		"Archer's Grace Damage Multiplier Per Level" = 0.5
+		#Attack speed multiplier while active
+		# Default: 0.2
+		# Range: 0.0 ~ 2.0
+		"Archer's Grace Attack Speed Attribute Multiplier" = 0.2
+		#Knockback multiplier while active
+		# Default: 0.2
+		# Range: 0.0 ~ 2.0
+		"Archer's Grace Knockback Attribute Multiplier" = 0.2
+		#Minimum ticks the ranged weapon must be drawn for the buff to apply
+		# Default: 20
+		# Range: 0 ~ 300
+		"Archer's Grace Min Use Ticks" = 20
+
+	["Gun System Common Handler"."Gun Inventory Settings"]
+		#Enable or disable the gun inventory
+		"Gun Inventory" = true
+
+	["Gun System Common Handler"."Gun Cooldown Settings"]
+		#If true, firing any gun will trigger a cooldown on ALL guns in the player's inventory.
+		"Global Cooldown" = false
+		#If true, firing a gun will trigger a cooldown on all guns of the SAME TYPE (e.g., shooting a pistol cools down all pistols). Ignored if Global Cooldown is true.
+		"Cooldown By Gun Type" = true
+
+	["Gun System Common Handler"."Gun Ammo Settings"]
+		#Take bullets from the gun's inventory
+		"Bullet From Gun Inventory" = true
+		#Take bullets from the player's inventory
+		"Bullet From Player Inventory" = false
+		#Take bullets from the player's hands
+		"Bullet From Player Hands" = false
+
+	["Gun System Common Handler"."Gun Interaction Settings"]
+		#Enable bundle-like insert/extract behavior when right-clicking guns in containers
+		"Bundle-Like Gun Interaction" = true
+
+	["Gun System Common Handler"."Gun Capacity Settings"]
+		#Default maximum ammo for pistols (max 64)
+		# Default: 16
+		# Range: 1 ~ 64
+		"Pistol Max Ammo Capacity" = 16
+		#Default maximum ammo for scatterguns (max 64)
+		# Default: 32
+		# Range: 1 ~ 64
+		"Scattergun Max Ammo Capacity" = 32
+		#Default maximum ammo for shotguns (max 64)
+		# Default: 8
+		# Range: 1 ~ 64
+		"Shotgun Max Ammo Capacity" = 8
+
+		["Gun System Common Handler"."Gun Shoot Settings"."Pistol Shoot"]
+			#Projectile damage modifier (only applied if > 0)
+			# Default: 6.0
+			# Range: 0.0 ~ 100.0
+			"Projectile Damage Modifier" = 6.0
+			#Projectile knockback modifier (only applied if > 0)
+			# Default: 0.1
+			# Range: 0.0 ~ 5.0
+			"Projectile Knockback Modifier" = 0.1
+			#Projectile piercing modifier (only applied if > 0)
+			# Default: 0
+			# Range: 0 ~ 10
+			"Projectile Piercing Modifier" = 0
+			#Number of projectiles fired per shot (1 = normal pistol)
+			# Default: 1
+			# Range: 1 ~ 100
+			"Projectile Count" = 1
+			#Inaccuracy/spread in degrees for the pistol shoot (0 = perfect aim)
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			Inaccuracy = 0.0
+			#Cooldown for pistol in ticks
+			# Default: 30
+			# Range: 0 ~ 72000
+			Cooldown = 30
+			#Offhand cooldown for pistol
+			# Default: 10
+			# Range: 0 ~ 72000
+			"Offhand Cooldown" = 10
+			#Default modifier for pistol
+			# Default: 1.0
+			# Range: 0.1 ~ 10.0
+			"Default Modifier" = 1.0
+			#Spread angle for pistol shot (degrees)
+			# Default: 0.0
+			# Range: 0.0 ~ 30.0
+			"Spread Angle" = 0.0
+			#Fire pattern for pistol: DEFAULT, LINE, HORIZONTAL, VERTICAL, CIRCLE, STAR, DIAMOND
+			#Allowed Values: DEFAULT, HORIZONTAL, VERTICAL, CIRCLE, HEART
+			"Shot Fire Pattern" = "DEFAULT"
+			#Gun shot size for pistol
+			# Default: 0.8
+			# Range: 0.1 ~ 50.0
+			"Gun Shot Size" = 0.8
+			#Gun shot distance for pistol
+			# Default: 0.8
+			# Range: 0.1 ~ 50.0
+			"Gun Shot Distance" = 0.8
+			#Shake intensity for pistol
+			# Default: 0.5
+			# Range: 0.0 ~ 50.0
+			"Shake Intensity" = 0.5
+			#Shake reset delay for pistol
+			# Default: 5
+			# Range: 0 ~ 50
+			"Shake Reset Delay" = 5
+			#Recoil distance for pistol
+			# Default: 0.5
+			# Range: 0.0 ~ 50.0
+			Recoil = 0.5
+			#Vertical recoil multiplier for pistol
+			# Default: 0.45
+			# Range: 0.0 ~ 2.0
+			"Recoil Vertical Multiplier" = 0.45
+			#Crouch recoil reduction for pistol
+			# Default: 0.6
+			# Range: 0.0 ~ 1.0
+			"Recoil Crouch Reduction" = 0.6
+			#X rotation recoil intensity for pistol
+			# Default: 1.75
+			# Range: 0.0 ~ 10.0
+			"Recoil Pitch Kick" = 1.75
+			#Projectile base speed for pistol
+			# Default: 4.5
+			# Range: 0.1 ~ 50.0
+			"Projectile Speed" = 4.5
+			#Muzzle modifier for pistol
+			# Default: 1.5
+			# Range: 0.1 ~ 5.0
+			"Muzzle Modifier" = 1.5
+			#Magazine modifier for pistol
+			# Default: 2.0
+			# Range: 0.1 ~ 5.0
+			"Magazine Modifier" = 2.0
+			#How many bullets are consumed per shot
+			# Default: 1
+			# Range: 1 ~ 64
+			"Ammo Consumption" = 1
+			#Attachment items consumed per pistol shot
+			# Default: 1
+			# Range: 1 ~ 64
+			"Attachment Consumption" = 1
+
+		["Gun System Common Handler"."Gun Shoot Settings"."Scattergun Shoot"]
+			#Projectile damage modifier for scattergun
+			# Default: 4.0
+			# Range: 0.0 ~ 100.0
+			"Projectile Damage Modifier" = 4.0
+			#Projectile knockback modifier for scattergun
+			# Default: 0.3
+			# Range: 0.0 ~ 5.0
+			"Projectile Knockback Modifier" = 0.3
+			#Projectile piercing modifier for scattergun
+			# Default: 0
+			# Range: 0 ~ 10
+			"Projectile Piercing Modifier" = 0
+			#Number of projectiles fired per shot (scattergun)
+			# Default: 2
+			# Range: 1 ~ 100
+			"Projectile Count" = 2
+			#Inaccuracy for scattergun
+			# Default: 0.0
+			# Range: 0.0 ~ 15.0
+			Inaccuracy = 0.0
+			#Cooldown for scattergun in ticks
+			# Default: 40
+			# Range: 0 ~ 72000
+			Cooldown = 40
+			#Offhand cooldown for scattergun
+			# Default: 20
+			# Range: 0 ~ 72000
+			"Offhand Cooldown" = 20
+			#Default modifier for scattergun
+			# Default: 1.0
+			# Range: 0.1 ~ 10.0
+			"Default Modifier" = 1.0
+			#Spread angle for scattergun shot
+			# Default: 5.0
+			# Range: 0.0 ~ 40.0
+			"Spread Angle" = 5.0
+			#Fire pattern for scattergun
+			#Allowed Values: DEFAULT, HORIZONTAL, VERTICAL, CIRCLE, HEART
+			"Shot Fire Pattern" = "HORIZONTAL"
+			#Gun shot size for scattergun
+			# Default: 1.2
+			# Range: 0.1 ~ 50.0
+			"Gun Shot Size" = 1.2
+			#Gun shot distance for scattergun
+			# Default: 1.0
+			# Range: 0.1 ~ 50.0
+			"Gun Shot Distance" = 1.0
+			#Shake intensity for scattergun
+			# Default: 1.5
+			# Range: 0.0 ~ 50.0
+			"Shake Intensity" = 1.5
+			#Shake reset delay for scattergun
+			# Default: 6
+			# Range: 0 ~ 50
+			"Shake Reset Delay" = 6
+			#Recoil distance for scattergun
+			# Default: 0.7
+			# Range: 0.0 ~ 50.0
+			Recoil = 0.7
+			#Vertical recoil multiplier for scattergun
+			# Default: 0.35
+			# Range: 0.0 ~ 2.0
+			"Recoil Vertical Multiplier" = 0.35
+			#Crouch recoil reduction for scattergun
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
+			"Recoil Crouch Reduction" = 0.5
+			#X rotation recoil intensity for scattergun
+			# Default: 2.5
+			# Range: 0.0 ~ 10.0
+			"Recoil Pitch Kick" = 2.5
+			#Projectile base speed for scattergun
+			# Default: 3.8
+			# Range: 0.1 ~ 50.0
+			"Projectile Speed" = 3.8
+			#Muzzle modifier for scattergun
+			# Default: 1.8
+			# Range: 0.1 ~ 5.0
+			"Muzzle Modifier" = 1.8
+			#Magazine modifier for scattergun
+			# Default: 2.5
+			# Range: 0.1 ~ 5.0
+			"Magazine Modifier" = 2.5
+			#Ammo consumed per shot for scattergun
+			# Default: 2
+			# Range: 1 ~ 64
+			"Ammo Consumption" = 2
+			#Attachment items consumed per scattergun shot
+			# Default: 2
+			# Range: 1 ~ 64
+			"Attachment Consumption" = 2
+
+		["Gun System Common Handler"."Gun Shoot Settings"."Shotgun Shoot"]
+			#Projectile damage modifier for shotgun
+			# Default: 5.5
+			# Range: 0.0 ~ 100.0
+			"Projectile Damage Modifier" = 5.5
+			#Projectile knockback modifier for shotgun
+			# Default: 0.5
+			# Range: 0.0 ~ 5.0
+			"Projectile Knockback Modifier" = 0.5
+			#Projectile piercing modifier for shotgun
+			# Default: 1
+			# Range: 0 ~ 10
+			"Projectile Piercing Modifier" = 1
+			#Number of projectiles fired per shot (shotgun)
+			# Default: 4
+			# Range: 1 ~ 100
+			"Projectile Count" = 4
+			#Inaccuracy for shotgun
+			# Default: 0.05
+			# Range: 0.0 ~ 20.0
+			Inaccuracy = 0.05
+			#Cooldown for shotgun in ticks
+			# Default: 60
+			# Range: 0 ~ 72000
+			Cooldown = 60
+			#Offhand cooldown for shotgun
+			# Default: 20
+			# Range: 0 ~ 72000
+			"Offhand Cooldown" = 20
+			#Default modifier for shotgun
+			# Default: 1.0
+			# Range: 0.1 ~ 10.0
+			"Default Modifier" = 1.0
+			#Spread angle for shotgun shot
+			# Default: 5.5
+			# Range: 0.0 ~ 45.0
+			"Spread Angle" = 5.5
+			#Fire pattern for shotgun
+			#Allowed Values: DEFAULT, HORIZONTAL, VERTICAL, CIRCLE, HEART
+			"Shot Fire Pattern" = "HORIZONTAL"
+			#Gun shot size for shotgun
+			# Default: 1.5
+			# Range: 0.1 ~ 50.0
+			"Gun Shot Size" = 1.5
+			#Gun shot distance for shotgun
+			# Default: 1.2
+			# Range: 0.1 ~ 50.0
+			"Gun Shot Distance" = 1.2
+			#Shake intensity for shotgun
+			# Default: 2.5
+			# Range: 0.0 ~ 50.0
+			"Shake Intensity" = 2.5
+			#Shake reset delay for shotgun
+			# Default: 8
+			# Range: 0 ~ 50
+			"Shake Reset Delay" = 8
+			#Recoil distance for shotgun
+			# Default: 1.8
+			# Range: 0.0 ~ 50.0
+			Recoil = 1.8
+			#Vertical recoil multiplier for shotgun
+			# Default: 0.5
+			# Range: 0.0 ~ 2.0
+			"Recoil Vertical Multiplier" = 0.5
+			#Crouch recoil reduction for shotgun
+			# Default: 0.4
+			# Range: 0.0 ~ 1.0
+			"Recoil Crouch Reduction" = 0.4
+			#X rotation recoil intensity for shotgun
+			# Default: 3.5
+			# Range: 0.0 ~ 12.0
+			"Recoil Pitch Kick" = 3.5
+			#Projectile base speed for shotgun
+			# Default: 3.5
+			# Range: 0.1 ~ 50.0
+			"Projectile Speed" = 3.5
+			#Muzzle modifier for shotgun
+			# Default: 2.0
+			# Range: 0.1 ~ 5.0
+			"Muzzle Modifier" = 2.0
+			#Magazine modifier for shotgun
+			# Default: 3.0
+			# Range: 0.1 ~ 5.0
+			"Magazine Modifier" = 3.0
+			#Ammo consumed per shot for shotgun
+			# Default: 1
+			# Range: 1 ~ 64
+			"Ammo Consumption" = 1
+			#Attachment items consumed per shotgun shot
+			# Default: 1
+			# Range: 1 ~ 64
+			"Attachment Consumption" = 1
+
+		["Gun System Common Handler"."Gun Shoot Settings"."Revolver Shoot"]
+			#Projectile damage modifier for revolver
+			# Default: 7.0
+			# Range: 0.0 ~ 100.0
+			"Projectile Damage Modifier" = 7.0
+			#Projectile knockback modifier for revolver
+			# Default: 0.1
+			# Range: 0.0 ~ 5.0
+			"Projectile Knockback Modifier" = 0.1
+			#Projectile piercing modifier for revolver
+			# Default: 0
+			# Range: 0 ~ 10
+			"Projectile Piercing Modifier" = 0
+			#Number of projectiles fired per shot (revolver)
+			# Default: 1
+			# Range: 1 ~ 100
+			"Projectile Count" = 1
+			#Inaccuracy for revolver
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			Inaccuracy = 0.0
+			#Cooldown for revolver in ticks
+			# Default: 25
+			# Range: 0 ~ 72000
+			Cooldown = 25
+			#Offhand cooldown for revolver
+			# Default: 8
+			# Range: 0 ~ 72000
+			"Offhand Cooldown" = 8
+			#Default modifier for revolver
+			# Default: 1.0
+			# Range: 0.1 ~ 10.0
+			"Default Modifier" = 1.0
+			#Spread angle for revolver shot
+			# Default: 0.0
+			# Range: 0.0 ~ 30.0
+			"Spread Angle" = 0.0
+			#Fire pattern for revolver
+			#Allowed Values: DEFAULT, HORIZONTAL, VERTICAL, CIRCLE, HEART
+			"Shot Fire Pattern" = "DEFAULT"
+			#Gun shot size for revolver
+			# Default: 0.8
+			# Range: 0.1 ~ 50.0
+			"Gun Shot Size" = 0.8
+			#Gun shot distance for revolver
+			# Default: 0.8
+			# Range: 0.1 ~ 50.0
+			"Gun Shot Distance" = 0.8
+			#Shake intensity for revolver
+			# Default: 0.6
+			# Range: 0.0 ~ 50.0
+			"Shake Intensity" = 0.6
+			#Shake reset delay for revolver
+			# Default: 5
+			# Range: 0 ~ 50
+			"Shake Reset Delay" = 5
+			#Recoil distance for revolver
+			# Default: 0.6
+			# Range: 0.0 ~ 50.0
+			Recoil = 0.6
+			#Vertical recoil multiplier for revolver
+			# Default: 0.5
+			# Range: 0.0 ~ 2.0
+			"Recoil Vertical Multiplier" = 0.5
+			#Crouch recoil reduction for revolver
+			# Default: 0.6
+			# Range: 0.0 ~ 1.0
+			"Recoil Crouch Reduction" = 0.6
+			#X rotation recoil intensity for revolver
+			# Default: 2.0
+			# Range: 0.0 ~ 10.0
+			"Recoil Pitch Kick" = 2.0
+			#Projectile base speed for revolver
+			# Default: 4.8
+			# Range: 0.1 ~ 50.0
+			"Projectile Speed" = 4.8
+			#Muzzle modifier for revolver
+			# Default: 1.5
+			# Range: 0.1 ~ 5.0
+			"Muzzle Modifier" = 1.5
+			#Magazine modifier for revolver
+			# Default: 2.0
+			# Range: 0.1 ~ 5.0
+			"Magazine Modifier" = 2.0
+			#Ammo consumed per shot for revolver
+			# Default: 1
+			# Range: 1 ~ 64
+			"Ammo Consumption" = 1
+			#Attachment items consumed per revolver shot
+			# Default: 1
+			# Range: 1 ~ 64
+			"Attachment Consumption" = 1
+
+		["Item Features Handler".Weapons.Trident]
+			#Trident use custom throw instead of vanilla
+			"Trident Custom Throw" = true
+
+		["Item Features Handler".Weapons.Nunchaku]
+			#If true, chain sounds will play while sprinting with Nunchakus
+			"Nunchaku Sprint Sound" = true
+			#If true, a chain sound will play when swinging the Nunchaku in the air
+			"Nunchaku Swing Sound" = true
+
+		["Item Features Handler".Bows."Short Bow"]
+			#Short Bow auto shoot on hold
+			"Short Bow Auto Shoot" = true
+
+		["Item Features Handler".Crossbows."Stake Crossbow"]
+			#Stake Crossbow alternative shoot mode
+			"Stake Crossbow Alt Shoot" = true
+
+		["Item Features Handler".Miscs."Smoke Bomb"]
+			#Enable custom smoke bomb mechanic (push, blindness, particles, etc.) for items tagged as smoke bombs
+			"Smoke Bomb Mechanic" = true
+			#Horizontal push force applied to the player
+			# Default: 1.5
+			# Range: 0.0 ~ 10.0
+			"Smoke Bomb Push Force" = 1.5
+			#Upward push force when looking downward
+			# Default: 0.8
+			# Range: 0.0 ~ 5.0
+			"Smoke Bomb Upward Push Force" = 0.8
+			#Whether knockback resistance reduces the push effect
+			"Respect Knockback Resistance" = true
+			#Probability that the user gets blinded (0.0 - 1.0)
+			# Default: 0.1
+			# Range: 0.0 ~ 1.0
+			"Self Blind Probability" = 0.1
+			#Probability that nearby enemies get blinded (0.0 - 1.0)
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
+			"Enemy Blind Probability" = 0.5
+			#Probability to trigger smoke bomb effect when hitting an entity
+			# Default: 0.2
+			# Range: 0.0 ~ 1.0
+			"Hit Trigger Probability" = 0.2
+			#Number of particles to spawn
+			# Default: 120
+			# Range: 10 ~ 1000
+			"Smoke Bomb Particle Count" = 120
+			#Spread range of the particles
+			# Default: 3.0
+			# Range: 0.5 ~ 10.0
+			"Smoke Bomb Particle Range" = 3.0
+			#Cooldown in ticks after using the smoke bomb
+			# Default: 40
+			# Range: 0 ~ 300
+			"Smoke Bomb Cooldown" = 40
+			#If true, smoke bombs that have durability will lose 1 durability point instead of consuming the whole item from the stack
+			"Smoke Bomb Use Durability" = false
+
+			["Item Features Handler".Miscs.Bottles."Ragers Bottle"]
+				#Ticks required to drink Rager's Bottle (Standard is 32)
+				# Default: 32
+				# Range: 1 ~ 72000
+				"Ragers Bottle Use Duration" = 32
+				#Duration in ticks for the effect applied by Rager's Bottle (20 ticks = 1s)
+				# Default: 200
+				# Range: 1 ~ 72000
+				"Ragers Bottle Effect Duration" = 200
+				#Amplifier level of the effect (0 = Level I, 1 = Level II, 2 = Level III)
+				# Default: 1
+				# Range: 0 ~ 255
+				"Ragers Bottle Effect Amplifier" = 1
+
+			["Item Features Handler".Miscs.Bottles."Warriors Bottle"]
+				#Ticks required to drink Warrior's Bottle (Standard is 32)
+				# Default: 32
+				# Range: 1 ~ 72000
+				"Warriors Bottle Use Duration" = 32
+				#Duration in ticks for the effect applied by Warrior's Bottle (20 ticks = 1s)
+				# Default: 300
+				# Range: 1 ~ 72000
+				"Warriors Bottle Effect Duration" = 300
+				#Amplifier level of the effect (0 = Level I, 1 = Level II, 2 = Level III)
+				# Default: 2
+				# Range: 0 ~ 255
+				"Warriors Bottle Effect Amplifier" = 2
+
+			["Item Features Handler".Miscs.Bottles."Archers Bottle"]
+				#Ticks required to drink Archer's Bottle (Standard is 32)
+				# Default: 32
+				# Range: 1 ~ 72000
+				"Archers Bottle Use Duration" = 32
+				#Duration in ticks for the effect applied by Archer's Bottle (20 ticks = 1s)
+				# Default: 300
+				# Range: 1 ~ 72000
+				"Archers Bottle Effect Duration" = 300
+				#Amplifier level of the effect (0 = Level I, 1 = Level II, 2 = Level III)
+				# Default: 2
+				# Range: 0 ~ 255
+				"Archers Bottle Effect Amplifier" = 2
+
+	["Item Features Handler".Slingshot]
+		#Allow Slingshots to pull ammo from the player's inventory (not just offhand/mainhand)
+		"Ammo From Inventory" = true
+		#List of item registry names that slingshots can use as ammo by default. Can be overridden per-slingshot with the SlingshotAmmoItems NBT list. If empty, any item is valid ammo.
+		"Default Ammo Items" = ["minecraft:oak_planks", "minecraft:spruce_planks", "minecraft:birch_planks", "minecraft:jungle_planks", "minecraft:acacia_planks", "minecraft:dark_oak_planks", "minecraft:mangrove_planks", "minecraft:cherry_planks", "minecraft:crimson_planks", "minecraft:warped_planks", "minecraft:oak_log", "minecraft:spruce_log", "minecraft:birch_log", "minecraft:jungle_log", "minecraft:acacia_log", "minecraft:dark_oak_log", "minecraft:mangrove_log", "minecraft:cherry_log", "minecraft:crimson_stem", "minecraft:warped_stem", "minecraft:stripped_oak_log", "minecraft:stripped_spruce_log", "minecraft:stripped_birch_log", "minecraft:stripped_jungle_log", "minecraft:stripped_acacia_log", "minecraft:stripped_dark_oak_log", "minecraft:stripped_mangrove_log", "minecraft:stripped_cherry_log", "minecraft:stripped_crimson_stem", "minecraft:stripped_warped_stem", "minecraft:oak_wood", "minecraft:spruce_wood", "minecraft:birch_wood", "minecraft:jungle_wood", "minecraft:acacia_wood", "minecraft:dark_oak_wood", "minecraft:mangrove_wood", "minecraft:cherry_wood", "minecraft:crimson_hyphae", "minecraft:warped_hyphae", "minecraft:stripped_oak_wood", "minecraft:stripped_spruce_wood", "minecraft:stripped_birch_wood", "minecraft:stripped_jungle_wood", "minecraft:stripped_acacia_wood", "minecraft:stripped_dark_oak_wood", "minecraft:stripped_mangrove_wood", "minecraft:stripped_cherry_wood", "minecraft:stripped_crimson_hyphae", "minecraft:stripped_warped_hyphae", "minecraft:stone", "minecraft:cobblestone", "minecraft:smooth_stone", "minecraft:stone_bricks", "minecraft:mossy_stone_bricks", "minecraft:cracked_stone_bricks", "minecraft:chiseled_stone_bricks", "minecraft:cobbled_deepslate", "minecraft:deepslate", "minecraft:deepslate_bricks", "minecraft:cracked_deepslate_bricks", "minecraft:deepslate_tiles", "minecraft:cracked_deepslate_tiles", "minecraft:chiseled_deepslate", "minecraft:polished_deepslate", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:tuff", "minecraft:basalt", "minecraft:smooth_basalt", "minecraft:blackstone", "minecraft:polished_blackstone", "minecraft:polished_blackstone_bricks", "minecraft:cracked_polished_blackstone_bricks", "minecraft:chiseled_polished_blackstone", "minecraft:netherrack", "minecraft:end_stone", "minecraft:end_stone_bricks"]
+		#List of item registry names that slingshots can place in the world. If empty, defaults to the ammo list.
+		"Default Placeable Items" = ["minecraft:anvil", "minecraft:chipped_anvil", "minecraft:damaged_anvil"]
+
+	["Custom Enchantments Handler"."Secure Grip"]
+		#Whether the Secure Grip enchantment is enabled
+		"Secure Grip" = true
+		#Maximum level for Secure Grip enchantment
+		# Default: 1
+		# Range: 1 ~ 5
+		"Secure Grip Max Level" = 1
+		#Minimum XP cost for level 1
+		# Default: 10
+		# Range: 1 ~ 50
+		"Secure Grip Min Cost" = 10
+		#Additional XP cost per level above 1
+		# Default: 8
+		# Range: 1 ~ 20
+		"Secure Grip Cost Per Level" = 8
+		#XP cost range (added to min cost)
+		# Default: 15
+		# Range: 5 ~ 30
+		"Secure Grip Cost Range" = 15
+		#Whether Secure Grip is a treasure enchantment
+		"Secure Grip Is Treasure" = false
+
+	["Custom Enchantments Handler".Overdrive]
+		#Whether the Overdrive enchantment is enabled
+		Overdrive = true
+		#Maximum level for Overdrive enchantment
+		# Default: 3
+		# Range: 1 ~ 5
+		"Overdrive Max Level" = 3
+		#Minimum XP cost for level 1
+		# Default: 10
+		# Range: 1 ~ 50
+		"Overdrive Min Cost" = 10
+		#Additional XP cost per level above 1
+		# Default: 8
+		# Range: 1 ~ 20
+		"Overdrive Cost Per Level" = 8
+		#XP cost range (added to min cost)
+		# Default: 15
+		# Range: 5 ~ 30
+		"Overdrive Cost Range" = 15
+		#Durability cost per level when using Overdrive
+		# Default: 1
+		# Range: 0 ~ 10
+		"Overdrive Durability Cost Per Level" = 1
+		#Attack speed bonus granted per level of Overdrive enchantment
+		# Default: 0.2
+		# Range: 0.0 ~ 5.0
+		"Overdrive Speed Bonus Per Level" = 0.2
+		#Whether Overdrive is a treasure enchantment
+		"Overdrive Is Treasure" = false
+
+	["Custom Enchantments Handler".Aftermath]
+		#Whether the Aftermath enchantment is enabled
+		Aftermath = true
+		#Maximum level for Aftermath enchantment
+		# Default: 3
+		# Range: 1 ~ 5
+		"Aftermath Max Level" = 3
+		#Extra damage dealt per level of Aftermath enchantment
+		# Default: 2.0
+		# Range: 0.1 ~ 10.0
+		"Aftermath Damage" = 2.0
+		#Minimum XP cost for level 1
+		# Default: 10
+		# Range: 1 ~ 50
+		"Aftermath Min Cost" = 10
+		#Additional XP cost per level above 1
+		# Default: 8
+		# Range: 1 ~ 20
+		"Aftermath Cost Per Level" = 8
+		#XP cost range (added to min cost)
+		# Default: 15
+		# Range: 5 ~ 30
+		"Aftermath Cost Range" = 15
+		#Whether Aftermath is a treasure enchantment
+		"Aftermath Is Treasure" = false
+		#Invulnerability frames applied to the target after Aftermath damage triggers
+		# Default: 5
+		# Range: 0 ~ 60
+		"Aftermath I-Frames" = 5
+		#Base delay in ticks before the Aftermath extra damage triggers
+		# Default: 20
+		# Range: 1 ~ 100
+		"Aftermath Delay Ticks" = 20
+		#Additional delay ticks added per level (positive values increase delay at higher levels)
+		# Default: 10.0
+		# Range: -20.0 ~ 50.0
+		"Aftermath Delay Ticks Per Level" = 10.0
+		#Whether shields or active blocking can completely nullify Aftermath damage
+		"Aftermath Blocking Blocks Damage" = true
+		#Whether armor protection enchantments can reduce Aftermath incoming damage
+		"Aftermath Protection Reduces Damage" = true
+		#Whether the Thorns enchantment can reflect a percentage of Aftermath damage back to the attacker
+		"Aftermath Thorns Reflect" = true
+		#Percentage of damage reflected back by Thorns per enchantment level
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		"Aftermath Thorns Percentage" = 0.15
+		#Whether to spawn custom crit particles when Aftermath damages a target
+		"Aftermath Spawn Particles" = true
+		#Base amount of custom particles spawned per enchantment level
+		# Default: 4
+		# Range: 1 ~ 100
+		"Aftermath Particles Per Level" = 4
+
+	["Custom Enchantments Handler"."Ghost Clip"]
+		#Whether the Ghost Clip enchantment is enabled
+		"Ghost Clip" = true
+		#Maximum level for Ghost Clip enchantment
+		# Default: 5
+		# Range: 1 ~ 5
+		"Ghost Clip Max Level" = 5
+		#Minimum XP cost for level 1
+		# Default: 10
+		# Range: 1 ~ 50
+		"Ghost Clip Min Cost" = 10
+		#Additional XP cost per level above 1
+		# Default: 8
+		# Range: 1 ~ 20
+		"Ghost Clip Cost Per Level" = 8
+		#XP cost range (added to min cost)
+		# Default: 15
+		# Range: 5 ~ 30
+		"Ghost Clip Cost Range" = 15
+		#Whether Ghost Clip is a treasure enchantment
+		"Ghost Clip Is Treasure" = false
+		#Base chance per level that Ghost Clip prevents ammo consumption
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		"Ghost Clip Chance" = 0.15
+
+	["Custom Enchantments Handler".Frameguard]
+		#Whether the Frameguard enchantment is enabled
+		Frameguard = true
+		#Maximum level for Frameguard enchantment
+		# Default: 5
+		# Range: 1 ~ 5
+		"Frameguard Max Level" = 5
+		#Minimum XP cost for level 1
+		# Default: 10
+		# Range: 1 ~ 50
+		"Frameguard Min Cost" = 10
+		#Additional XP cost per level above 1
+		# Default: 8
+		# Range: 1 ~ 20
+		"Frameguard Cost Per Level" = 8
+		#XP cost range (added to min cost)
+		# Default: 15
+		# Range: 5 ~ 30
+		"Frameguard Cost Range" = 15
+		#Whether Frameguard is a treasure enchantment
+		"Frameguard Is Treasure" = false
+		#Base chance per level that Frameguard prevents the gun from breaking
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		"Frameguard Chance" = 0.15
+
+	["Custom Enchantments Handler".Backblast]
+		#Whether the Backblast enchantment is enabled
+		Backblast = true
+		#Maximum level for Backblast enchantment
+		# Default: 3
+		# Range: 1 ~ 5
+		"Backblast Max Level" = 3
+		#Minimum XP cost for level 1
+		# Default: 10
+		# Range: 1 ~ 50
+		"Backblast Min Cost" = 10
+		#Additional XP cost per level above 1
+		# Default: 8
+		# Range: 1 ~ 20
+		"Backblast Cost Per Level" = 8
+		#XP cost range (added to min cost)
+		# Default: 15
+		# Range: 5 ~ 30
+		"Backblast Cost Range" = 15
+		#Whether Backblast is a treasure enchantment
+		"Backblast Is Treasure" = false
+		#Extra recoil distance bonus per level
+		# Default: 0.25
+		# Range: 0.0 ~ 2.0
+		"Backblast Recoil Bonus" = 0.25
+		#Extra fire duration (in seconds) applied to targets per level of the Fire Shockwave
+		# Default: 2
+		# Range: 0 ~ 10
+		"Backblast Fire Shockwave Duration Bonus" = 2
+		#Extra vertical recoil multiplier per level (default 5%, max 10%)
+		# Default: 0.05
+		# Range: 0.0 ~ 0.1
+		"Backblast Vertical Recoil Bonus" = 0.05
+		#Base damage dealt to targets per level when the Fire Shockwave triggers
+		# Default: 2.0
+		# Range: 0.0 ~ 10.0
+		"Backblast Fire Shockwave Base Damage" = 2.0
+		#The radius of the fire shockwave area around the user
+		# Default: 1.5
+		# Range: 0.5 ~ 16.0
+		"Backblast Fire Shockwave Radius" = 1.5
+		#The base knockback strength applied to enemies by the fire shockwave
+		# Default: 0.5
+		# Range: 0.0 ~ 5.0
+		"Backblast Fire Shockwave Knockback" = 0.5
+		#Whether Backblast creates a fire shockwave around the user
+		"Backblast Fire Shockwave" = true
+		#Whether Backblast triggers an explosion when used
+		"Backblast Explosion" = false
+		#Base power of the Backblast explosion
+		# Default: 2.0
+		# Range: 0.0 ~ 20.0
+		"Backblast Explosion Power" = 2.0
+		#Whether the Backblast explosion destroys blocks in the world
+		"Backblast Explosion Breaks Blocks" = false
+		#Whether to spawn custom orange particles on targets affected by the fire shockwave
+		"Backblast Fire Shockwave Particle" = true
+
+	["Projectile Common Handler"."Axe Projectile"]
+		#Base damage dealt by the Axe projectile
+		# Default: 6.0
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 6.0
+		#Base knockback strength applied by the Axe projectile to hit entities
+		# Default: 0.8
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.8
+		#Number of additional entities the Axe projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Piercing Level" = 0
+		#Number of initial ticks during which the Axe projectile ignores collisions and damage
+		# Default: 8
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 8
+		#Whether the Axe projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Axe projectile
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.5
+		#Hitbox width of the Axe projectile
+		# Default: 0.5
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.5
+		#Hitbox height of the Axe projectile
+		# Default: 0.5
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.5
+		#Whether the Axe projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Axe projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Axe projectile can disable shields
+		"Disable Shield" = true
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Cleaver Projectile"]
+		#Base damage dealt by the Cleaver projectile
+		# Default: 7.5
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 7.5
+		#Base knockback strength applied by the Cleaver projectile to hit entities
+		# Default: 1.0
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 1.0
+		#Number of additional entities the Cleaver projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Piercing Level" = 0
+		#Number of initial ticks during which the Cleaver projectile ignores collisions and damage
+		# Default: 6
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 6
+		#Whether the Cleaver projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Cleaver projectile
+		# Default: 0.45
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.45
+		#Hitbox width of the Cleaver projectile
+		# Default: 0.55
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.55
+		#Hitbox height of the Cleaver projectile
+		# Default: 0.55
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.55
+		#Whether the Cleaver projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Cleaver projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Cleaver projectile can disable shields
+		"Disable Shield" = true
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Ring Projectile"]
+		#Base damage dealt by the Ring projectile
+		# Default: 3.5
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 3.5
+		#Base knockback strength applied by the Ring projectile to hit entities
+		# Default: 0.4
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.4
+		#Number of additional entities the Ring projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Piercing Level" = 0
+		#Number of initial ticks during which the Ring projectile ignores collisions and damage
+		# Default: 6
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 6
+		#Whether the Ring projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Ring projectile
+		# Default: 0.7
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.7
+		#Hitbox width of the Ring projectile
+		# Default: 0.4
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.4
+		#Hitbox height of the Ring projectile
+		# Default: 0.4
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.4
+		#Whether the Ring projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Ring projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Ring projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+		#Enable or disable swoosh sound while the Ring projectile is flying
+		"Swoosh Sound" = true
+		#Tick interval between swoosh sounds for Ring projectile
+		# Default: 5
+		# Range: 1 ~ 20
+		"Swoosh Sound Interval" = 5
+
+	["Projectile Common Handler"."Royal Axe Projectile"]
+		#Base damage dealt by the Royal Axe projectile
+		# Default: 5.5
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 5.5
+		#Base knockback strength applied by the Royal Axe projectile to hit entities
+		# Default: 0.7
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.7
+		#Number of additional entities the Royal Axe projectile can pierce through
+		# Default: 1
+		# Range: 0 ~ 72000
+		"Piercing Level" = 1
+		#Number of initial ticks during which the Royal Axe projectile ignores collisions and damage
+		# Default: 10
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 10
+		#Whether the Royal Axe projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Royal Axe projectile
+		# Default: 0.55
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.55
+		#Hitbox width of the Royal Axe projectile
+		# Default: 0.48
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.48
+		#Hitbox height of the Royal Axe projectile
+		# Default: 0.48
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.48
+		#Whether the Royal Axe projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Royal Axe projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Royal Axe projectile can disable shields
+		"Disable Shield" = true
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Royal Spear Projectile"]
+		#Base damage dealt by the Royal Spear projectile
+		# Default: 5.0
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 5.0
+		#Base knockback strength applied by the Royal Spear projectile to hit entities
+		# Default: 0.6
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.6
+		#Number of additional entities the Royal Spear projectile can pierce through
+		# Default: 2
+		# Range: 0 ~ 72000
+		"Piercing Level" = 2
+		#Number of initial ticks during which the Royal Spear projectile ignores collisions and damage
+		# Default: 12
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 12
+		#Whether the Royal Spear projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Royal Spear projectile
+		# Default: 0.7
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.7
+		#Hitbox width of the Royal Spear projectile
+		# Default: 0.35
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.35
+		#Hitbox height of the Royal Spear projectile
+		# Default: 0.35
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.35
+		#Whether the Royal Spear projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Royal Spear projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Royal Spear projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Giant Shuriken Projectile"]
+		#Base damage dealt by the Giant Shuriken projectile
+		# Default: 4.5
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 4.5
+		#Base knockback strength applied by the Giant Shuriken projectile to hit entities
+		# Default: 0.5
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.5
+		#Number of additional entities the Giant Shuriken projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Piercing Level" = 0
+		#Number of initial ticks during which the Giant Shuriken projectile ignores collisions and damage
+		# Default: 5
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 5
+		#Whether the Giant Shuriken projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Giant Shuriken projectile
+		# Default: 0.65
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.65
+		#Hitbox width of the Giant Shuriken projectile
+		# Default: 0.8
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.8
+		#Hitbox height of the Giant Shuriken projectile
+		# Default: 0.8
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.8
+		#Whether the Giant Shuriken projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Giant Shuriken projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Giant Shuriken projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Shuriken Projectile"]
+		#Base damage dealt by the Shuriken projectile
+		# Default: 2.5
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 2.5
+		#Base knockback strength applied by the Shuriken projectile to hit entities
+		# Default: 0.2
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.2
+		#Number of additional entities the Shuriken projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Piercing Level" = 0
+		#Number of initial ticks during which the Shuriken projectile ignores collisions and damage
+		# Default: 4
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 4
+		#Whether the Shuriken projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Shuriken projectile
+		# Default: 0.8
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.8
+		#Hitbox width of the Shuriken projectile
+		# Default: 0.25
+		# Range: 0.1 ~ 1.0
+		"Hitbox Width" = 0.25
+		#Hitbox height of the Shuriken projectile
+		# Default: 0.25
+		# Range: 0.1 ~ 1.0
+		"Hitbox Height" = 0.25
+		#Whether the Shuriken projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Shuriken projectile
+		# Default: 800
+		# Range: 0 ~ 1200
+		"Despawn Time" = 800
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = true
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Shuriken projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = true
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Kunai Projectile"]
+		#Base damage dealt by the Kunai projectile
+		# Default: 3.0
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 3.0
+		#Base knockback strength applied by the Kunai projectile to hit entities
+		# Default: 0.25
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.25
+		#Number of additional entities the Kunai projectile can pierce through
+		# Default: 16
+		# Range: 0 ~ 72000
+		"Piercing Level" = 16
+		#Number of initial ticks during which the Kunai projectile ignores collisions and damage
+		# Default: 3
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 3
+		#Whether the Kunai projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Kunai projectile
+		# Default: 0.85
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.85
+		#Hitbox width of the Kunai projectile
+		# Default: 0.22
+		# Range: 0.1 ~ 1.0
+		"Hitbox Width" = 0.22
+		#Hitbox height of the Kunai projectile
+		# Default: 0.22
+		# Range: 0.1 ~ 1.0
+		"Hitbox Height" = 0.22
+		#Whether the Kunai projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Kunai projectile
+		# Default: 800
+		# Range: 0 ~ 1200
+		"Despawn Time" = 800
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Kunai projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = true
+		#Maximum number of blocks the projectile can break
+		# Default: 1
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 1
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = true
+
+	["Projectile Common Handler"."Pronged Kunai Projectile"]
+		#Base damage dealt by the Pronged Kunai projectile
+		# Default: 3.5
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 3.5
+		#Base knockback strength applied by the Pronged Kunai projectile to hit entities
+		# Default: 0.3
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.3
+		#Number of additional entities the Pronged Kunai projectile can pierce through
+		# Default: 16
+		# Range: 0 ~ 72000
+		"Piercing Level" = 16
+		#Number of initial ticks during which the Pronged Kunai projectile ignores collisions and damage
+		# Default: 3
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 3
+		#Whether the Pronged Kunai projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Pronged Kunai projectile
+		# Default: 0.82
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.82
+		#Hitbox width of the Pronged Kunai projectile
+		# Default: 0.28
+		# Range: 0.1 ~ 1.0
+		"Hitbox Width" = 0.28
+		#Hitbox height of the Pronged Kunai projectile
+		# Default: 0.28
+		# Range: 0.1 ~ 1.0
+		"Hitbox Height" = 0.28
+		#Whether the Pronged Kunai projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Pronged Kunai projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Pronged Kunai projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Sharp Stone Projectile"]
+		#Base damage dealt by the Sharp Stone projectile
+		# Default: 2.0
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 2.0
+		#Base knockback strength applied by the Sharp Stone projectile to hit entities
+		# Default: 0.15
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.15
+		#Number of additional entities the Sharp Stone projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Piercing Level" = 0
+		#Number of initial ticks during which the Sharp Stone projectile ignores collisions and damage
+		# Default: 5
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 5
+		#Whether the Sharp Stone projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Sharp Stone projectile
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.75
+		#Hitbox width of the Sharp Stone projectile
+		# Default: 0.3
+		# Range: 0.1 ~ 1.0
+		"Hitbox Width" = 0.3
+		#Hitbox height of the Sharp Stone projectile
+		# Default: 0.3
+		# Range: 0.1 ~ 1.0
+		"Hitbox Height" = 0.3
+		#Whether the Sharp Stone projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Sharp Stone projectile
+		# Default: 800
+		# Range: 0 ~ 1200
+		"Despawn Time" = 800
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = true
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Sharp Stone projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = true
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Spear Projectile"]
+		#Base damage dealt by the Spear projectile
+		# Default: 4.5
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 4.5
+		#Base knockback strength applied by the Spear projectile to hit entities
+		# Default: 0.55
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.55
+		#Number of additional entities the Spear projectile can pierce through
+		# Default: 1
+		# Range: 0 ~ 72000
+		"Piercing Level" = 1
+		#Number of initial ticks during which the Spear projectile ignores collisions and damage
+		# Default: 10
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 10
+		#Whether the Spear projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Spear projectile
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.75
+		#Hitbox width of the Spear projectile
+		# Default: 0.4
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.4
+		#Hitbox height of the Spear projectile
+		# Default: 0.4
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.4
+		#Whether the Spear projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Spear projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Spear projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Trident Projectile"]
+		#Base damage dealt by the Trident projectile
+		# Default: 6.0
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 6.0
+		#Base knockback strength applied by the Trident projectile to hit entities
+		# Default: 0.6
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.6
+		#Number of additional entities the Trident projectile can pierce through
+		# Default: 3
+		# Range: 0 ~ 72000
+		"Piercing Level" = 3
+		#Number of initial ticks during which the Trident projectile ignores collisions and damage
+		# Default: 5
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 5
+		#Whether the Trident projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Trident projectile
+		# Default: 0.9
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.9
+		#Hitbox width of the Trident projectile
+		# Default: 0.35
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.35
+		#Hitbox height of the Trident projectile
+		# Default: 0.35
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.35
+		#Whether the Trident projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Trident projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Trident projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Hunters Boomerang Projectile"]
+		#Base damage dealt by the Hunters Boomerang projectile
+		# Default: 4.0
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 4.0
+		#Base knockback strength applied by the Hunters Boomerang projectile to hit entities
+		# Default: 0.45
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.45
+		#Number of additional entities the Hunters Boomerang projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Piercing Level" = 0
+		#Number of initial ticks during which the Hunters Boomerang projectile ignores collisions and damage
+		# Default: 15
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 15
+		#Whether the Hunters Boomerang projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Hunters Boomerang projectile
+		# Default: 0.6
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.6
+		#Hitbox width of the Hunters Boomerang projectile
+		# Default: 0.7
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.7
+		#Hitbox height of the Hunters Boomerang projectile
+		# Default: 0.7
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.7
+		#Whether the Hunters Boomerang projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Hunters Boomerang projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Hunters Boomerang projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+		#Enable or disable swoosh sound while the Hunters Boomerang is flying
+		"Swoosh Sound" = true
+		#Tick interval between swoosh sounds (higher = less frequent, 1 = very frequent)
+		# Default: 6
+		# Range: 1 ~ 20
+		"Swoosh Sound Interval" = 6
+
+	["Projectile Common Handler"."Dynamite Projectile"]
+		#Base damage dealt by the Dynamite projectile
+		# Default: 0.5
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 0.5
+		#Base knockback strength applied by the Dynamite projectile to hit entities
+		# Default: 0.4
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.4
+		#Number of additional entities the Dynamite projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Piercing Level" = 0
+		#Number of initial ticks during which the Dynamite projectile ignores collisions and damage
+		# Default: 12
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 12
+		#Whether the Dynamite projectile can deal critical hits
+		"Critical Hits" = false
+		#Water inertia factor for the Dynamite projectile
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.3
+		#Hitbox width of the Dynamite projectile
+		# Default: 0.4
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.4
+		#Hitbox height of the Dynamite projectile
+		# Default: 0.4
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.4
+		#Whether the Dynamite drops as an item when it despawns without exploding
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Dynamite projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Maximum number of bounces the Dynamite can do before exploding
+		# Default: 3
+		# Range: 0 ~ 10
+		"Max Bounces" = 3
+		#Explosion power of the Dynamite (TNT is usually 4.0)
+		# Default: 3.0
+		# Range: 0.5 ~ 10.0
+		"Explosion Power" = 3.0
+		#Whether the Dynamite explosion sets nearby blocks on fire
+		"Causes Fire" = false
+		#Number of ticks the fuse burns after impact
+		# Default: 60
+		# Range: 20 ~ 200
+		"Fuse Ticks" = 60
+		#Whether the Dynamite explodes immediately when hitting an entity
+		"Explode On Entity Hit" = false
+		#Whether the Dynamite explodes when hitting a block (after bounces are exhausted)
+		"Explode On Block Hit" = false
+		#Whether the Dynamite explosion breaks blocks or only deals damage to entities
+		"Explosion Break Blocks" = false
+		#Whether the dynamite explodes when it collides with another projectile
+		"Explode On Projectile Hit" = true
+
+	["Projectile Common Handler"."Broom Projectile"]
+		#Base damage dealt by the Broom projectile
+		# Default: 1.5
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 1.5
+		#Base knockback strength applied by the Broom projectile to hit entities
+		# Default: 0.4
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.4
+		#Number of additional entities the Broom projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 72000
+		"Piercing Level" = 0
+		#Number of initial ticks during which the Broom projectile ignores collisions and damage
+		# Default: 12
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 12
+		#Whether the Broom projectile can deal critical hits
+		"Critical Hits" = false
+		#Water inertia factor for the Broom projectile
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.5
+		#Hitbox width of the Broom projectile
+		# Default: 0.6
+		# Range: 0.1 ~ 2.0
+		"Hitbox Width" = 0.6
+		#Hitbox height of the Broom projectile
+		# Default: 0.6
+		# Range: 0.1 ~ 2.0
+		"Hitbox Height" = 0.6
+		#Whether the Broom projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Broom projectile
+		# Default: 6200
+		# Range: 0 ~ 72000
+		"Despawn Time" = 6200
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = false
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Broom projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 0
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 0
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+		#Maximum number of bounces the Broom projectile can do on blocks
+		# Default: 3
+		# Range: 0 ~ 10
+		"Max Bounces" = 3
+
+	["Projectile Common Handler"."Stake Projectile"]
+		#Base damage dealt by the Stake projectile
+		# Default: 4.0
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 4.0
+		#Base knockback strength applied by the Stake projectile to hit entities
+		# Default: 0.5
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.5
+		#Number of additional entities the Stake projectile can pierce through
+		# Default: 2
+		# Range: 0 ~ 72000
+		"Piercing Level" = 2
+		#Number of initial ticks during which the Stake projectile ignores collisions and damage
+		# Default: 6
+		# Range: 0 ~ 72000
+		"Ignore Ticks" = 6
+		#Whether the Stake projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Stake projectile
+		# Default: 0.7
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.7
+		#Hitbox width of the Stake projectile
+		# Default: 0.3
+		# Range: 0.1 ~ 1.0
+		"Hitbox Width" = 0.3
+		#Hitbox height of the Stake projectile
+		# Default: 0.3
+		# Range: 0.1 ~ 1.0
+		"Hitbox Height" = 0.3
+		#Whether the Stake projectile drops as an item when it despawns
+		"Despawn As Item" = true
+		#Despawn time in ticks for the Stake projectile
+		# Default: 800
+		# Range: 0 ~ 1200
+		"Despawn Time" = 800
+		#Damage weapon durability when hitting an entity
+		"Break On Entity Hit" = true
+		#Damage weapon durability when hitting a block
+		"Break On Block Hit" = false
+		#Whether the Stake projectile can disable shields
+		"Disable Shield" = false
+		#Break weapon when piercing level is exhausted
+		"Break On Piercing Exhausted" = false
+		#Maximum number of blocks the projectile can break
+		# Default: 2
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 2
+		#Break the weapon after reaching max block breaks
+		"Break After Max Block Breaks" = false
+
+	["Projectile Common Handler"."Item Projectile"]
+		#Base damage dealt by the Item Projectile
+		# Default: 1.0
+		# Range: 0.5 ~ 64.0
+		"Base Damage" = 1.0
+		#Base knockback strength applied to hit entities by the Item Projectile
+		# Default: 0.15
+		# Range: 0.0 ~ 4.0
+		"Base Knockback" = 0.15
+		#Number of additional entities the Item Projectile can pierce through
+		# Default: 0
+		# Range: 0 ~ 50
+		"Piercing Level" = 0
+		#Initial ticks during which the Item Projectile ignores collisions
+		# Default: 2
+		# Range: 0 ~ 200
+		"Ignore Ticks" = 2
+		#Whether the Item Projectile can deal critical hits
+		"Critical Hits" = true
+		#Water inertia factor for the Item Projectile (lower = more slowdown)
+		# Default: 0.95
+		# Range: 0.0 ~ 1.0
+		"Water Inertia" = 0.95
+		#Hitbox width of the Item Projectile
+		# Default: 0.15
+		# Range: 0.05 ~ 1.0
+		"Hitbox Width" = 0.15
+		#Hitbox height of the Item Projectile
+		# Default: 0.15
+		# Range: 0.05 ~ 1.0
+		"Hitbox Height" = 0.15
+		#Whether the Item Projectile damages weapon durability when hitting an entity
+		"Break On Entity Hit" = true
+		#Whether the Item Projectile damages weapon durability when hitting a block
+		"Break On Block Hit" = true
+		#Whether the Item Projectile can disable shields
+		"Disable Shield" = false
+		#Whether the weapon breaks when the Item Projectile piercing level is exhausted
+		"Break On Piercing Exhausted" = true
+		#Maximum number of blocks the Item Projectile can break
+		# Default: 3
+		# Range: 0 ~ 64
+		"Max Block Breaks" = 3
+		#Whether the weapon breaks after the Item Projectile reaches max block breaks
+		"Break After Max Block Breaks" = true
+		#Maximum ticks the Item Projectile can exist while flying in air (0 = no limit)
+		# Default: 800
+		# Range: 0 ~ 1200
+		"Max Ticks In Air" = 800
+		#Maximum ticks the Item Projectile stays stuck in ground (0 = no limit)
+		# Default: 800
+		# Range: 0 ~ 1200
+		"Max Ticks In Ground" = 800
+		#Color of the Item Projectile in hexadecimal (examples: 0xFFFFD700, #FFFFD700 or FFFFD700)
+		Color = "0xFFFFD700"
+		#Ticks the Item Projectile ignores gravity (0 = always affected by gravity)
+		# Default: 60
+		# Range: 0 ~ 1200
+		"No Gravity Duration" = 60
+		#Whether the Item Projectile starts with no gravity
+		"Initial No Gravity" = true
+
+		["Projectile Common Handler"."Bullet Projectile"."Bullet Projectile"]
+			#Base damage dealt by the Bullet projectile
+			# Default: 5.0
+			# Range: 0.5 ~ 64.0
+			"Base Damage" = 5.0
+			#Base knockback strength applied to hit entities by the Bullet projectile
+			# Default: 0.15
+			# Range: 0.0 ~ 4.0
+			"Base Knockback" = 0.15
+			#Number of additional entities the Bullet projectile can pierce through
+			# Default: 0
+			# Range: 0 ~ 50
+			"Piercing Level" = 0
+			#Initial ticks during which the Bullet projectile ignores collisions
+			# Default: 2
+			# Range: 0 ~ 200
+			"Ignore Ticks" = 2
+			#Whether the Bullet projectile can deal critical hits
+			"Critical Hits" = true
+			#Water inertia factor for the Bullet projectile (lower = more slowdown)
+			# Default: 0.95
+			# Range: 0.0 ~ 1.0
+			"Water Inertia" = 0.95
+			#Hitbox width of the Bullet projectile
+			# Default: 0.15
+			# Range: 0.05 ~ 1.0
+			"Hitbox Width" = 0.15
+			#Hitbox height of the Bullet projectile
+			# Default: 0.15
+			# Range: 0.05 ~ 1.0
+			"Hitbox Height" = 0.15
+			#Whether the Bullet projectile damages weapon durability when hitting an entity
+			"Break On Entity Hit" = true
+			#Whether the Bullet projectile damages weapon durability when hitting a block
+			"Break On Block Hit" = true
+			#Whether the Bullet projectile can disable shields
+			"Disable Shield" = false
+			#Whether the weapon breaks when the Bullet projectile piercing level is exhausted
+			"Break On Piercing Exhausted" = true
+			#Maximum number of blocks the Bullet projectile can break
+			# Default: 3
+			# Range: 0 ~ 64
+			"Max Block Breaks" = 3
+			#Whether the weapon breaks after the Bullet projectile reaches max block breaks
+			"Break After Max Block Breaks" = true
+			#Maximum ticks the Bullet projectile can exist while flying in air (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Air" = 100
+			#Maximum ticks the Bullet projectile stays stuck in ground (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Ground" = 100
+			#Color of the Bullet projectile in hexadecimal (examples: 0xFFFFD700, #FFFFD700 or FFFFD700)
+			Color = "0xFFFFD700"
+			#Ticks the Bullet projectile ignores gravity (0 = always affected by gravity)
+			# Default: 60
+			# Range: 0 ~ 1200
+			"No Gravity Duration" = 60
+			#Whether the Bullet projectile starts with no gravity
+			"Initial No Gravity" = true
+
+		["Projectile Common Handler"."Bullet Projectile"."Fire Bullet Projectile"]
+			#Base damage dealt by the Fire Bullet projectile
+			# Default: 4.0
+			# Range: 0.5 ~ 64.0
+			"Base Damage" = 4.0
+			#Base knockback strength applied to hit entities by the Fire Bullet projectile
+			# Default: 0.1
+			# Range: 0.0 ~ 4.0
+			"Base Knockback" = 0.1
+			#Number of additional entities the Fire Bullet projectile can pierce through
+			# Default: 0
+			# Range: 0 ~ 50
+			"Piercing Level" = 0
+			#Initial ticks during which the Fire Bullet projectile ignores collisions
+			# Default: 2
+			# Range: 0 ~ 200
+			"Ignore Ticks" = 2
+			#Whether the Fire Bullet projectile can deal critical hits
+			"Critical Hits" = true
+			#Water inertia factor for the Fire Bullet projectile (lower = more slowdown)
+			# Default: 0.6
+			# Range: 0.0 ~ 1.0
+			"Water Inertia" = 0.6
+			#Hitbox width of the Fire Bullet projectile
+			# Default: 0.18
+			# Range: 0.05 ~ 1.0
+			"Hitbox Width" = 0.18
+			#Hitbox height of the Fire Bullet projectile
+			# Default: 0.18
+			# Range: 0.05 ~ 1.0
+			"Hitbox Height" = 0.18
+			#Whether the Fire Bullet projectile damages weapon durability when hitting an entity
+			"Break On Entity Hit" = true
+			#Whether the Fire Bullet projectile damages weapon durability when hitting a block
+			"Break On Block Hit" = true
+			#Whether the Fire Bullet projectile can disable shields
+			"Disable Shield" = false
+			#Whether the weapon breaks when the Fire Bullet projectile piercing level is exhausted
+			"Break On Piercing Exhausted" = true
+			#Maximum number of blocks the Fire Bullet projectile can break
+			# Default: 1
+			# Range: 0 ~ 64
+			"Max Block Breaks" = 1
+			#Whether the weapon breaks after the Fire Bullet projectile reaches max block breaks
+			"Break After Max Block Breaks" = true
+			#Maximum ticks the Fire Bullet projectile can exist while flying in air (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Air" = 100
+			#Maximum ticks the Fire Bullet projectile stays stuck in ground (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Ground" = 100
+			#Color of the Fire Bullet projectile in hexadecimal (examples: 0xFFFF4500, #FFFF4500 or FFFF4500)
+			Color = "0xFFFF4500"
+			#Ticks the Fire Bullet projectile ignores gravity (0 = always affected by gravity)
+			# Default: 60
+			# Range: 0 ~ 1200
+			"No Gravity Duration" = 60
+			#Whether the Fire Bullet projectile starts with no gravity
+			"Initial No Gravity" = true
+			#Whether the fire bullet ignites blocks on impact
+			"Ignite Blocks" = true
+			#If true, only ignites flammable blocks. If false, can place fire on any block
+			"Ignite Flammable Only" = true
+			#Whether the fire bullet can light special blocks like campfires, candles and candle cakes
+			"Can Light Special Blocks" = true
+			#How long (in ticks) the fire lasts on ignited blocks. 20 ticks = 1 second. (0 = default fire behavior)
+			# Default: 80
+			# Range: 0 ~ 600
+			"Ignite Block Duration" = 80
+			#How many seconds the hit entity will be set on fire (0 = no fire)
+			# Default: 8
+			# Range: 0 ~ 60
+			"Set Entity On Fire Seconds" = 8
+			#Whether to show lava particles when hitting entities or blocks
+			"Show Lava Particles" = true
+
+		["Projectile Common Handler"."Bullet Projectile"."Heavy Bullet Projectile"]
+			#Base damage dealt by the Heavy Bullet projectile
+			# Default: 10.0
+			# Range: 0.5 ~ 100.0
+			"Base Damage" = 10.0
+			#Base knockback strength applied to hit entities by the Heavy Bullet projectile
+			# Default: 0.45
+			# Range: 0.0 ~ 6.0
+			"Base Knockback" = 0.45
+			#Number of additional entities the Heavy Bullet projectile can pierce through
+			# Default: 0
+			# Range: 0 ~ 20
+			"Piercing Level" = 0
+			#Initial ticks during which the Heavy Bullet projectile ignores collisions
+			# Default: 3
+			# Range: 0 ~ 200
+			"Ignore Ticks" = 3
+			#Whether the Heavy Bullet projectile can deal critical hits
+			"Critical Hits" = true
+			#Water inertia factor for the Heavy Bullet projectile (lower = more slowdown)
+			# Default: 0.85
+			# Range: 0.0 ~ 1.0
+			"Water Inertia" = 0.85
+			#Hitbox width of the Heavy Bullet projectile
+			# Default: 0.25
+			# Range: 0.05 ~ 1.0
+			"Hitbox Width" = 0.25
+			#Hitbox height of the Heavy Bullet projectile
+			# Default: 0.25
+			# Range: 0.05 ~ 1.0
+			"Hitbox Height" = 0.25
+			#Whether the Heavy Bullet projectile damages weapon durability when hitting an entity
+			"Break On Entity Hit" = true
+			#Whether the Heavy Bullet projectile damages weapon durability when hitting a block
+			"Break On Block Hit" = true
+			#Whether the Heavy Bullet projectile can disable shields
+			"Disable Shield" = true
+			#Whether the weapon breaks when the Heavy Bullet projectile piercing level is exhausted
+			"Break On Piercing Exhausted" = true
+			#Maximum number of blocks the Heavy Bullet projectile can break
+			# Default: 6
+			# Range: 0 ~ 64
+			"Max Block Breaks" = 6
+			#Whether the weapon breaks after the Heavy Bullet projectile reaches max block breaks
+			"Break After Max Block Breaks" = true
+			#Maximum ticks the Heavy Bullet projectile can exist while flying in air (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Air" = 100
+			#Maximum ticks the Heavy Bullet projectile stays stuck in ground (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Ground" = 100
+			#Color of the Heavy Bullet projectile in hexadecimal (examples: 0x696969, #696969 or 696969)
+			Color = "0x696969"
+			#Ticks the Heavy Bullet projectile ignores gravity (0 = always affected by gravity)
+			# Default: 0
+			# Range: 0 ~ 1200
+			"No Gravity Duration" = 0
+			#Whether the Heavy Bullet projectile starts with no gravity
+			"Initial No Gravity" = false
+			#Chance to apply Knocked Out effect (0.0 - 1.0)
+			# Default: 0.35
+			# Range: 0.0 ~ 1.0
+			"Knocked Out Chance" = 0.35
+			#Duration of Knocked Out effect in ticks
+			# Default: 60
+			# Range: 0 ~ 600
+			"Knocked Out Duration" = 60
+			#Whether to show iron ingot particles on hit
+			"Show Iron Particles" = true
+
+		["Projectile Common Handler"."Bullet Projectile"."Glowing Bullet Projectile"]
+			#Base damage dealt by the Glowing Bullet projectile
+			# Default: 4.5
+			# Range: 0.5 ~ 64.0
+			"Base Damage" = 4.5
+			#Base knockback strength applied to hit entities by the Glowing Bullet projectile
+			# Default: 0.12
+			# Range: 0.0 ~ 4.0
+			"Base Knockback" = 0.12
+			#Number of additional entities the Glowing Bullet projectile can pierce through
+			# Default: 0
+			# Range: 0 ~ 50
+			"Piercing Level" = 0
+			#Initial ticks during which the Glowing Bullet projectile ignores collisions
+			# Default: 2
+			# Range: 0 ~ 200
+			"Ignore Ticks" = 2
+			#Whether the Glowing Bullet projectile can deal critical hits
+			"Critical Hits" = true
+			#Water inertia factor for the Glowing Bullet projectile (lower = more slowdown)
+			# Default: 0.92
+			# Range: 0.0 ~ 1.0
+			"Water Inertia" = 0.92
+			#Hitbox width of the Glowing Bullet projectile
+			# Default: 0.16
+			# Range: 0.05 ~ 1.0
+			"Hitbox Width" = 0.16
+			#Hitbox height of the Glowing Bullet projectile
+			# Default: 0.16
+			# Range: 0.05 ~ 1.0
+			"Hitbox Height" = 0.16
+			#Whether the Glowing Bullet projectile damages weapon durability when hitting an entity
+			"Break On Entity Hit" = true
+			#Whether the Glowing Bullet projectile damages weapon durability when hitting a block
+			"Break On Block Hit" = true
+			#Whether the Glowing Bullet projectile can disable shields
+			"Disable Shield" = false
+			#Whether the weapon breaks when the Glowing Bullet projectile piercing level is exhausted
+			"Break On Piercing Exhausted" = true
+			#Maximum number of blocks the Glowing Bullet projectile can break
+			# Default: 2
+			# Range: 0 ~ 64
+			"Max Block Breaks" = 2
+			#Whether the weapon breaks after the Glowing Bullet projectile reaches max block breaks
+			"Break After Max Block Breaks" = true
+			#Maximum ticks the Glowing Bullet projectile can exist while flying in air (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Air" = 100
+			#Maximum ticks the Glowing Bullet projectile stays stuck in ground (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Ground" = 100
+			#Color of the Glowing Bullet projectile in hexadecimal (examples: 0xDA70D6, #DA70D6 or DA70D6)
+			Color = "0xDA70D6"
+			#Ticks the Glowing Bullet projectile ignores gravity (0 = always affected by gravity)
+			# Default: 60
+			# Range: 0 ~ 1200
+			"No Gravity Duration" = 60
+			#Whether the Glowing Bullet projectile starts with no gravity
+			"Initial No Gravity" = true
+			#Whether the Glowing Bullet projectile applies the Glowing effect to hit entities
+			Glowing = true
+			#Duration of Glowing effect in ticks
+			# Default: 200
+			# Range: 0 ~ 1200
+			"Glowing Duration" = 200
+			#Chance to deal extra magic damage (0.0 - 1.0)
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
+			"Magic Damage Chance" = 0.25
+			#Amount of extra magic damage
+			# Default: 3.0
+			# Range: 0.0 ~ 20.0
+			"Magic Damage" = 3.0
+			#Whether to show amethyst particles on hit
+			"Show Amethyst Particles" = true
+
+		["Projectile Common Handler"."Bullet Projectile"."Sharp Bullet Projectile"]
+			#Base damage dealt by the Sharp Bullet projectile
+			# Default: 5.5
+			# Range: 0.5 ~ 80.0
+			"Base Damage" = 5.5
+			#Base knockback strength applied to hit entities by the Sharp Bullet projectile
+			# Default: 0.18
+			# Range: 0.0 ~ 4.0
+			"Base Knockback" = 0.18
+			#Number of additional entities the Sharp Bullet projectile can pierce through
+			# Default: 16
+			# Range: 0 ~ 50
+			"Piercing Level" = 16
+			#Initial ticks during which the Sharp Bullet projectile ignores collisions
+			# Default: 2
+			# Range: 0 ~ 200
+			"Ignore Ticks" = 2
+			#Whether the Sharp Bullet projectile can deal critical hits
+			"Critical Hits" = true
+			#Water inertia factor for the Sharp Bullet projectile (lower = more slowdown)
+			# Default: 0.9
+			# Range: 0.0 ~ 1.0
+			"Water Inertia" = 0.9
+			#Hitbox width of the Sharp Bullet projectile
+			# Default: 0.12
+			# Range: 0.05 ~ 1.0
+			"Hitbox Width" = 0.12
+			#Hitbox height of the Sharp Bullet projectile
+			# Default: 0.12
+			# Range: 0.05 ~ 1.0
+			"Hitbox Height" = 0.12
+			#Whether the Sharp Bullet projectile damages weapon durability when hitting an entity
+			"Break On Entity Hit" = true
+			#Whether the Sharp Bullet projectile damages weapon durability when hitting a block
+			"Break On Block Hit" = true
+			#Whether the Sharp Bullet projectile can disable shields
+			"Disable Shield" = false
+			#Whether the weapon breaks when the Sharp Bullet projectile piercing level is exhausted
+			"Break On Piercing Exhausted" = true
+			#Maximum number of blocks the Sharp Bullet projectile can break
+			# Default: 3
+			# Range: 0 ~ 64
+			"Max Block Breaks" = 3
+			#Whether the weapon breaks after the Sharp Bullet projectile reaches max block breaks
+			"Break After Max Block Breaks" = true
+			#Maximum ticks the Sharp Bullet projectile can exist while flying in air (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Air" = 100
+			#Maximum ticks the Sharp Bullet projectile stays stuck in ground (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Ground" = 100
+			#Color of the Sharp Bullet projectile in hexadecimal (examples: 0xFF00FFFF, #FF00FFFF or FF00FFFF)
+			Color = "0xFF00FFFF"
+			#Ticks the Sharp Bullet projectile ignores gravity (0 = always affected by gravity)
+			# Default: 60
+			# Range: 0 ~ 1200
+			"No Gravity Duration" = 60
+			#Whether the Sharp Bullet projectile starts with no gravity
+			"Initial No Gravity" = true
+			#Chance to deal armor-bypassing damage (0.0 - 1.0)
+			# Default: 0.4
+			# Range: 0.0 ~ 1.0
+			"Bypass Armor Chance" = 0.4
+			#Amount of extra damage that bypasses armor
+			# Default: 4.0
+			# Range: 0.0 ~ 30.0
+			"Bypass Armor Damage" = 4.0
+			#Whether to show prismarine shard particles on hit
+			"Show Prismarine Particles" = true
+
+		["Projectile Common Handler"."Bullet Projectile"."Echo Bullet Projectile"]
+			#Base damage dealt by the Echo Bullet projectile
+			# Default: 5.5
+			# Range: 0.5 ~ 64.0
+			"Base Damage" = 5.5
+			#Base knockback strength applied to hit entities by the Echo Bullet projectile
+			# Default: 0.2
+			# Range: 0.0 ~ 4.0
+			"Base Knockback" = 0.2
+			#Number of additional entities the Echo Bullet projectile can pierce through
+			# Default: 0
+			# Range: 0 ~ 50
+			"Piercing Level" = 0
+			#Initial ticks during which the Echo Bullet projectile ignores collisions
+			# Default: 2
+			# Range: 0 ~ 200
+			"Ignore Ticks" = 2
+			#Whether the Echo Bullet projectile can deal critical hits
+			"Critical Hits" = true
+			#Water inertia factor for the Echo Bullet projectile (lower = more slowdown)
+			# Default: 0.88
+			# Range: 0.0 ~ 1.0
+			"Water Inertia" = 0.88
+			#Hitbox width of the Echo Bullet projectile
+			# Default: 0.14
+			# Range: 0.05 ~ 1.0
+			"Hitbox Width" = 0.14
+			#Hitbox height of the Echo Bullet projectile
+			# Default: 0.14
+			# Range: 0.05 ~ 1.0
+			"Hitbox Height" = 0.14
+			#Whether the Echo Bullet projectile damages weapon durability when hitting an entity
+			"Break On Entity Hit" = true
+			#Whether the Echo Bullet projectile damages weapon durability when hitting a block
+			"Break On Block Hit" = true
+			#Whether the Echo Bullet projectile can disable shields
+			"Disable Shield" = false
+			#Whether the weapon breaks when the Echo Bullet projectile piercing level is exhausted
+			"Break On Piercing Exhausted" = true
+			#Maximum number of blocks the Echo Bullet projectile can break
+			# Default: 3
+			# Range: 0 ~ 64
+			"Max Block Breaks" = 3
+			#Whether the weapon breaks after the Echo Bullet projectile reaches max block breaks
+			"Break After Max Block Breaks" = true
+			#Maximum ticks the Echo Bullet projectile can exist while flying in air (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Air" = 100
+			#Maximum ticks the Echo Bullet projectile stays stuck in ground (0 = no limit)
+			# Default: 100
+			# Range: 0 ~ 800
+			"Max Ticks In Ground" = 100
+			#Color of the Echo Bullet projectile in hexadecimal (examples: 0xFF008B8B, #FF008B8B or FF008B8B)
+			Color = "0xFF008B8B"
+			#Ticks the Echo Bullet projectile ignores gravity (0 = always affected by gravity)
+			# Default: 60
+			# Range: 0 ~ 1200
+			"No Gravity Duration" = 60
+			#Whether the Echo Bullet projectile starts with no gravity
+			"Initial No Gravity" = true
+			#Whether the Echo Bullet projectile can homing
+			Homing = true
+			#Homing speed (higher = faster tracking)
+			# Default: 1.6
+			# Range: 0.5 ~ 4.0
+			"Homing Speed" = 1.6
+			#Homing search range for targets
+			# Default: 16.0
+			# Range: 4.0 ~ 40.0
+			"Search Range" = 16.0
+			#Whether to show sculk particles on hit
+			"Show Echo Shard Particles" = true
+			#List of entity types the Echo Bullet projectile should ignore
+			"Ignored Entities" = ["minecraft:armor_stand"]
+			#Whether to play sound while homing towards target
+			"Play Homing Sound" = true
+			#Multiplier for targets that are attacking the owner (lower = higher priority)
+			# Default: 0.05
+			# Range: 0.01 ~ 1.0
+			"Targeting Owner Multiplier" = 0.05
+			#Multiplier for hostile or angry mobs (lower = higher priority)
+			# Default: 0.25
+			# Range: 0.01 ~ 1.0
+			"Hostile Multiplier" = 0.25
+			#Multiplier for entities with Glowing effect (lower = higher priority)
+			# Default: 0.15
+			# Range: 0.01 ~ 1.0
+			"Glowing Multiplier" = 0.15
+			#Multiplier when the projectile has clear line of sight to target (lower = higher priority)
+			# Default: 0.4
+			# Range: 0.01 ~ 1.0
+			"Line of Sight Multiplier" = 0.4
+			#Height difference penalty multiplier (higher = stronger penalty for vertical distance)
+			# Default: 8.0
+			# Range: 0.0 ~ 50.0
+			"Height Penalty" = 8.0
+
+		#These global toggles have PRIORITY over any per-item NBT/JSON configuration. Disabling a trait here disables it entirely regardless of item data.
+		["Weapon Traits Handler"."Traits Global Toggles"."Projectile Traits Toggles"]
+			#Enable or disable the Throwable trait globally
+			Throwable = true
+			#Enable or disable the Throwback trait globally
+			Throwback = true
+			#Enable or disable the Collector trait globally
+			Collector = true
+			#Enable or disable the Disarming Shot trait globally
+			"Disarming Shot" = true
+			#Enable or disable the Disabling Shot trait globally
+			"Disabling Shot" = true
+			#Enable or disable the Sweeping Shot trait globally
+			"Sweeping Shot" = true
+			#Enable or disable the Backstab Shot trait globally
+			"Backstab Shot" = true
+			#Enable or disable the Piercing Shot trait globally
+			"Piercing Shot" = true
+
+		["Weapon Traits Handler"."Traits Global Toggles"."Item Traits Toggles"]
+			#These global toggles have PRIORITY over per-item NBT/JSON configuration.
+			#Enables the Guard Stance blocking system for weapons with blocking capability
+			"Guard Stance" = true
+			#Enables the Parry Guard blocking system for weapons with parry guard capability
+			"Parry Guard" = true
+			#Enable or disable the Piercer Strike trait globally
+			"Piercer Strike" = true
+			#Enable or disable the Duelist trait globally
+			Duelist = true
+			#Enable or disable the Threat Response trait globally
+			"Threat Response" = true
+			#Enable or disable the Reach Advantage trait globally
+			"Reach Advantage" = true
+			#Enable or disable the After Strike trait globally
+			"After Strike" = true
+			#Enable or disable the Quick Crafting trait globally
+			"Quick Crafting" = true
+			#Enable or disable the Quick Swap trait globally
+			"Quick Swap" = true
+			#Enable or disable the Rapid Boost trait globally
+			"Rapid Boost" = true
+			#Enable or disable the Power Boost trait globally
+			"Power Boost" = true
+			#Enable or disable the Buster Strike trait globally
+			"Buster Strike" = true
+			#Enable or disable the Aquatic Grudge trait globally
+			"Aquatic Grudge" = true
+			#Enable or disable the Arthropod Grudge trait globally
+			"Arthropod Grudge" = true
+			#Enable or disable the Undead Grudge trait globally
+			"Undead Grudge" = true
+			#Enable or disable the Traitor Grudge trait globally
+			"Traitor Grudge" = true
+			#Enable or disable the Snout Grudge trait globally
+			"Snout Grudge" = true
+			#Enable or disable the Bone Grudge trait globally
+			"Bone Grudge" = true
+			#Enable or disable the Anti Aerial trait globally
+			"Anti Aerial" = true
+			#Enable or disable the Rotten Grudge trait globally
+			"Rotten Grudge" = true
+			#Enable or disable the Armor Breaker trait globally
+			"Armor Breaker" = true
+			#Enable or disable the Blade Breaker trait globally
+			"Blade Breaker" = true
+			#Enable or disable the Acrobatic Lunge trait globally
+			"Acrobatic Lunge" = true
+			#Enable or disable the Dexterous Lunge trait globally
+			"Dexterous Lunge" = true
+			#Enable or disable the Pull Lunge trait globally
+			"Pull Lunge" = true
+			#Enable or disable the Disengage trait globally
+			Disengage = true
+			#Enable or disable the Disarm trait globally
+			Disarm = true
+			#Enable or disable the Dismount trait globally
+			Dismount = true
+			#Enable or disable the Disabling Strike trait globally
+			"Disabling Strike" = true
+			#Enable or disable the Through Strike trait globally
+			"Through Strike" = true
+			#Enable or disable the Cleansing Strike trait globally
+			"Cleansing Strike" = true
+			#Enable or disable the Overwhelming Strike trait globally
+			"Overwhelming Strike" = true
+			#Enable or disable the Suppressing Strike trait globally
+			"Suppressing Strike" = true
+			#Enable or disable the Smash Strike trait globally
+			"Smash Strike" = true
+			#Enable or disable the Shock Impact trait globally
+			"Shock Impact" = true
+			#Enable or disable the Backstab trait globally
+			Backstab = true
+			#Enable or disable the Heavy Handed trait globally
+			"Heavy Handed" = true
+			#Enable or disable the Sparring Strike trait globally
+			"Sparring Strike" = true
+			#Enable or disable the Harvest Sweep trait globally
+			"Harvest Sweep" = true
+			#Enable or disable the Slash Assault trait globally
+			"Slash Assault" = true
+			#Enable or disable the Piercing Assault trait globally
+			"Piercing Assault" = true
+			#Enable or disable the Wild Sweep trait globally
+			"Wild Sweep" = true
+			#Enable or disable the Whirling Strike trait globally
+			"Whirling Strike" = true
+			#Enable or disable the Fragility trait globally
+			Fragility = true
+			#Enable or disable the Slippery trait globally
+			Slippery = true
+			#Enable or disable the Exhausting trait globally
+			Exhausting = true
+			#Enable or disable the Brittle Handle trait globally
+			"Brittle Handle" = true
+			#Enable or disable the Barbed Handle trait globally
+			"Barbed Handle" = true
+			#Enable or disable the Overstrain trait globally
+			Overstrain = true
+			#Enable or disable the Unstable Edge trait globally
+			"Unstable Edge" = true
+			#Enable or disable the Detonating trait globally
+			Detonating = true
+			#Enable or disable the Decapitation trait globally
+			Decapitation = true
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable.Axe]
+				#Whether the Axe can be thrown
+				"Allow Throw" = false
+				#Minimum ticks required to start charging the Axe throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Axe
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Axe at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Axe at full charge
+				# Default: 2.0
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.0
+				#Inaccuracy/spread in degrees for the Axe throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Axe throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Axe returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Axe takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Axe
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Axe
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Axe
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Axe
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Axe
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Axe
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Axe
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Axe
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Axe throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Axe
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Axe
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable.Cleaver]
+				#Whether the Cleaver can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Cleaver throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Cleaver
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Cleaver at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Cleaver at full charge
+				# Default: 1.6
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 1.6
+				#Inaccuracy/spread in degrees for the Cleaver throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Cleaver throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Cleaver returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Cleaver takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Cleaver
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Cleaver
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Cleaver
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Cleaver
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Cleaver
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Cleaver
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Cleaver
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Cleaver
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Cleaver throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Cleaver
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Cleaver
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable.Ring]
+				#Whether the Ring can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Ring throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Ring
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Ring at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Ring at full charge
+				# Default: 2.4
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.4
+				#Inaccuracy/spread in degrees for the Ring throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Ring throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Ring returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Ring takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Ring
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Ring
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Ring
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Ring
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Ring
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Ring
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Ring
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Ring
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Ring throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Ring
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Ring
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable."Royal Axe"]
+				#Whether the Royal Axe can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Royal Axe throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Royal Axe
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Royal Axe at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Royal Axe at full charge
+				# Default: 1.6
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 1.6
+				#Inaccuracy/spread in degrees for the Royal Axe throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Royal Axe throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Royal Axe returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Royal Axe takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Royal Axe
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Royal Axe
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Royal Axe
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Royal Axe
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Royal Axe
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Royal Axe
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Royal Axe
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Royal Axe
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Royal Axe throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Royal Axe
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Royal Axe
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable."Royal Spear"]
+				#Whether the Royal Spear can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Royal Spear throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Royal Spear
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Royal Spear at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Royal Spear at full charge
+				# Default: 2.0
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.0
+				#Inaccuracy/spread in degrees for the Royal Spear throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Royal Spear throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Royal Spear returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Royal Spear takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Royal Spear
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Royal Spear
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Royal Spear
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Royal Spear
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Royal Spear
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Royal Spear
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Royal Spear
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Royal Spear
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Royal Spear throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Royal Spear
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Royal Spear
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable."Giant Shuriken"]
+				#Whether the Giant Shuriken can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Giant Shuriken throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Giant Shuriken
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Giant Shuriken at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Giant Shuriken at full charge
+				# Default: 1.6
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 1.6
+				#Inaccuracy/spread in degrees for the Giant Shuriken throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Giant Shuriken throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Giant Shuriken returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Giant Shuriken takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Giant Shuriken
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Giant Shuriken
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Giant Shuriken
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Giant Shuriken
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Giant Shuriken
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Giant Shuriken
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Giant Shuriken
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Giant Shuriken
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Giant Shuriken throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Giant Shuriken
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Giant Shuriken
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable.Shuriken]
+				#Whether the Shuriken can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Shuriken throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Shuriken
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Shuriken at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Shuriken at full charge
+				# Default: 2.6
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.6
+				#Inaccuracy/spread in degrees for the Shuriken throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Shuriken throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Shuriken returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Shuriken takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Shuriken
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Shuriken
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Shuriken
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Shuriken
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Shuriken
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Shuriken
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Shuriken
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Shuriken
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Shuriken throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Shuriken
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Shuriken
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable.Kunai]
+				#Whether the Kunai can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Kunai throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Kunai
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Kunai at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Kunai at full charge
+				# Default: 2.6
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.6
+				#Inaccuracy/spread in degrees for the Kunai throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Kunai throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Kunai returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Kunai takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Kunai
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Kunai
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Kunai
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Kunai
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Kunai
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Kunai
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Kunai
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Kunai
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Kunai throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Kunai
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Kunai
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable."Pronged Kunai"]
+				#Whether the Pronged Kunai can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Pronged Kunai throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Pronged Kunai
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Pronged Kunai at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Pronged Kunai at full charge
+				# Default: 2.6
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.6
+				#Inaccuracy/spread in degrees for the Pronged Kunai throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Pronged Kunai throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Pronged Kunai returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Pronged Kunai takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Pronged Kunai
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Pronged Kunai
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Pronged Kunai
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Pronged Kunai
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Pronged Kunai
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Pronged Kunai
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Pronged Kunai
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Pronged Kunai
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Pronged Kunai throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Pronged Kunai
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Pronged Kunai
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable."Sharp Stone"]
+				#Whether the Sharp Stone can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Sharp Stone throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Sharp Stone
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Sharp Stone at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Sharp Stone at full charge
+				# Default: 2.6
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.6
+				#Inaccuracy/spread in degrees for the Sharp Stone throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Sharp Stone throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Sharp Stone returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Sharp Stone takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Sharp Stone
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Sharp Stone
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Sharp Stone
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Sharp Stone
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Sharp Stone
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Sharp Stone
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Sharp Stone
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Sharp Stone
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Sharp Stone throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Sharp Stone
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Sharp Stone
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable.Spear]
+				#Whether the Spear can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Spear throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Spear
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Spear at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Spear at full charge
+				# Default: 2.0
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.0
+				#Inaccuracy/spread in degrees for the Spear throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Spear throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Spear returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Spear takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Spear
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Spear
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Spear
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Spear
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Spear
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Spear
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Spear
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Spear
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Spear throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Spear
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Spear
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable.Trident]
+				#Whether the Trident can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Trident throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Trident
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Trident at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Trident at full charge
+				# Default: 2.0
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.0
+				#Inaccuracy/spread in degrees for the Trident throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Trident throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Trident returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Trident takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Trident
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Trident
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Trident
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Trident
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Trident
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Trident
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Trident
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Trident
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Trident throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Trident
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Trident
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable."Hunters Boomerang"]
+				#Whether the Hunters Boomerang can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Hunters Boomerang throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Hunters Boomerang
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Hunters Boomerang at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Hunters Boomerang at full charge
+				# Default: 2.0
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.0
+				#Inaccuracy/spread in degrees for the Hunters Boomerang throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Hunters Boomerang throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Hunters Boomerang returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Hunters Boomerang takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Hunters Boomerang
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Hunters Boomerang
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Hunters Boomerang
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Hunters Boomerang
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Hunters Boomerang
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Hunters Boomerang
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Hunters Boomerang
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Hunters Boomerang
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Hunters Boomerang throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Hunters Boomerang
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Hunters Boomerang
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable.Dynamite]
+				#Whether the Dynamite can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Dynamite throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Dynamite
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Dynamite at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Dynamite at full charge
+				# Default: 2.0
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.0
+				#Inaccuracy/spread in degrees for the Dynamite throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Dynamite throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Dynamite returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Dynamite takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Dynamite
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Dynamite
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Dynamite
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Dynamite
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Dynamite
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Dynamite
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Dynamite
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Dynamite
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Dynamite throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Dynamite
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Dynamite
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwable.Broom]
+				#Whether the Broom can be thrown
+				"Allow Throw" = true
+				#Minimum ticks required to start charging the Broom throw
+				# Default: 5
+				# Range: 1 ~ 40
+				"Min Charge Time" = 5
+				#Maximum charge time for full power throw of the Broom
+				# Default: 20
+				# Range: 5 ~ 60
+				"Max Charge Time" = 20
+				#Projectile speed of the Broom at minimum charge
+				# Default: 0.5
+				# Range: 0.1 ~ 2.0
+				"Min Speed" = 0.5
+				#Projectile speed of the Broom at full charge
+				# Default: 2.2
+				# Range: 0.5 ~ 4.0
+				"Max Speed" = 2.2
+				#Inaccuracy/spread in degrees for the Broom throw (0 = perfect aim)
+				# Default: 0.0
+				# Range: 0.0 ~ 50.0
+				Inaccuracy = 0.0
+				#Charge percentage required for critical effects on the Broom throw
+				# Default: 0.85
+				# Range: 0.0 ~ 1.0
+				"Critical Power Threshold" = 0.85
+				#Whether the Broom returns to the original hotbar slot after being thrown
+				"Remember Original Slot" = true
+				#Durability damage the Broom takes each time it is thrown
+				# Default: 1
+				# Range: 0 ~ 10
+				"Item Damage Amount" = 1
+				#Whether the Multishot enchantment can be applied to the Broom
+				"Multishot Enchantment" = true
+				#Spread angle in degrees for each extra projectile when using Multishot on the Broom
+				# Default: 10.0
+				# Range: 0.0 ~ 45.0
+				"Multishot Spread Angle" = 10.0
+				#Horizontal recoil strength when throwing the Broom
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				Recoil = 0.0
+				#Vertical multiplier applied to the recoil when throwing the Broom
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Vertical Multiplier" = 0.0
+				#Recoil reduction multiplier when crouching while throwing the Broom
+				# Default: 0.0
+				# Range: 0.0 ~ 1.0
+				"Recoil Crouch Reduction" = 0.0
+				#Additional upward pitch kick applied from recoil when throwing the Broom
+				# Default: 0.0
+				# Range: 0.0 ~ 10.0
+				"Recoil Pitch Kick" = 0.0
+				#Whether recoil is only applied on fully charged throws of the Broom
+				"Recoil Fully Charged" = false
+				#Throw mode: INSTANT_ON_RIGHT_CLICK (throw immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to throw), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (throw on release or when fully charged)
+				#Allowed Values: CHARGE_AND_RELEASE, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+				"Throw Mode" = "CHARGE_AND_RELEASE"
+				#Cooldown in ticks after an instant throw of the Broom
+				# Default: 20
+				# Range: 0 ~ 200
+				"Instant Throw Cooldown Ticks" = 20
+				#Maximum use duration in ticks for charging the Broom throw
+				# Default: 72000
+				# Range: 20 ~ 72000
+				"Use Duration Ticks" = 72000
+				#Minimum remaining durability required to throw the Broom
+				# Default: -1
+				# Range: -1 ~ 100
+				"Min Durability Throw" = -1
+				#Item use animation played when charging or throwing the Broom
+				#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+				"Use Animation" = "SPEAR"
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwback."Hunter's Boomerang Projectile"]
+				#Minimum range (blocks) before throwback activates
+				# Default: 6
+				# Range: 1 ~ 50
+				"Min Range" = 6
+				#Maximum range (blocks) for throwback
+				# Default: 24
+				# Range: 3 ~ 100
+				"Max Range" = 24
+				#Return to owner when reaching max range
+				"Return On Max Range" = true
+				#Return to owner after hitting an entity
+				"Return On Entity Hit" = true
+				#Return to owner after hitting a block
+				"Return On Block Hit" = false
+				#How fast the projectile returns
+				# Default: 0.85
+				# Range: 0.1 ~ 2.0
+				"Return Speed" = 0.85
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Throwback."Ring Projectile"]
+				#Minimum range (blocks) before throwback activates for Ring
+				# Default: 4
+				# Range: 1 ~ 40
+				"Min Range" = 4
+				#Maximum range (blocks) for throwback of Ring
+				# Default: 16
+				# Range: 3 ~ 80
+				"Max Range" = 16
+				#Return Ring to owner when reaching max range
+				"Return On Max Range" = true
+				#Return Ring to owner after hitting an entity
+				"Return On Entity Hit" = true
+				#Return Ring to owner after hitting a block
+				"Return On Block Hit" = false
+				#Return speed for Ring projectile
+				# Default: 0.95
+				# Range: 0.1 ~ 2.0
+				"Return Speed" = 0.95
+
+			["Weapon Traits Handler"."Projectile Traits Settings".Collector."Hunter's Boomerang Projectile"]
+				#Maximum items the Collector trait can pick up per throw
+				# Default: 3
+				# Range: 0 ~ 6
+				"Max Collected Items" = 3
+
+			["Weapon Traits Handler"."Projectile Traits Settings"."Disarming Shot"."Hunter's Boomerang Projectile"]
+				#Chance to disarm on hit (0.0-1.0)
+				# Default: 0.05
+				# Range: 0.0 ~ 1.0
+				"Disarm Chance" = 0.05
+				#Only disarm on critical hits
+				"Require Critical Hit" = false
+				#Mount the disarmed item on the projectile
+				"Mount Disarmed Item" = true
+
+			["Weapon Traits Handler"."Projectile Traits Settings"."Disabling Shot"."Shuriken Projectile"]
+				#Chance to apply disabling effect (0.0-1.0)
+				# Default: 0.25
+				# Range: 0.0 ~ 1.0
+				"Disable Chance" = 0.25
+				#Cooldown in ticks between disabling shot triggers
+				# Default: 60
+				# Range: 0 ~ 1200
+				"Disable Cooldown Ticks" = 60
+
+			["Weapon Traits Handler"."Projectile Traits Settings"."Sweeping Shot"."Giant Shuriken Projectile"]
+				#AOE radius for sweeping shot effect
+				# Default: 2.0
+				# Range: 0.5 ~ 10.0
+				"Sweeping Radius" = 2.0
+				#Damage multiplier for AOE sweeping hit
+				# Default: 0.5
+				# Range: 0.0 ~ 2.0
+				"Sweeping Damage Factor" = 0.5
+
+			["Weapon Traits Handler"."Projectile Traits Settings"."Backstab Shot"."Pronged Kunai Projectile"]
+				#Damage multiplier when hitting from behind
+				# Default: 1.5
+				# Range: 1.0 ~ 5.0
+				"Backstab Damage Multiplier" = 1.5
+
+			["Weapon Traits Handler"."Projectile Traits Settings"."Piercing Shot"."Kunai Projectile"]
+				#Chance to pierce through targets (0.0-1.0)
+				# Default: 0.5
+				# Range: 0.0 ~ 1.0
+				"Piercing Chance" = 0.5
+				#Extra damage when piercing shot triggers
+				# Default: 2.0
+				# Range: 0.0 ~ 100.0
+				"Piercing Bonus Damage" = 2.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Guard Stance"]
+			#Apply cooldown after blocking with Guard Stance
+			"Guard Stance Cooldown" = true
+			#Apply area damage when Guard Stance blocking ends
+			"Guard Stance Area Damage" = true
+			#Apply first-person sword blocking transformation in ItemInHandRenderer
+			"Guard Stance Apply First Person Transform" = true
+			#Cooldown in ticks after blocking ends
+			# Default: 20
+			# Range: 0 ~ 72000
+			"Cooldown Ticks" = 20
+			#Apply cooldown to all items with the guard_stance trait in the inventory when the cooldown triggers, preventing abuse by switching between multiple guard stance weapons
+			"Global Cooldown" = true
+			#Area damage multiplier applied to weapon damage when blocking ends
+			# Default: 0.35
+			# Range: 0.0 ~ 100.0
+			"Area Damage Multiplier" = 0.35
+			#Knockback force applied to enemies in the blocking area
+			# Default: 0.4
+			# Range: 0.0 ~ 10.0
+			"Knockback Force" = 0.4
+			#Radius of the blocking area effect
+			# Default: 1.5
+			# Range: 0.0 ~ 10.0
+			"Area Range" = 1.5
+			#Damage reduction applied when blocking (0.5 = 50% reduction)
+			# Default: 1.0
+			# Range: 0.0 ~ 1.0
+			"Block Damage Reduction" = 1.0
+			#Durability damage per blocked attack
+			# Default: 1
+			# Range: 0 ~ 100
+			"Damage Per Block" = 1
+			#Durability damage on stop blocking (multiplied by incoming damage)
+			# Default: 1
+			# Range: 0 ~ 100
+			"Damage On Stop" = 1
+			#Particle size for the blocking sweep effect
+			# Default: 1.0
+			# Range: 0.1 ~ 10.0
+			"Particle Size" = 1.0
+			#Distance for blocking sweep particles
+			# Default: 1.5
+			# Range: 0.1 ~ 10.0
+			"Particle Distance" = 1.5
+			#Chance for items without durability to break when blocking an attack (0.0 = disabled, 1.0 = always breaks)
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			"No Durability Break Chance" = 0.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Parry Guard"]
+			#Cooldown in ticks after a successful parry guard
+			# Default: 20
+			# Range: 0 ~ 72000
+			"Cooldown Ticks" = 20
+			#Apply cooldown to all items with the parry_guard trait in the inventory when a successful parry triggers, preventing abuse by switching between multiple parry guard weapons
+			"Global Cooldown" = true
+			#Damage reduction applied when parry guarding (0.5 = 50% reduction)
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
+			"Block Damage Reduction" = 0.5
+			#Durability damage per parry guarded attack
+			# Default: 1
+			# Range: 0 ~ 100
+			"Damage Per Block" = 1
+			#Durability damage on parry guard end (when no attack is blocked)
+			# Default: 1
+			# Range: 0 ~ 100
+			"Damage On Stop" = 1
+			#Chance for items without durability to break when parry guarding an attack (0.0 = disabled, 1.0 = always breaks)
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			"No Durability Break Chance" = 0.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Piercer Strike"]
+			#Bonus damage dealt to armored targets
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+			#Minimum armor value the target must have for the trait to trigger
+			# Default: 4
+			# Range: 0 ~ 30
+			"Min Armor" = 4
+			#Require fully charged attack to trigger
+			"Require Fully Charged" = true
+
+		["Weapon Traits Handler"."Item Traits Settings".Duelist]
+			#Bonus damage when not targeting the attacking entity
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+			#Require fully charged attack to trigger
+			"Require Fully Charged" = true
+
+		["Weapon Traits Handler"."Item Traits Settings"."Threat Response"]
+			#Bonus damage against the entity that last attacked you
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+			#Require fully charged attack to trigger
+			"Require Fully Charged" = true
+
+		["Weapon Traits Handler"."Item Traits Settings"."Reach Advantage"]
+			#Bonus damage per block of distance
+			# Default: 0.5
+			# Range: 0.0 ~ 10.0
+			"Bonus Damage per Block" = 0.5
+			#Minimum distance in blocks to trigger
+			# Default: 2.0
+			# Range: 0.0 ~ 100.0
+			"Min Distance Blocks" = 2.0
+			#Maximum distance in blocks for bonus
+			# Default: 16.0
+			# Range: 0.0 ~ 100.0
+			"Max Distance Blocks" = 16.0
+			#Require fully charged attack to trigger
+			"Require Fully Charged" = true
+
+		["Weapon Traits Handler"."Item Traits Settings"."After Strike"]
+			#Hits required to trigger After Strike flurry
+			# Default: 3
+			# Range: 1 ~ 100
+			"Required Hits" = 3
+			#Number of rapid strikes in the flurry
+			# Default: 1
+			# Range: 1 ~ 10
+			"Flurry Strikes Count" = 1
+			#Ticks between each flurry strike
+			# Default: 5
+			# Range: 1 ~ 100
+			"Strikes Interval Ticks" = 5
+			#Damage modifier for the first flurry hit
+			# Default: 0.5
+			# Range: 0.0 ~ 5.0
+			"Initial Damage Modifier" = 0.5
+			#Damage decay per consecutive flurry hit
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
+			"Damage Decay Factor" = 0.5
+			#Require fully charged attack to trigger flurry
+			"Require Fully Charged" = true
+			#If true, landing a critical hit will instantly trigger the After Strike flurry, bypassing the hit counter.
+			"Critical Triggers Flurry" = true
+
+		["Weapon Traits Handler"."Item Traits Settings"."Buster Strike"]
+			#Hits required to trigger Buster Strike
+			# Default: 3
+			# Range: 1 ~ 100
+			"Required Hits" = 3
+			#Bonus damage multiplier for the empowered hit
+			# Default: 0.7
+			# Range: 0.0 ~ 5.0
+			"Bonus Damage Multiplier" = 0.7
+			#Chance to reset hit counter after trigger (0.0-1.0)
+			# Default: 0.3
+			# Range: 0.0 ~ 1.0
+			"Tag Remove Chance" = 0.3
+			#Require fully charged attack to trigger
+			"Require Fully Charged" = true
+
+		["Weapon Traits Handler"."Item Traits Settings"."Quick Crafting"]
+			#Default ingredient item ID
+			"Default Ingredient Item ID" = "jaams_weaponry:short_stick"
+			#Default ingredient count
+			# Default: 1
+			# Range: 1 ~ 64
+			"Default Ingredient Count" = 1
+			#Default result item ID
+			"Default Result Item ID" = "jaams_weaponry:stake"
+			#Default result count
+			# Default: 1
+			# Range: 1 ~ 64
+			"Default Result Count" = 1
+			#Ticks required to perform the Quick Crafting action
+			# Default: 30
+			# Range: 1 ~ 72000
+			"Use Duration Ticks" = 30
+			#Durability cost per use
+			# Default: 1
+			# Range: 0 ~ 100
+			"Durability Cost" = 1
+			#Cooldown in ticks between uses
+			# Default: 20
+			# Range: 0 ~ 1200
+			"Cooldown Ticks" = 20
+			#Apply cooldown to all items with the quick_crafting trait in the inventory when the cooldown triggers, preventing abuse by switching between multiple quick crafting weapons
+			"Global Cooldown" = true
+
+		["Weapon Traits Handler"."Item Traits Settings"."Aquatic Grudge"]
+			#Bonus damage vs aquatic mobs
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Arthropod Grudge"]
+			#Bonus damage vs arthropods
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Undead Grudge"]
+			#Bonus damage vs undead
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Traitor Grudge"]
+			#Bonus damage vs illagers
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Snout Grudge"]
+			#Bonus damage vs piglins
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Bone Grudge"]
+			#Bonus damage vs skeletons
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Anti Aerial"]
+			#Bonus damage vs flying mobs
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Rotten Grudge"]
+			#Bonus damage vs zombies
+			# Default: 5.0
+			# Range: 0.0 ~ 100.0
+			"Bonus Damage" = 5.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Armor Breaker"]
+			#Chance to damage armor on hit
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
+			Chance = 0.25
+			#Durability damage dealt to armor
+			# Default: 1
+			# Range: 1 ~ 100
+			"Armor Durability Damage" = 1
+			"Affected Slots" = ["head", "chest", "legs", "feet"]
+			#Items that cannot be damaged by Armor Breaker (registry names, e.g. minecraft:netherite_helmet)
+			"Immune Items" = []
+
+		["Weapon Traits Handler"."Item Traits Settings"."Blade Breaker"]
+			#Chance to damage held item on hit
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
+			Chance = 0.25
+			#Durability damage dealt to held item
+			# Default: 1
+			# Range: 1 ~ 100
+			"Held Item Durability Damage" = 1
+			#Items that cannot be damaged by Blade Breaker (registry names, e.g. minecraft:netherite_sword)
+			"Immune Items" = []
+
+		["Weapon Traits Handler"."Item Traits Settings"."Acrobatic Lunge"]
+			#Pull strength toward target
+			# Default: 3.5
+			# Range: 0.0 ~ 100.0
+			"Pull Strength" = 3.5
+			#Max pull distance in blocks
+			# Default: 20.0
+			# Range: 1.0 ~ 255.0
+			"Max Pull Distance" = 20.0
+			#Max vertical pull distance
+			# Default: 0.15
+			# Range: 0.0 ~ 5.0
+			"Max Vertical Pull" = 0.15
+			#Distance scaling factor
+			# Default: 1.0
+			# Range: 0.0 ~ 5.0
+			"Distance Scaling" = 1.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Dexterous Lunge"]
+			#Pull strength toward target
+			# Default: 4.5
+			# Range: 0.0 ~ 100.0
+			"Pull Strength" = 4.5
+			#Attract strength for item pickup
+			# Default: 3.5
+			# Range: 0.0 ~ 100.0
+			"Attract Strength" = 3.5
+			#Max pull distance in blocks
+			# Default: 20.0
+			# Range: 1.0 ~ 255.0
+			"Max Pull Distance" = 20.0
+			#Max vertical pull distance
+			# Default: 0.15
+			# Range: 0.0 ~ 5.0
+			"Max Vertical Pull" = 0.15
+			#Distance scaling factor
+			# Default: 1.0
+			# Range: 0.0 ~ 5.0
+			"Distance Scaling" = 1.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Pull Lunge"]
+			#Pull strength toward target
+			# Default: 3.5
+			# Range: 0.0 ~ 100.0
+			"Pull Strength" = 3.5
+			#Max pull distance in blocks
+			# Default: 20.0
+			# Range: 1.0 ~ 255.0
+			"Max Pull Distance" = 20.0
+			#Max vertical pull distance
+			# Default: 0.15
+			# Range: 0.0 ~ 5.0
+			"Max Vertical Pull" = 0.15
+			#Distance scaling factor
+			# Default: 1.0
+			# Range: 0.0 ~ 5.0
+			"Distance Scaling" = 1.0
+
+		["Weapon Traits Handler"."Item Traits Settings".Disengage]
+			#Rebound strength away from target
+			# Default: 4.5
+			# Range: 0.0 ~ 100.0
+			"Rebound Strength" = 4.5
+			# Default: 20.0
+			# Range: 1.0 ~ 255.0
+			"Max Push Distance" = 20.0
+			# Default: 0.15
+			# Range: 0.0 ~ 5.0
+			"Max Vertical Push" = 0.15
+			# Default: 1.0
+			# Range: 0.0 ~ 5.0
+			"Distance Scaling" = 1.0
+
+		["Weapon Traits Handler"."Item Traits Settings".Disarm]
+			#Chance to disarm on hit
+			# Default: 0.15
+			# Range: 0.0 ~ 1.0
+			"Disarm Chance" = 0.15
+			#Items that cannot be disarmed (registry names)
+			"Non-Disarmable Items" = []
+			#Entities that cannot be disarmed (registry names, e.g. minecraft:zombie)
+			"Non-Disarmable Entities" = ["minecraft:wither"]
+
+		["Weapon Traits Handler"."Item Traits Settings".Dismount]
+			#Chance to dismount on hit
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
+			"Dismount Chance" = 0.25
+			#Entities that cannot be dismounted (registry names, e.g. minecraft:player)
+			"Non-Dismountable Entities" = []
+
+		["Weapon Traits Handler"."Item Traits Settings"."Disabling Strike"]
+			#Chance to disable on hit
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
+			Chance = 0.5
+			#Cooldown between uses in ticks
+			# Default: 60
+			# Range: 1 ~ 72000
+			"Item Cooldown Ticks" = 60
+
+		["Weapon Traits Handler"."Item Traits Settings"."Through Strike"]
+			#Chance to pierce through target
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
+			Chance = 0.5
+
+		["Weapon Traits Handler"."Item Traits Settings"."Cleansing Strike"]
+			#Chance to cleanse effects on hit
+			# Default: 0.1
+			# Range: 0.0 ~ 1.0
+			Chance = 0.1
+			#List of potion/effect IDs (resource locations) that Cleansing Strike will NOT remove. E.g. "minecraft:regeneration"
+			"Blacklisted Effects" = []
+
+		["Weapon Traits Handler"."Item Traits Settings"."Overwhelming Strike"]
+			#Chance to knock out on hit
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			Chance = 0.05
+			#Knockout duration in ticks
+			# Default: 60
+			# Range: 1 ~ 72000
+			"Knocked Out Duration Ticks" = 60
+
+		["Weapon Traits Handler"."Item Traits Settings"."Suppressing Strike"]
+			#Chance to suppress on hit
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			Chance = 0.05
+			#Suppression duration in ticks
+			# Default: 100
+			# Range: 1 ~ 72000
+			"Incapable Duration Ticks" = 100
+
+		["Weapon Traits Handler"."Item Traits Settings"."Shock Impact"]
+			#Max bonus damage
+			# Default: 150.0
+			# Range: 0.0 ~ 500.0
+			"Max Bonus Damage" = 150.0
+			#Max residual damage
+			# Default: 35.0
+			# Range: 0.0 ~ 200.0
+			"Max Residual Damage" = 35.0
+			#Smash AOE radius in blocks
+			# Default: 3.0
+			# Range: 0.0 ~ 10.0
+			"Smash Radius" = 3.0
+			#Minimum knockback strength
+			# Default: 0.15
+			# Range: 0.0 ~ 5.0
+			"Min Knockback Strength" = 0.15
+			#Maximum knockback strength
+			# Default: 0.6
+			# Range: 0.0 ~ 5.0
+			"Max Knockback Strength" = 0.6
+			#Knockback scaling per damage
+			# Default: 0.04
+			# Range: 0.0 ~ 1.0
+			"Knockback Scaling Factor" = 0.04
+			#Screen shake intensity
+			# Default: 5.0
+			# Range: 0.0 ~ 10.0
+			"Screen Shake Intensity" = 5.0
+			#Screen shake reset delay in ticks
+			# Default: 12
+			# Range: 0 ~ 100
+			"Screen Shake Reset Delay" = 12
+			#Base durability damage
+			# Default: 4
+			# Range: 0 ~ 100
+			"Durability Damage Base" = 4
+			#Max durability damage
+			# Default: 1200
+			# Range: 0 ~ 10000
+			"Max Durability Damage" = 1200
+			#Exhaustion applied on use
+			# Default: 0.5
+			# Range: 0.0 ~ 10.0
+			Exhaustion = 0.5
+			#Chance to apply mining fatigue
+			# Default: 1.0
+			# Range: 0.0 ~ 1.0
+			"Depletion Chance" = 1.0
+			#Depletion effect duration
+			# Default: 160
+			# Range: 0 ~ 72000
+			"Depletion Duration Ticks" = 160
+			#Depletion effect level
+			# Default: 4
+			# Range: 0 ~ 10
+			"Depletion Level" = 4
+			#Depletion max level
+			# Default: 8
+			# Range: 0 ~ 10
+			"Depletion Max Level" = 8
+			#Depletion max duration ticks
+			# Default: 1000
+			# Range: 0 ~ 72000
+			"Depletion Max Duration Ticks" = 1000
+			#Enable mining fatigue on use
+			"Enable Depletion" = true
+			#Vertical impulse applied to player
+			# Default: 0.9
+			# Range: 0.0 ~ 3.0
+			"Player Vertical Impulse" = 0.9
+			#Vertical impulse applied to entities
+			# Default: 0.7
+			# Range: 0.0 ~ 3.0
+			"Entity Vertical Impulse" = 0.7
+			#Apply cooldown to all items with the shock_impact trait in the inventory, preventing abuse by switching between multiple shock impact weapons
+			"Global Cooldown" = true
+			#Cooldown in ticks between uses
+			# Default: 160
+			# Range: 0 ~ 1200
+			"Cooldown Ticks" = 160
+			#Base damage multiplier
+			# Default: 0.6
+			# Range: 0.0 ~ 2.0
+			"Base Damage Multiplier" = 0.6
+			#Offhand cooldown multiplier
+			# Default: 1.5
+			# Range: 0.1 ~ 5.0
+			"Offhand Cooldown Multiplier" = 1.5
+			#Offhand power multiplier
+			# Default: 0.7
+			# Range: 0.0 ~ 1.0
+			"Offhand Power Multiplier" = 0.7
+			#Activation mode: INSTANT_ON_RIGHT_CLICK (right-click while crouching), CHARGE_AND_RELEASE (hold right-click while crouching, release to slam), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (slam on release or when fully charged)
+			#Allowed Values: INSTANT_ON_RIGHT_CLICK, CHARGE_AND_RELEASE, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+			"Activation Mode" = "INSTANT_ON_RIGHT_CLICK"
+			#Require the player to be crouching (holding shift) to activate the shock impact
+			"Require Crouching" = true
+			#Maximum use duration in ticks for charge modes
+			# Default: 72000
+			# Range: 20 ~ 72000
+			"Charge Duration Ticks" = 72000
+			#Use animation played in charge modes
+			#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+			"Charge Animation" = "BOW"
+			#Minimum charge ticks required before the shock impact activates in charge modes
+			# Default: 5
+			# Range: 0 ~ 100
+			"Minimum Charge Ticks" = 5
+
+		["Weapon Traits Handler"."Item Traits Settings"."Slash Assault"]
+			#Dash distance in blocks
+			# Default: 2.5
+			# Range: 0.1 ~ 5.0
+			"Dash Distance" = 2.5
+			#Slash attack range in blocks
+			# Default: 2.5
+			# Range: 1.0 ~ 10.0
+			"Slash Range" = 2.5
+			#Cooldown after slash in ticks
+			# Default: 80
+			# Range: 1 ~ 200
+			"Slash Cooldown Ticks" = 80
+			#Apply cooldown to all items with the slash_assault trait in the inventory when the cooldown triggers, preventing abuse by switching between multiple slash assault weapons
+			"Global Cooldown" = true
+			#Cooldown when no target hit
+			# Default: 40
+			# Range: 1 ~ 200
+			"No Target Cooldown Ticks" = 40
+			#Durability cost per use
+			# Default: 2
+			# Range: 0 ~ 100
+			"Durability Cost" = 2
+			#Activation mode: SPRINT_CLICK (sprint + right-click), INSTANT_ON_RIGHT_CLICK (right-click), CHARGE_AND_RELEASE (hold right-click, release to dash), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (dash on release or when fully charged)
+			#Allowed Values: SPRINT_CLICK, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_RELEASE, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+			"Activation Mode" = "SPRINT_CLICK"
+			#Maximum use duration in ticks for charge modes
+			# Default: 72000
+			# Range: 20 ~ 72000
+			"Charge Duration Ticks" = 72000
+			#Use animation played in charge modes
+			#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+			"Charge Animation" = "BOW"
+			#Minimum damage dealt
+			# Default: 1.0
+			# Range: 0.0 ~ 10.0
+			"Minimum Damage" = 1.0
+			#Minimum charge ticks required before the slash assault activates in charge modes (only applies if charge >= this value)
+			# Default: 5
+			# Range: 0 ~ 100
+			"Minimum Charge Ticks" = 5
+			#Enable hand swing animation when dashing
+			"Dash Swing" = true
+			#Enable hand swing animation when attacking enemies
+			"Attack Swing" = true
+			#Enable mining fatigue on use
+			"Enable Depletion" = true
+			#Chance to apply mining fatigue
+			# Default: 1.0
+			# Range: 0.0 ~ 1.0
+			"Depletion Chance" = 1.0
+			#Depletion effect duration
+			# Default: 20
+			# Range: 0 ~ 72000
+			"Depletion Duration Ticks" = 20
+			#Depletion effect level
+			# Default: 4
+			# Range: 0 ~ 10
+			"Depletion Level" = 4
+			#Depletion max level
+			# Default: 8
+			# Range: 0 ~ 10
+			"Depletion Max Level" = 8
+			#Depletion max duration ticks
+			# Default: 1000
+			# Range: 0 ~ 72000
+			"Depletion Max Duration Ticks" = 1000
+
+		["Weapon Traits Handler"."Item Traits Settings"."Piercing Assault"]
+			#Dash distance in blocks
+			# Default: 2.5
+			# Range: 0.1 ~ 5.0
+			"Dash Distance" = 2.5
+			#Pierce attack range in blocks
+			# Default: 3.0
+			# Range: 1.0 ~ 10.0
+			"Pierce Range" = 3.0
+			#Cooldown after pierce in ticks
+			# Default: 80
+			# Range: 1 ~ 200
+			"Pierce Cooldown Ticks" = 80
+			#Apply cooldown to all items with the piercing_assault trait in the inventory when the cooldown triggers, preventing abuse by switching between multiple piercing assault weapons
+			"Global Cooldown" = true
+			#Cooldown when no target hit
+			# Default: 40
+			# Range: 1 ~ 200
+			"No Target Cooldown Ticks" = 40
+			#Activation mode: SPRINT_CLICK (sprint + right-click), INSTANT_ON_RIGHT_CLICK (right-click), CHARGE_AND_RELEASE (hold right-click, release to dash), CHARGE_AND_FINISH_USING (hold until fully charged), CHARGE_RELEASE_AND_FINISH (dash on release or when fully charged)
+			#Allowed Values: SPRINT_CLICK, INSTANT_ON_RIGHT_CLICK, CHARGE_AND_RELEASE, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+			"Activation Mode" = "SPRINT_CLICK"
+			#Maximum use duration in ticks for charge modes
+			# Default: 72000
+			# Range: 20 ~ 72000
+			"Charge Duration Ticks" = 72000
+			#Use animation played in charge modes
+			#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+			"Charge Animation" = "BOW"
+			#Minimum damage dealt
+			# Default: 1.0
+			# Range: 0.0 ~ 10.0
+			"Minimum Damage" = 1.0
+			#Minimum charge ticks required before the piercing assault activates in charge modes (only applies if charge >= this value)
+			# Default: 5
+			# Range: 0 ~ 100
+			"Minimum Charge Ticks" = 5
+			#Enable hand swing animation when dashing
+			"Dash Swing" = true
+			#Enable hand swing animation when attacking enemies
+			"Attack Swing" = true
+			#Enable mining fatigue on use
+			"Enable Depletion" = true
+			#Chance to apply mining fatigue
+			# Default: 1.0
+			# Range: 0.0 ~ 1.0
+			"Depletion Chance" = 1.0
+			#Depletion effect duration
+			# Default: 20
+			# Range: 0 ~ 72000
+			"Depletion Duration Ticks" = 20
+			#Depletion effect level
+			# Default: 4
+			# Range: 0 ~ 10
+			"Depletion Level" = 4
+			#Depletion max level
+			# Default: 8
+			# Range: 0 ~ 10
+			"Depletion Max Level" = 8
+			#Depletion max duration ticks
+			# Default: 1000
+			# Range: 0 ~ 72000
+			"Depletion Max Duration Ticks" = 1000
+
+		["Weapon Traits Handler"."Item Traits Settings"."Harvest Sweep"]
+			#Harvest radius in blocks
+			# Default: 3
+			# Range: 0 ~ 5
+			"Harvest Range" = 3
+			#Till radius in blocks
+			# Default: 3
+			# Range: 0 ~ 5
+			"Till Range" = 3
+			#Max blocks affected per use
+			# Default: 9
+			# Range: 1 ~ 64
+			"Max Harvest Blocks" = 9
+			#Whether the trait can harvest mature crops
+			"Can Harvest" = true
+			#Durability cost per block affected
+			# Default: 1
+			# Range: 0 ~ 100
+			"Durability Cost Per Block" = 1
+			#If true, durability cost is multiplied by the number of affected blocks
+			"Durability Per Block" = true
+			#Durability cost per till block (overrides Durability Cost Per Block for tilling)
+			# Default: 1
+			# Range: 0 ~ 100
+			"Till Durability Cost" = 1
+			#Durability cost per harvest block (overrides Durability Cost Per Block for harvesting)
+			# Default: 1
+			# Range: 0 ~ 100
+			"Harvest Durability Cost" = 1
+
+		["Weapon Traits Handler"."Item Traits Settings"."Wild Sweep"]
+			#Break radius in blocks
+			# Default: 3
+			# Range: 0 ~ 5
+			"Break Radius" = 3
+			#Durability cost per use
+			# Default: 2
+			# Range: 0 ~ 100
+			"Durability Cost" = 2
+			#Cooldown in ticks between uses
+			# Default: 15
+			# Range: 0 ~ 200
+			"Cooldown Ticks" = 15
+			#Apply cooldown to all items with the wild_sweep trait in the inventory when the cooldown triggers, preventing abuse by switching between multiple wild sweep weapons
+			"Global Cooldown" = true
+			#List of block IDs (or block ID patterns containing these strings) that can be broken by Wild Sweep
+			"Breakable Block Patterns" = ["bamboo", "tatami", "sugar_cane", "tall_grass", "double_plant"]
+
+		["Weapon Traits Handler"."Item Traits Settings"."Whirling Strike"]
+			#Base spin damage per hit
+			# Default: 2.0
+			# Range: 0.0 ~ 100.0
+			"Base Damage" = 2.0
+			#Base attack range in blocks
+			# Default: 2.5
+			# Range: 0.5 ~ 10.0
+			"Base Attack Range" = 2.5
+			#Range multiplier when dual wielding
+			# Default: 1.5
+			# Range: 1.0 ~ 5.0
+			"Dual Wield Range Multiplier" = 1.5
+			#Damage multiplier when dual wielding
+			# Default: 2.0
+			# Range: 1.0 ~ 10.0
+			"Dual Wield Damage Multiplier" = 2.0
+			#Max damage cap per hit
+			# Default: 8.0
+			# Range: 1.0 ~ 100.0
+			"Max Damage Cap" = 8.0
+			#Ticks between durability damage
+			# Default: 20
+			# Range: 1 ~ 200
+			"Item Damage Interval Ticks" = 20
+			#Ticks between attacks
+			# Default: 5
+			# Range: 1 ~ 100
+			"Attack Interval Ticks" = 5
+			#Durability damage per interval
+			# Default: 2
+			# Range: 0 ~ 100
+			"Item Damage Amount" = 2
+			#Block damage when single wielding
+			# Default: 2
+			# Range: 0 ~ 100
+			"Single Wield Block Damage" = 2
+			#Block damage when dual wielding
+			# Default: 4
+			# Range: 0 ~ 100
+			"Dual Wield Block Damage" = 4
+			#Use distance in blocks
+			# Default: 1.5
+			# Range: 0.5 ~ 10.0
+			"Use Distance" = 1.5
+			#Ticks between particle effects
+			# Default: 8
+			# Range: 1 ~ 100
+			"Particle Tick Interval" = 8
+
+		["Weapon Traits Handler"."Item Traits Settings".Fragility]
+			#Chance to break on use
+			# Default: 0.15
+			# Range: 0.0 ~ 1.0
+			"Break Chance" = 0.15
+			#Minimum durability threshold (as a fraction of max durability) for fragility to trigger. E.g. 0.5 means the item must be at or below 50% durability. Default 0.0 (no threshold).
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			"Minimum Durability Threshold" = 0.0
+			#Default chance to drop the configured remaining item when the item breaks from fragility. Only used if no per-item chance is set.
+			# Default: 1.0
+			# Range: 0.0 ~ 1.0
+			"Remaining Item Drop Chance" = 1.0
+
+		["Weapon Traits Handler"."Item Traits Settings".Slippery]
+			#Chance to disarm self on hit
+			# Default: 0.08
+			# Range: 0.0 ~ 1.0
+			"Self Disarm Chance" = 0.08
+			#Distance weapon is thrown
+			# Default: 1.2
+			# Range: 0.0 ~ 5.0
+			"Throw Distance" = 1.2
+
+		["Weapon Traits Handler"."Item Traits Settings".Exhausting]
+			#Exhaustion added per hit
+			# Default: 0.5
+			# Range: 0.0 ~ 10.0
+			"Exhaustion Per Hit" = 0.5
+
+		["Weapon Traits Handler"."Item Traits Settings"."Brittle Handle"]
+			#Extra durability damage taken
+			# Default: 1
+			# Range: 0 ~ 100
+			"Extra Durability Cost" = 1
+
+		["Weapon Traits Handler"."Item Traits Settings"."Barbed Handle"]
+			#Damage returned to attacker
+			# Default: 0.15
+			# Range: 0.0 ~ 1.0
+			"Damage Return Factor" = 0.15
+
+		["Weapon Traits Handler"."Item Traits Settings".Overstrain]
+			#Chance to apply mining fatigue
+			# Default: 0.12
+			# Range: 0.0 ~ 1.0
+			"Effect Chance" = 0.12
+			#Effect duration in ticks
+			# Default: 100
+			# Range: 1 ~ 72000
+			"Effect Duration Ticks" = 100
+			#Effect amplifier level
+			# Default: 0
+			# Range: 0 ~ 10
+			"Effect Amplifier" = 0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Unstable Edge"]
+			#Minimum random damage multiplier
+			# Default: 0.5
+			# Range: 0.0 ~ 5.0
+			"Min Damage Multiplier" = 0.5
+			#Maximum random damage multiplier
+			# Default: 1.0
+			# Range: 0.0 ~ 5.0
+			"Max Damage Multiplier" = 1.0
+
+		["Weapon Traits Handler"."Item Traits Settings".Detonating]
+			#Chance to explode on hit
+			# Default: 0.15
+			# Range: 0.0 ~ 1.0
+			"Explode Chance" = 0.15
+			#Explosion power
+			# Default: 2.0
+			# Range: 0.0 ~ 20.0
+			"Explosion Power" = 2.0
+			#Whether explosion breaks blocks
+			"Break Blocks" = false
+			#Whether explosion damages the owner
+			"Damage Owner" = true
+
+		["Weapon Traits Handler"."Item Traits Settings".Decapitation]
+			#Chance to decapitate on kill
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			Chance = 0.05
+			#Critical hit multiplier for decapitation
+			# Default: 2.0
+			# Range: 1.0 ~ 10.0
+			"Critical Multiplier" = 2.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Smash Strike"]
+			#Damage per block fallen
+			# Default: 0.5
+			# Range: 0.0 ~ 10.0
+			"Damage Per Fall Block" = 0.5
+			#Max bonus damage from fall
+			# Default: 55.0
+			# Range: 0.0 ~ 500.0
+			"Max Bonus Damage" = 55.0
+			#Base residual damage
+			# Default: 1.0
+			# Range: 0.0 ~ 100.0
+			"Residual Damage Base" = 1.0
+			#Residual damage per block fallen
+			# Default: 0.2
+			# Range: 0.0 ~ 10.0
+			"Residual Damage Per Fall Block" = 0.2
+			#Max residual damage
+			# Default: 20.0
+			# Range: 0.0 ~ 200.0
+			"Max Residual Damage" = 20.0
+			#Smash AOE radius in blocks
+			# Default: 1.0
+			# Range: 0.0 ~ 10.0
+			"Smash Radius" = 1.0
+			#Screen shake intensity
+			# Default: 1.5
+			# Range: 0.0 ~ 10.0
+			"Screen Shake Intensity" = 1.5
+			#Shake reset delay in ticks
+			# Default: 5
+			# Range: 0 ~ 100
+			"Screen Shake Reset Delay Ticks" = 5
+			#Damage multiplier for allies
+			# Default: 0.1
+			# Range: 0.0 ~ 1.0
+			"Ally Damage Multiplier" = 0.1
+			#Base durability damage
+			# Default: 5
+			# Range: 0 ~ 100
+			"Durability Damage Base" = 5
+			#Durability damage per block fallen
+			# Default: 1.0
+			# Range: 0.0 ~ 100.0
+			"Durability Damage Per Fall Block" = 1.0
+			#Max durability damage
+			# Default: 1000
+			# Range: 0 ~ 10000
+			"Max Durability Damage" = 1000
+
+		["Weapon Traits Handler"."Item Traits Settings"."Rapid Boost"]
+			#Hits required to trigger boost
+			# Default: 3
+			# Range: 1 ~ 100
+			"Max Hits" = 3
+			#Attack speed increase per hit
+			# Default: 0.5
+			# Range: 0.0 ~ 10.0
+			"Attack Speed Increment Per Hit" = 0.5
+
+		["Weapon Traits Handler"."Item Traits Settings"."Power Boost"]
+			#Hits required to trigger boost
+			# Default: 3
+			# Range: 1 ~ 100
+			"Max Hits" = 3
+			#Damage increase per hit
+			# Default: 1.0
+			# Range: 0.0 ~ 100.0
+			"Damage Increment Per Hit" = 1.0
+
+		["Weapon Traits Handler"."Item Traits Settings"."Quick Swap"]
+			#Require the player to be crouching (holding shift) to trigger the quick swap
+			"Require Crouch" = true
+			#Main hand cooldown in ticks
+			# Default: 20
+			# Range: 0 ~ 1200
+			"Main Hand Cooldown Ticks" = 20
+			#Off hand cooldown in ticks
+			# Default: 20
+			# Range: 0 ~ 1200
+			"Off Hand Cooldown Ticks" = 20
+			#Apply cooldown to all items with the quick_swap trait in the inventory when the cooldown triggers, preventing abuse by switching between multiple quick swap weapons
+			"Global Cooldown" = true
+			#Activation mode: INSTANT_ON_RIGHT_CLICK (swap immediately on right-click), CHARGE_AND_RELEASE (hold right-click, release to swap), CHARGE_AND_FINISH_USING (hold until fully charged to swap), CHARGE_RELEASE_AND_FINISH (swap on release OR when fully charged)
+			#Allowed Values: INSTANT_ON_RIGHT_CLICK, CHARGE_AND_RELEASE, CHARGE_AND_FINISH_USING, CHARGE_RELEASE_AND_FINISH
+			"Activation Mode" = "INSTANT_ON_RIGHT_CLICK"
+			#Maximum use duration in ticks for charge modes
+			# Default: 72000
+			# Range: 20 ~ 72000
+			"Charge Duration Ticks" = 72000
+			#Use animation played in charge modes
+			#Allowed Values: NONE, EAT, DRINK, BLOCK, BOW, SPEAR, CROSSBOW, SPYGLASS, TOOT_HORN, BRUSH, CUSTOM
+			"Charge Animation" = "BOW"
+
+		["Weapon Traits Handler"."Item Traits Settings".Backstab]
+			#Damage multiplier when attacking from behind
+			# Default: 2.0
+			# Range: 1.0 ~ 10.0
+			"Backstab Multiplier Normal" = 2.0
+			#Damage multiplier when sneaking from behind
+			# Default: 2.5
+			# Range: 1.0 ~ 10.0
+			"Backstab Multiplier Sneaking" = 2.5
+			#Damage multiplier when invisible
+			# Default: 3.0
+			# Range: 1.0 ~ 10.0
+			"Backstab Multiplier Invisible" = 3.0
+			#Damage multiplier when sneaking and invisible
+			# Default: 3.5
+			# Range: 1.0 ~ 10.0
+			"Backstab Multiplier Sneaking Invisible" = 3.5
+			#Extra durability damage on backstab
+			# Default: 3
+			# Range: 0 ~ 100
+			"Durability Penalty" = 3
+			#Durability multiplier for right-click backstab
+			# Default: 2.0
+			# Range: 0.0 ~ 10.0
+			"Right Click Durability Multiplier" = 2.0
+			#Forward impulse on right-click backstab
+			# Default: 0.8
+			# Range: 0.0 ~ 5.0
+			"Right Click Forward Impulse" = 0.8
+			#Max distance for backstab detection
+			# Default: 2.0
+			# Range: 0.5 ~ 10.0
+			"Max Distance" = 2.0
+			#Max angle for backstab detection
+			# Default: 45.0
+			# Range: 0.0 ~ 180.0
+			"Max Angle Degrees" = 45.0
+			#Chance to apply weakness on backstab
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			"Weakness Chance" = 0.0
+			#Weakness duration in ticks
+			# Default: 60
+			# Range: 0 ~ 1200
+			"Weakness Duration Ticks" = 60
+			#Weakness effect level
+			# Default: 1
+			# Range: 0 ~ 10
+			"Weakness Level" = 1
+			#Cooldown for right-click backstab in ticks
+			# Default: 20
+			# Range: 0 ~ 200
+			"Right Click Cooldown Ticks" = 20
+			#Apply cooldown to all items with the backstab trait in the inventory when the backstab cooldown triggers, preventing abuse by switching between multiple backstab weapons
+			"Global Cooldown" = true
+			#Damage bonus when target is in darkness
+			# Default: 1.5
+			# Range: 0.0 ~ 10.0
+			"Darkness Bonus" = 1.5
+			#Damage penalty against moving targets
+			# Default: 0.5
+			# Range: 0.0 ~ 5.0
+			"Moving Target Penalty" = 0.5
+			#Grace period for backstab detection in seconds
+			# Default: 0.2
+			# Range: 0.0 ~ 2.0
+			"Grace Period Seconds" = 0.2
+			#Bonus damage on right-click backstab
+			# Default: 2.5
+			# Range: 0.0 ~ 100.0
+			"Right Click Damage Bonus" = 2.5
+
+		["Weapon Traits Handler"."Item Traits Settings"."Heavy Handed"]
+			#Base movement speed reduction when dual-wielding. 0.05 = 5%% reduction
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			"Movement Speed Reduction" = 0.05
+			#Base attack speed reduction when dual-wielding. 0.05 = 5%% reduction
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			"Attack Speed Reduction" = 0.05
+			#Base attack damage reduction when dual-wielding. 0.03 = 3%% reduction
+			# Default: 0.03
+			# Range: 0.0 ~ 1.0
+			"Attack Damage Reduction" = 0.03
+			#Extra reduction per 100 max durability. 0.01 = 1%% per 100 durability. A diamond sword (1561 dur) would add ~15.6%% reduction.
+			# Default: 0.01
+			# Range: 0.0 ~ 0.5
+			"Durability Factor" = 0.01
+			#Extra reduction per point of attack damage. 0.005 = 0.5%% per damage point. A 8-damage sword would add 4%% reduction.
+			# Default: 0.005
+			# Range: 0.0 ~ 0.1
+			"Damage Factor" = 0.005
+			#Maximum total reduction cap. 0.50 = at most 50%% stat reduction.
+			# Default: 0.5
+			# Range: 0.0 ~ 0.95
+			"Max Reduction" = 0.5
+
+	["Mob Behaviors Handler"."Mob Gun Shoot Behavior"]
+		#Allow mobs to shoot guns when equipped
+		"Mobs Shoot Guns" = true
+		#Require mobs to have ammunition to shoot guns
+		"Mobs Need Ammo" = false
+		#Minimum cooldown (in ticks) between actions. Each shot picks a random value between Min and Max (20 ticks = 1 second).
+		# Default: 40
+		# Range: 5 ~ 1200
+		"Gun Cooldown Min Ticks" = 40
+		#Maximum cooldown (in ticks) between actions. Each shot picks a random value between Min and Max.
+		# Default: 80
+		# Range: 5 ~ 1200
+		"Gun Cooldown Max Ticks" = 80
+		#Minimum initial cooldown (in ticks) before first shot after acquiring a target
+		# Default: 40
+		# Range: 0 ~ 800
+		"Gun Initial Cooldown Min Ticks" = 40
+		#Maximum initial cooldown (in ticks) before first shot after acquiring a target
+		# Default: 120
+		# Range: 0 ~ 800
+		"Gun Initial Cooldown Max Ticks" = 120
+		#Cooldown multiplier on Easy difficulty (higher = slower shots)
+		# Default: 3.5
+		# Range: 0.1 ~ 5.0
+		"Gun Cooldown Easy Multiplier" = 3.5
+		#Cooldown multiplier on Normal difficulty
+		# Default: 2.5
+		# Range: 0.1 ~ 5.0
+		"Gun Cooldown Normal Multiplier" = 2.5
+		#Cooldown multiplier on Hard difficulty (lower = faster shots)
+		# Default: 1.5
+		# Range: 0.1 ~ 5.0
+		"Gun Cooldown Hard Multiplier" = 1.5
+		#Minimum distance (in blocks) for the mob to shoot. If the target is closer, the mob will prefer melee if within melee range, or wait/advance. Set to 0 to disable.
+		# Default: 3.0
+		# Range: 0.0 ~ 10.0
+		"Gun Min Shoot Distance" = 3.0
+		#Distance (in blocks) at which the mob will perform a melee attack with the gun instead of shooting.
+		# Default: 2.5
+		# Range: 1.0 ~ 5.0
+		"Gun Melee Distance" = 2.5
+		#If true, mobs will raytrace from their eyes to the target's center and only shoot if no solid blocks are in the way. If false, uses the vanilla line-of-sight check.
+		"Gun Check Clear Shot" = true
+		#If true, mobs will use the gun's base cooldown (from Gun System config) instead of the flat mob behavior cooldown. This means pistols fire faster than shotguns, matching each gun's intended fire rate.
+		"Gun Use Base Cooldown" = false
+		#Multiplier applied to the gun's base cooldown when 'Gun Use Base Cooldown' is true. 1.0 = same fire rate as players. Higher = slower for mobs.
+		# Default: 2.0
+		# Range: 0.1 ~ 10.0
+		"Gun Base Cooldown Multiplier" = 2.0
+
+	["Mob Behaviors Handler"."Mob Throwable Behavior"]
+		#Minimum cooldown (in ticks) between throws. Each throw picks a random value between Min and Max (20 ticks = 1 second).
+		# Default: 60
+		# Range: 5 ~ 1200
+		"Throwable Cooldown Min Ticks" = 60
+		#Maximum cooldown (in ticks) between throws. Each throw picks a random value between Min and Max.
+		# Default: 120
+		# Range: 5 ~ 1200
+		"Throwable Cooldown Max Ticks" = 120
+		#Minimum initial cooldown (in ticks) before first throw after acquiring a target
+		# Default: 40
+		# Range: 0 ~ 800
+		"Throwable Initial Cooldown Min Ticks" = 40
+		#Maximum initial cooldown (in ticks) before first throw after acquiring a target
+		# Default: 120
+		# Range: 0 ~ 800
+		"Throwable Initial Cooldown Max Ticks" = 120
+		#Cooldown multiplier on Easy difficulty (higher = slower throws)
+		# Default: 3.5
+		# Range: 0.1 ~ 5.0
+		"Throwable Cooldown Easy Multiplier" = 3.5
+		#Cooldown multiplier on Normal difficulty
+		# Default: 2.5
+		# Range: 0.1 ~ 5.0
+		"Throwable Cooldown Normal Multiplier" = 2.5
+		#Cooldown multiplier on Hard difficulty (lower = faster throws)
+		# Default: 1.5
+		# Range: 0.1 ~ 5.0
+		"Throwable Cooldown Hard Multiplier" = 1.5
+		#Minimum distance (in blocks) for the mob to throw. If the target is closer, the mob will prefer melee if within melee range, or wait/advance. Set to 0 to disable.
+		# Default: 3.0
+		# Range: 0.0 ~ 10.0
+		"Throwable Min Throw Distance" = 3.0
+		#Distance (in blocks) at which the mob will perform a melee attack with the throwable instead of throwing.
+		# Default: 2.5
+		# Range: 1.0 ~ 5.0
+		"Throwable Melee Distance" = 2.5
+		#If true, mobs will raytrace from their eyes to the target's center and only throw if no solid blocks are in the way. If false, uses the vanilla line-of-sight check.
+		"Throwable Check Clear Shot" = true
+		#Probability (0.0 to 1.0) that a mob's throw will be a critical hit (deals extra damage). 0 = never critical, 1 = always critical.
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		"Throwable Critical Chance" = 0.15
+		#Multiplier for the throwable's inaccuracy when thrown by a mob. 1.0 = normal accuracy (as defined by the item). Higher values = less accurate (more spread). 0.0 = perfect aim.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		"Throwable Inaccuracy Multiplier" = 1.0
+		#Allow mobs to throw throwable items when equipped
+		"Mobs Throw Throwables" = true
+
+	["Mob Behaviors Handler"."Mob Quick Swap Behavior"]
+		#Allow mobs to use quick swap when equipped
+		"Mobs Use Quick Swap" = true
+		#Minimum initial cooldown (in ticks) before first quick swap after acquiring a target
+		# Default: 60
+		# Range: 0 ~ 800
+		"Quick Swap Initial Cooldown Min Ticks" = 60
+		#Maximum initial cooldown (in ticks) before first quick swap after acquiring a target
+		# Default: 180
+		# Range: 0 ~ 800
+		"Quick Swap Initial Cooldown Max Ticks" = 180
+
+	["Mob Behaviors Handler"."Mob Smoke Bomb Behavior"]
+		#Allow mobs to use smoke bombs when equipped
+		"Mobs Use Smoke Bombs" = true
+		#Minimum cooldown (in ticks) between smoke bomb uses. Each use picks a random value between Min and Max (20 ticks = 1 second).
+		# Default: 200
+		# Range: 5 ~ 2400
+		"Smoke Bomb Cooldown Min Ticks" = 200
+		#Maximum cooldown (in ticks) between smoke bomb uses. Each use picks a random value between Min and Max.
+		# Default: 400
+		# Range: 5 ~ 2400
+		"Smoke Bomb Cooldown Max Ticks" = 400
+		#Minimum initial cooldown (in ticks) before first smoke bomb use after acquiring a target
+		# Default: 80
+		# Range: 0 ~ 800
+		"Smoke Bomb Initial Cooldown Min Ticks" = 80
+		#Maximum initial cooldown (in ticks) before first smoke bomb use after acquiring a target
+		# Default: 200
+		# Range: 0 ~ 800
+		"Smoke Bomb Initial Cooldown Max Ticks" = 200
+		#Cooldown multiplier on Easy difficulty (higher = slower uses)
+		# Default: 3.5
+		# Range: 0.1 ~ 5.0
+		"Smoke Bomb Cooldown Easy Multiplier" = 3.5
+		#Cooldown multiplier on Normal difficulty
+		# Default: 2.5
+		# Range: 0.1 ~ 5.0
+		"Smoke Bomb Cooldown Normal Multiplier" = 2.5
+		#Cooldown multiplier on Hard difficulty (lower = faster uses)
+		# Default: 1.5
+		# Range: 0.1 ~ 5.0
+		"Smoke Bomb Cooldown Hard Multiplier" = 1.5
+		#Radius (in blocks) in which the smoke bomb applies effects to entities
+		# Default: 3.0
+		# Range: 1.0 ~ 10.0
+		"Smoke Bomb Effect Radius" = 3.0
+		#Probability (0.0 to 1.0) that the mob will attempt to use the smoke bomb when all conditions are met. 1.0 = always, 0.75 = 75%.
+		# Default: 0.85
+		# Range: 0.0 ~ 1.0
+		"Smoke Bomb Use Probability" = 0.85
+
+	["Mob Behaviors Handler"."Mob Slingshot Behavior"]
+		#Allow mobs to use slingshots when equipped
+		"Mobs Use Slingshots" = true
+		#If true, mobs require valid ammo in their offhand to shoot. If false, mobs will use the default ammo from config.
+		"Mobs Need Ammo" = false
+		#Minimum cooldown (in ticks) between shots. Each shot picks a random value between Min and Max (20 ticks = 1 second).
+		# Default: 60
+		# Range: 5 ~ 1200
+		"Slingshot Cooldown Min Ticks" = 60
+		#Maximum cooldown (in ticks) between shots. Each shot picks a random value between Min and Max.
+		# Default: 120
+		# Range: 5 ~ 1200
+		"Slingshot Cooldown Max Ticks" = 120
+		#Minimum initial cooldown (in ticks) before first shot after acquiring a target
+		# Default: 40
+		# Range: 0 ~ 800
+		"Slingshot Initial Cooldown Min Ticks" = 40
+		#Maximum initial cooldown (in ticks) before first shot after acquiring a target
+		# Default: 120
+		# Range: 0 ~ 800
+		"Slingshot Initial Cooldown Max Ticks" = 120
+		#Cooldown multiplier on Easy difficulty (higher = slower shots)
+		# Default: 3.5
+		# Range: 0.1 ~ 5.0
+		"Slingshot Cooldown Easy Multiplier" = 3.5
+		#Cooldown multiplier on Normal difficulty
+		# Default: 2.5
+		# Range: 0.1 ~ 5.0
+		"Slingshot Cooldown Normal Multiplier" = 2.5
+		#Cooldown multiplier on Hard difficulty (lower = faster shots)
+		# Default: 1.5
+		# Range: 0.1 ~ 5.0
+		"Slingshot Cooldown Hard Multiplier" = 1.5
+		#Minimum distance (in blocks) for the mob to shoot. If the target is closer, the mob will prefer melee if within melee range, or wait/advance. Set to 0 to disable.
+		# Default: 2.0
+		# Range: 0.0 ~ 10.0
+		"Slingshot Min Shoot Distance" = 2.0
+		#Distance (in blocks) at which the mob will perform a melee attack with the slingshot instead of shooting.
+		# Default: 2.5
+		# Range: 1.0 ~ 5.0
+		"Slingshot Melee Distance" = 2.5
+		#If true, mobs will raytrace from their eyes to the target's center and only shoot if no solid blocks are in the way. If false, uses the vanilla line-of-sight check.
+		"Slingshot Check Clear Shot" = true
+		#Multiplier for the slingshot's inaccuracy when used by a mob. 1.0 = normal accuracy (as defined by the item). Higher values = less accurate (more spread). 0.0 = perfect aim.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		"Slingshot Inaccuracy Multiplier" = 1.0
+		#Probability (0.0 to 1.0) that the mob will attempt to shoot when all conditions are met. 1.0 = always, 0.75 = 75%.
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		"Slingshot Throw Probability" = 0.75
+		#Default ammo item for mobs that don't have ammo in their offhand. Format: 'modid:item'.
+		"Default Ammo" = "minecraft:oak_planks"
+		#List of mob-type=ammo overrides for default slingshot ammo. Format: 'mob_registry_name=item_registry_name'. Examples: 'minecraft:piglin=minecraft:blackstone', 'minecraft:stray=minecraft:blue_ice'.
+		"Mob Ammo Overrides" = ["minecraft:piglin=minecraft:netherrack", "minecraft:piglin_brute=minecraft:blackstone", "minecraft:zombified_piglin=minecraft:blackstone", "minecraft:stray=minecraft:blue_ice"]

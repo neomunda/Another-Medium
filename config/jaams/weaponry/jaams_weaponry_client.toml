@@ -1,0 +1,550 @@
+			["Assorted Client Handler"."Weapon Traits"."Item Traits Settings"."Whirling Strike"]
+				#Enable or disable the whirling strike arm animation in third person
+				"Whirling Strike Arm Animation" = true
+
+["Camera Effects Handler"]
+	#Enable or disable screen shake effects on certain actions (explosions, heavy hits, etc.)
+	"Screen Shake" = true
+
+["Creative Tab Handler"]
+	#The item to use as the creative tab icon (requires restart)
+	"Creative Tab Icon" = "jaams_weaponry:iron_buster_sword"
+
+	["Gun System Client Handler"."Gun Client Settings"]
+		#Enable or disable gun inventory sounds
+		"Gun Inventory Sounds" = true
+		#Key to press with right-click to open gun inventory (ALT, SHIFT, or CONTROL)
+		#Allowed Values: ALT, SHIFT, CONTROL
+		"Gun Inventory Key" = "SHIFT"
+		#Enable or disable the default aiming pose for guns
+		"Gun Default Aiming Pose" = true
+		#Enable or disable the gun aiming arm animation in third person
+		"Gun Aiming Arm Animation" = true
+		#Enable or disable the cooldown animation for guns
+		"Gun Cooldown Animation" = true
+		#How far guns drop down during cooldown animation
+		# Default: 0.15
+		# Range: 0.0 ~ 2.0
+		"Gun Cooldown Drop" = 0.15
+
+	["Gun System Client Handler"."Gun Bar Settings"]
+		#Enable or disable the gun color bar
+		"Show Gun Bar" = true
+		#X position of the gun color bar
+		# Default: 2
+		# Range: > -2147483648
+		"Gun Bar X" = 2
+		#Y position of the gun color bar
+		# Default: 13
+		# Range: > -2147483648
+		"Gun Bar Y" = 13
+		#Use only the default color for the bar instead of bullet colors
+		"Gun Default Color" = false
+
+	["Gun System Client Handler"."Gun Overlay Settings"]
+		#Overlay position on the screen
+		#Allowed Values: TOP, BOTTOM
+		"Overlay Position" = "BOTTOM"
+		#Enable or disable bullet render on Overlay
+		"Show Gun Storage Overlay" = true
+		#Enable background for the overlay
+		"Background Enabled" = true
+		#Background color for the overlay
+		#Allowed Values: BLACK, WHITE, LIGHT_GRAY, DARK_GRAY, RED, GREEN, BLUE, PINK, ORANGE, LAVENDER, MINT, SANDY_BEIGE, GOLDEN, OLIVE, PALE_YELLOW, LIGHT_BROWN, BROWN, CYAN, PURPLE, TEAL, BEIGE, TURQUOISE, FUCHSIA
+		"Background Color" = "BLACK"
+		#Transparency level for the overlay background
+		#Allowed Values: TRANSPARENT, SEMI_TRANSPARENT, OPAQUE
+		"Background Transparency" = "TRANSPARENT"
+		#Border color for the overlay
+		#Allowed Values: BLACK, WHITE, LIGHT_GRAY, DARK_GRAY, RED, GREEN, BLUE, PINK, ORANGE, LAVENDER, MINT, SANDY_BEIGE, GOLDEN, OLIVE, PALE_YELLOW, LIGHT_BROWN, BROWN, CYAN, PURPLE, TEAL, BEIGE, TURQUOISE, FUCHSIA
+		"Border Color" = "WHITE"
+		#Border thickness for the overlay background
+		# Default: 1
+		# Range: 0 ~ 3
+		"Border Thickness" = 1
+		#Enable or disable rendering of slot 0
+		"Render Slot 0" = true
+		#Enable or disable rendering of slot 1
+		"Render Slot 1" = true
+		#Enable or disable rendering of slot 2
+		"Render Slot 2" = true
+
+		["Gun System Client Handler"."Gun Overlay Settings"."Main Hand Overlay Position"]
+			#X position of the main hand gun storage overlay
+			# Default: 0
+			# Range: > -2147483648
+			"Main Hand Overlay X" = 0
+			#Y position of the main hand gun storage overlay
+			# Default: 0
+			# Range: > -2147483648
+			"Main Hand Overlay Y" = 0
+
+		["Gun System Client Handler"."Gun Overlay Settings"."Off Hand Overlay Position"]
+			#X position of the off hand gun storage overlay
+			# Default: 0
+			# Range: > -2147483648
+			"Off Hand Overlay X" = 0
+			#Y position of the off hand gun storage overlay
+			# Default: 0
+			# Range: > -2147483648
+			"Off Hand Overlay Y" = 0
+
+		["Item Status Bars Handler"."Item Traits Bar Settings"."After Strike Bar Settings"]
+			#Show or hide the After Strike status bar
+			"Show After Strike Bar" = true
+			#X offset of the After Strike bar
+			# Default: 2
+			# Range: -100 ~ 100
+			"Bar X Offset" = 2
+			#Y offset of the After Strike bar
+			# Default: 13
+			# Range: -100 ~ 100
+			"Bar Y Offset" = 13
+			#Hex color (AARRGGBB) for the After Strike bar
+			"Bar Hex Color" = "FFFFFFFF"
+
+		["Item Status Bars Handler"."Item Traits Bar Settings"."Rapid Boost Bar Settings"]
+			#Show or hide the Rapid Boost status bar
+			"Show Rapid Boost Bar" = true
+			#X offset of the Rapid Boost bar
+			# Default: 2
+			# Range: -100 ~ 100
+			"Bar X Offset" = 2
+			#Y offset of the Rapid Boost bar
+			# Default: 13
+			# Range: -100 ~ 100
+			"Bar Y Offset" = 13
+			#Hex color (AARRGGBB) for the Rapid Boost bar
+			"Bar Hex Color" = "FF55CFFF"
+
+		["Item Status Bars Handler"."Item Traits Bar Settings"."Power Boost Bar Settings"]
+			#Show or hide the Power Boost status bar
+			"Show Power Boost Bar" = true
+			#X offset of the Power Boost bar
+			# Default: 2
+			# Range: -100 ~ 100
+			"Bar X Offset" = 2
+			#Y offset of the Power Boost bar
+			# Default: 13
+			# Range: -100 ~ 100
+			"Bar Y Offset" = 13
+			#Hex color (AARRGGBB) for the Power Boost bar
+			"Bar Hex Color" = "FFFF4444"
+
+		["Item Status Bars Handler"."Item Traits Bar Settings"."Buster Strike Bar Settings"]
+			#Show or hide the Buster Strike status bar
+			"Show Buster Strike Bar" = true
+			#X offset of the Buster Strike bar
+			# Default: 2
+			# Range: -100 ~ 100
+			"Bar X Offset" = 2
+			#Y offset of the Buster Strike bar
+			# Default: 13
+			# Range: -100 ~ 100
+			"Bar Y Offset" = 13
+			#Hex color (AARRGGBB) for the Buster Strike bar
+			"Bar Hex Color" = "FFFF4444"
+
+	["Projectile Client Handler"."Axe Projectile"]
+		#Visual size scale of the Axe projectile
+		# Default: 1.7
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.7
+
+	["Projectile Client Handler"."Cleaver Projectile"]
+		#Visual size scale of the Cleaver projectile
+		# Default: 1.7
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.7
+
+	["Projectile Client Handler"."Ring Projectile"]
+		#Visual size scale of the Ring projectile
+		# Default: 1.7
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.7
+
+	["Projectile Client Handler"."Royal Axe Projectile"]
+		#Visual size scale of the Royal Axe projectile
+		# Default: 1.8
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.8
+
+	["Projectile Client Handler"."Royal Spear Projectile"]
+		#Visual size scale of the Royal Spear projectile
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.0
+
+	["Projectile Client Handler"."Giant Shuriken Projectile"]
+		#Visual size scale of the Giant Shuriken projectile
+		# Default: 1.9
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.9
+
+	["Projectile Client Handler"."Shuriken Projectile"]
+		#Visual size scale of the Shuriken projectile
+		# Default: 1.5
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.5
+
+	["Projectile Client Handler"."Kunai Projectile"]
+		#Visual size scale of the Kunai projectile
+		# Default: 1.7
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.7
+
+	["Projectile Client Handler"."Pronged Kunai Projectile"]
+		#Visual size scale of the Pronged Kunai projectile
+		# Default: 1.9
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.9
+
+	["Projectile Client Handler"."Sharp Stone Projectile"]
+		#Visual size scale of the Sharp Stone projectile
+		# Default: 1.9
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.9
+
+	["Projectile Client Handler"."Spear Projectile"]
+		#Visual size scale of the Spear projectile
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.0
+
+	["Projectile Client Handler"."Trident Projectile"]
+		#Visual size scale of the Trident projectile
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.0
+
+	["Projectile Client Handler"."Hunters Boomerang Projectile"]
+		#Visual size scale of the Hunters Boomerang projectile
+		# Default: 1.7
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.7
+		#Enable or disable trail particles for Hunters Boomerang projectile
+		"Projectile Trail" = true
+		#Hunters Boomerang projectile trail particle spawn frequency
+		# Default: 3
+		# Range: 1 ~ 20
+		"Projectile Trail Spawn Rate" = 3
+
+	["Projectile Client Handler"."Dynamite Projectile"]
+		#Visual size scale of the Dynamite projectile
+		# Default: 1.5
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.5
+		#Enable or disable trail particles for Dynamite projectile
+		"Projectile Trail" = true
+		#Dynamite projectile trail particle spawn frequency
+		# Default: 3
+		# Range: 1 ~ 20
+		"Projectile Trail Spawn Rate" = 3
+
+	["Projectile Client Handler"."Broom Projectile"]
+		#Visual size scale of the Broom projectile
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.0
+
+	["Projectile Client Handler"."Bullet Projectile"]
+		#Visual size scale of the Bullet projectile
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.0
+		#Enable or disable Bullet projectile icon
+		"Projectile Icon" = true
+
+	["Projectile Client Handler"."Stake Projectile"]
+		#Visual size scale of the Stake projectile
+		# Default: 1.6
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.6
+
+	["Projectile Client Handler"."Item Projectile"]
+		#Default visual size scale for generic ItemProjectile
+		# Default: 1.3
+		# Range: 0.1 ~ 10.0
+		"Projectile Visual Size" = 1.3
+
+	["Tooltips System Handler"."Tooltips Base Settings"]
+		#Enable or disable tooltips shown when holding the Control key added by the mod
+		"Enable Control Key Tooltips" = false
+		#Enable or disable tooltips shown when holding the Alt key added by the mod
+		"Enable Alt Key Tooltips" = false
+		#Enable or disable all custom tooltips added by the mod
+		"Enable Tooltips" = false
+		#List of item IDs excluded from all custom tooltips of the mod
+		"Excluded Tooltips Items" = []
+		#List of item IDs excluded from Control key extra info tooltips added by the mod 
+		"Excluded Control Tooltips Items" = []
+		#List of item IDs excluded from Alt key description tooltips added by the mod
+		"Excluded Alt Tooltips Items" = []
+
+		["Tooltips System Handler"."Item Features Tooltips"."Smoke Bomb"]
+			#Show advanced smoke bomb properties
+			"Show Smoke Bomb Properties" = true
+
+		["Tooltips System Handler"."Item Features Tooltips".Guns]
+			#Show the gun inventory key hint in the tooltip
+			"Show Gun Inventory Hint" = true
+			#Show the base ammo line in gun tooltips
+			"Show Gun Base Ammo" = true
+			#Show the attachments line in gun tooltips
+			"Show Gun Attachments" = true
+			#Use roman numerals for revolver chamber labels in tooltip
+			"Revolver Roman Numerals" = true
+
+		["Tooltips System Handler"."Item Features Tooltips".Slingshots]
+			#Show the base ammo line in slingshot tooltips
+			"Show Slingshot Base Ammo" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Piercer Strike"]
+				#Show advanced piercer strike properties
+				"Show Piercer Strike Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Duelist]
+				#Show advanced duelist properties
+				"Show Duelist Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Threat Response"]
+				#Show advanced threat response properties
+				"Show Threat Response Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Reach Advantage"]
+				#Show advanced reach advantage properties
+				"Show Reach Advantage Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."After Strike"]
+				#Show advanced after strike properties
+				"Show After Strike Properties" = true
+				#Show current and required hits tracking for after strike in the advanced tooltip
+				"Show After Strike Hits Tracker" = true
+				#Show initial damage modifier and decay factor percentage percentages in the advanced tooltip
+				"Show After Strike Damage Modifiers" = false
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Quick Crafting"]
+				#Show advanced quick crafting properties
+				"Show Quick Crafting Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Aquatic Grudge"]
+				#Show advanced aquatic grudge properties
+				"Show Aquatic Grudge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Arthropod Grudge"]
+				#Show advanced arthropod grudge properties
+				"Show Arthropod Grudge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Undead Grudge"]
+				#Show advanced undead grudge properties
+				"Show Undead Grudge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Traitor Grudge"]
+				#Show advanced traitor grudge properties
+				"Show Traitor Grudge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Snout Grudge"]
+				#Show advanced snout grudge properties
+				"Show Snout Grudge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Bone Grudge"]
+				#Show advanced bone grudge properties
+				"Show Bone Grudge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Anti Aerial"]
+				#Show advanced anti aerial properties
+				"Show Anti Aerial Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Rotten Grudge"]
+				#Show advanced rotten grudge properties
+				"Show Rotten Grudge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Armor Breaker"]
+				#Show advanced armor breaker properties
+				"Show Armor Breaker Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Blade Breaker"]
+				#Show advanced blade breaker properties
+				"Show Blade Breaker Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Acrobatic Lunge"]
+				#Show advanced acrobatic lunge properties
+				"Show Acrobatic Lunge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Dexterous Lunge"]
+				#Show advanced dexterous lunge properties
+				"Show Dexterous Lunge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Pull Lunge"]
+				#Show advanced pull lunge properties
+				"Show Pull Lunge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Disengage]
+				#Show advanced disengage properties
+				"Show Disengage Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Disarm]
+				#Show advanced disarm properties
+				"Show Disarm Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Dismount]
+				#Show advanced dismount properties
+				"Show Dismount Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Disabling Strike"]
+				#Show advanced disabling strike properties
+				"Show Disabling Strike Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Through Strike"]
+				#Show advanced through strike properties
+				"Show Through Strike Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Cleansing Strike"]
+				#Show advanced cleansing strike properties
+				"Show Cleansing Strike Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Overwhelming Strike"]
+				#Show advanced overwhelming strike properties
+				"Show Overwhelming Strike Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Suppressing Strike"]
+				#Show advanced suppressing strike properties
+				"Show Suppressing Strike Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Slash Assault"]
+				#Show advanced slash assault properties
+				"Show Slash Assault Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Piercing Assault"]
+				#Show advanced piercing assault properties
+				"Show Piercing Assault Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Smash Strike"]
+				#Show advanced smash strike properties
+				"Show Smash Strike Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Shock Impact"]
+				#Show advanced shock impact properties
+				"Show Shock Impact Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Harvest Sweep"]
+				#Show advanced harvest sweep properties
+				"Show Harvest Sweep Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Wild Sweep"]
+				#Show advanced wild sweep properties
+				"Show Wild Sweep Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Whirling Strike"]
+				#Show advanced whirling strike properties
+				"Show Whirling Strike Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Fragility]
+				#Show advanced fragility properties
+				"Show Fragility Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Slippery]
+				#Show advanced slippery properties
+				"Show Slippery Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Exhausting]
+				#Show advanced exhausting properties
+				"Show Exhausting Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Brittle Handle"]
+				#Show advanced brittle handle properties
+				"Show Brittle Handle Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Barbed Handle"]
+				#Show advanced Barbed Handle properties
+				"Show Barbed Handle Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Overstrain]
+				#Show advanced overstrain properties
+				"Show Overstrain Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Unstable Edge"]
+				#Show advanced unstable edge properties
+				"Show Unstable Edge Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Detonating]
+				#Show advanced detonating properties
+				"Show Detonating Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Decapitation]
+				#Show advanced decapitation properties
+				"Show Decapitation Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Rapid Boost"]
+				#Show advanced rapid boost properties
+				"Show Rapid Boost Properties" = true
+				#Show current hits tracking for rapid boost in the advanced tooltip
+				"Show Rapid Boost Hits Tracker" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Power Boost"]
+				#Show advanced power boost properties
+				"Show Power Boost Properties" = true
+				#Show current hits tracking for power boost in the advanced tooltip
+				"Show Power Boost Hits Tracker" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Quick Swap"]
+				#Show advanced quick swap properties
+				"Show Quick Swap Properties" = true
+				#Show quick swap activation mode
+				"Show Quick Swap Mode" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Buster Strike"]
+				#Show advanced buster strike properties
+				"Show Buster Strike Properties" = true
+				#Show current and required hits tracking for buster strike in the advanced tooltip
+				"Show Buster Strike Hits Tracker" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips".Backstab]
+				#Show advanced backstab properties
+				"Show Backstab Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Guard Stance"]
+				#Show advanced guard stance properties
+				"Show Guard Stance Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Parry Guard"]
+				#Show advanced parry guard properties
+				"Show Parry Guard Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Item Traits Tooltips"."Heavy Handed"]
+				#Show advanced heavy handed properties
+				"Show Heavy Handed Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Projectile Traits Tooltips".Throwable]
+				#Show throwing properties section
+				"Show Throwing Properties" = true
+				#Show throwing mode section
+				"Show Throwing Mode" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Projectile Traits Tooltips"."Backstab Shot"]
+				#Show advanced backstab shot properties
+				"Show Backstab Shot Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Projectile Traits Tooltips"."Piercing Shot"]
+				#Show advanced piercing shot properties
+				"Show Piercing Shot Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Projectile Traits Tooltips"."Disabling Shot"]
+				#Show advanced disabling shot properties
+				"Show Disabling Shot Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Projectile Traits Tooltips"."Sweeping Shot"]
+				#Show advanced sweeping shot properties
+				"Show Sweeping Shot Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Projectile Traits Tooltips"."Disarming Shot"]
+				#Show advanced disarming shot properties
+				"Show Disarming Shot Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Projectile Traits Tooltips".Throwback]
+				#Show advanced throwback properties
+				"Show Throwback Properties" = true
+
+			["Tooltips System Handler"."Weapon Traits Tooltips"."Projectile Traits Tooltips".Collector]
+				#Show advanced collector properties
+				"Show Collector Properties" = true

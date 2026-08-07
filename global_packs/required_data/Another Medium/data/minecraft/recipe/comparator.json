@@ -1,0 +1,88 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:plates/iron"
+  },
+  "results": [
+    {
+      "id": "minecraft:repeater"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone_torch"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone_torch"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone_torch"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:quartz"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "minecraft:comparator"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:incomplete_track"
+  }
+}

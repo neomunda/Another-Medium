@@ -1,0 +1,17 @@
+{
+  "elements": [
+    "oreganized:electrum_helmet",
+    "oreganized:electrum_chestplate",
+    "oreganized:electrum_leggings",
+    "oreganized:electrum_boots"
+  ],
+  "patch": {
+    "minecraft:attribute_modifiers": {
+      "id": "minecraft:air_drag",
+      "type": "minecraft:air_drag_modifier",
+      "slot": "any",
+      "operation": "add_multiplied_base",
+      "amount": 0.2
+    }
+  }
+}

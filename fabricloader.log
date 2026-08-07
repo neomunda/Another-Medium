@@ -1,0 +1,4 @@
+[14:24:53] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[14:24:53] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE immersiveminimaps 1.2.4+1.21.1 {depends mru @ [>=1.0.31]}, ROOT_FORCELOAD_SINGLE immersiveminimaps 1.2.4+1.21.1]
+[14:24:53] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP immersiveminimaps 1.2.4+1.21.1 {depends mru @ [>=1.0.31]}]
+[14:24:53] [INFO] [FabricLoader/Resolution]: Fix: add [], remove [], replace [[mru 1.0.19+LTS+1.21.1+neoforge] -> add:mru 1.0.31 ([[1.0.31,∞)])]

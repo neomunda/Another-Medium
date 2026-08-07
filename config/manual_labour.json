@@ -1,0 +1,22 @@
+{
+  "item_pile_y": 0.65,
+  "item_pile_radius": 0.3,
+  "item_float_sink_depth": 0.15,
+  "pestle_tip_contact_offset": 0.3,
+  "decorative_tool_y": 0.7,
+  "decorative_tool_side_offset": 0.2,
+  "decorative_tool_tilt": 30.0,
+  "ladle_stir_speed": 12.0,
+  "use_create_milling_recipes": true,
+  "use_create_crushing_recipes": false,
+  "use_create_mixing_recipes": true,
+  "use_create_deploying_recipes": true,
+  "use_create_pressing_recipes": true,
+  "workstone_hammer_cooldown_ticks": 10,
+  "enable_workstone_jei": true,
+  "enable_mortar_grinding_jei": true,
+  "enable_mortar_mixing_jei": true,
+  "enable_manual_assembly_jei": true,
+  "enable_millstone_jei": true,
+  "enable_manual_pressing_jei": true
+}

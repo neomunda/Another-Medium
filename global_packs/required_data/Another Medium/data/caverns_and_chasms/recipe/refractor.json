@@ -1,0 +1,88 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "another_medium:tin_plate"
+  },
+  "results": [
+    {
+      "id": "caverns_and_chasms:refractor"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone_torch"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone_torch"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "minecraft:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "caverns_and_chasms:tin_nugget"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "caverns_and_chasms:refractor"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:incomplete_track"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "another_medium:tin_plate"
+  },
+  "results": [
+    {
+      "id": "caverns_and_chasms:resistor"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone_torch"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone_torch"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone_torch"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "minecraft:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:amethyst_shard"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "caverns_and_chasms:resistor"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:incomplete_track"
+  }
+}

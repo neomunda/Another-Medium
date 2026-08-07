@@ -1,0 +1,28 @@
+{
+  "item.yo_hooks.iron_grappling_hook": "Lapis Grappling Hook",
+  "item.yo_hooks.gold_grappling_hook": "Spinel Grappling Hook",
+  "item.yo_hooks.diamond_grappling_hook": "Amethyst Grappling Hook",
+  "item.yo_hooks.netherite_grappling_hook": "Zirconia Grappling Hook",
+
+  "gui.yo_hooks.hooks.desc_1": "Range: %d blocks",
+  "gui.yo_hooks.hooks.desc_2": "Does not consume hunger.",
+  "gui.yo_hooks.hooks.desc_3": "Does not break fragile blocks.",
+  "gui.yo_hooks.hooks.desc_4": "Bonus Agility: +%d",
+
+  "category.yo_hooks": "Grappling Hooks",
+  "key.category.yo_hooks.hook": "Grappling Hooks",
+
+  "enchantment.yo_hooks.gentle_touch": "Gentle Touch",
+  "enchantment.yo_hooks.gentle_touch.desc": "The grappling hook will not break fragile blocks such as glass or dripstone.",
+  "enchantment.yo_hooks.long_reach": "Long Reach",
+  "enchantment.yo_hooks.long_reach.desc": "Increases the length of the grappling hook.",
+  "enchantment.yo_hooks.agility": "Agility",
+  "enchantment.yo_hooks.agility.desc": "Speeds up grappling hook chain climb up and boosts the jump.",
+
+  "itemGroup.yo_hooks": "Grappling Hooks",
+  "entity.yo_hooks.hook_entity": "Hook",
+  "sounds.yo_hooks.cast": "Hook used",
+  "stat.yo_hooks.distance_traveled_on_hook_one_cm": "Distance on the Hook"
+
+
+}

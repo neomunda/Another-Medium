@@ -1,23 +1,70 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "B": {
-      "item": "minecraft:stone_button"
-    },
-    "N": {
-      "tag": "c:ingots/nickel"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "another_medium:nickel_plate"
   },
-  "pattern": [
-    "RRB",
-    "NNN"
+  "results": [
+    {
+      "id": "curiosities:redsotne_diode"
+    }
   ],
-  "result": {
-    "count": 4,
-    "id": "curiosities:redstone_diode"
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:iron_nugget"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "minecraft:incomplete_track"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:incomplete_track"
   }
 }

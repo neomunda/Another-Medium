@@ -1,0 +1,25 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "powergrid:copper_coil",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "tag": "c:wires/copper"
+    },
+    {
+      "tag": "c:wires/copper"
+    },
+    {
+      "tag": "c:wires/copper"
+    },
+    {
+      "tag": "c:wires/copper"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

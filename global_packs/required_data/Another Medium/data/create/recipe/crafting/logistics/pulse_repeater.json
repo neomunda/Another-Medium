@@ -1,0 +1,26 @@
+{
+  "key": {
+    "C": {
+      "tag": "c:plates/brass"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "S": {
+      "tag": "c:stones"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "pattern": [
+    "RCT",
+    "SSS"
+  ],
+  "result": {
+    "id": "create:pulse_repeater",
+    "count": 1
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped"
+}

@@ -432,6 +432,21 @@
     "yo_hooks:iron_hook_head",
     "yo_hooks:gold_hook_head",
     "yo_hooks:diamond_hook_head",
-    "yo_hooks:netherite_hook_head"
+    "yo_hooks:netherite_hook_head",
+    "abundant_atmosphere:stone_wall",
+    "curiosities:stone_wall",
+    "create:andesite_alloy",
+    "create:zinc_ingot",
+    "create:brass_ingot",
+    "create:brass_nugget",
+    "abundant_atmosphere:mud_lamp",
+    "supplementaries:slidy_block",
+    "create:dough",
+    "create:millstone",
+    "manual_labour:iron_hammer",
+    "manual_labour:golden_hammer",
+    "manual_labour:netherite_hammer",
+    "manual_labour:diamond_hammer",
+    "oreganized:flint_and_pewter"
   ]
 }

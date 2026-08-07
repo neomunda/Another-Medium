@@ -1,13 +1,5 @@
 {
 	"item.minecraft.enchanted_golden_apple": "Panacea",
-	"block.minecraft.oak_sapling": "Acorn",
-	"block.minecraft.birch_sapling": "Birch Catkin",
-	"block.minecraft.spruce_sapling": "Spruce Cone",
-	"block.minecraft.dark_oak_sapling": "Dark Acorn",
-	"block.minecraft.jungle_sapling": "Jungle Pod",
-	"block.minecraft.acacia_sapling": "Acacia Beans",
-	"block.minecraft.cherry_sapling": "Seeding Cherries",
-	"block.minecraft.pale_oak_sapling": "Pale Acorn",
   "death.attack.badRespawnPoint.message": "%1$s was de-anchored from reality",
   "deathScreen.score": "                                                                                                                                                                                                                                                                                             ",
   "deathScreen.title": "You Died!",

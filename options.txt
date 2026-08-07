@@ -2,7 +2,7 @@ version:3955
 ao:true
 biomeBlendRadius:2
 enableVsync:false
-entityDistanceScaling:0.5
+entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
@@ -22,7 +22,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:4
+renderDistance:5
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:""
@@ -48,7 +48,7 @@ mouseSensitivity:0.6091549295774648
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Farcr\u0027s Re-Create 1.6.zip","file/Another Medium Resources"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Brush \u0026 Juice","file/Farcr\u0027s Re-Crafted","file/Another Medium Resources"]
 incompatibleResourcePacks:[]
 lastServer:stammer-manages.tun.ply.gg 
 lang:en_us
@@ -58,7 +58,7 @@ chatLineSpacing:0.5023784068547701
 textBackgroundOpacity:0.15140845070422534
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -147,7 +147,9 @@ key_key.toggleSelectedItemTooltips:key.keyboard.unknown
 key_key.toggleCarriedItemTooltips:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
 key_key.clutternomore.change_block_shape:key.keyboard.left.alt
-key_key.way.toggle:key.keyboard.m
+key_key.way.toggle:key.keyboard.n
+key_key.lodged.use_bandage:key.keyboard.unknown
+key_key.lodged.remove_shield_arrow:key.keyboard.g
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.ayame_paperdoll.showPaperDoll:key.keyboard.f8
@@ -159,7 +161,7 @@ key_key.carry.desc:key.keyboard.unknown
 key_key.packdev_toolkit.export:key.keyboard.o
 key_key.packdev_toolkit.copy_translation_key:key.keyboard.j
 key_key.packdev_toolkit.export_description:key.keyboard.z
-key_key.travelertoolbelt.open_toolbelt:key.keyboard.r
+key_key.travelertoolbelt.open_toolbelt:key.keyboard.unknown
 key_key.easybuilding.show_grid:key.keyboard.left.alt
 key_key.hoofprint.open:key.keyboard.m
 key_key.immersiveminimaps.zoom_in:key.keyboard.equal
@@ -185,8 +187,8 @@ key_key.personality.crawl:key.keyboard.c
 key_key.personality.sit:key.keyboard.z
 key_treeliable.key.toggle_chopping:key.keyboard.unknown
 key_treeliable.key.cycle_sneak_behavior:key.keyboard.unknown
-key_key.freecam.toggle:key.keyboard.f4
-key_key.freecam.playerControl:key.keyboard.unknown
+key_key.freecam.toggle:key.keyboard.f7
+key_key.freecam.playerControl:key.keyboard.f6
 key_key.freecam.tripodReset:key.keyboard.unknown
 key_key.freecam.configGui:key.keyboard.unknown
 key_key.raised.options:key.keyboard.grave.accent

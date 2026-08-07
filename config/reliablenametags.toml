@@ -1,0 +1,24 @@
+# Cost of renaming items in the rename screen.
+# default: 0
+renameCost = 0
+# Whether the rename cost should be for the whole stack, instead of a single item.
+# default: true
+renameCostPerWholeStack = true
+# Whether named mobs should drop their name tags.
+# default: true
+dropNameTagsOnDeath = true
+# Allowing renaming mobs to retrieve their name tags.
+# default: true
+dropNameTagsOnNameChange = true
+# Allow shearing mobs to retrieve their name tags.
+# default: true
+enableNameTagShearing = true
+# Allow renaming name tags by right-clicking them.
+# default: true
+enableRenameScreen = true
+# Backports the name tag recipe from 26.1
+# default: true
+enableBackportedCraftingRecipe = true
+# Adds a recipe type for renaming items.
+# default: true
+renameItemRecipe = true

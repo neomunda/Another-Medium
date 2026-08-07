@@ -29,5 +29,6 @@
   "searchWidgetHorizontalPadding": 4,
   "searchWidgetVerticalPadding": 2,
   "searchWidgetSuggestionTextColor": -8355712,
-  "searchWidgetTextColor": -1
+  "searchWidgetTextColor": -1,
+  "searchWidgetUseVanillaTexture": false
 }

@@ -1,27 +1,70 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "A": {
-      "tag": "c:nuggets/aluminum"
-    },
-    "G": {
-      "tag": "c:glass_blocks/colorless"
-    },
-    "N": {
-      "tag": "c:ingots/nickel"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "another_medium:nickel_plate"
   },
-  "pattern": [
-    " R ",
-    "AGA",
-    "NNN"
+  "results": [
+    {
+      "id": "curiosities:redstone_fuse"
+    }
   ],
-  "result": {
-    "count": 1,
-    "id": "curiosities:redstone_fuse"
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:iron_nugget"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "curiosities:redstone_diode"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:incomplete_track"
   }
 }

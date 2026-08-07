@@ -2,10 +2,6 @@
   "biome.minecraft.pale_garden": "Pale Garden",
   "biome.minecraft.sulfur_caves": "Brimstone Caves",
   "block.minecraft.chiseled_sulfur": "Chiseled Brimstone",
-  "block.minecraft.polished_cinnabar": "Polished Cinnabar",
-  "block.minecraft.polished_cinnabar_slab": "Polished Cinnabar Slab",
-  "block.minecraft.polished_cinnabar_stairs": "Polished Cinnabar Stairs",
-  "block.minecraft.polished_cinnabar_wall": "Polished Cinnabar Wall",
   "block.minecraft.polished_sulfur": "Polished Brimstone",
   "block.minecraft.polished_sulfur_slab": "Polished Brimstone Slab",
   "block.minecraft.polished_sulfur_stairs": "Polished Brimstone Stairs",
@@ -61,5 +57,19 @@
 
   "item.minecraft.bundle.empty": "0/64",
   "item.minecraft.bundle.empty.description": "",
-  "item.minecraft.bundle.full": "64/64"
+  "item.minecraft.bundle.full": "64/64",
+
+  "block.minecraft.cinnabar": "Crimtane",
+  "block.minecraft.cinnabar_slab": "Crimtane Slab",
+  "block.minecraft.cinnabar_stairs": "Crimtane Stairs",
+  "block.minecraft.cinnabar_wall": "Crimtane Wall",
+  "block.minecraft.polished_cinnabar": "Polished Crimtane",
+  "block.minecraft.polished_cinnabar_slab": "Polished Crimtane Slab",
+  "block.minecraft.polished_cinnabar_stairs": "Polished Crimtane Stairs",
+  "block.minecraft.polished_cinnabar_wall": "Polished Crimtane Wall",
+  "block.minecraft.cinnabar_bricks": "Crimtane Bricks",
+  "block.minecraft.cinnabar_brick_slab": "Crimtane Brick Slab",
+  "block.minecraft.cinnabar_brick_stairs": "Crimtane Brick Stairs",
+  "block.minecraft.cinnabar_brick_wall": "Crimtane Brick Wall",
+  "block.minecraft.chiseled_cinnabar": "Chiseled Crimtane"
 }

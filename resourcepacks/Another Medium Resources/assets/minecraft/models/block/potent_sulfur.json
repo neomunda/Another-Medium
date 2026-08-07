@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/potent_sulfur_top",
+    "side": "minecraft:block/potent_sulfur"
+  }
+}
